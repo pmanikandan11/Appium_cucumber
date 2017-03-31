@@ -1,0 +1,50 @@
+GET
+.*/api/v4/typeahead/Edg.*
+*
+200
+Content-Type: application/json
+
+{
+    "q": "Edge Hill",
+    "rid": "a7994f27-8fb4-4d25-b384-38259b404c2c",
+    "rc": "OK",
+    "activeABTests": "11891.1",
+    "throttledABTests": "1908.0",
+    "sr": [{
+           "@type": "gaiaRegionResult",
+           "index": "0",
+           "gaiaId": "200000000000000954",
+           "type": "TRAINSTATION",
+           "regionNames": {
+           "fullName": "Edge Hill, Liverpool, UK",
+           "shortName": "Edge Hill",
+           "displayName": "<B>Edge</B> <B>Hill</B>, Liverpool, UK",
+           "lastSearchName": "Edge Hill, Liverpool, UK"
+           },
+           "essId": {
+           "sourceName": "GAI",
+           "sourceId": "200000000000000954"
+           },
+           "coordinates": {
+           "lat": "53.402626",
+           "long": "-2.946489"
+           },
+           "hierarchyInfo": {
+           "airport": {
+           "airportCode": "LPL",
+           "multicity": "6046241"
+           },
+           "rails": {
+           "stationCode": "GBEDG"
+           },
+           "country": {
+           "name": "United Kingdom",
+           "isoCode2": "GB",
+           "isoCode3": "GBR"
+           }
+           },
+           "packageable": "false",
+           "score": "1.0",
+           "popularity": "2.0"
+           }]
+}

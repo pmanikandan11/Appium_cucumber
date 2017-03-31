@@ -1,0 +1,234 @@
+{
+  "*": [
+    {
+      "code": "SEA",
+      "title": "Seattle"
+    },
+    {
+      "code": "SFO",
+      "title": "San Francisco"
+    },
+    {
+      "code": "LON",
+      "title": "London"
+    },
+    {
+      "code": "PAR",
+      "title": "Paris"
+    },
+    {
+      "code": "LAS",
+      "title": "Las Vegas"
+    },
+    {
+      "code": "NYC",
+      "title": "New York"
+    },
+    {
+      "code": "YYZ",
+      "title": "Toronto"
+    },
+    {
+      "code": "HKG",
+      "title": "Hong Kong"
+    },
+    {
+      "code": "MIA",
+      "title": "Miami"
+    },
+    {
+      "code": "BKK",
+      "title": "Bangkok"
+    }
+  ],
+  "HK": [
+    {
+      "code": "BKK",
+      "title": "Bangkok"
+    },
+    {
+      "code": "KUL",
+      "title": "Kuala Lumpur"
+    },
+    {
+      "code": "BKI",
+      "title": "Kota Kinabalu"
+    },
+    {
+      "code": "CRK",
+      "title": "Angeles City (Clark)"
+    },
+    {
+      "code": "SIN",
+      "title": "Singapore"
+    },
+    {
+      "code": "DPS",
+      "title": "Denpasar (Bali)"
+    },
+    {
+      "code": "CGK",
+      "title": "Jakarta"
+    },
+    {
+      "code": "SUB",
+      "title": "Surabaya"
+    },
+    {
+      "code": "KBV",
+      "title": "Krabi"
+    },
+    {
+      "code": "RGN",
+      "title": "Yangon"
+    }
+  ],
+  "ID": [
+    {
+      "code": "SIN",
+      "title": "Singapore"
+    },
+    {
+      "code": "KUL",
+      "title": "Kuala Lumpur"
+    },
+    {
+      "code": "DPS",
+      "title": "Denpasar (Bali)"
+    },
+    {
+      "code": "BKK",
+      "title": "Bangkok"
+    },
+    {
+      "code": "CGK",
+      "title": "Jakarta"
+    },
+    {
+      "code": "JOG",
+      "title": "Yogyakarta"
+    },
+    {
+      "code": "SUB",
+      "title": "Surabaya"
+    },
+    {
+      "code": "HKT",
+      "title": "Phuket"
+    },
+    {
+      "code": "ICN",
+      "title": "Seoul"
+    },
+    {
+      "code": "SGN",
+      "title": "Ho Chi Minh City"
+    }
+  ],
+  "KR": [
+    {
+      "code": "NRT",
+      "title": "Tokyo"
+    },
+    {
+      "code": "KUL",
+      "title": "Kuala Lumpur"
+    },
+    {
+      "code": "MNL",
+      "title": "Manila"
+    },
+    {
+      "code": "NGO",
+      "title": "Nagoya"
+    },
+    {
+      "code": "SIN",
+      "title": "Singapore"
+    },
+    {
+      "code": "DPS",
+      "title": "Denpasar (Bali)"
+    },
+    {
+      "code": "BKK",
+      "title": "Bangkok"
+    },
+    {
+      "code": "BKI",
+      "title": "Kota Kinabalu"
+    },
+    {
+      "code": "KLO",
+      "title": "Kalibo"
+    }
+  ],
+  "PH": [
+    {
+      "code": "MNL",
+      "title": "Manila"
+    },
+    {
+      "code": "KLO",
+      "title": "Kalibo"
+    },
+    {
+      "code": "HKG",
+      "title": "Hong Kong"
+    },
+    {
+      "code": "CRK",
+      "title": "Angeles City (Clark)"
+    },
+    {
+      "code": "SIN",
+      "title": "Singapore"
+    },
+    {
+      "code": "KUL",
+      "title": "Kuala Lumpur"
+    },
+    {
+      "code": "BCD",
+      "title": "Bacolod"
+    },
+    {
+      "code": "BKI",
+      "title": "Kota Kinabalu"
+    },
+    {
+      "code": "HKT",
+      "title": "Phuket"
+    },
+    {
+      "code": "CNX",
+      "title": "Chiang Mai"
+    }
+  ],
+  "TW": [
+    {
+      "code": "KUL",
+      "title": "Kuala Lumpur"
+    },
+    {
+      "code": "CRK",
+      "title": "Angeles City (Clark)"
+    },
+    {
+      "code": "BKI",
+      "title": "Kota Kinabalu"
+    },
+    {
+      "code": "SYD",
+      "title": "Sydney"
+    },
+    {
+      "code": "NRT",
+      "title": "Tokyo"
+    },
+    {
+      "code": "HKT",
+      "title": "Phuket"
+    }
+  ]
+}

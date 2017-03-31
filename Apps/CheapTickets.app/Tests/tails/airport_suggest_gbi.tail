@@ -1,0 +1,55 @@
+GET
+.*?/api/v4/typeahead/[Gg][Bb][Ii].*
+*
+200
+Content-Type: application/json
+
+{
+  "q": "gbi",
+  "rid": "4122567e-d135-4a89-a1e4-429049a8e0a4",
+  "rc": "OK",
+  "sr": [
+    {
+      "@type": "gaiaRegionResult",
+	  "index": "0",
+	  "gaiaId": "6000134",
+	  "type": "AIRPORT",
+	  "regionNames": {
+		"fullName": "Gummy Bear Island (GBI-Intl.)",
+			"shortName": "Gummy Bear Island (GBI-Intl.)",
+			"displayName": "Gummy Bear Island (<B>GBI</B>-Intl.)",
+			"lastSearchName": "Gummy Bear Island (GBI-Intl.)"
+	  },
+	  "essId":{
+	  	"sourceName":"GAI",
+	  	"sourceId":"6000602"
+	  },
+	  "coordinates": {
+		"lat": "49.043110",
+		"long": "2.456442"
+	  },
+	  "hierarchyInfo": {
+		"airport": {
+			"airportCode": "GBI",
+			"metrocode": "GBI",
+			"multicity": "179898"
+		},
+		"country": {
+			"name": "???",
+			"isoCode2": "GI",
+			"isoCode3": "GBI"
+		}
+      },
+	  "regionMetadata": {
+		"hotelCount": "1"
+	  },
+	  "regionGrades": {
+		"globalGrade": "99"
+	  },
+	  "isMinorAirport":"false",
+	  "packageable": "false",
+	  "score":"1.0",
+	  "popularity":"437.0"
+	}
+  ]
+}

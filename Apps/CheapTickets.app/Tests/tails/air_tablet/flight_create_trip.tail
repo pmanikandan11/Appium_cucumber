@@ -1,0 +1,254 @@
+POST
+.*?api/flight/trip/create
+*
+200
+Content-Type: application/json
+
+{
+  "newTrip": {
+    "itineraryNumber": "11497841732",
+    "travelRecordLocator": "14978417",
+    "tripId": "c1053525-5683-46a0-a6bc-9b8173b21367"
+  },
+  "passengerCategories": [
+    "ADULT"
+  ],
+  "totalPrice": {
+    "amount": "214.20",
+    "formattedPrice": "$214.20",
+    "formattedWholePrice": "$214"
+  },
+  "details": {
+    "offer": {
+      "legIds": [
+        "fc7d6f0d041a46aafe8176d5484d199f",
+        "dbf79f794980e4f4eccd16b9bcf5bbb5"
+      ],
+      "currency": "USD",
+      "baseFare": "173.02",
+      "baseFarePrice": {
+        "amount": "173.02",
+        "formattedPrice": "$173.02",
+        "formattedWholePrice": "$173"
+      },
+      "totalFare": "214.20",
+      "totalFarePrice": {
+        "amount": "214.20",
+        "formattedPrice": "$214.20",
+        "formattedWholePrice": "$214"
+      },
+      "pricePerPassengerCategory": [
+        {
+          "passengerCategory": "ADULT",
+          "totalPrice": {
+            "amount": "214.20",
+            "formattedPrice": "$214.20",
+            "formattedWholePrice": "$214"
+          },
+          "basePrice": {
+            "amount": "173.02",
+            "formattedPrice": "$173.02",
+            "formattedWholePrice": "$173"
+          },
+          "taxesPrice": {
+            "amount": "41.18",
+            "formattedPrice": "$41.18",
+            "formattedWholePrice": "$41"
+          }
+        }
+      ],
+      "averageTotalPricePerTicket": {
+        "amount": "214.20",
+        "formattedPrice": "$214.20",
+        "formattedWholePrice": "$214"
+      },
+      "numberOfTickets": 1,
+      "taxes": "41.18",
+      "taxesPrice": {
+        "amount": "41.18",
+        "formattedPrice": "$41.18",
+        "formattedWholePrice": "$41"
+      },
+      "fees": "0.00",
+      "feesPrice": {
+        "amount": "0.00",
+        "formattedPrice": "$0.00",
+        "formattedWholePrice": "$0"
+      },
+      "showFees": true,
+      "productKey": "a83cf0f64a0ebfeb6f3ff8b16d58054d-1-1",
+      "seatsRemaining": 7,
+      "segmentAttributes": [
+        [
+          {
+            "bookingCode": "G",
+            "cabinCode": "coach"
+          }
+        ],
+        [
+          {
+            "bookingCode": "K",
+            "cabinCode": "coach"
+          }
+        ]
+      ],
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SFO&destinationapt=SEA&cabinclass=3&mktgcarrier=AS&opcarrier=&farebasis=G21XJN5&bookingclass=G&travelDate=3/10/2015&langid=1033",
+      "fareType": "PUBLISHED",
+      "isInternational": false,
+      "hasBagFee": false,
+      "hasNoBagFee": false
+    },
+    "productKey": "a83cf0f64a0ebfeb6f3ff8b16d58054d-1-1",
+    "flightRules": [
+      {
+        "isChangeAllowed": true,
+        "isEnrouteChangeAllowed": false,
+        "isEnrouteRefundAllowed": false,
+        "isRefundable": false,
+        "changePenaltyAmount": "125.00",
+        "changePenaltyPrice": {
+          "amount": "125.00",
+          "formattedPrice": "$125.00",
+          "formattedWholePrice": "$125"
+        },
+        "summaryText": "\nRU.RULE APPLICATION\nONE WAY INSTANT PURCHASE FARES\n APPLICATION\n   CLASS OF SERVICE\n     THESE FARES APPLY FOR COACH CLASS SERVICE.\n CAPACITY LIMITATIONS\n   SEATS ARE LIMITED\n\nMN.MIN STAY\n  NO RESTRICTIONS\n\nMX.MAX STAY\n  NO RESTRICTIONS\n\nSE.SEASONS\n  APPLIES ALL YEAR\n\nBO.BLACKOUTS\n  NONE\n\nDA.DAY/TIME\n  NO RESTRICTIONS\n\nSR.SALES RESTRICT\n  NO RESTRICTIONS\n\nTR.TVL RESTRICTION\n  NO RESTRICTIONS\n\nAP.ADVANCE RES/TKT\nFOR K21N4 TYPE FARES\n \n  RESERVATIONS FOR ALL SECTORS ARE REQUIRED AT LEAST 21 DAYS\n  BEFORE DEPARTURE.\n  WAITLIST NOT PERMITTED.\n  TICKETING MUST BE COMPLETED WITHIN 1 DAY AFTER\n  RESERVATIONS ARE MADE OR AT LEAST 21 DAYS BEFORE DEPARTURE\n  WHICHEVER IS EARLIER.\n         NOTE -\n          EXCEPTION - FOR TICKETS ISSUED AT ALASKAAIR.COM\n          / ALASKA AIRLINES RESERVATIONS OR TICKET COUNTER\n          TICKETING MUST BE COMPLETED AT TIME OF\n          RESERVATION.\n          .\n          NOTE  - STANDBY NOT PERMITTED.\n          .\n          EXCEPTION - GOLD-LEVEL MILEAGE PLAN MEMBERS /\n          CUSTOMERS CONFIRMED IN F/A/Y/D/Z CLASS   /\n          PLUS ANY PASSENGER  TRAVELING BETWEEN SEATTLE\n          AND PORTLAND OR SEATTLE AND SPOKANE SHUTTLE\n          MARKETS MAY STANDBY WITHOUT CHARGE AS\n          AS NOTED BELOW. CUSTOMERS NOT QUALIFYING\n          FOR FREE STANDBY MAY USE THE SAME DAY CONFIRMED\n          FLIGHT CHANGE.\n          .\n          //STANDBY CONDITIONS FOR ELIGIBLE PASSENGERS//\n          .\n          A. PASSENGERS MUST BE HOLDING CONFIRMED\n          RESERVATIONS AND TICKETS FOR FLIGHTS OPERATED BY\n          BY ALASKA AIRLINES / HORIZON AIR INCLUDING FLIGHTS\n          OPERATED ON BEHALF OF ALASKA AIRLINES BETWEEN\n          ANCHORAGE AND DUTCH HARBOR.\n          .\n          B. STANDBY IS PERMITTED FOR EARLIER / LATER SAME\n          DAY FLIGHT OPERATED BY ALASKA AIRLINES / HORIZON\n          AIR INCLUDING FLIGHTS OPERATED ON BEHALF OF\n          ALASKA AIRLINES BETWEEN ANCHORAGE AND\n          DUTCH HARBOR.\n          .\n          C. PASSENGERS BOOKED ON RED-EYE FLIGHTS BETWEEN\n          MIDNIGHT AND 4AM MAY STANDBY THE CALENDAR DAY\n          PRIOR.\n          .\n          D.STANDBY AVAILABLE ONLY FOR IDENTICAL ROUTINGS -\n          SAME ORIGIN/ DESTINATION/ CONNECTION/ THRU CITY.\n          CHANGES BETWEEN CO-TERMINALS ARE PROHIBITED.\n          .\n          E. STANDBY MAY BE REQUESTED VIA WEB CHECK-IN/\n           AIRPORT KIOSK / OR AN AGENT AT THE AIRPORT.\n          .\n          NOTE  - SAME DAY CONFIRMED FLIGHT CHANGE\n          .\n          ALL CUSTOMERS ARE ELIGIBLE FOR SAME DAY\n          CONFIRMED FLIGHT CHANGE SUBJECT TO SEAT\n          AVAILABILITY IN THE TICKETED CABIN AT THE TIME\n          OF THE REQUEST FOR USD/CAD 25.00 .\n          THE CHARGE IS WAIVED FOR GOLD LEVEL MILEAGE PLAN\n          MEMBERS AND CUSTOMERS CONFIRMED IN F/A/Y/D/Z\n          CLASS.\n          .\n          //SAME DAY CONFIRMED FLIGHT CHANGE CONDITIONS//\n          A. PASSENGERS MUST BE HOLDING CONFIRMED\n          RESERVATIONS AND TICKETS FOR FLIGHTS OPERATED BY\n          ALASKA AIRLINES / HORIZON AIR INCLUDING FLIGHTS\n          OPERATED ON BEHALF OF ALASKA AIRLINES BETWEEN\n          ANCHORAGE AND DUTCH HARBOR.\n          .\n          B. PERMITTED FOR EARLIER/LATER SAME DAY FLIGHT\n          OPERATED BY ALASKA AIRLINES/HORIZON AIR INCLUDING\n          FLIGHTS OPERATED ON BEHALF OF ALASKA AIRLINES\n          BETWEEN ANCHORAGE AND DUTCH HARBOR.\n          .\n          C. CUSTOMERS CONFIRMED ON FLIGHTS BETWEEN 4AM AND\n          MIDNIGHT MAY REQUEST A SAME DAY CONFIRMED CHANGE\n          ONLY ON THE DAY OF DEPARTURE.\n          .\n          D.CUSTOMERS CONFIRMED ON RED-EYE FLIGHTS DEPARTING\n          BETWEEN MIDNIGHT AND 4AM MAY REQUEST A SAME DAY\n          CONFIRMED CHANGE BEGINNING AT 4PM THE DAY PRIOR.\n          .\n          E. FLIGHTS OFFERED ARE THOSE AVAILABLE DURING THE\n          NEXT 6 HOURS FROM THE TIME OF THE REQUEST.\n          CUSTOMERS ON RED EYE FLIGHTS ARE LIMITED TO\n          FLIGHTS AFTER 10PM. EXCEPTION - GOLD LEVEL\n          MILEAGE PLAN MEMBERS AND CUSTOMERS CONFIRMED IN\n          F/A/Y/D/Z CLASS ARE NOT LIMITED TO THE 6 HOUR\n          WINDOW.\n          .\n          F. SAME DAY CONFIRMED FLIGHT CHANGE AVAILABLE ONLY\n          FOR IDENTICAL ROUTINGS -SAME ORIGIN / DESTINATION/\n          CONNECTION / THRU CITY IF APPLICABLE . CHANGES\n          BETWEEN CO-TERMINALS ARE PROHIBITED.\n          .\n          H. SAME DAY CONFIRMED FLIGHT CHANGE MAY BE\n          REQUESTED VIA RESERVATIONS/WEB CHECK-IN / AIRPORT\n          KIOSK/ OR WITH AN AGENT AT THE AIRPORT.\n\nFL.FLT APPLICATION\n  NO RESTRICTIONS\n\nCD.CHILD DISCOUNTS\n \n  1ST INFANT UNDER 2 WITHOUT A SEAT - NO CHARGE\n        TICKETING CODE - BASE FARE CODE PLUS IN.\n    MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME COMPARTMENT\n      AT THIS RULE BY ADULT\n  OR - INFANT UNDER 2 WITH A SEAT - CHARGE 100 PERCENT OF\n         THE FARE.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT AT THIS RULE BY ADULT.\n         NOTE -\n          NOTE-  CHILD MUST BE ACCOMPANIED BY A FARE PAYING\n          ADULT.\n  OR - 1ST CONTRACT BULK INFANT WITHOUT A SEAT UNDER 2 - NO\n         CHARGE\n             TICKETING CODE - BASE FARE CODE PLUS IN.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT AT THIS RULE BY CONTRACT BULK ADULT\n  OR - CONTRACT BULK INFANT WITH A SEAT UNDER 2 - CHARGE 100\n         PERCENT OF THE FARE.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT AT THIS RULE BY CONTRACT BULK ADULT\n          .\n         NOTE -\n          NOTE-  CHILD MUST BE ACCOMPANIED BY A FARE PAYING\n          ADULT.\n\nTC.TOUR CONDUCTOR\n  DISCOUNT DOES NOT APPLY\n\nAD.AGTS DISCOUNTS\n  DISCOUNT DOES NOT APPLY\n\nOD.OTHER DISCOUNTS\n \n         NOTE -\n          SENIOR DISCOUNTS DO NOT APPLY.\n \n\nSO.STOPOVERS\n \n  NO STOPOVERS PERMITTED.\n     NO STOPOVER OCCURS IF PASSENGER TAKES NEXT AVAILABLE\n      FLIGHT WITHIN 4 HOURS.\n\nTF.TRANSFERS/RTGS\n  NO RESTRICTIONS\n\nSU.SURCHARGES\n  NONE UNLESS OTHERWISE SPECIFIED\n\nEL.ELIGIBILITY\n  NO RESTRICTIONS\n\nAC.ACCOMPANY TVL\n  NO RESTRICTIONS\n\nTE.TKT ENDORSEMENT\n \n  THE ORIGINAL TICKET MUST BE ANNOTATED - VALID AS/NON-RFD-\n  AND - CHNG SUBJ TO FEE - IN THE ENDORSEMENT BOX.\n \n\nPE.PENALTIES\nFOR ONE WAY FARES\n \n  CANCELLATIONS\n \n    TICKET IS NON-REFUNDABLE.\n    WAIVED FOR DEATH OF PASSENGER.\n         NOTE -\n          IN ALL CASES\n            CANCELLATIONS MAY NOT BE MADE AT AN AIRPORT\n          TICKET COUNTER.\n            FOR CANCELLATIONS MADE 60 DAYS OR MORE BEFORE\n          THE CANCELLED SEGMENT IS SCHEDULED TO DEPART THE\n          APPLICABLE CANCELLATION FEE WILL BE WAIVED.\n            IF FARE IS BEING APPLIED TOWARDS THE PURCHASE\n          OF A NEW AS TICKET CHARGE USD 125.00 PLUS ANY\n          ADDITIONAL INCREASE IN FARE LEVEL.\n          A/ COMPLETELY UNSED TICKETS\n             FOR CANCELLATIONS MADE THRU ALASKAAIR.COM OR\n          ALASKA AIRLINES RESERVATIONS\n             1/ A COMPLETELY UNUSED ITINERARY THAT CONTAINS\n          ONLY UNRESTRICTED FARES ANY RESIDUAL AMOUNT IS\n          REFUNDABLE BACK TO ORIGINAL FORM OF PAYMENT.  A\n          FEE DOES NOT APPLY FOR REFUND.\n             2/ A COMPLETELY UNUSED ITINERARY THAT CONTAINS\n          ONLY RESTRICTED FARES ANY RESIDUAL AMOUNT MAY BE\n          ISSUED IN THE FORM OF A CREDIT CERTIFICATE WHICH\n          CAN BE APPLIED TOWARDS FUTURE TRAVEL ON ALASKA\n          AIRLINES AND AIRLINES FLYING UNDER ALASKA\n          AIRLINES CAPACITY AGREEMENT - HORIZON AIR\n          OPERATED FLIGHTS / PENAIR OPERATED FLIGHTS\n          BETWEEN ANCHORAGE AND DUTCH HARBOR /  SKYWEST\n          OPERATED FLIGHTS. A CANCELLATION FEE APPLIES.\n          CHARGE USD 125.00 FOR CANCELLATIONS / ISSUING OF\n          A CREDIT CERTIFICATE / MADE THRU ALASKAAIR.COM.\n             3/ A COMPLETELY UNUSED ITINERARY THAT CONTAINS\n          BOTH RESTRICTED AND UNRESTRICTED FARES ANY\n          RESIDUAL AMOUNT IS NONREFUNDABLE.  ANY\n          NONREFUNDABLE RESIDUAL AMOUNT OF A COMPLETELY\n          UNUSED TICKET MAY BE ISSUED IN THE FORM OF A\n          CREDIT CERTIFICATE WHICH CAN BE APPLIED TOWARDS\n          FUTURE TRAVEL ON ALASKA AIRLINES AND AIRLINES\n          FLYING UNDER ALASKA AIRLINES CAPACITY AGREEMENT -\n          HORIZON AIR OPERATED FLIGHTS / PENAIR OPERATED\n          FLIGHTS BETWEEN ANCHORAGE AND DUTCH HARBOR /\n          SKYWEST OPERATED FLIGHTS. A CANCELLATION FEE\n          APPLIES. CHARGE USD 125.00 FOR CANCELLATIONS /\n          ISSUING OF A CREDIT CERTIFICATE / MADE THRU\n          ALASKAAIR.COM\n          B/ PARTIALLY USED TICKETS\n            FOR REFUNDS / CANCELLATIONS OF PARTIALLY USED\n          TICKETS MADE THRU ALASKAAIR.COM OR ALASKA\n          AIRLINES RESERVATIONS\n             1/ THE FORM OF REFUND IS DETERMINED BY THE\n          STRICTEST FARE RULE OF THE UNFLOWN SEGMENTS/S/.\n             2/ FOR PARTIALLY USED TICKET - IF ALL OF THE\n          UNFLOWN SEGMENTS ARE UNRESTRICTED FARES ANY\n          REFUND AMOUNT IS REFUNDABLE TO ORIGINAL FORM OF\n          PAYMENT.  A FEE DOES NOT APPLY FOR REFUND.\n             3/ FOR PARTIALLY USED TICKET - IF ANY OF THE\n          UNFLOWN SEGMENTS ARE A RESTRICTED FARE ANY\n          RESIDUAL AMOUNT MAY BE ISSUED IN THE FORM OF A\n          CREDIT CERTIFICATE WHICH CAN BE APPLIED TOWARDS\n          FUTURE TRAVEL ON ALASKA AIRLINES AND AIRLINES\n          FLYING UNDER ALASKA AIRLINES CAPACITY AGREEMENT -\n          HORIZON AIR OPERATED FLIGHTS / PENAIR OPERATED\n          FLIGHTS BETWEEN ANCHORAGE AND DUTCH HARBOR /\n          SKYWEST OPERATED FLIGHTS. A CANCELLATION FEE\n          APPLIES. CHARGE USD 125.00 FOR CANCELLATIONS /\n          ISSUING OF A CREDIT CERTIFICATE / MADE THRU\n          ALASKAAIR.COM\n          4/ CREDIT CERTIFICATE MAY BE APPLIED ONLY\n          TOWARDS FUTURE TRAVEL ON ALASKA\n          AIRLINES AND AIRLINES FLYING UNDER ALASKA\n          AIRLINES CAPACITY AGREEMENT - HORIZON AIR\n          OPERATED FLIGHTS / PENAIR OPERATED FLIGHTS\n          BETWEEN ANCHORAGE AND DUTCH HARBOR /  SKYWEST\n          OPERATED FLIGHTS.\n          C/  FOR REFUNDS MADE BY AN AGENCY\n             1/ REFUNDS OF AN ITINERARY THAT CONTAINS ONLY\n          UNRESTRICTED FARES ANY RESIDUAL AMOUNT IS\n          REFUNDABLE BACK TO ORIGINAL FORM OF PAYMENT.\n             2/ REFUNDS OF AN ITINERARY THAT CONTAINS BOTH\n          RESTRICTED AND UNRESTRICTED FARES ANY RESIDUAL\n          AMOUNT IS NONREFUNDABLE.  ANY NONREFUNDABLE\n          RESIDUAL AMOUNT IS FORFEITED.\n \n  CHANGES\n \n    PER TICKET CHARGE USD 125.00 FOR REISSUE.\n         NOTE -\n          IN ALL CASES\n            CHARGE ANY ADDITIONAL INCREASE IN FARE LEVEL.\n            CHANGES MAY NOT BE MADE AT AN AIRPORT\n          TICKET COUNTER.\n            FOR CHANGES MADE 60 DAYS OR MORE BEFORE THE\n          DATE OF DEPARTURE OF THE CHANGED SEGMENT THE\n          APPLICABLE CHANGE FEE WILL BE WAIVED.\n          A/ FOR CHANGES MADE THRU ALASKAAIR.COM OR\n          ALASKA AIRLINES RESERVATIONS\n             1/ A CHANGE TO AN ITINERARY THAT CONTAINS ONLY\n          RESTRICTED FARES ANY RESIDUAL AMOUNT IS\n          NONREFUNDABLE. CHANGES TO AN ITINERARY THAT\n          CONTAINS BOTH RESTRICTED AND UNRESTRICTED FARES\n          ANY RESIDUAL AMOUNT IS NONREFUNDABLE. ANY\n          NONREFUNDABLE DIFFERENCE IN FARE MAY BE ISSUED IN\n          THE FORM OF A CREDIT CERTIFICATE WHICH CAN BE\n          APPLIED TOWARDS FUTURE TRAVEL ON ALASKA\n          AIRLINES AND AIRLINES FLYING UNDER ALASKA\n          AIRLINES CAPACITY AGREEMENT - HORIZON AIR\n          OPERATED FLIGHTS / PENAIR OPERATED FLIGHTS\n          BETWEEN ANCHORAGE AND DUTCH HARBOR /  SKYWEST\n          OPERATED FLIGHTS. A CANCELLATION FEE APPLIES.\n          CHARGE USD 125.00 FOR CANCELLATIONS / ISSUING OF\n          A CREDIT CERTIFICATE / MADE THRU ALASKAAIR.COM\n          B/ FOR CHANGES MADE BY AN AGENCY\n             1/ CHANGE TO AN ITINERARY THAT CONTAINS ONLY\n          RESTRICTED FARES ANY RESIDUAL AMOUNT IS NON\n          REFUNDABLE.  CHANGES TO AN ITINERARY THAT\n          CONTAINS BOTH RESTRICTED AND UNRESTRICTED FARES\n          ANY RESIDUAL AMOUNT IS NONREFUNDABLE.  ANY\n          DIFFERENCE IN FARE IS FORFEITED.\n          C/   IN ALL CASES FOR CHANGES MADE THRU\n          ALASKAAIR.COM OR ALASKA RESERVATIONS OR TRAVEL\n          AGENCY\n             1/CHARGE APPLICABLE CHANGE FEE PLUS ANY\n          ADDITIONAL INCREASE IN FARE LEVEL.\n             EXCEPTION -\n               FARES MAY BE UPGRADED TO ANY F- TYPE FARE\n          WITHOUT COLLECTING THE CHANGE FEE. PASSENGER MUST\n          PAY ADDITIONAL COLLECTION BETWEEN ORIGINAL FARE\n          AND FIRST CLASS FARE.  THE NEW TICKET MAY BE\n          REFUNDED TO A CREIDT CERTIFICATE ONLY.  NON-REF\n          MUST BE SHOWN IN THE ENDORSEMENT BOX OF REISSUED\n          TICKET\n             2/ IF CHANGES ARE BEING MADE TO ALL SEGMENTS\n          OF A TICKET THEN PRICE ITINERARY WITH THE CURRENT\n          FARES AND ALL RULES PROVISIONS MUST BE MET.\n             3/ IF CHANGES ARE BEING MADE TO ANY FARE\n          COMPONENT THEN PRICE THE FARE COMPONENTS THAT ARE\n          CHANGING WITH THE CURRENT FARES AND ALL RULE\n          PROVISIONS MUST BE MET.\n             4/ IF CHANGES ARE BEING MADE TO THE 1ST FARE\n          COMPONENT AND THERE ARE SUBSEQUENT FARE\n          COMPONENTS THAT ARE NOT CHANGING THEN THE 1ST\n          FARE COMPONENET MUST BE PRICED WITH CURRENT FARES\n          AND ALL RULE PROVISIONS MUST BE MET.  THE\n          SUBSEQUENT FARE COMPONENTS DO NOT NEED TO BE\n          CHANGED.\n             5/ FOR ALL OTHER CHANGES PRICE ITINERARY WITH\n          CURRENT FARES AND ALL RULE PROVISIONS MUST BE MET.\n          IN ALL CASES THE UNUSED SEGMENTS MAY BE PRICED\n          AT CURRENT FARES AND RULES AND IF THE ITINERARY\n          PRICES SUCH THAT AN ADD-COLLECT WOULD NOT APPLY\n          THEN THIS METHOD OF REISSUE MAY BE USED.  CHARGE\n          THE CHANGE FEE AND APPLY THE CANCELLATION\n          PROVISIONS.  THE FEE APPLIES TO DROP A RESTRICTED\n          SEGMENT.\n  *** GENERAL RULE FOLLOWS ***\n \n  CANCELLATIONS\n \n    PER TICKET CHARGE USD 60.00 FOR LOST TICKET.\n         NOTE -\n          NO SERVICE CHARGE WILL BE IMPOSED FOR MILITARY\n          PASSENGERS WHEN TRANSPORTATION IS PAID WITH A U.S.\n          GOVERNMENT TRANSPORTATION REQUEST FORM NO. 1169.\n          EXCEPTION- VIA TRAVEL SOLELY OVER THE ROUTE\n          SYSTEM OF SUBSTITUTE SERVICE FLIGHT SERIES 4500-\n          4599 THE SERVICE CHARGE WILL BE USD 35.00.\n\nCO.COMBINABILITY\nFOR ONE WAY FARES\n   DOUBLE OPEN JAWS NOT PERMITTED.\n   APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN\n   MISCELLANEOUS PROVISIONS - CATEGORY 23.\n  OPEN JAWS/2-COMPONENT CIRCLE TRIPS/MULTI-COMPONENT CIRCLE\n  TRIPS/END-ON-END\n    FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS WITH AS\n    FARES\n    -TO FORM SINGLE OPEN JAWS.\n     A MAXIMUM OF 2 STOPOVERS PERMITTED AT FARE BREAK\n     POINTS.\n     MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN\n     MILEAGE OF THE SHORTEST FLOWN FARE COMPONENT.\n    -TO FORM 2-COMPONENT CIRCLE TRIPS\n    -TO FORM MULTI-COMPONENT CIRCLE TRIPS\n     A MAXIMUM OF 2 STOPOVERS IS PERMITTED AT FARE BREAK\n     POINTS.\n    END-ON-END COMBINATIONS PERMITTED. VALIDATE ALL FARE\n    COMPONENTS. TRAVEL MUST BE VIA THE POINT OF COMBINATION.\n    SIDE TRIPS PERMITTED.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY FARE FOR CARRIER AS IN ANY\n      RULE IN ANY TARIFF.\n  OPEN JAWS/2-COMPONENT CIRCLE TRIPS/MULTI-COMPONENT CIRCLE\n  TRIPS/END-ON-END\n    FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS\n    -TO FORM SINGLE OPEN JAWS.\n     A MAXIMUM OF 2 STOPOVERS PERMITTED AT FARE BREAK\n     POINTS.\n     MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN\n"
+      }
+    ],
+    "oldOffer": {
+      "legIds": [
+        "fc7d6f0d041a46aafe8176d5484d199f",
+        "dbf79f794980e4f4eccd16b9bcf5bbb5"
+      ],
+      "currency": "USD",
+      "baseFare": "154.42",
+      "baseFarePrice": {
+        "amount": "154.42",
+        "formattedPrice": "$154.42",
+        "formattedWholePrice": "$154"
+      },
+      "totalFare": "194.20",
+      "totalFarePrice": {
+        "amount": "194.20",
+        "formattedPrice": "$194.20",
+        "formattedWholePrice": "$194"
+      },
+      "pricePerPassengerCategory": [
+        {
+          "passengerCategory": "ADULT",
+          "totalPrice": {
+            "amount": "194.20",
+            "formattedPrice": "$194.20",
+            "formattedWholePrice": "$194"
+          },
+          "basePrice": {
+            "amount": "154.42",
+            "formattedPrice": "$154.42",
+            "formattedWholePrice": "$154"
+          },
+          "taxesPrice": {
+            "amount": "39.78",
+            "formattedPrice": "$39.78",
+            "formattedWholePrice": "$40"
+          }
+        }
+      ],
+      "averageTotalPricePerTicket": {
+        "amount": "194.20",
+        "formattedPrice": "$194.20",
+        "formattedWholePrice": "$194"
+      },
+      "numberOfTickets": 1,
+      "taxes": "39.78",
+      "taxesPrice": {
+        "amount": "39.78",
+        "formattedPrice": "$39.78",
+        "formattedWholePrice": "$40"
+      },
+      "fees": "0.00",
+      "feesPrice": {
+        "amount": "0.00",
+        "formattedPrice": "$0.00",
+        "formattedWholePrice": "$0"
+      },
+      "showFees": true,
+      "productKey": "v5-c0fc40614c4dba30ce2d97be5a297ba0-0-1-1",
+      "seatsRemaining": 7,
+      "segmentAttributes": [
+        [
+          {
+            "bookingCode": "T",
+            "cabinCode": "coach"
+          }
+        ],
+        [
+          {
+            "bookingCode": "G",
+            "cabinCode": "coach"
+          }
+        ]
+      ],
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SFO&destinationapt=SEA&cabinclass=3&mktgcarrier=AS&opcarrier=&farebasis=G21XJN5&bookingclass=G&travelDate=3/10/2015&langid=1033",
+      "fareType": "PUBLISHED",
+      "isInternational": false,
+      "hasBagFee": false,
+      "hasNoBagFee": false
+    },
+    "priceChangeAmount": "20.00",
+    "changedPrice": {
+      "amount": "20.00",
+      "formattedPrice": "$20.00",
+      "formattedWholePrice": "$20"
+    },
+    "obFeeTotalAmount": "0.00",
+    "obFeePrice": {
+      "amount": "0.00",
+      "formattedPrice": "$0.00",
+      "formattedWholePrice": "$0"
+    }
+  },
+  "rules": {
+    "RuleToTextMap": {
+      "CompletePenaltyRules": "Rules and restrictions as imposed by the airline will be applicable to your fare should you need to change or cancel your flight.",
+      "RefundabilityText": "Tickets are nonrefundable and nontransferable.",
+      "CancelChangeIntroductionText": "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+      "AirlineLiabilityLimitations": "Please read important information regarding airline liability limitations.",
+      "AdditionalAirlineFees": "The airline may charge additional fees for checked baggage or other optional services.",
+      "CancellationFeeLegalText": "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call.",
+      "ChangePenaltyText": "A change fee of $125.00 per ticket is charged by the airline for all itinerary changes."
+    },
+    "RuleToUrlMap": {
+      "CompletePenaltyRules": "https://wwwexpediacom.integration.sb.karmalab.net/Fare-Rules?tripid=c1053525-5683-46a0-a6bc-9b8173b21367&tlid=1033",
+      "AirlineLiabilityLimitations": "https://wwwexpediacom.integration.sb.karmalab.net/pub/agent.dll?qscr=hgen&hfnm=warsaw.htx&tlid=1033",
+      "AdditionalAirlineFees": "https://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SFO&destinationapt=SEA&cabinclass=3&mktgcarrier=AS&opcarrier=&farebasis=G21XJN5&bookingclass=G&travelDate=3/10/2015"
+    }
+  },
+  "validFormsOfPayment": [
+    {
+      "name": "AmericanExpress"
+    },
+    {
+      "name": "Diner's Club International"
+    },
+    {
+      "name": "Discover"
+    },
+    {
+      "name": "JCB"
+    },
+    {
+      "name": "MasterCard"
+    },
+    {
+      "name": "Visa"
+    }
+  ],
+  "isCustomerTitleRequired": false,
+  "expediaRewards": {
+    "totalPointsToEarn": 43,
+    "isActiveRewardsMember": false,
+    "rewardsMembershipTierName": "Invalid Tier"
+  },
+  "activityId": "46fdfd67-255c-42b0-a7bb-fadb478d1229",
+  "tealeafTransactionId": "cfc7e1b0151d4d4cbd5ac837f9032b15"
+}
+

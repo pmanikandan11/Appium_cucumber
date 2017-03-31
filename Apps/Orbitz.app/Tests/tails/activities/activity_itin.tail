@@ -1,0 +1,174 @@
+.*
+.*?/api/trips\?.*
+*
+200
+Content-Type: application/json
+
+{
+  "apiVersion": "1.0",
+  "responseType": "TRIP_DETAILS",
+  "responseData": {
+    "levelOfDetail": "FULL",
+    "tripId": "729bf374-29ce-410c-96f2-3835f2d672dd",
+    "webDetailsURL": "https://wwwexpediacom.integration.sb.karmalab.net/trips/7774047162?email=hello@world.com",
+    "tripNumber": 7774047162,
+    "title": "Hollywood, United States",
+    "updateTripNameDescPathURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/729bf374-29ce-410c-96f2-3835f2d672dd/updateTripNameDescription",
+    "startTime": {
+      "raw": "2016-05-23T06:00:00-07:00",
+      "localized": "May 23, 2016 6:00:00 AM",
+      "epochSeconds": 1464008400,
+      "timeZoneOffsetSeconds": -25200,
+      "localizedShortDate": "5/23/2016",
+      "localizedMediumDate": "May 23",
+      "localizedFullDate": "Mon, May 23",
+      "localizedLongDate": "May 23, 2016"
+    },
+    "endTime": {
+      "raw": "2016-05-23T20:00:00-07:00",
+      "localized": "May 23, 2016 8:00:00 PM",
+      "epochSeconds": 1464058800,
+      "timeZoneOffsetSeconds": -25200,
+      "localizedShortDate": "5/23/2016",
+      "localizedMediumDate": "May 23",
+      "localizedFullDate": "Mon, May 23",
+      "localizedLongDate": "May 23, 2016"
+    },
+    "tripCreatedTime": {
+      "raw": "2015-07-17T18:11:12Z",
+      "localized": "Jul 17, 2015 6:11:12 PM",
+      "epochSeconds": 1437156672,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Fri, 17 Jul"
+    },
+    "tripUpdatedTime": {
+      "raw": "2015-07-17T18:12:12Z",
+      "localized": "Jul 17, 2015 6:12:12 PM",
+      "epochSeconds": 1437156732,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Fri, 17 Jul"
+    },
+    "tripCacheUpdatedTime": {
+      "raw": "2015-07-17T18:12:12Z",
+      "localized": "Jul 17, 2015 6:12:12 PM",
+      "epochSeconds": 1437156732,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Fri, 17 Jul"
+    },
+    "bookingStatus": "BOOKED",
+    "rewards": {
+      "totalPoints": 398,
+      "basePoints": 398,
+      "bonusPoints": [],
+      "logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+      "viewStatementURL": "/user/rewards"
+    },
+    "sharableDetailsURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/shared/G9dfXcMhNhEcc6lZSL5LDPBA-kBs33sek0SrhGEH_zDiBaeZ4mulARLe4nGuVfAS",
+    "customerSupport": {
+      "customerSupportURL": "http://support.expedia.com/app/home",
+      "customerSupportPhoneNumberDomestic": "+1 800-397-3342",
+      "customerSupportPhoneNumberInternational": "+1 404-728-8787",
+      "customerSupportPhoneInfoForEmail": [
+        "Call us at 1-877-261-3523",
+        "For faster service, mention <strong>itinerary #7774047162 </strong>"
+      ],
+      "termsAndConditionsURL": ""
+    },
+    "isBookedUsingForeignCurrency": false,
+    "activities": [
+      {
+        "uniqueID": "04DBFBAF-16E7-4813-8507-9B5E90B00CE0_0_182995_281427",
+        "bookingStatus": "BOOKED",
+        "bookingStatusText": "Confirmed",
+        "bookingStatusMessage": "Your activity is booked. Please check your voucher for details.",
+        "supplierReferenceNumber": "11588320128",
+        "startTime": {
+          "raw": "2016-05-23T06:00:00-07:00",
+          "localized": "May 23, 2016 6:00:00 AM",
+          "epochSeconds": 1464008400,
+          "timeZoneOffsetSeconds": -25200,
+          "localizedShortDate": "5/23/2016",
+          "localizedMediumDate": "May 23",
+          "localizedFullDate": "Mon, May 23",
+          "localizedLongDate": "May 23, 2016"
+        },
+        "endTime": {
+          "raw": "2016-05-23T20:00:00-07:00",
+          "localized": "May 23, 2016 8:00:00 PM",
+          "epochSeconds": 1464058800,
+          "timeZoneOffsetSeconds": -25200,
+          "localizedShortDate": "5/23/2016",
+          "localizedMediumDate": "May 23",
+          "localizedFullDate": "Mon, May 23",
+          "localizedLongDate": "May 23, 2016"
+        },
+        "paymentModel": "MERCHANT",
+        "price": {
+          "pricePerCategory": {
+            "Traveler": {
+              "keyForCategory": "Traveler",
+              "numberOfPassengers": 1,
+              "totalBasePrice": {
+                "amount": 199.00,
+                "currency": {
+                  "currencyCode": "USD"
+                }
+              },
+              "perPassengerBasePrice": {
+                "amount": 199.00,
+                "currency": {
+                  "currencyCode": "USD"
+                }
+              }
+            }
+          },
+          "localisedPriceAndPassengerCount": [
+            {
+              "totalBasePriceForSorting": {
+                "amount": 199.00,
+                "currency": {
+                  "currencyCode": "USD"
+                }
+              },
+              "localisedPassengerTypeAndCount": "1 Traveler",
+              "localisedPrice": "$199.00"
+            }
+          ],
+          "currency": "USD",
+          "base": "199.0",
+          "baseFormatted": "$199.00",
+          "taxes": "0.0",
+          "taxesFormatted": "$0.00",
+          "total": "199.0",
+          "totalFormatted": "$199.00"
+        },
+        "activityCategoryID": 2,
+        "activityId": 182995,
+        "activityTitle": "6:00 AM Hollywood Tour",
+        "activityDescription": "An air-conditioned luxury SUV waits in front of your hotel to take you to Hollywood, playground of the rich and famous. Leave the desert behind for a day trip and catch a glimpse of the celebrity lifestyle.\n\nOn the way, pass windswept Death Valley and the iconic flora of Joshua Tree National Park. Then step onto the golden sands of Santa Monica Beach, where the TV series _Baywatch_ was filmed. After soaking up some sun, head into Hollywood, where its famous sign greets you.\n\nSnap pictures in front of the opulent TCL Chinese Theatre, a relic of the glitz and glamour of Hollywood’s Golden Age. Stroll along the Walk of Fame, where stars have been cementing their names and handprints for more than 50 years. Drive past Beverly Hills—home of Tom Cruise, Madonna, Jack Nicholson, and other stars of the big screen. You can even see the luxury boutiques and open-air cafés of Rodeo Drive.\n\nFinish the day with a scenic drive back through Joshua trees and Mojave yucca.",
+        "activityItemTitleEnglish": "",
+        "activityDetailsURL": "https://wwwexpediacom.integration.sb.karmalab.net/lx/activity/182995/",
+        "travelerCount": 0,
+        "travelerCountDescription": "1 Traveler",
+        "travelers": [
+          {
+            "isRedeemer": true,
+            "firstName": "hellp",
+            "lastName": "world",
+            "fullName": "hellp world"
+          }
+        ],
+        "vendorAccountingId": 0,
+        "vendorCustomerServiceOffices": [],
+        "termsAndConditions": {
+          "minFreeCancellationHoursPackageV2": 0,
+          "freeCancellationAvailablePackageV2": false
+        },
+        "voucherPrintURL": "https://wwwexpediacom.integration.sb.karmalab.net/itinerary-print?tripid=729bf374-29ce-410c-96f2-3835f2d672dd&itineraryNumber=11588320128&email=hello@world.com",
+        "vouchers": [],
+        "unbookedPackageV2": false
+      }
+    ],
+    "readTripError": false
+  }
+}

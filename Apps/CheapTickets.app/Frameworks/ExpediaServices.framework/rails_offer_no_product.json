@@ -1,0 +1,32 @@
+{
+    "priceBreakdown":[
+                      {
+                      "amount":"38.80",
+                      "fractionalCurrency":80,
+                      "priceCategory":"Ticket",
+                      "mainCurrency":38,
+                      "currencyCode":"GBP",
+                      "formattedPrice":"£38.80",
+                      "formattedWholePrice":"£39",
+                      "currencySymbol":"£"
+                      },
+                      {
+                      "amount":"8",
+                      "fractionalCurrency":0,
+                      "priceCategory":"Expedia Service Fee",
+                      "mainCurrency":8,
+                      "currencyCode":"GBP",
+                      "formattedPrice":"£8.0",
+                      "formattedWholePrice":"£8",
+                      "currencySymbol":"£"
+                      }
+                      ],
+    "railProductList":[],
+    "railOfferToken":"CgQIwLQtEjsI-bQtENu1LRoaCKaA4QYQpoChBhj5tC0g27UtKgZYQzMyMjAiFQoHQURWQU5DRRADGghTdGFuZGFyZBoCCBk=",
+    "totalPrice":{
+        "amount":"46.80",
+        "formattedPrice":"£46.80",
+        "currencyCode":"GBP",
+        "formattedWholePrice":"£47"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "totalPrice": {
+        "amount": "37.50",
+        "currencyCode": "GBP",
+        "formattedPrice": "£37.50",
+        "formattedWholePrice": "£38"
+    },
+    "priceBreakdown": [{
+                       "amount": "1",
+                       "currencyCode": "GBP",
+                       "mainCurrency": 1,
+                       "fractionalCurrency": 0,
+                       "currencySymbol": "£",
+                       "formattedPrice": "£1.00",
+                       "formattedWholePrice": "£1",
+                       "priceCategory": "Expedia Booking Fee",
+                       "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+                       }, {
+                       "amount": "36.50",
+                       "currencyCode": "GBP",
+                       "mainCurrency": 36,
+                       "fractionalCurrency": 50,
+                       "currencySymbol": "£",
+                       "formattedPrice": "£36.50",
+                       "formattedWholePrice": "£37",
+                       "priceCategory": "Ticket Price",
+                       "priceCategoryCode": "TICKET"
+                       }],
+    "railProductList": [{
+                        "aggregatedCarrierServiceClassDisplayName": "Standard",
+                        "aggregatedCarrierFareClassDisplayName": "Off-Peak Return",
+                        "aggregatedFareDescription": "Any off-peak train; Return within 1 month",
+                        "aggregatedCarrierFareClassCategoryName": "Offpeak",
+                        "fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Outbound: VALID ON ANY TRAIN AFTER 0930 M-F", "Return: VALID ON ANY TRAIN AFTER 0930 M-F", "Travel is allowed via any permitted route."],
+                        "refundable": "REFUNDABLE",
+                        "refundableRules": ["Your ticket is refundable before 17 Dec, 2016 16:31", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+                        "legOptionIndexList": [3, 6],
+                        "fareBreakdownList": [{
+                                              "farePrice": {
+                                              "amount": "36.50",
+                                              "currencyCode": "GBP",
+                                              "formattedPrice": "£36.50",
+                                              "formattedWholePrice": "£37"
+                                              },
+                                              "passengerFareList": [{
+                                                                    "passengerIndex": 1,
+                                                                    "passengerSegmentFareList": [{
+                                                                                                 "travelSegmentIndex": 1,
+                                                                                                 "carrierServiceClassDisplayName": "Standard",
+                                                                                                 "carrierFareClassDisplayName": "Off-Peak Return",
+                                                                                                 "carrierFareClassCategoryName": "Offpeak",
+                                                                                                 "fareDescription": "Any off-peak train; Return within 1 month",
+                                                                                                 "amenityList": [{
+                                                                                                                 "displayName": "Snack Trolley Service"
+                                                                                                                 }]
+                                                                                                 }, {
+                                                                                                 "travelSegmentIndex": 3,
+                                                                                                 "carrierServiceClassDisplayName": "Standard",
+                                                                                                 "carrierFareClassDisplayName": "Off-Peak Return",
+                                                                                                 "carrierFareClassCategoryName": "Offpeak",
+                                                                                                 "fareDescription": "Any off-peak train; Return within 1 month",
+                                                                                                 "amenityList": [{
+                                                                                                                 "displayName": "Snack Trolley Service"
+                                                                                                                 }]
+                                                                                                 }]
+                                                                    }]
+                                              }],
+                        "segmentFareDetailList": [{
+                                                  "travelSegmentIndex": 1,
+                                                  "carrierServiceClassDisplayName": "Standard",
+                                                  "carrierFareClassDisplayName": "Off-Peak Return",
+                                                  "carrierFareClassCategoryName": "Offpeak",
+                                                  "fareDescription": "Any off-peak train; Return within 1 month",
+                                                  "amenityList": [{
+                                                                  "displayName": "Snack Trolley Service"
+                                                                  }]
+                                                  }, {
+                                                  "travelSegmentIndex": 3,
+                                                  "carrierServiceClassDisplayName": "Standard",
+                                                  "carrierFareClassDisplayName": "Off-Peak Return",
+                                                  "carrierFareClassCategoryName": "Offpeak",
+                                                  "fareDescription": "Any off-peak train; Return within 1 month",
+                                                  "amenityList": [{
+                                                                  "displayName": "Snack Trolley Service"
+                                                                  }]
+                                                  }],
+                        "openReturn": true
+                        }],
+    "railOfferToken": "eNrjYBYK41LjePVcUoBBQkvhFqOWJMezCT3vmASA5DMmiBBbhLOJoZkBUN2jqVJAdZwKy6DqnoHVvWOCCIHUmZsYCLFwcAgwSxgDAMs1GOs=",
+    "passengerList": [{
+                      "passengerIndex": 1,
+                      "age": 26,
+                      "primaryTraveler": true,
+                      "passengerAgeGroup": "ADULT",
+                      "price": {
+                      "amount": "36.50",
+                      "currencyCode": "GBP",
+                      "formattedPrice": "£36.50",
+                      "formattedWholePrice": "£37"
+                      }
+                      }]
+}

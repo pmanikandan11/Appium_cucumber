@@ -1,0 +1,2594 @@
+.*
+.*?m/api/hotel\?.*
+*
+200
+Content-Type: application/json
+
+{
+	"allNeighborhoodsInSearchRegion": [
+		{
+			"id": 6023769,
+			"name": "San Jose - Silicon Valley"
+		},
+		{
+			"id": 6289512,
+			"name": "Campbell"
+		},
+		{
+			"id": 6056180,
+			"name": "Cupertino"
+		},
+		{
+			"id": 6056181,
+			"name": "Fremont"
+		},
+		{
+			"id": 6289519,
+			"name": "Los Gatos"
+		},
+		{
+			"id": 6289539,
+			"name": "Menlo Park"
+		},
+		{
+			"id": 6056184,
+			"name": "Milpitas"
+		},
+		{
+			"id": 6056189,
+			"name": "Morgan Hill"
+		},
+		{
+			"id": 6056188,
+			"name": "Mountain View"
+		},
+		{
+			"id": 6289533,
+			"name": "Palo Alto"
+		},
+		{
+			"id": 6056185,
+			"name": "San Jose"
+		},
+		{
+			"id": 6056186,
+			"name": "Santa Clara"
+		},
+		{
+			"id": 6056187,
+			"name": "Sunnyvale"
+		}
+	],
+	"amenityFilterOptions": {
+		"11": {
+			"filterName": "Fitness equipment",
+			"filterNumOccurrences": "114",
+			"isAccessible": "false"
+		},
+		"12": {
+			"filterName": "Business services",
+			"filterNumOccurrences": "130",
+			"isAccessible": "false"
+		},
+		"13": {
+			"filterName": "Room service",
+			"filterNumOccurrences": "49",
+			"isAccessible": "false"
+		},
+		"14": {
+			"filterName": "Free parking",
+			"filterNumOccurrences": "149",
+			"isAccessible": "false"
+		},
+		"15": {
+			"filterName": "Spa services on site",
+			"filterNumOccurrences": "2",
+			"isAccessible": "false"
+		},
+		"16": {
+			"filterName": "Free breakfast",
+			"filterNumOccurrences": "104",
+			"isAccessible": "false"
+		},
+		"17": {
+			"filterName": "Pets allowed (conditions apply)",
+			"filterNumOccurrences": "87",
+			"isAccessible": "false"
+		},
+		"18": {
+			"filterName": "Free newspaper",
+			"filterNumOccurrences": "121",
+			"isAccessible": "false"
+		},
+		"19": {
+			"filterName": "High-speed Internet",
+			"filterNumOccurrences": "163",
+			"isAccessible": "false"
+		},
+		"2070": {
+			"filterName": "Dry cleaning/laundry service",
+			"filterNumOccurrences": "115",
+			"isAccessible": "false"
+		},
+		"2158": {
+			"filterName": "Kitchen",
+			"filterNumOccurrences": "37",
+			"isAccessible": "false"
+		},
+		"26": {
+			"filterName": "Hair dryer",
+			"filterNumOccurrences": "144",
+			"isAccessible": "false"
+		},
+		"27": {
+			"filterName": "Air conditioning",
+			"filterNumOccurrences": "154",
+			"isAccessible": "false"
+		},
+		"312": {
+			"filterName": "Kitchenette",
+			"filterNumOccurrences": "10",
+			"isAccessible": "false"
+		},
+		"369": {
+			"filterName": "Laundry facilities",
+			"filterNumOccurrences": "116",
+			"isAccessible": "false"
+		},
+		"57": {
+			"filterName": "Accessibility equipment for the deaf",
+			"filterNumOccurrences": "79",
+			"isAccessible": "true"
+		},
+		"58": {
+			"filterName": "Accessible bathroom",
+			"filterNumOccurrences": "112",
+			"isAccessible": "true"
+		},
+		"59": {
+			"filterName": "Accessible path of travel",
+			"filterNumOccurrences": "126",
+			"isAccessible": "true"
+		},
+		"60": {
+			"filterName": "Braille or raised signage",
+			"filterNumOccurrences": "72",
+			"isAccessible": "true"
+		},
+		"61": {
+			"filterName": "Handicapped parking",
+			"filterNumOccurrences": "126",
+			"isAccessible": "true"
+		},
+		"62": {
+			"filterName": "In-room accessibility",
+			"filterNumOccurrences": "122",
+			"isAccessible": "true"
+		},
+		"63": {
+			"filterName": "Roll-in shower",
+			"filterNumOccurrences": "81",
+			"isAccessible": "true"
+		},
+		"66": {
+			"filterName": "Free airport transportation",
+			"filterNumOccurrences": "28",
+			"isAccessible": "false"
+		},
+		"69": {
+			"filterName": "Babysitting service",
+			"filterNumOccurrences": "3",
+			"isAccessible": "false"
+		},
+		"7": {
+			"filterName": "Swimming pool",
+			"filterNumOccurrences": "114",
+			"isAccessible": "false"
+		},
+		"9": {
+			"filterName": "Restaurant in hotel",
+			"filterNumOccurrences": "59",
+			"isAccessible": "false"
+		}
+	},
+	"availableHotelCount": 134,
+	"filteredSearchMatchedNoHotels": false,
+	"filterUnavailableHotelsRequested": true,
+	"hotelList": [
+		{
+			"address": "1085 E El Camino Real",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free High-Speed Internet",
+					"id": "1024"
+				}
+			],
+			"city": "Sunnyvale",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "Book now and save",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "21433",
+			"hotelStarRating": "3.5",
+			"hotelStarRatingCssClassName": "3-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/30000/21500/21433/21433_77_d.jpg",
+			"latitude": "37.35233",
+			"localizedName": "The Domain Hotel",
+			"locationDescription": "Sunnyvale",
+			"locationId": "6056187",
+			"longitude": "-122.001959",
+			"lowRate": "149.64",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "149.64",
+				"averageRate": "112.39",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": -25,
+				"formattedTotalPriceWithMandatoryFees": "$ 112.39",
+				"maxNightlyRate": "112.39",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "149.64",
+						"promo": "true",
+						"rate": "112.39"
+					}
+				],
+				"nightlyRateTotal": "112.39",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "112",
+				"ratePlanCode": "204361470",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200700033",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "150",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "150",
+				"taxStatusType": "NONE",
+				"total": "112.39",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "112.39",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "The Domain Hotel",
+			"nonLocalizedName": "The Domain Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94087",
+			"proximityDistanceInKiloMeters": "3.4109480287790928",
+			"proximityDistanceInMiles": "2.119917979353072",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "20",
+			"shortDescription": "This Silicon Valley hotel is in Sunnyvale, 7 miles from the San Jose Airport, and 3 miles from Santa Clara University, the Mercado shopping center, and California's Great America theme park.",
+			"shortDiscountMessage": "Promo",
+			"sortIndex": "0",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/30000/21500/21433/21433_77_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "3100 Lakeside Dr",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Full Breakfast",
+					"id": "4"
+				},
+				{
+					"description": "Free Parking",
+					"id": "128"
+				}
+			],
+			"city": "Santa Clara",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "Member’s price: 20%",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "25373",
+			"hotelStarRating": "3.5",
+			"hotelStarRatingCssClassName": "3-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "2281",
+				"brandName": "Gemstone Resorts"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/30000/25400/25373/25373_43_d.jpg",
+			"latitude": "37.386958",
+			"localizedName": "The Plaza Suites",
+			"locationDescription": "Santa Clara",
+			"locationId": "6056186",
+			"longitude": "-121.983061",
+			"lowRate": "159.19",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "159.19",
+				"averageRate": "127.39",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": -20.0,
+				"formattedTotalPriceWithMandatoryFees": "$ 127.39",
+				"maxNightlyRate": "127.39",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "159.19",
+						"promo": "true",
+						"rate": "127.39"
+					}
+				],
+				"nightlyRateTotal": "127.39",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "127",
+				"ratePlanCode": "203444662",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200693883",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "159",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "159",
+				"taxStatusType": "NONE",
+				"total": "127.39",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "127.39",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "The Plaza Suites",
+			"nonLocalizedName": "The Plaza Suites",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95054",
+			"proximityDistanceInKiloMeters": "7.416641359827191",
+			"proximityDistanceInMiles": "4.609472566704283",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "33",
+			"shortDescription": "In Silicon Valley, this Santa Clara aparthotel is 0.7 mile (1.2 kilometers) from California's Great America, 1 mile (1.6 kilometers) from the Intel Museum, 2.5 miles (4 kilometers) from Levi's Stadium, and 4.6 miles (7.4 kilometers) from San Jose International Airport. Santa Clara University is 3.5 miles (5.6 kilometers) away.",
+			"shortDiscountMessage": "Save 20%",
+			"sortIndex": "1",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/30000/25400/25373/25373_43_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "550 W Hamilton Ave",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free High-Speed Internet",
+					"id": "1024"
+				}
+			],
+			"city": "Campbell",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "Save 15%",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "528319",
+			"hotelStarRating": "3.5",
+			"hotelStarRatingCssClassName": "3-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "3144",
+				"brandName": "Starwood Capital"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/530000/528400/528319/528319_43_d.jpg",
+			"latitude": "37.294166",
+			"localizedName": "Larkspur Landing Campbell - An All-Suite Hotel",
+			"locationDescription": "Campbell",
+			"locationId": "6289512",
+			"longitude": "-121.959919",
+			"lowRate": "159.18",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "159.18",
+				"averageRate": "135.33",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": -15,
+				"formattedTotalPriceWithMandatoryFees": "$ 135.33",
+				"maxNightlyRate": "135.33",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "159.18",
+						"promo": "true",
+						"rate": "135.33"
+					}
+				],
+				"nightlyRateTotal": "135.33",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "135",
+				"ratePlanCode": "201183548",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200207537",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "159",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "159",
+				"taxStatusType": "NONE",
+				"total": "135.33",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "135.33",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Larkspur Landing Campbell - An All-Suite Hotel",
+			"nonLocalizedName": "Larkspur Landing Campbell - An All-Suite Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95008",
+			"proximityDistanceInKiloMeters": "7.600257832728222",
+			"proximityDistanceInMiles": "4.723590946381742",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "57",
+			"shortDescription": "This Campbell hotel is 2.5 miles from both the Winchester Mystery House and the Valley Fair Shopping Mall, and 5 miles from the Norman Y. Mineta San Jose International Airport.",
+			"shortDiscountMessage": "Save 15%",
+			"sortIndex": "2",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/530000/528400/528319/528319_43_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "748 N Mathilda Ave",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				},
+				{
+					"description": "Breakfast Buffet",
+					"id": "16777216"
+				}
+			],
+			"city": "Sunnyvale",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "Save 15%",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "202686",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "3144",
+				"brandName": "Starwood Capital"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/210000/202700/202686/202686_56_d.jpg",
+			"latitude": "37.394798",
+			"localizedName": "Larkspur Landing Sunnyvale - An All-Suite Hotel",
+			"locationDescription": "Sunnyvale",
+			"locationId": "6056187",
+			"longitude": "-122.028856",
+			"lowRate": "129.81",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "129.81",
+				"averageRate": "110.46",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": -15,
+				"formattedTotalPriceWithMandatoryFees": "$ 110.46",
+				"maxNightlyRate": "110.46",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "129.81",
+						"promo": "true",
+						"rate": "110.46"
+					}
+				],
+				"nightlyRateTotal": "110.46",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "110",
+				"ratePlanCode": "201183480",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200207523",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "130",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "130",
+				"taxStatusType": "NONE",
+				"total": "110.46",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "110.46",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Larkspur Landing Sunnyvale - An All-Suite Hotel",
+			"nonLocalizedName": "Larkspur Landing Sunnyvale - An All-Suite Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94085",
+			"proximityDistanceInKiloMeters": "6.9487712246646955",
+			"proximityDistanceInMiles": "4.318689387610128",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "74",
+			"shortDescription": "Situated in the business district, this hotel is 1 mi (1.6 km) from Cogswell Polytechnical College and within 3 mi (5 km) of Yahoo Headquarters and Lace Museum and Guild. Hacker Dojo and Baylands Park are also within 3 mi (5 km). ",
+			"shortDiscountMessage": "Save 15%",
+			"sortIndex": "3",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/210000/202700/202686/202686_56_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "1740 N 1st Street",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				},
+				{
+					"description": "Free Airport Shuttle",
+					"id": "32768"
+				}
+			],
+			"city": "San Jose",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "2201",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/10000/2300/2201/2201_183_d.jpg",
+			"latitude": "37.369735",
+			"localizedName": "San Jose Airport Garden Hotel",
+			"locationDescription": "San Jose",
+			"locationId": "6056185",
+			"longitude": "-121.915494",
+			"lowRate": "99.31",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "99.31",
+				"averageRate": "99.31",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 99.31",
+				"maxNightlyRate": "99.31",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "99.31",
+						"promo": "false",
+						"rate": "99.31"
+					}
+				],
+				"nightlyRateTotal": "99.31",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "99",
+				"ratePlanCode": "200116572",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200023918",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "99",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "99",
+				"taxStatusType": "NONE",
+				"total": "99.31",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "99.31",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "San Jose Airport Garden Hotel",
+			"nonLocalizedName": "San Jose Airport Garden Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95112",
+			"proximityDistanceInKiloMeters": "11.041860260593207",
+			"proximityDistanceInMiles": "6.8625607586036095",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "247",
+			"shortDescription": "This lushly landscaped hotel is about one mile from San Jose International Airport, seven miles from San Jose Convention Center, and within minutes of major tech companies.",
+			"shortDiscountMessage": "",
+			"sortIndex": "4",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/10000/2300/2201/2201_183_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "200 E El Camino Real",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Full Breakfast",
+					"id": "4"
+				},
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free High-Speed Internet",
+					"id": "1024"
+				}
+			],
+			"city": "Mountain View",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "413943",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": true,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/420000/414000/413943/413943_73_d.jpg",
+			"latitude": "37.378903",
+			"localizedName": "Hotel Zico",
+			"locationDescription": "Mountain View",
+			"locationId": "6056188",
+			"longitude": "-122.069316",
+			"lowRate": "110.49",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "110.49",
+				"averageRate": "110.49",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 110.49",
+				"maxNightlyRate": "110.49",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "110.49",
+						"promo": "false",
+						"rate": "110.49"
+					}
+				],
+				"nightlyRateTotal": "110.49",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "110",
+				"ratePlanCode": "116338",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "51490",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "110",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "110",
+				"taxStatusType": "NONE",
+				"total": "110.49",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "110.49",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Hotel Zico",
+			"nonLocalizedName": "Hotel Zico",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94040",
+			"proximityDistanceInKiloMeters": "6.176754410459697",
+			"proximityDistanceInMiles": "3.838877818806524",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "1",
+			"shortDescription": "This Mediterranean Villa-style hotel is in the Silicon Valley, 4 miles from Stanford University and Paramount's Great America.",
+			"shortDiscountMessage": "",
+			"sortIndex": "5",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/420000/414000/413943/413943_73_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "860 E El Camino Real",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Continental Breakfast",
+					"id": "2"
+				},
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				}
+			],
+			"city": "Mountain View",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "Special deal: save 20%",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "2104",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "2084",
+				"brandName": "Joie De Vivre "
+			},
+			"largeThumbnailUrl": "/hotels/1000000/10000/2200/2104/2104_75_d.jpg",
+			"latitude": "37.375859",
+			"localizedName": "Hotel Avante, a Joie de Vivre Boutique Hotel",
+			"locationDescription": "Mountain View",
+			"locationId": "6056188",
+			"longitude": "-122.061143",
+			"lowRate": "139.00",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "139.00",
+				"averageRate": "111.20",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": -20.0,
+				"formattedTotalPriceWithMandatoryFees": "$ 111.20",
+				"maxNightlyRate": "111.20",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "139.00",
+						"promo": "true",
+						"rate": "111.20"
+					}
+				],
+				"nightlyRateTotal": "111.20",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "111",
+				"ratePlanCode": "203011883",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200619955",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "139",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "139",
+				"taxStatusType": "NONE",
+				"total": "111.20",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "111.20",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Hotel Avante, a Joie de Vivre Boutique Hotel",
+			"nonLocalizedName": "Hotel Avante, a Joie de Vivre Boutique Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94040",
+			"proximityDistanceInKiloMeters": "5.5153496844555",
+			"proximityDistanceInMiles": "3.4278121096678063",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "29",
+			"shortDescription": "This hip boutique hotel in Mountain View lies 5 miles from the Shoreline Amphitheatre, 6 miles from California's Great America, and 7 miles from the Santa Clara Convention Center.",
+			"shortDiscountMessage": "Save 20%",
+			"sortIndex": "6",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/10000/2200/2104/2104_75_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "10889 North De Anza Boulevard",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				}
+			],
+			"city": "Cupertino",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "11086",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/20000/11100/11086/11086_98_d.jpg",
+			"latitude": "37.335659",
+			"localizedName": "Cupertino Inn",
+			"locationDescription": "Cupertino",
+			"locationId": "6056180",
+			"longitude": "-122.032475",
+			"lowRate": "109.46",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "109.46",
+				"averageRate": "109.46",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 109.46",
+				"maxNightlyRate": "109.46",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "109.46",
+						"promo": "false",
+						"rate": "109.46"
+					}
+				],
+				"nightlyRateTotal": "109.46",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "109",
+				"ratePlanCode": "204785765",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200981104",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "109",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "109",
+				"taxStatusType": "NONE",
+				"total": "109.46",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "109.46",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Cupertino Inn",
+			"nonLocalizedName": "Cupertino Inn",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95014",
+			"proximityDistanceInKiloMeters": "0.3863068650363431",
+			"proximityDistanceInMiles": "0.24009127721338913",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "1",
+			"shortDescription": "Situated in Cupertino, this hotel is within 1 mi (2 km) of Apple Campus and Cupertino Historical Society and Museum. Cupertino Memorial Park and Euphrat Museum of Art are also within 2 mi (3 km).",
+			"shortDiscountMessage": "",
+			"sortIndex": "7",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/20000/11100/11086/11086_98_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "1820 Barber Ln",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free High-Speed Internet",
+					"id": "1024"
+				}
+			],
+			"city": "Milpitas",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "23513",
+			"hotelStarRating": "3.5",
+			"hotelStarRatingCssClassName": "3-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/30000/23600/23513/23513_115_d.jpg",
+			"latitude": "37.4014",
+			"localizedName": "The Beverly Heritage",
+			"locationDescription": "Milpitas",
+			"locationId": "6056184",
+			"longitude": "-121.912421",
+			"lowRate": "129.39",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "129.39",
+				"averageRate": "129.39",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 129.39",
+				"maxNightlyRate": "129.39",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "129.39",
+						"promo": "false",
+						"rate": "129.39"
+					}
+				],
+				"nightlyRateTotal": "129.39",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "129",
+				"ratePlanCode": "202114468",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200346299",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "129",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "129",
+				"taxStatusType": "NONE",
+				"total": "129.39",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "129.39",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "The Beverly Heritage",
+			"nonLocalizedName": "The Beverly Heritage",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95035",
+			"proximityDistanceInKiloMeters": "13.007230492099078",
+			"proximityDistanceInMiles": "8.084046297140508",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "19",
+			"shortDescription": "This Silicon Valley hotel is in Milpitas, 2 miles from the Great Mall, and within 6 miles of California's Great America and San Jose.",
+			"shortDiscountMessage": "",
+			"sortIndex": "8",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/30000/23600/23513/23513_115_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "355 Santana Row",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Continental Breakfast",
+					"id": "2"
+				},
+				{
+					"description": "Free High-Speed Internet",
+					"id": "1024"
+				}
+			],
+			"city": "San Jose",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "894638",
+			"hotelStarRating": "4.0",
+			"hotelStarRatingCssClassName": "4-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": true,
+			"jsonHotelBrand": {
+				"brandId": "106",
+				"brandName": "Preferred"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/900000/894700/894638/894638_53_d.jpg",
+			"latitude": "37.32098",
+			"localizedName": "Hotel Valencia Santana Row",
+			"locationDescription": "San Jose",
+			"locationId": "6056185",
+			"longitude": "-121.9479",
+			"lowRate": "209.34",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "209.34",
+				"averageRate": "209.34",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 209.34",
+				"maxNightlyRate": "209.34",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "209.34",
+						"promo": "false",
+						"rate": "209.34"
+					}
+				],
+				"nightlyRateTotal": "209.34",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "209",
+				"ratePlanCode": "397286",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "170858",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "209",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "209",
+				"taxStatusType": "NONE",
+				"total": "209.34",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "209.34",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Hotel Valencia Santana Row",
+			"nonLocalizedName": "Hotel Valencia Santana Row",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95128",
+			"proximityDistanceInKiloMeters": "7.474122105404643",
+			"proximityDistanceInMiles": "4.645197082290021",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "15",
+			"shortDescription": "Anchoring Santana Row, San Jose&#39;s European-style shopping district, the Valencia is within strolling distance of the great stores, restaurants, and salons that lend the Row its elegance and charm.",
+			"shortDiscountMessage": "",
+			"sortIndex": "9",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/900000/894700/894638/894638_53_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "2700 W El Camino Real",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Breakfast Buffet",
+					"id": "16777216"
+				}
+			],
+			"city": "Mountain View",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "306581",
+			"hotelStarRating": "2.5",
+			"hotelStarRatingCssClassName": "2-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/310000/306600/306581/306581_135_d.jpg",
+			"latitude": "37.403929",
+			"localizedName": "The Hotel Aria",
+			"locationDescription": "Mountain View",
+			"locationId": "6056188",
+			"longitude": "-122.117212",
+			"lowRate": "119.31",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "119.31",
+				"averageRate": "119.31",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 119.31",
+				"maxNightlyRate": "119.31",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "119.31",
+						"promo": "false",
+						"rate": "119.31"
+					}
+				],
+				"nightlyRateTotal": "119.31",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "119",
+				"ratePlanCode": "200379089",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200066375",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "119",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "119",
+				"taxStatusType": "NONE",
+				"total": "119.31",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "119.31",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "The Hotel Aria",
+			"nonLocalizedName": "The Hotel Aria",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94040",
+			"proximityDistanceInKiloMeters": "11.005544586144088",
+			"proximityDistanceInMiles": "6.8399904202262825",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "30",
+			"shortDescription": "The Hotel Aria is near the HQs of Google and Facebook in Silicon Valley. Guests can reach Shoreline Park in 15 minutes on foot, and walk 7 minutes to San Antonio Shopping Center. Downtown Palo Alto is 2 miles (3.2 km) away, and the Mountain View Center for the Performing Arts is within easy reach.",
+			"shortDiscountMessage": "",
+			"sortIndex": "10",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/310000/306600/306581/306581_135_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "4241 Moorpark Ave",
+			"airportCode": "SJC",
+			"city": "San Jose",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "687208",
+			"hotelStarRating": "3.5",
+			"hotelStarRatingCssClassName": "3-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "309",
+				"brandName": "Four Points"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/690000/687300/687208/687208_75_d.jpg",
+			"latitude": "37.315992",
+			"localizedName": "Four Points by Sheraton Cupertino",
+			"locationDescription": "San Jose",
+			"locationId": "6056185",
+			"longitude": "-121.977331",
+			"lowRate": "179.00",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "179.00",
+				"averageRate": "179.00",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 179.00",
+				"maxNightlyRate": "179.00",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "179.00",
+						"promo": "false",
+						"rate": "179.00"
+					}
+				],
+				"nightlyRateTotal": "179.00",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "179",
+				"ratePlanCode": "203800307",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200763801",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "179",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "179",
+				"taxStatusType": "NONE",
+				"total": "179.00",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "179.00",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Four Points by Sheraton Cupertino",
+			"nonLocalizedName": "Four Points by Sheraton Cupertino",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95129",
+			"proximityDistanceInKiloMeters": "5.0993519508384155",
+			"proximityDistanceInMiles": "3.1692678376870203",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "-1",
+			"shortDescription": "This stylish hotel is two miles from the Euro-style Santana Row shopping village, and about five miles from both McEnery Convention Center and San Jose International Airport.",
+			"shortDiscountMessage": "",
+			"sortIndex": "11",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/690000/687300/687208/687208_75_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "2151 Laurelwood Rd",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				},
+				{
+					"description": "Free Airport Shuttle",
+					"id": "32768"
+				}
+			],
+			"city": "Santa Clara",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "26948",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": true,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": true,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/30000/27000/26948/26948_33_d.jpg",
+			"latitude": "37.383652",
+			"localizedName": "Biltmore Hotel and Suites",
+			"locationDescription": "Santa Clara",
+			"locationId": "6056186",
+			"longitude": "-121.962522",
+			"lowRate": "139.34",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "139.34",
+				"averageRate": "125.44",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": -10.0,
+				"formattedTotalPriceWithMandatoryFees": "$ 125.44",
+				"maxNightlyRate": "125.44",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "139.34",
+						"promo": "true",
+						"rate": "125.44"
+					}
+				],
+				"nightlyRateTotal": "125.44",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "125",
+				"ratePlanCode": "17691",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "17691",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "139",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "139",
+				"taxStatusType": "NONE",
+				"total": "125.44",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "125.44",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Biltmore Hotel and Suites",
+			"nonLocalizedName": "Biltmore Hotel and Suites",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95054",
+			"proximityDistanceInKiloMeters": "8.332111437604153",
+			"proximityDistanceInMiles": "5.178440918336951",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "54",
+			"shortDescription": "Just off Highway 101, this Silicon Valley hotel is within 2 miles (3 kilometers) of the Santa Clara Convention Center, California's Great America, the Mercado Center, and Levi's Stadium.",
+			"shortDiscountMessage": "",
+			"sortIndex": "12",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/30000/27000/26948/26948_33_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "805 E El Camino Real",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Continental Breakfast",
+					"id": "2"
+				},
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				}
+			],
+			"city": "Sunnyvale",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "295968",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/300000/296000/295968/295968_20_d.jpg",
+			"latitude": "37.355575",
+			"localizedName": "Corporate Inn - Sunnyvale",
+			"locationDescription": "Sunnyvale",
+			"locationId": "6056187",
+			"longitude": "-122.017345",
+			"lowRate": "139.44",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "139.44",
+				"averageRate": "139.44",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 139.44",
+				"maxNightlyRate": "139.44",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "139.44",
+						"promo": "false",
+						"rate": "139.44"
+					}
+				],
+				"nightlyRateTotal": "139.44",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "139",
+				"ratePlanCode": "65999",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "31885",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "139",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "139",
+				"taxStatusType": "NONE",
+				"total": "139.44",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "139.44",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Corporate Inn - Sunnyvale",
+			"nonLocalizedName": "Corporate Inn - Sunnyvale",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94087",
+			"proximityDistanceInKiloMeters": "2.8606577481479114",
+			"proximityDistanceInMiles": "1.7779103468911817",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "9",
+			"shortDescription": "This family-friendly Sunnyvale hotel is within 1 mi (2 km) of Golfland USA and Sunnyvale Heritage Park Museum. Vallco Shopping Mall and Lace Museum and Guild are also within 3 mi (5 km). ",
+			"shortDiscountMessage": "",
+			"sortIndex": "13",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/300000/296000/295968/295968_20_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "910 E Fremont Ave",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Continental Breakfast",
+					"id": "2"
+				},
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				}
+			],
+			"city": "Sunnyvale",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "7877",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": true,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "2084",
+				"brandName": "Joie De Vivre "
+			},
+			"largeThumbnailUrl": "/hotels/1000000/10000/7900/7877/7877_64_d.jpg",
+			"latitude": "37.352129",
+			"localizedName": "Wild Palms Hotel, a Joie de Vivre Boutique Hotel",
+			"locationDescription": "Sunnyvale",
+			"locationId": "6056187",
+			"longitude": "-122.013178",
+			"lowRate": "128.70",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "128.70",
+				"averageRate": "128.70",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 128.70",
+				"maxNightlyRate": "128.70",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "128.70",
+						"promo": "false",
+						"rate": "128.70"
+					}
+				],
+				"nightlyRateTotal": "128.70",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "129",
+				"ratePlanCode": "203011928",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200619963",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "129",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "129",
+				"taxStatusType": "NONE",
+				"total": "128.70",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "128.70",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Wild Palms Hotel, a Joie de Vivre Boutique Hotel",
+			"nonLocalizedName": "Wild Palms Hotel, a Joie de Vivre Boutique Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94087",
+			"proximityDistanceInKiloMeters": "2.7182594058984315",
+			"proximityDistanceInMiles": "1.6894092019256877",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "54",
+			"shortDescription": "Within 10 miles of numerous Silicon Valley companies, this relaxed but elegant Sunnyvale boutique hotel is 5 miles from Paramount's Great America and 9 miles from downtown San Jose.",
+			"shortDiscountMessage": "",
+			"sortIndex": "14",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/10000/7900/7877/7877_64_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "3341 S Bascom Ave",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Full Breakfast",
+					"id": "4"
+				},
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				}
+			],
+			"city": "Campbell",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "564964",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/570000/565000/564964/564964_55_d.jpg",
+			"latitude": "37.263928",
+			"localizedName": "Bristol Hotel, Boutique Collection",
+			"locationDescription": "Campbell",
+			"locationId": "6289512",
+			"longitude": "-121.943149",
+			"lowRate": "119.48",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "119.48",
+				"averageRate": "119.48",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 119.48",
+				"maxNightlyRate": "119.48",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "119.48",
+						"promo": "false",
+						"rate": "119.48"
+					}
+				],
+				"nightlyRateTotal": "119.48",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "119",
+				"ratePlanCode": "200109369",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200022148",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "119",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "119",
+				"taxStatusType": "NONE",
+				"total": "119.48",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "119.48",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Bristol Hotel, Boutique Collection",
+			"nonLocalizedName": "Bristol Hotel, Boutique Collection",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95008",
+			"proximityDistanceInKiloMeters": "10.887075785377858",
+			"proximityDistanceInMiles": "6.766361581962622",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "23",
+			"shortDescription": "This family-friendly Campbell hotel is located near the airport, within 3 mi (5 km) of The Pruneyard Shopping Center, Kings Court Shopping Center and Ainsley House. EBay Inc. Headquarters and Vasona Lake County Park are also within 3 mi (5 km). ",
+			"shortDiscountMessage": "",
+			"sortIndex": "15",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/570000/565000/564964/564964_55_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "210 E Main St",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				}
+			],
+			"city": "Los Gatos",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "896049",
+			"hotelStarRating": "4.0",
+			"hotelStarRatingCssClassName": "4-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/900000/896100/896049/896049_128_d.jpg",
+			"latitude": "37.221123",
+			"localizedName": "Hotel Los Gatos & Spa",
+			"locationDescription": "Los Gatos",
+			"locationId": "6289519",
+			"longitude": "-121.977129",
+			"lowRate": "299.43",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "299.43",
+				"averageRate": "299.43",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 299.43",
+				"maxNightlyRate": "299.43",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "299.43",
+						"promo": "false",
+						"rate": "299.43"
+					}
+				],
+				"nightlyRateTotal": "299.43",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "299",
+				"ratePlanCode": "200481887",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200081171",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "299",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "299",
+				"taxStatusType": "NONE",
+				"total": "299.43",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "299.43",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Hotel Los Gatos & Spa",
+			"nonLocalizedName": "Hotel Los Gatos & Spa",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95030",
+			"proximityDistanceInKiloMeters": "13.258984576349002",
+			"proximityDistanceInMiles": "8.24051247753201",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "23",
+			"shortDescription": "Located at the base of the Santa Cruz Mountains, this two-story hotel is 5 blocks from downtown Los Gatos, 15 miles from San Jose, and 20 miles from the coastal town of Santa Cruz.",
+			"shortDiscountMessage": "",
+			"sortIndex": "16",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/900000/896100/896049/896049_128_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "4261 El Camino Real",
+			"airportCode": "SFO",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free High-Speed Internet",
+					"id": "1024"
+				}
+			],
+			"city": "Palo Alto",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "Special deal: save 10%",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "3961",
+			"hotelStarRating": "3.5",
+			"hotelStarRatingCssClassName": "3-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/10000/4000/3961/3961_178_d.jpg",
+			"latitude": "37.407048",
+			"localizedName": "Dinah's Garden Hotel",
+			"locationDescription": "Palo Alto",
+			"locationId": "6289533",
+			"longitude": "-122.120465",
+			"lowRate": "209.21",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "209.21",
+				"averageRate": "188.31",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": -10.0,
+				"formattedTotalPriceWithMandatoryFees": "$ 188.31",
+				"maxNightlyRate": "188.31",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "209.21",
+						"promo": "true",
+						"rate": "188.31"
+					}
+				],
+				"nightlyRateTotal": "188.31",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "188",
+				"ratePlanCode": "218239",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "96221",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "209",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "209",
+				"taxStatusType": "NONE",
+				"total": "188.31",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "188.31",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Dinah's Garden Hotel",
+			"nonLocalizedName": "Dinah's Garden Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94306",
+			"proximityDistanceInKiloMeters": "11.454820110851706",
+			"proximityDistanceInMiles": "7.119216973804665",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "4",
+			"shortDescription": "Surrounded by tropical lagoons and landscaped gardens, this Bay Area hotel is 3 miles from downtown Palo Alto, Stanford University, and the Stanford Shopping Center.",
+			"shortDiscountMessage": "Save 10%",
+			"sortIndex": "17",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/10000/4000/3961/3961_178_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "170 S Sunnyvale Ave",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				},
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				}
+			],
+			"city": "Sunnyvale",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "127724",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "2308",
+				"brandName": "aloft"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/130000/127800/127724/127724_49_d.jpg",
+			"latitude": "37.376232",
+			"localizedName": "Aloft Sunnyvale",
+			"locationDescription": "Sunnyvale",
+			"locationId": "6056187",
+			"longitude": "-122.02919",
+			"lowRate": "119.00",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "119.00",
+				"averageRate": "119.00",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 119.00",
+				"maxNightlyRate": "119.00",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "119.00",
+						"promo": "false",
+						"rate": "119.00"
+					}
+				],
+				"nightlyRateTotal": "119.00",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "119",
+				"ratePlanCode": "204424543",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200871653",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "119",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "119",
+				"taxStatusType": "NONE",
+				"total": "119.00",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "119.00",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Aloft Sunnyvale",
+			"nonLocalizedName": "Aloft Sunnyvale",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94086",
+			"proximityDistanceInKiloMeters": "4.884579833720069",
+			"proximityDistanceInMiles": "3.0357860992666685",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "-1",
+			"shortDescription": "Situated in Sunnyvale, this hotel is 0.5 mi (0.8 km) from Lace Museum and Guild and within 3 mi (5 km) of Sunnyvale Heritage Park Museum and Golfland USA. Cogswell Polytechnical College and Hacker Dojo are also within 3 mi (5 km). ",
+			"shortDiscountMessage": "",
+			"sortIndex": "18",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/130000/127800/127724/127724_49_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "10050 S De Anza Blvd",
+			"airportCode": "SJC",
+			"city": "Cupertino",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "878745",
+			"hotelStarRating": "4.0",
+			"hotelStarRatingCssClassName": "4-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "3000",
+				"brandName": "Curio Collection"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/880000/878800/878745/878745_105_d.jpg",
+			"latitude": "37.32194",
+			"localizedName": "Juniper Hotel Cupertino, Curio Collection by Hilton",
+			"locationDescription": "Cupertino",
+			"locationId": "6056180",
+			"longitude": "-122.03216",
+			"lowRate": "159.00",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "159.00",
+				"averageRate": "159.00",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 159.00",
+				"maxNightlyRate": "159.00",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "159.00",
+						"promo": "false",
+						"rate": "159.00"
+					}
+				],
+				"nightlyRateTotal": "159.00",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "159",
+				"ratePlanCode": "205506696",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "201161019",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "159",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "159",
+				"taxStatusType": "NONE",
+				"total": "159.00",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "159.00",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Juniper Hotel Cupertino, Curio Collection by Hilton",
+			"nonLocalizedName": "Juniper Hotel Cupertino, Curio Collection by Hilton",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95014",
+			"proximityDistanceInKiloMeters": "1.158410697100188",
+			"proximityDistanceInMiles": "0.7199569279677986",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "-1",
+			"shortDescription": "Located in the heart of Silicon Valley, this chic downtown Cupertino hotel is surrounded by the world's leading technology companies, as well as Santana Row, Santa Cruz wineries, and plentiful dining and entertainment options.",
+			"shortDiscountMessage": "",
+			"sortIndex": "19",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/880000/878800/878745/878745_105_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "901 E. El Camino Real",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				},
+				{
+					"description": "Breakfast Buffet",
+					"id": "16777216"
+				}
+			],
+			"city": "Mountain View",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "50986",
+			"hotelStarRating": "2.5",
+			"hotelStarRatingCssClassName": "2-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/60000/51000/50986/50986_138_d.jpg",
+			"latitude": "37.374655",
+			"localizedName": "Crestview Hotel",
+			"locationDescription": "Mountain View",
+			"locationId": "6056188",
+			"longitude": "-122.059209",
+			"lowRate": "129.46",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "129.46",
+				"averageRate": "129.46",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 129.46",
+				"maxNightlyRate": "129.46",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "129.46",
+						"promo": "false",
+						"rate": "129.46"
+					}
+				],
+				"nightlyRateTotal": "129.46",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "129",
+				"ratePlanCode": "202588551",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200463845",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "129",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "129",
+				"taxStatusType": "NONE",
+				"total": "129.46",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "129.46",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Crestview Hotel",
+			"nonLocalizedName": "Crestview Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "94040",
+			"proximityDistanceInKiloMeters": "5.316604582735017",
+			"proximityDistanceInMiles": "3.3042912260627824",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "5",
+			"shortDescription": "Situated in Mountain View, this hotel is within 3 mi (5 km) of Lace Museum and Guild, El Camino Hospital, and Mountain View Center for the Performing Arts. Sunnyvale Heritage Park Museum and Hacker Dojo are also within 3 mi (5 km). ",
+			"shortDiscountMessage": "",
+			"sortIndex": "20",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/60000/51000/50986/50986_138_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "4200 Great America Pkwy",
+			"airportCode": "SJC",
+			"city": "Santa Clara",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "23781",
+			"hotelStarRating": "3.0",
+			"hotelStarRatingCssClassName": "3-0",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "2084",
+				"brandName": "Joie De Vivre "
+			},
+			"largeThumbnailUrl": "/hotels/1000000/30000/23800/23781/23781_79_d.jpg",
+			"latitude": "37.39201",
+			"localizedName": "Avatar Hotel, a Joie de Vivre Hotel",
+			"locationDescription": "Santa Clara",
+			"locationId": "6056186",
+			"longitude": "-121.977932",
+			"lowRate": "119.00",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "119.00",
+				"averageRate": "119.00",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 119.00",
+				"maxNightlyRate": "119.00",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "119.00",
+						"promo": "false",
+						"rate": "119.00"
+					}
+				],
+				"nightlyRateTotal": "119.00",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "119",
+				"ratePlanCode": "203500156",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200705498",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "119",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "119",
+				"taxStatusType": "NONE",
+				"total": "119.00",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "119.00",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Avatar Hotel, a Joie de Vivre Hotel",
+			"nonLocalizedName": "Avatar Hotel, a Joie de Vivre Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95054",
+			"proximityDistanceInKiloMeters": "8.136852470506058",
+			"proximityDistanceInMiles": "5.057086681482945",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "28",
+			"shortDescription": "Situated in Santa Clara, this hotel is within 1 mi (2 km) of Our Lady of Peace Church and Shrine and California's Great America. Intel Museum and Santa Clara Convention Center are also within 1 mi (2 km). ",
+			"shortDiscountMessage": "",
+			"sortIndex": "21",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/30000/23800/23781/23781_79_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "675 E Campbell Ave",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Wireless Internet",
+					"id": "2048"
+				},
+				{
+					"description": "Breakfast Buffet",
+					"id": "16777216"
+				}
+			],
+			"city": "Campbell",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "15721",
+			"hotelStarRating": "2.5",
+			"hotelStarRatingCssClassName": "2-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/20000/15800/15721/15721_13_d.jpg",
+			"latitude": "37.287107",
+			"localizedName": "Campbell Inn",
+			"locationDescription": "Campbell",
+			"locationId": "6289512",
+			"longitude": "-121.937297",
+			"lowRate": "129.31",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "129.31",
+				"averageRate": "129.31",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 129.31",
+				"maxNightlyRate": "129.31",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "129.31",
+						"promo": "false",
+						"rate": "129.31"
+					}
+				],
+				"nightlyRateTotal": "129.31",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "129",
+				"ratePlanCode": "9322",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "9322",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "129",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "129",
+				"taxStatusType": "NONE",
+				"total": "129.31",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "129.31",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Campbell Inn",
+			"nonLocalizedName": "Campbell Inn",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95008",
+			"proximityDistanceInKiloMeters": "9.709662814546713",
+			"proximityDistanceInMiles": "6.034594664106098",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "30",
+			"shortDescription": "This family-friendly Campbell motel is located in the business district, within a 10-minute walk of The Pruneyard Shopping Center and Ainsley House. Winchester Mystery House is 2.9 mi (4.6 km) away. ",
+			"shortDiscountMessage": "",
+			"sortIndex": "22",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/20000/15800/15721/15721_13_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "4949 Great America Pkwy",
+			"airportCode": "SJC",
+			"amenities": [
+				{
+					"description": "Free Parking",
+					"id": "128"
+				}
+			],
+			"city": "Santa Clara",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "564065",
+			"hotelStarRating": "3.5",
+			"hotelStarRatingCssClassName": "3-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": false,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "55",
+				"brandName": "Hilton Hotels"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/570000/564100/564065/564065_124_d.jpg",
+			"latitude": "37.402585",
+			"localizedName": "Hilton Santa Clara",
+			"locationDescription": "Santa Clara",
+			"locationId": "6056186",
+			"longitude": "-121.977622",
+			"lowRate": "149.00",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "149.00",
+				"averageRate": "149.00",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": 0,
+				"formattedTotalPriceWithMandatoryFees": "$ 149.00",
+				"maxNightlyRate": "149.00",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "149.00",
+						"promo": "false",
+						"rate": "149.00"
+					}
+				],
+				"nightlyRateTotal": "149.00",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "149",
+				"ratePlanCode": "109587",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "48687",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "149",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "149",
+				"taxStatusType": "NONE",
+				"total": "149.00",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "149.00",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Hilton Santa Clara",
+			"nonLocalizedName": "Hilton Santa Clara",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95054",
+			"proximityDistanceInKiloMeters": "9.135169409255344",
+			"proximityDistanceInMiles": "5.6775446918926935",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "-1",
+			"shortDescription": "This Santa Clara hotel is next to Great America, close to Levi's Stadium, home of the San Francisco 49ers, and one block from the Santa Clara Golf and Tennis Club.",
+			"shortDiscountMessage": "",
+			"sortIndex": "23",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/570000/564100/564065/564065_124_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		},
+		{
+			"address": "140 S Santa Cruz Ave",
+			"airportCode": "SJC",
+			"city": "Los Gatos",
+			"countryCode": "USA",
+			"didGetBackHighestPriceFromSurvey": false,
+			"discountMessage": "",
+			"distanceUnit": "Miles",
+			"hasFreeCancellation": false,
+			"hotelGuestRating": "0.0",
+			"hotelId": "5161",
+			"hotelStarRating": "3.5",
+			"hotelStarRatingCssClassName": "3-5",
+			"isDiscountRestrictedToCurrentSourceType": false,
+			"isDudley": false,
+			"isHotelAvailable": true,
+			"isPaymentChoiceAvailable": false,
+			"isSameDayDRR": true,
+			"isShowEtpChoice": false,
+			"isSponsoredListing": false,
+			"isVipAccess": false,
+			"jsonHotelBrand": {
+				"brandId": "0",
+				"brandName": "Independent"
+			},
+			"largeThumbnailUrl": "/hotels/1000000/10000/5200/5161/5161_28_d.jpg",
+			"latitude": "37.22034",
+			"localizedName": "Toll House Hotel",
+			"locationDescription": "Los Gatos",
+			"locationId": "6289519",
+			"longitude": "-121.98546",
+			"lowRate": "269.76",
+			"lowRateInfo": {
+				"airAttached": false,
+				"averageBaseRate": "269.76",
+				"averageRate": "256.31",
+				"checkoutPriceType": "total",
+				"currencyCode": "USD",
+				"currencySymbol": "$",
+				"discountPercent": -5,
+				"formattedTotalPriceWithMandatoryFees": "$ 256.31",
+				"maxNightlyRate": "256.31",
+				"nightlyRatesPerRoom": [
+					{
+						"baseRate": "269.76",
+						"promo": "true",
+						"rate": "256.31"
+					}
+				],
+				"nightlyRateTotal": "256.31",
+				"priceAdjustments": [
+				],
+				"priceToShowUsers": "256",
+				"ratePlanCode": "202694540",
+				"resortFeeInclusion": false,
+				"roomTypeCode": "200488963",
+				"showResortFeeMessage": false,
+				"strikethroughPriceToShowUsers": "270",
+				"strikethroughPriceWithTaxesAndFeesToShowUsers": "270",
+				"taxStatusType": "NONE",
+				"total": "256.31",
+				"totalMandatoryFees": "0.00",
+				"totalPriceWithMandatoryFees": "256.31",
+				"userPriceType": "PerNightRateNoTaxes"
+			},
+			"name": "Toll House Hotel",
+			"nonLocalizedName": "Toll House Hotel",
+			"notAvailableMessage": "",
+			"percentRecommended": "0",
+			"postalCode": "95030",
+			"proximityDistanceInKiloMeters": "13.093888904095538",
+			"proximityDistanceInMiles": "8.137904850276904",
+			"rateCurrencyCode": "USD",
+			"rateCurrencySymbol": "$",
+			"roomsLeftAtThisRate": "11",
+			"shortDescription": "Fronting the Santa Cruz Mountains on Santa Cruz Avenue, this Silicon Valley hotel is just 1 block from historic downtown Los Gatos and 2 miles from the region's closest wineries.",
+			"shortDiscountMessage": "",
+			"sortIndex": "24",
+			"stateProvinceCode": "CA",
+			"supplierType": "MERCHANT",
+			"thumbnailUrl": "/hotels/1000000/10000/5200/5161/5161_28_n.jpg",
+			"totalRecommendations": "0",
+			"totalReviews": "0"
+		}
+	],
+	"numberOfRoomsRequested": 1,
+	"priceOptions": [
+		{
+			"count": 1,
+			"maxPrice": "75",
+			"minPrice": "0"
+		},
+		{
+			"count": 45,
+			"maxPrice": "124",
+			"minPrice": "75"
+		},
+		{
+			"count": 77,
+			"maxPrice": "199",
+			"minPrice": "125"
+		},
+		{
+			"count": 11,
+			"maxPrice": "299",
+			"minPrice": "200"
+		},
+		{
+			"count": 0,
+			"maxPrice": "0",
+			"minPrice": "300"
+		}
+	],
+	"searchRegionCity": "",
+	"searchRegionId": "0",
+	"starOptions": [
+		{
+			"count": 0,
+			"starRating": 0
+		},
+		{
+			"count": 0,
+			"starRating": 5
+		},
+		{
+			"count": 0,
+			"starRating": 10
+		},
+		{
+			"count": 0,
+			"starRating": 15
+		},
+		{
+			"count": 84,
+			"starRating": 20
+		},
+		{
+			"count": 0,
+			"starRating": 25
+		},
+		{
+			"count": 72,
+			"starRating": 30
+		},
+		{
+			"count": 0,
+			"starRating": 35
+		},
+		{
+			"count": 11,
+			"starRating": 40
+		},
+		{
+			"count": 0,
+			"starRating": 45
+		},
+		{
+			"count": 1,
+			"starRating": 50
+		}
+	],
+	"totalHotelCount": 192
+}

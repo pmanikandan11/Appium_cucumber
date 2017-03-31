@@ -1,0 +1,101 @@
+POST
+.*?m/api/lx/trip/create.*
+*
+200
+Content-Type: application/json
+
+{
+    "tripId": "8abbd045-ea58-4114-84e3-0b013af7e728",
+    "itineraryNumber": 7981891802,
+    "newTotalPrice": {
+        "amount": "69.00",
+        "formattedPrice": "$69.00",
+        "formattedWholePrice": "$69",
+        "currencyCode": "USD"
+    },
+    "activityId": "35a30894-9d10-4d54-b1ac-36ad47b2ae5e",
+    "lxProduct": {
+        "totalPrice": {
+            "amount": "69.00",
+            "formattedPrice": "$69.00",
+            "formattedWholePrice": "$69",
+            "currencyCode": "USD"
+        },
+        "lxBookableItems": [
+            {
+                "tickets": [
+                    {
+                        "priceBreakdownItemList": [
+                            {
+                                "type": "PER_PASSENGER_TOTAL",
+                                "price": {
+                                    "amount": "69.00",
+                                    "formattedPrice": "$69.00",
+                                    "formattedWholePrice": "$69",
+                                    "currencyCode": "USD"
+                                }
+                            },
+                            {
+                                "type": "PER_CATEGORY_TOTAL",
+                                "price": {
+                                    "amount": "69.00",
+                                    "formattedPrice": "$69.00",
+                                    "formattedWholePrice": "$69",
+                                    "currencyCode": "USD"
+                                }
+                            }
+                        ],
+                        "count": 1,
+                        "code": "Adult",
+                        "ticketId": "4626"
+                    }
+                ],
+                "activityDate": {
+                    "raw": "2017-04-07T21:30:00-07:00",
+                    "localized": "Apr 7, 2017 9:30:00 PM",
+                    "epochSeconds": 1491625800,
+                    "timeZoneOffsetSeconds": -25200,
+                    "localizedShortDate": "Fri, 7 Apr"
+                },
+                "activityId": "184415",
+                "activityItemId": "278131",
+                "amount": "69",
+                "allDayActivity": false,
+                "regionId": "178276"
+            }
+        ],
+        "tripName": "Las Vegas, United States"
+    },
+    "validFormsOfPayment": [
+        {
+            "name": "AmericanExpress"
+        },
+        {
+            "name": "Diner's Club International"
+        },
+        {
+            "name": "Discover"
+        },
+        {
+            "name": "JCB"
+        },
+        {
+            "name": "MasterCard"
+        },
+        {
+            "name": "Visa"
+        }
+    ],
+    "expediaRewards": {
+        "totalPointsToEarn": 414,
+        "isActiveRewardsMember": false,
+        "rewardsMembershipTierName": "Invalid Tier"
+    },
+    "rewards": {
+        "programName": "ExpediaRewards",
+        "totalPointsToEarn": 414,
+        "isActiveRewardsMember": false,
+        "rewardsMembershipTierName": "Invalid Tier"
+    },
+    "guestUserPromoEmailOptInStatus": "ALWAYS"
+}

@@ -1,0 +1,206 @@
+{
+    "activityId": "4f380cfb-8856-4a9e-a662-d273d16dc11e",
+    "currencyCode": "GBP",
+    "newTrip": {
+        "itineraryNumber": "71067775687",
+        "tripId": "873916e9-3849-4ed5-b6f4-e0018a84a2ff"
+    },
+    "orderId": "8106601307600",
+    "railDomainProduct": {
+        "railOffer": {
+            "bookingInstructions": {
+                "selectedTicketDeliveryOption": {
+                    "departureStation": true,
+                    "ticketDeliveryDescription": "Collect at Ticket Office",
+                    "ticketDeliveryFee": {
+                        "amount": "0.00",
+                        "currencyCode": "GBP"
+                    },
+                    "ticketDeliveryOptionCategoryCode": "PICK_UP_AT_TICKETING_OFFICE",
+                    "ticketDeliveryOptionToken": "PICK_UP_AT_TICKETING_OFFICE_NONE"
+                }
+            },
+            "passengerList": [
+                {
+                    "age": 26,
+                    "passengerAgeGroup": "ADULT",
+                    "passengerIndex": 1,
+                    "price": {
+                        "amount": "97.10",
+                        "currencyCode": "GBP",
+                        "currencySymbol": "\u00a3",
+                        "formattedPrice": "\u00a397.10",
+                        "formattedWholePrice": "\u00a397",
+                        "fractionalCurrency": 10,
+                        "mainCurrency": 97
+                    },
+                    "primaryTraveler": true
+                }
+            ],
+            "priceBreakdown": [
+                {
+                    "amount": "1",
+                    "currencyCode": "GBP",
+                    "currencySymbol": "\u00a3",
+                    "formattedPrice": "\u00a31.00",
+                    "formattedWholePrice": "\u00a31",
+                    "fractionalCurrency": 0,
+                    "mainCurrency": 1,
+                    "priceCategory": "Expedia Booking Fee",
+                    "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+                },
+                {
+                    "amount": "97.10",
+                    "currencyCode": "GBP",
+                    "currencySymbol": "\u00a3",
+                    "formattedPrice": "\u00a397.10",
+                    "formattedWholePrice": "\u00a397",
+                    "fractionalCurrency": 10,
+                    "mainCurrency": 97,
+                    "priceCategory": "Ticket Price",
+                    "priceCategoryCode": "TICKET"
+                },
+                {
+                    "amount": "0.00",
+                    "currencyCode": "GBP",
+                    "formattedPrice": "\u00a30.00",
+                    "formattedWholePrice": "\u00a30.00",
+                    "fractionalCurrency": 0,
+                    "mainCurrency": 0,
+                    "priceCategory": "Ticket Delivery Charges",
+                    "priceCategoryCode": "TICKET_DELIVERY"
+                },
+                {
+                    "amount": "1.4714999",
+                    "currencyCode": "GBP",
+                    "formattedPrice": "\u00a31.47",
+                    "formattedWholePrice": "\u00a31.00",
+                    "fractionalCurrency": 1281233958,
+                    "mainCurrency": 1,
+                    "priceCategory": "Credit Card fee",
+                    "priceCategoryCode": "CREDIT_CARD_FEE"
+                }
+            ],
+            "railOfferToken": "eNrjYBby5HLkeLRXVIBBQkOhgUlLguPZhJ5nTALPLsxYxgQUytNicww3NDAy1pLiAIsJAOXfMUl0MYJUs_n4GhgYWAixcDAKMEoYAwCKGxWL",
+            "railProductList": [
+                {
+                    "aggregatedCarrierFareClassCategoryName": "Anytime",
+                    "aggregatedCarrierFareClassDisplayName": "anytime single",
+                    "aggregatedCarrierServiceClassDisplayName": "First",
+                    "aggregatedFareDescription": "Travel anytime of day",
+                    "fareBreakdownList": [
+                        {
+                            "farePrice": {
+                                "amount": "97.10",
+                                "currencyCode": "GBP",
+                                "currencySymbol": "\u00a3",
+                                "formattedPrice": "\u00a397.10",
+                                "formattedWholePrice": "\u00a397",
+                                "fractionalCurrency": 10,
+                                "mainCurrency": 97
+                            },
+                            "passengerFareList": [
+                                {
+                                    "passengerIndex": 1,
+                                    "passengerSegmentFareList": [
+                                        {
+                                            "amenityList": [
+                                                {
+                                                    "displayName": "Snack Trolley Service"
+                                                }
+                                            ],
+                                            "carrierFareClassCategoryName": "Anytime",
+                                            "carrierFareClassDisplayName": "anytime single",
+                                            "carrierServiceClassDisplayName": "First",
+                                            "fareDescription": "Travel anytime of day",
+                                            "travelSegmentIndex": 3
+                                        },
+                                        {
+                                            "carrierFareClassCategoryName": "Anytime",
+                                            "carrierFareClassDisplayName": "anytime single",
+                                            "carrierServiceClassDisplayName": "First",
+                                            "fareDescription": "Travel anytime of day",
+                                            "travelSegmentIndex": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fareNotes": [
+                        "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+                        "Travel is allowed via any permitted route."
+                    ],
+                    "legOptionList": [
+                    ],
+                    "openReturn": false,
+                    "refundable": "REFUNDABLE",
+                    "refundableRules": [
+                        "Your ticket is refundable before 30 Sep, 2016 09:30",
+                        "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+                        "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+                    ],
+                    "segmentFareDetailList": [
+                        {
+                            "amenityList": [
+                                {
+                                    "displayName": "Snack Trolley Service"
+                                }
+                            ],
+                            "carrierFareClassCategoryName": "Anytime",
+                            "carrierFareClassDisplayName": "anytime single",
+                            "carrierServiceClassDisplayName": "First",
+                            "fareDescription": "Travel anytime of day",
+                            "travelSegmentIndex": 3
+                        },
+                        {
+                            "carrierFareClassCategoryName": "Anytime",
+                            "carrierFareClassDisplayName": "anytime single",
+                            "carrierServiceClassDisplayName": "First",
+                            "fareDescription": "Travel anytime of day",
+                            "travelSegmentIndex": 4
+                        }
+                    ]
+                }
+            ],
+            "ticketDeliveryOptionList": [
+                {
+                    "departureStation": true,
+                    "ticketDeliveryDescription": "Collect at Ticket Office",
+                    "ticketDeliveryFee": {
+                        "amount": "0.00",
+                        "currencyCode": "GBP"
+                    },
+                    "ticketDeliveryOptionCategoryCode": "PICK_UP_AT_TICKETING_OFFICE",
+                    "ticketDeliveryOptionToken": "PICK_UP_AT_TICKETING_OFFICE_NONE"
+                },
+                {
+                    "departureStation": true,
+                    "ticketDeliveryDescription": "Collect at Ticket Vending Machine",
+                    "ticketDeliveryFee": {
+                        "amount": "0.00",
+                        "currencyCode": "GBP"
+                    },
+                    "ticketDeliveryOptionCategoryCode": "KIOSK",
+                    "ticketDeliveryOptionToken": "KIOSK_NONE"
+                }
+            ],
+            "totalPrice": {
+                "amount": "99.5714983940124574",
+                "currencyCode": "GBP",
+                "currencySymbol": "\u00a3",
+                "formattedPrice": "\u00a399.57",
+                "formattedWholePrice": "\u00a3100.00",
+                "fractionalCurrency": 1671819166,
+                "mainCurrency": 99
+            }
+        }
+    },
+    "totalCharges": "99.57",
+    "totalChargesPrice": {
+        "amount": "99.57",
+        "currencyCode": "GBP",
+        "formattedPrice": "\u00a399.57",
+        "formattedWholePrice": "\u00a3100"
+    }
+}

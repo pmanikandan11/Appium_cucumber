@@ -1,0 +1,129 @@
+POST
+.*?api/cars/trip/create.*
+*
+200
+Content-Type: application/json
+
+{
+	"tripId": "a3494ffe-3afc-45b4-afca-1e46588371d9",
+	"itineraryNumber": 1100758106315,
+	"carProduct": {
+		"pickupTime": {
+			"raw": "2015-03-25T04:30:00-07:00",
+			"localized": "Mar 25, 2015 4:30:00 AM",
+			"epochSeconds": 1427283000,
+			"timeZoneOffsetSeconds": -25200,
+			"localizedShortDate": "Wed, 25 Mar"
+		},
+		"dropOffTime": {
+			"raw": "2015-03-26T05:00:00-07:00",
+			"localized": "Mar 26, 2015 5:00:00 AM",
+			"epochSeconds": 1427371200,
+			"timeZoneOffsetSeconds": -25200,
+			"localizedShortDate": "Thu, 26 Mar"
+		},
+		"productKey": "AQAQAQExg5IAAoADCuvEc47MdHQANQ6AmQAdYumAHfogSgAdsBqAHbAQ",
+		"vendor": {
+			"id": 19,
+			"name": "Fox",
+			"code": "FX",
+			"localPhoneNumber": "1-800-225 4369",
+			"phoneNumber": "1-800-225 4369",
+			"loyaltyProgram": "Fox Frequent Customer Plan"
+		},
+		"creditCardRequiredToGuaranteeReservation": false,
+		"pickUpLocation": {
+			"locationType": "AIRPORT_SHUTTLE_TO_CAR_AND_COUNTER",
+			"locationDescription": "San Francisco (SFO)",
+			"airportInstructions": "Shuttle to counter and car",
+			"latitude": 37.629635,
+			"longitude": -122.401128,
+			"addressLine1": "780 N Mcdonnell Road",
+			"cityName": "San Francisco",
+			"provinceStateName": "CA",
+			"countryCode": "USA",
+			"locationCode": "SFO"
+		},
+		"dropOffLocation": {
+			"locationType": "AIRPORT_SHUTTLE_TO_CAR_AND_COUNTER",
+			"locationDescription": "San Francisco (SFO)",
+			"latitude": 37.629635,
+			"longitude": -122.401128,
+			"addressLine1": "780 N Mcdonnell Road",
+			"cityName": "San Francisco",
+			"provinceStateName": "CA",
+			"countryCode": "USA",
+			"locationCode": "SFO"
+		},
+		"vehicleInfo": {
+			"category": "MINI",
+			"type": "VAN",
+			"fuel": "UNKNOWN",
+			"transmission": "AUTOMATIC_TRANSMISSION",
+			"drive": "TWO_WHEEL_DRIVE",
+			"hasAirConditioning": true,
+			"makes": ["Dodge Grand Caravan"],
+			"minDoors": 4,
+			"maxDoors": 4,
+			"adultCapacity": 7,
+			"childCapacity": 0,
+			"largeLuggageCapacity": 3,
+			"smallLuggageCapacity": 0,
+			"carCategoryDisplayLabel": "Mini Van",
+			"carCategoryDisplayFullLabel": "Mini Van"
+		},
+		"detailedFare": {
+			"priceBreakdownOfTotalDueToday": [],
+			"totalDueToday": {
+				"amount": "0.00",
+				"formattedPrice": "$0.00",
+				"formattedWholePrice": "$0",
+				"currencyCode": "USD"
+			},
+			"priceBreakdownOfTotalDueAtPickup": [{
+				"type": "BASE",
+				"includedInTotal": true,
+				"price": {
+					"amount": "70.98",
+					"formattedPrice": "$70.98",
+					"formattedWholePrice": "$71",
+					"currencyCode": "USD"
+				}
+			}, {
+				"type": "TAXES_AND_FEES",
+				"includedInTotal": true,
+				"price": {
+					"amount": "38.61",
+					"formattedPrice": "$38.61",
+					"formattedWholePrice": "$39",
+					"currencyCode": "USD"
+				}
+			}],
+			"totalDueAtPickup": {
+				"amount": "109.59",
+				"formattedPrice": "$109.59",
+				"formattedWholePrice": "$110",
+				"currencyCode": "USD"
+			},
+			"grandTotal": {
+				"amount": "109.59",
+				"formattedPrice": "$109.59",
+				"formattedWholePrice": "$110",
+				"currencyCode": "USD"
+			}
+		},
+		"rulesAndRestrictionsURL": "http://www.expedia.com/Checkout/CarRulesAndRestrictions?tripid=a3494ffe-3afc-45b4-afca-1e46588371d9",
+		"hasFreeCancellation": true,
+		"hasUnlimitedMileage": true
+	},
+	"activityId": "cars_create_trip_default",
+	"validFormsOfPayment": [{
+		"name": "AmericanExpress"
+	}, {
+		"name": "Diner's Club International"
+	}, {
+		"name": "MasterCard"
+	}, {
+		"name": "Visa"
+	}]
+}

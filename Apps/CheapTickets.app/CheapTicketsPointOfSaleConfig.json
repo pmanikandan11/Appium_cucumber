@@ -1,0 +1,91 @@
+{
+    "US": {
+        "supportPhoneNumber": {
+            "*": "8447192834",
+            "iPhone": "8447102007",
+            "iPad": "8447261481",
+            "Android": "8447192862",
+            "AndroidTablet": "8447620082"
+        },
+        "supportPhoneNumberSilver": {
+            "*": "8447509052",
+            "iPhone": "8447509055",
+            "iPad": "8447509056",
+            "Android": "8447509053",
+            "AndroidTablet": "8447509054"
+        },
+        "supportPhoneNumberRewards": {
+            "*": "8447509052",
+            "iPhone": "8447509055",
+            "iPad": "8447509056",
+            "Android": "8447509053",
+            "AndroidTablet": "8447509054"
+        },
+        "supportPhoneNumberBaseTier": {
+            "*": "8447509052",
+            "iPhone": "8447509055",
+            "iPad": "8447509056",
+            "Android": "8447509053",
+            "AndroidTablet": "8447509054"
+        },
+
+        "TPID": 70301,
+        "flightsEnabled": true,
+        "carsEnabled": true,
+        "lxEnabled": true,
+        "packagesEnabled": true,
+        "pwpEnabled:hotels" : true,
+        "swpEnabled:hotels": true,
+        "earnMessageEnabled:hotels": true,
+        "earnMessageEnabled:flights": true,
+        "earnMessageEnabled:packages": true,
+        "url": "cheaptickets.com",
+        "countryCode": "USA",
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_US",
+                "appInfoURL": "https://www.cheaptickets.com/app",
+                "hotelDescriptionLocaleKey": "en",
+                "appSupportURL": "https://www.cheaptickets.com/service/",
+                "forgotPasswordURL": "https://www.cheaptickets.com/user/forgotpassword",
+                "websiteURL": "https://www.cheaptickets.com/?rfrr=app.iphone",
+                "websiteURL-pad": "https://www.cheaptickets.com/?rfrr=app.tablet",
+                "bestPriceGuaranteePolicyURL": "https://www.cheaptickets.com/guarantee",
+                "hotelBookingStatement": "By completing this booking I agree that I have read and accept the <a href=\"https://www.cheaptickets.com/\">Rules and Restrictions, the Terms and Conditions, and the Privacy Policy</a>.",
+                "hotelBookingStatement-pad": "By completing this booking I agree that I have read and accept the Rules and Restrictions, the Terms and Conditions, and the Privacy Policy.",
+                "flightBookingStatement": "By completing this booking I agree that I have read and accept the <a href=\"https://www.cheaptickets.com/\">Rules and Restrictions, the Terms and Conditions, the Privacy Policy and Fare Information</a>.",
+                "termsAndConditionsLinkText": "Terms and Conditions",
+                "privacyPolicyLinkText": "Privacy Policy",
+                "termsAndConditionsURL": "https://www.cheaptickets.com/terms",
+                "privacyPolicyURL": "https://www.cheaptickets.com/privacy",
+                "createAccountMarketingText" : "Please send me CheapTickets.com emails with travel deals, special offers, and other information.",
+                "loyaltyTermsAndConditionsURL" : "https://www.cheaptickets.com/serviceloyaltyterms",
+                "rewardsInfoURL" : "https://www.cheaptickets.com/mktg/CheapCash"
+            }
+        ],
+        "branding": "CheapTickets",
+        "deepLinkDateFormat": "MM/dd/yyyy",
+        "explicitConsentRequired": false,
+        "pointOfSaleId": 70301,
+        "automaticallyMappedLocales": [
+            "en_US"
+        ],
+        "shouldDisplayAveragePrices": true,
+        "shouldDisplayBestPriceGuarantee": true,
+        "googleWalletEnabled": false,
+        "distanceUnit": "miles",
+        "shouldShowKnownTravelerNumber": true,
+        "requiredPaymentFields:hotels": "postalCode",
+        "requiredPaymentFields:cars": "postalCode",
+        "requiredPaymentFields:lx": "postalCode",
+        "requiresPostalCodeField" : true,
+        "supportsVipAccess": false,
+        "shouldShowRewards": true,
+        "showMultiBrandCreateAccountText": true,
+        "shouldShowFTCResortRegulations": true,
+        "marketingOptIn" : "SHOW_CHECKED",
+        "showInsuranceOnCheckout:flights" : true,
+        "showBundleTotalWhenResortFees" : true,
+        "showPackageFreeUnrealDeal" : true
+    }
+}

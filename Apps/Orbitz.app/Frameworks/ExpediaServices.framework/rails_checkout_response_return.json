@@ -1,0 +1,481 @@
+{
+    "railDomainProduct": {
+        "railOffer": {
+            "totalPrice": {
+                "amount": "64.7062499523162842",
+                "currencyCode": "GBP",
+                "mainCurrency": 64,
+                "fractionalCurrency": 1330508506,
+                "currencySymbol": "£",
+                "formattedPrice": "£64.71",
+                "formattedWholePrice": "£65.00"
+            },
+            "priceBreakdown": [{
+                               "amount": "63.75",
+                               "currencyCode": "GBP",
+                               "mainCurrency": 63,
+                               "fractionalCurrency": 75,
+                               "currencySymbol": "£",
+                               "formattedPrice": "£63.75",
+                               "formattedWholePrice": "£64",
+                               "priceCategory": "Ticket Price",
+                               "priceCategoryCode": "TICKET"
+                               }, {
+                               "amount": "0",
+                               "currencyCode": "GBP",
+                               "mainCurrency": 0,
+                               "fractionalCurrency": 0,
+                               "currencySymbol": "£",
+                               "formattedPrice": "£0.00",
+                               "formattedWholePrice": "£0",
+                               "priceCategory": "Expedia Booking Fee",
+                               "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+                               }, {
+                               "amount": "0.00",
+                               "currencyCode": "GBP",
+                               "mainCurrency": 0,
+                               "fractionalCurrency": 0,
+                               "formattedPrice": "£0.00",
+                               "formattedWholePrice": "£0.00",
+                               "priceCategory": "Ticket Delivery Charges",
+                               "priceCategoryCode": "TICKET_DELIVERY"
+                               }, {
+                               "amount": "0.95624995",
+                               "currencyCode": "GBP",
+                               "mainCurrency": 0,
+                               "fractionalCurrency": -348245286,
+                               "formattedPrice": "£0.96",
+                               "formattedWholePrice": "£1.00",
+                               "priceCategory": "Credit Card fee",
+                               "priceCategoryCode": "CREDIT_CARD_FEE"
+                               }],
+            "railProductList": [{
+                                "aggregatedCarrierServiceClassDisplayName": "Standard",
+                                "aggregatedCarrierFareClassDisplayName": "Advance Single",
+                                "aggregatedFareDescription": "Specified train only",
+                                "aggregatedCarrierFareClassCategoryName": "Advance",
+                                "fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Only valid on booked London Midland services and required connecting London Midland services.", "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."],
+                                "refundable": "NON_REFUNDABLE",
+                                "refundableRules": ["Your ticket is non-refundable."],
+                                "legOptionList": [{
+                                                  "legOptionIndex": 2,
+                                                  "departureStation": {
+                                                  "stationCode": "GB@LO",
+                                                  "stationDisplayName": "London (All Stations)"
+                                                  },
+                                                  "arrivalStation": {
+                                                  "stationCode": "GBNMP",
+                                                  "stationDisplayName": "Northampton"
+                                                  },
+                                                  "departureDateTime": {
+                                                  "raw": "2016-11-23T17:16:00",
+                                                  "epochSeconds": 1479921360,
+                                                  "localized": "23 Nov, 2016 17:16",
+                                                  "localizedShortDate": "Wed, 23 Nov"
+                                                  },
+                                                  "arrivalDateTime": {
+                                                  "raw": "2016-11-23T18:15:00",
+                                                  "epochSeconds": 1479924900,
+                                                  "localized": "23 Nov, 2016 18:15",
+                                                  "localizedShortDate": "Wed, 23 Nov"
+                                                  },
+                                                  "duration": "PT59M",
+                                                  "aggregatedMarketingCarrier": "London Midland",
+                                                  "aggregatedOperatingCarrier": "London Midland",
+                                                  "travelSegmentList": [{
+                                                                        "travelSegmentIndex": 2,
+                                                                        "travelMode": "Train",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBQQU",
+                                                                        "stationDisplayName": "London Euston"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBNMP",
+                                                                        "stationDisplayName": "Northampton"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-23T17:16:00",
+                                                                        "epochSeconds": 1479921360,
+                                                                        "localized": "23 Nov, 2016 17:16",
+                                                                        "localizedShortDate": "Wed, 23 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-23T18:15:00",
+                                                                        "epochSeconds": 1479924900,
+                                                                        "localized": "23 Nov, 2016 18:15",
+                                                                        "localizedShortDate": "Wed, 23 Nov"
+                                                                        },
+                                                                        "marketingCarrier": "London Midland",
+                                                                        "operatingCarrier": "London Midland",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Inter-City",
+                                                                        "travelMediumCode": "ICY",
+                                                                        "supplierTravelMediumId": "LM2569"
+                                                                        },
+                                                                        "duration": "PT59M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 2,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Advance Single",
+                                                                        "carrierFareClassCategoryName": "Advance",
+                                                                        "fareDescription": "Specified train only"
+                                                                        }
+                                                                        }],
+                                                  "noOfChanges": 0,
+                                                  "legBoundOrder": 1,
+                                                  "showTrainIcon": false,
+                                                  "overtakenJourney": false
+                                                  }],
+                                "fareBreakdownList": [{
+                                                      "farePrice": {
+                                                      "amount": "18.00",
+                                                      "currencyCode": "GBP",
+                                                      "mainCurrency": 18,
+                                                      "fractionalCurrency": 0,
+                                                      "currencySymbol": "£",
+                                                      "formattedPrice": "£18.00",
+                                                      "formattedWholePrice": "£18"
+                                                      },
+                                                      "passengerFareList": [{
+                                                                            "passengerIndex": 1,
+                                                                            "passengerSegmentFareList": [{
+                                                                                                         "travelSegmentIndex": 2,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Advance Single",
+                                                                                                         "carrierFareClassCategoryName": "Advance",
+                                                                                                         "fareDescription": "Specified train only"
+                                                                                                         }]
+                                                                            }]
+                                                      }, {
+                                                      "farePrice": {
+                                                      "amount": "9.00",
+                                                      "currencyCode": "GBP",
+                                                      "mainCurrency": 9,
+                                                      "fractionalCurrency": 0,
+                                                      "currencySymbol": "£",
+                                                      "formattedPrice": "£9.00",
+                                                      "formattedWholePrice": "£9"
+                                                      },
+                                                      "passengerFareList": [{
+                                                                            "passengerIndex": 3,
+                                                                            "passengerSegmentFareList": [{
+                                                                                                         "travelSegmentIndex": 2,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Advance Single",
+                                                                                                         "carrierFareClassCategoryName": "Advance",
+                                                                                                         "fareDescription": "Specified train only"
+                                                                                                         }]
+                                                                            }]
+                                                      }, {
+                                                      "farePrice": {
+                                                      "amount": "18.00",
+                                                      "currencyCode": "GBP",
+                                                      "mainCurrency": 18,
+                                                      "fractionalCurrency": 0,
+                                                      "currencySymbol": "£",
+                                                      "formattedPrice": "£18.00",
+                                                      "formattedWholePrice": "£18"
+                                                      },
+                                                      "passengerFareList": [{
+                                                                            "passengerIndex": 2,
+                                                                            "passengerSegmentFareList": [{
+                                                                                                         "travelSegmentIndex": 2,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Advance Single",
+                                                                                                         "carrierFareClassCategoryName": "Advance",
+                                                                                                         "fareDescription": "Specified train only"
+                                                                                                         }]
+                                                                            }]
+                                                      }],
+                                "segmentFareDetailList": [{
+                                                          "travelSegmentIndex": 2,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Advance Single",
+                                                          "carrierFareClassCategoryName": "Advance",
+                                                          "fareDescription": "Specified train only"
+                                                          }],
+                                "openReturn": false
+                                }, {
+                                "aggregatedCarrierServiceClassDisplayName": "Standard",
+                                "aggregatedCarrierFareClassDisplayName": "Advance Single",
+                                "aggregatedFareDescription": "Specified train only",
+                                "aggregatedCarrierFareClassCategoryName": "Advance",
+                                "fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Only valid on booked London Midland services and required connecting London Midland services.", "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."],
+                                "refundable": "NON_REFUNDABLE",
+                                "refundableRules": ["Your ticket is non-refundable."],
+                                "legOptionList": [{
+                                                  "legOptionIndex": 7,
+                                                  "departureStation": {
+                                                  "stationCode": "GBNMP",
+                                                  "stationDisplayName": "Northampton"
+                                                  },
+                                                  "arrivalStation": {
+                                                  "stationCode": "GB@LO",
+                                                  "stationDisplayName": "London (All Stations)"
+                                                  },
+                                                  "departureDateTime": {
+                                                  "raw": "2016-11-24T17:05:00",
+                                                  "epochSeconds": 1480007100,
+                                                  "localized": "24 Nov, 2016 17:05",
+                                                  "localizedShortDate": "Thu, 24 Nov"
+                                                  },
+                                                  "arrivalDateTime": {
+                                                  "raw": "2016-11-24T18:18:00",
+                                                  "epochSeconds": 1480011480,
+                                                  "localized": "24 Nov, 2016 18:18",
+                                                  "localizedShortDate": "Thu, 24 Nov"
+                                                  },
+                                                  "duration": "PT1H13M",
+                                                  "aggregatedMarketingCarrier": "London Midland",
+                                                  "aggregatedOperatingCarrier": "London Midland",
+                                                  "travelSegmentList": [{
+                                                                        "travelSegmentIndex": 8,
+                                                                        "travelMode": "Train",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBNMP",
+                                                                        "stationDisplayName": "Northampton"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBQQU",
+                                                                        "stationDisplayName": "London Euston"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-24T17:05:00",
+                                                                        "epochSeconds": 1480007100,
+                                                                        "localized": "24 Nov, 2016 17:05",
+                                                                        "localizedShortDate": "Thu, 24 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-24T18:18:00",
+                                                                        "epochSeconds": 1480011480,
+                                                                        "localized": "24 Nov, 2016 18:18",
+                                                                        "localizedShortDate": "Thu, 24 Nov"
+                                                                        },
+                                                                        "marketingCarrier": "London Midland",
+                                                                        "operatingCarrier": "London Midland",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Branch-Line/Regional",
+                                                                        "travelMediumCode": "BLR",
+                                                                        "supplierTravelMediumId": "LM2886"
+                                                                        },
+                                                                        "duration": "PT1H13M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 8,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Advance Single",
+                                                                        "carrierFareClassCategoryName": "Advance",
+                                                                        "fareDescription": "Specified train only"
+                                                                        }
+                                                                        }],
+                                                  "noOfChanges": 0,
+                                                  "legBoundOrder": 2,
+                                                  "showTrainIcon": false,
+                                                  "overtakenJourney": false
+                                                  }],
+                                "fareBreakdownList": [{
+                                                      "farePrice": {
+                                                      "amount": "7.50",
+                                                      "currencyCode": "GBP",
+                                                      "mainCurrency": 7,
+                                                      "fractionalCurrency": 50,
+                                                      "currencySymbol": "£",
+                                                      "formattedPrice": "£7.50",
+                                                      "formattedWholePrice": "£8"
+                                                      },
+                                                      "passengerFareList": [{
+                                                                            "passengerIndex": 1,
+                                                                            "passengerSegmentFareList": [{
+                                                                                                         "travelSegmentIndex": 8,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Advance Single",
+                                                                                                         "carrierFareClassCategoryName": "Advance",
+                                                                                                         "fareDescription": "Specified train only"
+                                                                                                         }]
+                                                                            }]
+                                                      }, {
+                                                      "farePrice": {
+                                                      "amount": "3.75",
+                                                      "currencyCode": "GBP",
+                                                      "mainCurrency": 3,
+                                                      "fractionalCurrency": 75,
+                                                      "currencySymbol": "£",
+                                                      "formattedPrice": "£3.75",
+                                                      "formattedWholePrice": "£4"
+                                                      },
+                                                      "passengerFareList": [{
+                                                                            "passengerIndex": 3,
+                                                                            "passengerSegmentFareList": [{
+                                                                                                         "travelSegmentIndex": 8,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Advance Single",
+                                                                                                         "carrierFareClassCategoryName": "Advance",
+                                                                                                         "fareDescription": "Specified train only"
+                                                                                                         }]
+                                                                            }]
+                                                      }, {
+                                                      "farePrice": {
+                                                      "amount": "7.50",
+                                                      "currencyCode": "GBP",
+                                                      "mainCurrency": 7,
+                                                      "fractionalCurrency": 50,
+                                                      "currencySymbol": "£",
+                                                      "formattedPrice": "£7.50",
+                                                      "formattedWholePrice": "£8"
+                                                      },
+                                                      "passengerFareList": [{
+                                                                            "passengerIndex": 2,
+                                                                            "passengerSegmentFareList": [{
+                                                                                                         "travelSegmentIndex": 8,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Advance Single",
+                                                                                                         "carrierFareClassCategoryName": "Advance",
+                                                                                                         "fareDescription": "Specified train only"
+                                                                                                         }]
+                                                                            }]
+                                                      }],
+                                "segmentFareDetailList": [{
+                                                          "travelSegmentIndex": 8,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Advance Single",
+                                                          "carrierFareClassCategoryName": "Advance",
+                                                          "fareDescription": "Specified train only"
+                                                          }],
+                                "openReturn": false
+                                }],
+            "railOfferToken": "eNrjYBbS41LjePZMRoBBgkehiVFLkuPZhJ5lzALPNpz-ywQRYvPxNTI1sxRi4WAQgKhv-wRSz6nQAVYPUikA1gURAqm3sDCDqJfgkTCWMAEAZL4Y4w==",
+            "passengerList": [{
+                              "passengerIndex": 1,
+                              "age": 26,
+                              "primaryTraveler": true,
+                              "passengerAgeGroup": "ADULT",
+                              "price": {
+                              "amount": "25.50",
+                              "currencyCode": "GBP",
+                              "mainCurrency": 25,
+                              "fractionalCurrency": 50,
+                              "currencySymbol": "£",
+                              "formattedPrice": "£25.50",
+                              "formattedWholePrice": "£26"
+                              }
+                              }, {
+                              "passengerIndex": 2,
+                              "age": 26,
+                              "primaryTraveler": false,
+                              "passengerAgeGroup": "ADULT",
+                              "price": {
+                              "amount": "25.50",
+                              "currencyCode": "GBP",
+                              "mainCurrency": 25,
+                              "fractionalCurrency": 50,
+                              "currencySymbol": "£",
+                              "formattedPrice": "£25.50",
+                              "formattedWholePrice": "£26"
+                              }
+                              }, {
+                              "passengerIndex": 3,
+                              "age": 6,
+                              "primaryTraveler": false,
+                              "passengerAgeGroup": "CHILD",
+                              "price": {
+                              "amount": "12.75",
+                              "currencyCode": "GBP",
+                              "mainCurrency": 12,
+                              "fractionalCurrency": 75,
+                              "currencySymbol": "£",
+                              "formattedPrice": "£12.75",
+                              "formattedWholePrice": "£13"
+                              }
+                              }],
+            "ticketDeliveryOptionList": [{
+                                         "ticketDeliveryOptionToken": "SEND_BY_POST_UK",
+                                         "ticketDeliveryOptionCategoryCode": "SEND_BY_POST",
+                                         "ticketDeliveryDescription": "£1.00 - Royal Mail First Class Post Domestic UK",
+                                         "ticketDeliveryFee": {
+                                         "amount": "1.00",
+                                         "currencyCode": "GBP",
+                                         "mainCurrency": 1,
+                                         "fractionalCurrency": 0,
+                                         "currencySymbol": "£",
+                                         "formattedPrice": "£1.00",
+                                         "formattedWholePrice": "£1"
+                                         },
+                                         "ticketDeliveryCountryCodeList": ["GB"],
+                                         "departureStation": false
+                                         }, {
+                                         "ticketDeliveryOptionToken": "SEND_BY_OVERNIGHT_POST_UK",
+                                         "ticketDeliveryOptionCategoryCode": "SEND_BY_OVERNIGHT_POST",
+                                         "ticketDeliveryDescription": "£7.00 - Royal Mail Special Delivery Guaranteed™ by 1pm with £500 Insurance Domestic UK",
+                                         "ticketDeliveryFee": {
+                                         "amount": "7.00",
+                                         "currencyCode": "GBP",
+                                         "mainCurrency": 7,
+                                         "fractionalCurrency": 0,
+                                         "currencySymbol": "£",
+                                         "formattedPrice": "£7.00",
+                                         "formattedWholePrice": "£7"
+                                         },
+                                         "ticketDeliveryCountryCodeList": ["GB"],
+                                         "departureStation": false
+                                         }, {
+                                         "ticketDeliveryOptionToken": "PICK_UP_AT_TICKETING_OFFICE_NONE",
+                                         "ticketDeliveryOptionCategoryCode": "PICK_UP_AT_TICKETING_OFFICE",
+                                         "ticketDeliveryDescription": "Collect at Ticket Office",
+                                         "ticketDeliveryFee": {
+                                         "amount": "0.00",
+                                         "currencyCode": "GBP",
+                                         "mainCurrency": 0,
+                                         "fractionalCurrency": 0,
+                                         "currencySymbol": "£",
+                                         "formattedPrice": "£0.00",
+                                         "formattedWholePrice": "£0"
+                                         },
+                                         "departureStation": true
+                                         }, {
+                                         "ticketDeliveryOptionToken": "KIOSK_NONE",
+                                         "ticketDeliveryOptionCategoryCode": "KIOSK",
+                                         "ticketDeliveryDescription": "Collect at Ticket Vending Machine",
+                                         "ticketDeliveryFee": {
+                                         "amount": "0.00",
+                                         "currencyCode": "GBP",
+                                         "mainCurrency": 0,
+                                         "fractionalCurrency": 0,
+                                         "currencySymbol": "£",
+                                         "formattedPrice": "£0.00",
+                                         "formattedWholePrice": "£0"
+                                         },
+                                         "departureStation": true
+                                         }],
+            "bookingInstructions": {
+                "selectedTicketDeliveryOption": {
+                    "ticketDeliveryOptionToken": "PICK_UP_AT_TICKETING_OFFICE_NONE",
+                    "ticketDeliveryOptionCategoryCode": "PICK_UP_AT_TICKETING_OFFICE",
+                    "ticketDeliveryDescription": "Collect at Ticket Office",
+                    "ticketDeliveryFee": {
+                        "amount": "0.00",
+                        "currencyCode": "GBP",
+                        "mainCurrency": 0,
+                        "fractionalCurrency": 0,
+                        "currencySymbol": "£",
+                        "formattedPrice": "£0.00",
+                        "formattedWholePrice": "£0"
+                    },
+                    "departureStation": true
+                }
+            }
+        }
+    },
+    "newTrip": {
+        "itineraryNumber": "71126404159",
+        "tripId": "ac649949-06d6-4942-bcb1-fcb76a8d5b62"
+    },
+    "orderId": "8088601543813",
+    "currencyCode": "GBP",
+    "totalCharges": "64.71",
+    "totalChargesPrice": {
+        "amount": "64.71",
+        "formattedPrice": "£64.71",
+        "formattedWholePrice": "£65",
+        "currencyCode": "GBP"
+    },
+    "activityId": "a1c96b3b-e271-4fcd-be76-2fccf1323058"
+}

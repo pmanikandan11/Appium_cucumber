@@ -1,0 +1,844 @@
+GET
+.*?/m/api/hotel/offers\?(?=.*?hotelId=1337001.*?)
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+  "hotelTagline": "Award winning resort on the Las Vegas Strip featuring Mystère by Cirque du Solel",
+  "checkInDate": "2014-12-12",
+  "checkOutDate": "2014-12-13",
+  "numberOfRoomsRequested": "1",
+  "numberOfNights": "1",
+  "timeZoneUTCOffsetMinutes": "-480",
+  "shortDescription": "Treasure Island - TI Hotel & Casino is connected to the Fashion Show shopping mall by bridge as well as The Mirage by tram, and within easy walking distance of Wynn/Encore, the Sands Expo, and Venetian/Palazzo.",
+  "hotelRoomResponse": [
+    {
+      "productKey": "hotel-1337001-A",
+      "cancellationPolicy": "<p>We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. TI - Treasure Island Hotel and Casino charges the following cancellation and change fees.</p><p>The room type and rate selected are non-refundable. Should you change or cancel this reservation for any reason, your payment will not be refunded.</p><p>No refunds will be issued for late check-in or early check-out.</p><p>Stay extensions require a new reservation.</p><p>Your room will be guaranteed for late arrival.</p><p>Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate hotels.</p>",
+      "rateDescription": "Strip View Room",
+      "roomTypeDescription": "Strip View Room",
+      "roomLongDescription": " 1 king bed or 2 queen beds   400 sq feet (37 sq meters)   Relax  - In-room massage available  Entertainment  - Free Wi-Fi and wired Internet access, 32-inch LCD TV   Food & Drink  - Refrigerator  Sleep  - Pillowtop bed with premium bedding  Bathroom  - Private bathroom with a deep soaking bathtub  ",
+      "roomThumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_222_d.jpg",
+      "supplierType": "MERCHANT",
+      "rateChange": false,
+      "nonRefundable": false,
+      "hasFreeCancellation": true,
+      "guaranteeRequired": false,
+      "depositRequired": false,
+      "immediateChargeRequired": true,
+      "currentAllotment": "100",
+      "promoDescription": "Sale! Save 35% on this Stay.",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "smokingPreferences": "E",
+      "rateOccupancyPerRoom": "7",
+      "bedTypes": [
+        {
+          "id": "14",
+          "description": "1 king bed"
+        },
+        {
+          "id": "23",
+          "description": "2 queen beds"
+        }
+      ],
+      "rateInfo": {
+        "priceBreakdown": true,
+        "promo": true,
+        "rateChange": false,
+        "chargeableRateInfo": {
+          "maxNightlyRate": "172.22",
+          "averageRate": "172.22",
+          "taxStatusType": "ESTIMATED",
+          "surchargeTotal": "20.66",
+          "surchargeTotalForEntireStay": "20.66",
+          "averageBaseRate": "264.95",
+          "nightlyRateTotal": "172.22",
+          "discountPercent": -35,
+          "total": "192.88",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+          "surcharges": [
+            {
+              "amount": "15.91",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "15.91",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.75",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.75",
+              "type": "FEE_MISC"
+            }
+          ],
+          "surchargesForEntireStay": [
+            {
+              "amount": "15.91",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "15.91",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.75",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.75",
+              "type": "FEE_MISC"
+            }
+          ],
+          "nightlyRatesPerRoom": [
+            {
+              "promo": "true",
+              "baseRate": "264.95",
+              "rate": "172.22"
+            }
+          ],
+          "priceToShowUsers": "172",
+          "strikethroughPriceToShowUsers": "265",
+          "strikethroughPriceWithTaxesAndFeesToShowUsers": "286",
+          "totalMandatoryFees": "28.00",
+          "totalPriceWithMandatoryFees": "192.88",
+          "formattedTotalPriceWithMandatoryFees": "$ 192.88",
+          "userPriceType": "PerNightRateNoTaxes",
+          "priceAdjustments": [],
+          "checkoutPriceType": "total",
+          "airAttached": false,
+          "roomTypeCode": "90628",
+          "ratePlanCode": "203123",
+          "showResortFeeMessage": true,
+          "resortFeeInclusion": false,
+          "dailyMandatoryFee": "28.00"
+        }
+      },
+      "valueAdds": [
+        {
+          "id": "16384",
+          "description": "Free Valet Parking"
+        }
+      ],
+      "quotedOccupancy": "4",
+      "minGuestAge": "0",
+      "roomTypeCode": "90628",
+      "ratePlanCode": "203123",
+      "isPayLater": false
+    },
+     {
+      "productKey": "hotel-1337001-B",
+      "cancellationPolicy": "<p>We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. TI - Treasure Island Hotel and Casino charges the following cancellation and change fees.</p><p>The room type and rate selected are non-refundable. Should you change or cancel this reservation for any reason, your payment will not be refunded.</p><p>No refunds will be issued for late check-in or early check-out.</p><p>Stay extensions require a new reservation.</p><p>Your room will be guaranteed for late arrival.</p><p>Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate hotels.</p>",
+      "rateDescription": "Price Increase",
+      "roomTypeDescription": "Price Increase",
+      "roomLongDescription": " 1 king bed or 2 queen beds   400 sq feet (37 sq meters)   Relax  - In-room massage available  Entertainment  - Free Wi-Fi and wired Internet access, 32-inch LCD TV   Food & Drink  - Refrigerator  Sleep  - Pillowtop bed with premium bedding  Bathroom  - Private bathroom with a deep soaking bathtub  ",
+      "roomThumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_222_d.jpg",
+      "supplierType": "MERCHANT",
+      "rateChange": false,
+      "nonRefundable": false,
+      "hasFreeCancellation": true,
+      "guaranteeRequired": false,
+      "depositRequired": false,
+      "immediateChargeRequired": true,
+      "currentAllotment": "100",
+      "promoDescription": "Sale! Save 35% on this Stay.",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "smokingPreferences": "E",
+      "rateOccupancyPerRoom": "7",
+      "bedTypes": [
+        {
+          "id": "14",
+          "description": "1 king bed"
+        },
+        {
+          "id": "23",
+          "description": "2 queen beds"
+        }
+      ],
+      "rateInfo": {
+        "priceBreakdown": true,
+        "promo": true,
+        "rateChange": false,
+        "chargeableRateInfo": {
+          "maxNightlyRate": "172.22",
+          "averageRate": "172.22",
+          "taxStatusType": "ESTIMATED",
+          "surchargeTotal": "20.66",
+          "surchargeTotalForEntireStay": "20.66",
+          "averageBaseRate": "264.95",
+          "nightlyRateTotal": "172.22",
+          "discountPercent": -35,
+          "total": "192.88",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+          "surcharges": [
+            {
+              "amount": "15.91",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "15.91",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.75",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.75",
+              "type": "FEE_MISC"
+            }
+          ],
+          "surchargesForEntireStay": [
+            {
+              "amount": "15.91",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "15.91",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.75",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.75",
+              "type": "FEE_MISC"
+            }
+          ],
+          "nightlyRatesPerRoom": [
+            {
+              "promo": "true",
+              "baseRate": "264.95",
+              "rate": "172.22"
+            }
+          ],
+          "priceToShowUsers": "172",
+          "strikethroughPriceToShowUsers": "265",
+          "strikethroughPriceWithTaxesAndFeesToShowUsers": "286",
+          "totalMandatoryFees": "28.00",
+          "totalPriceWithMandatoryFees": "192.88",
+          "formattedTotalPriceWithMandatoryFees": "$ 192.88",
+          "userPriceType": "PerNightRateNoTaxes",
+          "priceAdjustments": [],
+          "checkoutPriceType": "total",
+          "airAttached": false,
+          "roomTypeCode": "90628",
+          "ratePlanCode": "203123",
+          "showResortFeeMessage": true,
+          "resortFeeInclusion": false,
+          "dailyMandatoryFee": "28.00"
+        }
+      },
+      "valueAdds": [
+        {
+          "id": "16384",
+          "description": "Free Valet Parking"
+        }
+      ],
+      "quotedOccupancy": "4",
+      "minGuestAge": "0",
+      "roomTypeCode": "90628",
+      "ratePlanCode": "203123",
+      "isPayLater": false
+    }
+  ],
+  "signedMapUrl": "https://maps.googleapis.com/maps/api/staticmap?client=gme-expedia&center=36.123377,-115.170818&maptype=mobile&zoom=16&size=480x400&sensor=false&hl=false&signature=Ar08SDQkIpe7pD5EySM7Kdmnp5Q",
+  "airAttachExpirationTimeSeconds": "0",
+  "hotelId": "1337001",
+  "hotelName": "Resort Fee - US",
+  "localizedHotelName": "Resort Fee - US",
+  "nonLocalizedHotelName": "Resort Fee - US",
+  "hotelAddress": "3300 Las Vegas Blvd S",
+  "hotelCity": "Las Vegas",
+  "hotelStateProvince": "NV",
+  "hotelCountry": "USA",
+  "latitude": "36.123377",
+  "longitude": "-115.170818",
+  "longDescription": "<p><strong>On the Las Vegas Strip:</strong> Treasure Island - TI Hotel & Casino is connected to the Fashion Show shopping mall by bridge as well as The Mirage by tram, and within easy walking distance of Wynn/Encore, the Sands Expo, and Venetian/Palazzo.</p><p><strong>Variety of Action:</strong> TI Las Vegas features a tropical outdoor pool, award winning spa, a wide variety of dining, bars and lounges as well as romantic wedding chapel, headliner comedians, and the salient Mystère by Cirque du Soleil.</p><p><strong>Rooms with a Vegas view:</strong> Accommodations at the TI feature floor-to-ceiling windows with views of the Las Vegas Strip and surrounding mountains. Pillow-top bedding is draped with canopies, and marble floor bathrooms with spa amenities.</p><p><strong>Rooms</strong><br>The Treasure Island Hotel and Casino's accommodations have views of Sirens' Cove, the Las Vegas Strip, or the Spring Mountain ranges surrounding the Las Vegas valley. Each room features floor-to-ceiling windows and draped canopies over beds with reading lights. Lamps illuminate modern decor, and other decorative elements include crown moldings and plush fabrics. The hotel's custom Elite Sensational pillow-top beds are designed for ultimate comfort and relaxation. Well designed room layout also features a lounge seating area along with a roomy desk and handsome armoire framing the LCD TV. Large bathrooms features marble floors and counter-tops, dark wood paneling, lighted makeup mirror as well as shower and bath amenity products from the hotel's Oleksandra Spa and Salon. Additional amenities include hair dryers, iron, ironing boards, in-room safes large enough to accommodate a computer laptop or tablet, and small refrigerators. High-speed Internet access is included with the hotel's resort fee, and TV pay movies (surcharge) are available. All suites have two separate marble bathrooms: one with a shower, the other with a jetted whirlpool tub. Ice and vending machines are located on each floor, and some connecting rooms may be available upon request at check-in. 24 hour room service will ensure your requests are accommodated at any time.</p><p><strong>Dining</strong><br>Phil's Italian Steak House - Named after hotel owner Phill Ruffin, this fine dining experience features prime cuts of steak, succulent seafood, and a nice selection of Italian cuisine and wines for dinner each evening.Seafood Shack - Features market fresh catches of the day, huge shrimp, steamed clams, oysters in the shell, giant lobster tails, clam bakes for two as well as seafood salads and pastas, sourdough bowl chowder, fried calamari, and an extensive cocktail and wine list.Señor Frog’s - Famous for their fun \"butt\" stools and crazy signs that decorate even the ceilings, Señor Frog’s serves up yard long margaritas as well as a huge Mexican menu, and celebrates spring break the entire year. Open 11am daily until the last margarita is served after Midnight.Kahunaville - Tropical ambience, tiki decor, poolside terrace. Casual dining, eclectic menu, tropical drinks. Dancing servers and nightly DJs. Open for breakfast, lunch and dinner with extended party hours on weekends.Pizzeria Francesco's - Quick-serve pizza slices and pies, calzones, and salads.  Open 11am to Midnight daily near the TI shopping promenade across from the Mystere Theatre.Little Richie's Chicago Style Beef & Dogs - Traditional deli sandwiches, gourmet hot dogs, soups, desserts. Open from late morning to late evening, extended hours on weekends.The Buffet at TI - Includes regional American barbecue, Asian cuisine, fresh sushi, wood-fired pizzas, bakery goods. Breakfast, lunch, and dinner buffets, weekend champagne brunch. Open 7am to 10pm daily.The Coffee Shop - Casual dining with views of the casino and pool areas. Traditional comfort food, eclectic fare. Open 24 hours, and serving breakfast, lunch or dinner at any time during the day or night.Pho is the only Vietnamese restaurant on the Las Veags Strip. Located adjacent to The Coffee Shop, the restaurant specializes in Vietnamese noodle soups, other traditional specialties. Open Friday–Sunday, late morning to late evening.Breeze Bar - In the heart of the casino, open 24 hours with lounge and bar stool video poker seating.Poolside Bar - Food and beverage service by Kahunaville. Seasonal hours.Starbucks - Open from early morning to late evening near the Mystere Theatre, and now open 24 hours at the Las Vegas Strip entrance.Ben & Jerry's - Open from late morning to late evening featuring gourmet ice cream.Room service is available 24 hours.</p><p><strong>Fees</strong><br><ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>    <li>Fee for high-speed Internet (wired) in public areas: USD 1 per minute (rates may vary)</li>           <li>Deposit: USD 100 per night</li>     <li>Crib (infant bed) fee: USD 30 per night</li><li>Rollaway bed fee: USD 30 per night</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul></p><p><strong>Location Highlights</strong><br><ul><li>Connected to shopping center</li><li>On the Strip</li><li>In shopping district</li><li>In city center</li><li>Airport nearby</li><li>Metro station nearby</li><li>Theme park(s) nearby</li><li>Boardwalk nearby</li><li>In entertainment district</li></ul></p><p><strong>Spa</strong><br>The Oleksandra \"O\" Spa and Salon offers treatments such as a therapeutic massage (aromatherapy, paraffin for the feet, and a warm scalp massage) and a signature body wrap (warm sea-water gel wrap with ylang-ylang, sandalwood, sage, and basil). Surcharges for all spa treatments, and spa reservations are required. The spa also houses a fitness center, sauna, and steam rooms (surcharges).<ul><li>Hot stone massage</li><li>Deep tissue massage</li><li>Swedish massage</li><li>Prenatal massage</li><li>Steam room in spa</li><li>Thai massage</li><li>Sports massage</li><li>Detoxification wrap</li><li>Massages</li><li>Number of treatment rooms 5</li><li>Manicures and pedicures</li><li>Body wraps</li><li>Body scrubs</li><li>Aromatherapy treatments</li><li>Hydrotherapy treatments</li><li>Sauna in spa</li><li>Spa tub in spa</li><li>Body treatments</li><li>Facial treatments</li></ul></p><p><strong>Property Amenities</strong><br>TI - Treasure Island Hotel and Casino is home to the multi-award winning Cirque du Soleil Mystère stage show and headliner comedians as well as a treasure trove of fun bars, lounges, and restaurants.Relaxation options feature a world-class spa and tropical outdoor pool.  The heated outdoor pool with 25-person whirlpool tub and poolside cabanas (surcharge) with flat-screen TVs and chaise lounges. Cabana hosts are available for poolside food and beverage service, and an on-site pool store offers sunbathing essentials.  The hotel's Oleksandra Spa and Salon was designed by former Miss Ukraine Universe. Various head, body, and foot treatments are available including Swedish, Therapeutic, and Hot Stone Massage, and fitness facilities (included with hotel's resort fee) feature modern equipment, free weights and cardio machines.Shopping enthusiasts will find designer footwear and fashions, accessories, jewelry and logo items in several boutique stores at the property as well as over 200 shops and major department stores at Fashion Show mall, connected to the hotel by a pedestrian bridge.TI guests also experience culinary diversity found at the hotel owner's namesake Phil's Itailan Steak House, Seafood Shack, Señor Frog’s, Gilley's Bar-B-Que, Pizzeria Francesco’s, and Kahunaville Tropical Restaurant.  Additional dining options include the award winning Buffet at TI, twenty-four hours of service at The Coffee Shop, Pho featuring the only Vietnamese cuisine on the Strip, Little Richie's Chicago Style Beef & Dogs Deli, two Starbucks Cafés as well as Ben & Jerry’s Ice Cream.Nightlife at TI features the urban cowboy Gilley's Saloon & Dance Hall, world champion flair bartenders at Kahunaville, shot girls and live music at Señor Frog’s, happy hour at the Seafood Shack bar, the always open Breeze Bar, and the TI Casino featuring over 90,000 sq. ft. of live gaming including the Race & Sports Book and TI Poker Room.The Wedding Chapels at TI are elegantly designed in champagne tones, with stately marble altars and elaborate floral arrangements providing the ideal setting for any type of romantic ceremony (surcharge).The hotel's resort fee includes high-speed Internet access in the guest rooms. Internet in the public areas (free or surcharge for higher speed) is available throughout the public areas. Both self and valet parking are complimentary (gratuity not included).<ul><li>24-hour front desk</li><li>Total number of rooms - 2,884</li><li>Number of floors - 36</li><li>ATM/banking</li><li>Number of bars/lounges - 7</li><li>Breakfast available (surcharge)</li><li>Business center</li><li>Casino</li><li>Number of coffee shops/cafes - 3</li><li>Complimentary newspapers in lobby</li><li>Concierge services</li><li>Conference space</li><li>Dry cleaning/laundry service</li><li>Elevator/lift</li><li>Express check-out</li><li>Fitness facilities</li><li>Full-service spa</li><li>Gift shops or newsstand</li><li>Hair salon</li><li>Wired (high-speed) Internet access - surcharge</li><li>Designated smoking areas</li><li>Tours/ticket assistance</li><li>Designated smoking areas (fines apply)</li><li>Computer station</li><li>Limo or Town Car service available</li><li>Spa treatment room(s)</li><li>Meeting rooms</li><li>Multilingual staff</li><li>Nightclub</li><li>Free valet parking</li><li>Poolside bar</li><li>Porter/bellhop</li><li>Luggage storage</li><li>Pool cabanas (surcharge)</li><li>Pool sun loungers</li><li>Free self parking</li><li>Conference center</li><li>Snack bar/deli</li><li>Conference space size (meters) - 1672</li><li>Number of meeting rooms - 8</li><li>Year Built 1993</li><li>Number of restaurants - 10</li><li>Conference space size (feet) - 18000</li><li>Sauna</li><li>Shopping on site</li><li>Number of buildings/towers - 1</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Outdoor pool</li><li>Outdoor seasonal pool</li><li>Wedding services</li></ul></p><p><strong>Room Amenities</strong><br><ul><li>Premium TV channels</li><li>Pay movies</li><li>Premium bedding</li><li>Climate control</li><li>Complimentary weekday newspaper</li><li>Blackout drapes/curtains</li><li>Air conditioning</li><li>Phone</li><li>Free local calls</li><li>Refrigerator</li><li>Daily housekeeping</li><li>Private bathroom</li><li>Designer toiletries</li><li>Shower/tub combination</li><li>In-room massage available</li><li>Complimentary toiletries</li><li>Hair dryer</li><li>Deep soaking bathtub</li><li>Iron/ironing board</li><li>Desk</li><li>Rollaway/extra beds available</li><li>Digital TV service</li><li>Free Wi-Fi</li><li>Free wired high-speed Internet</li><li>In-room safe (laptop compatible)</li><li>Room service (24 hours)</li><li>Pillowtop mattress</li><li>LCD TV</li><li>Connecting/adjoining rooms available</li><li>Cribs/infant beds (surcharge)</li></ul></p><p><strong>Recreation</strong><br>An outdoor pool, 25-person spa tub, and rental cabanas with TVs and phones are available on site.Skydiving and helicopter tours are popular with Las Vegas visitors. Numerous golf courses are available in the Las Vegas area, and hotel guests can use the Bear's Best golf club (surcharge).The recreational activities listed below are available either on site or near the hotel; fees may apply.<ul><li>Golfing nearby</li><li>Scooter/moped rentals nearby</li><li>Segway rental/tour nearby</li><li>Ziplining nearby</li></ul></p><p><strong>Points of Interest</strong><br><ul><li>Fashion Show Mall - 0.5 km / 0.3 mi</li><li>Sands Expo Convention Center - 0.6 km / 0.4 mi</li><li>The Auto Collections - 0.6 km / 0.4 mi</li><li>High Roller - 0.6 km / 0.4 mi</li><li>The Linq - 0.7 km / 0.4 mi</li><li>Crystals at City Center - 1.7 km / 1 mi</li><li>Las Vegas Convention Center - 1.9 km / 1.2 mi</li><li>National Atomic Testing Museum - 2.2 km / 1.4 mi</li><li>Desert Research Institute - 2.3 km / 1.4 mi</li><li>Las Vegas Country Club - 2.4 km / 1.5 mi</li><li>Boulevard Mall - 3 km / 1.9 mi</li><li>University of Nevada-Las Vegas - 3.1 km / 1.9 mi</li><li>Thomas and Mack Center - 3.1 km / 2 mi</li><li>Marjorie Barrick Museum - 3.2 km / 2 mi</li><li>Clark County Library - 3.3 km / 2.1 mi</li></ul>The preferred airport for TI - Treasure Island Hotel and Casino is Las Vegas, NV (LAS-McCarran Intl.) - 4.6 km / 2.9 mi. Distances are calculated in a straight line from the property's location to the point of interest or airport and may not reflect actual travel distance.  Distances are displayed to the nearest 0.1 mile and kilometer. </p><p><strong>Policies</strong><br><ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card or cash deposit are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.  <ul><li>The name on the credit card used at check-in to pay for incidentals must be the primary name on the guestroom reservation. </li></ul></li><li>Pets not allowed</li><li>Check-out time is 11 AM</li><li>Check-in time starts at 3 PM</li><li>Only service dogs are allowed</li><li>Minimum check-in age is 21</li><li>24-hour check-in</li><li>Parking height restrictions apply</li><li>American Express</li><li>Carte Blanche</li><li>Diners Club</li><li>Discover</li><li>JCB International</li><li>MasterCard</li><li>Visa</li></ul></p>",
+  "photos": [
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_193_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_193_t.jpg",
+      "featured": true,
+      "displayText": "Featured Image"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_194_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_194_t.jpg",
+      "displayText": "Reception"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_96_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_96_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_210_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_210_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_211_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_211_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_213_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_213_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_214_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_214_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_219_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_219_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_220_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_220_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_232_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_232_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_221_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_221_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_222_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_222_t.jpg",
+      "displayText": "Guestroom View"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_217_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_217_t.jpg",
+      "displayText": "Bathroom"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_216_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_216_t.jpg",
+      "displayText": "Bathroom Sink"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_227_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_227_t.jpg",
+      "displayText": "Bathroom Sink"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_197_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_197_t.jpg",
+      "displayText": "Outdoor Pool"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_224_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_224_t.jpg",
+      "displayText": "Outdoor Pool"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_200_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_200_t.jpg",
+      "displayText": "Outdoor Spa Tub"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_188_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_188_t.jpg",
+      "displayText": "Spa"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_203_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_203_t.jpg",
+      "displayText": "Casino"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_233_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_233_t.jpg",
+      "displayText": "Casino"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_234_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_234_t.jpg",
+      "displayText": "Theater Show"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_235_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_235_t.jpg",
+      "displayText": "Theater Show"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_236_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_236_t.jpg",
+      "displayText": "Theater Show"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_237_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_237_t.jpg",
+      "displayText": "Theater Show"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_238_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_238_t.jpg",
+      "displayText": "Theater Show"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_239_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_239_t.jpg",
+      "displayText": "Theater Show"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_240_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_240_t.jpg",
+      "displayText": "Theater Show"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_196_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_196_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_201_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_201_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_202_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_202_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_205_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_205_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_212_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_212_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_228_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_228_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_230_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_230_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_231_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_231_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_190_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_190_t.jpg",
+      "displayText": "Buffet"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_191_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_191_t.jpg",
+      "displayText": "Buffet"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_192_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_192_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_198_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_198_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_199_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_199_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_204_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_204_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_209_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_209_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_229_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_229_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_215_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_215_t.jpg",
+      "displayText": "Hotel Interior"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_195_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_195_t.jpg",
+      "displayText": "Indoor Wedding"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_223_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_223_t.jpg",
+      "displayText": "Hotel Front"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_226_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_226_t.jpg",
+      "displayText": "Hotel Entrance"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_207_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_207_t.jpg",
+      "displayText": "Outdoor Dining"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_208_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_208_t.jpg",
+      "displayText": "Outdoor Dining"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_189_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_189_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_206_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_206_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/20000/16000/15930/15930_218_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_218_t.jpg",
+      "displayText": "Restaurant"
+    }
+  ],
+  "hotelAmenities": [
+    {
+      "id": "2063",
+      "description": "24-hour front desk"
+    },
+    {
+      "id": "52",
+      "description": "Total number of rooms - 2,884"
+    },
+    {
+      "id": "54",
+      "description": "Number of floors - 36"
+    },
+    {
+      "id": "41",
+      "description": "ATM/banking"
+    },
+    {
+      "id": "3913",
+      "description": "Number of bars/lounges - 7"
+    },
+    {
+      "id": "361",
+      "description": "Breakfast available (surcharge)"
+    },
+    {
+      "id": "2065",
+      "description": "Business center"
+    },
+    {
+      "id": "2112",
+      "description": "Casino"
+    },
+    {
+      "id": "3929",
+      "description": "Number of coffee shops/cafes - 3"
+    },
+    {
+      "id": "2047",
+      "description": "Complimentary newspapers in lobby"
+    },
+    {
+      "id": "43",
+      "description": "Concierge services"
+    },
+    {
+      "id": "81",
+      "description": "Conference space"
+    },
+    {
+      "id": "2070",
+      "description": "Dry cleaning/laundry service"
+    },
+    {
+      "id": "8",
+      "description": "Elevator/lift"
+    },
+    {
+      "id": "2067",
+      "description": "Express check-out"
+    },
+    {
+      "id": "9",
+      "description": "Fitness facilities"
+    },
+    {
+      "id": "2123",
+      "description": "Full-service spa"
+    },
+    {
+      "id": "44",
+      "description": "Gift shops or newsstand"
+    },
+    {
+      "id": "40",
+      "description": "Hair salon"
+    },
+    {
+      "id": "2393",
+      "description": "Wired (high-speed) Internet access - surcharge"
+    },
+    {
+      "id": "2349",
+      "description": "Designated smoking areas"
+    },
+    {
+      "id": "2387",
+      "description": "Tours/ticket assistance"
+    },
+    {
+      "id": "3269",
+      "description": "Designated smoking areas (fines apply)"
+    },
+    {
+      "id": "3865",
+      "description": "Computer station"
+    },
+    {
+      "id": "2072",
+      "description": "Limo or Town Car service available"
+    },
+    {
+      "id": "2129",
+      "description": "Spa treatment room(s)"
+    },
+    {
+      "id": "2131",
+      "description": "Meeting rooms"
+    },
+    {
+      "id": "2043",
+      "description": "Multilingual staff"
+    },
+    {
+      "id": "2010",
+      "description": "Nightclub"
+    },
+    {
+      "id": "3863",
+      "description": "Free valet parking"
+    },
+    {
+      "id": "400",
+      "description": "Poolside bar"
+    },
+    {
+      "id": "2066",
+      "description": "Porter/bellhop"
+    },
+    {
+      "id": "4003",
+      "description": "Luggage storage"
+    },
+    {
+      "id": "4435",
+      "description": "Pool cabanas (surcharge)"
+    },
+    {
+      "id": "4438",
+      "description": "Pool sun loungers"
+    },
+    {
+      "id": "3861",
+      "description": "Free self parking"
+    },
+    {
+      "id": "3372",
+      "description": "Conference center"
+    },
+    {
+      "id": "3500",
+      "description": "Snack bar/deli"
+    },
+    {
+      "id": "2592",
+      "description": "Conference space size (meters) - 1672"
+    },
+    {
+      "id": "2593",
+      "description": "Number of meeting rooms - 8"
+    },
+    {
+      "id": "2515",
+      "description": "Year Built 1993"
+    },
+    {
+      "id": "2537",
+      "description": "Number of restaurants - 10"
+    },
+    {
+      "id": "2539",
+      "description": "Conference space size (feet) - 18000"
+    },
+    {
+      "id": "2135",
+      "description": "Sauna"
+    },
+    {
+      "id": "45",
+      "description": "Shopping on site"
+    },
+    {
+      "id": "55",
+      "description": "Number of buildings/towers - 1"
+    },
+    {
+      "id": "2017",
+      "description": "Spa services on site"
+    },
+    {
+      "id": "371",
+      "description": "Spa tub"
+    },
+    {
+      "id": "2134",
+      "description": "Steam room"
+    },
+    {
+      "id": "24",
+      "description": "Outdoor pool"
+    },
+    {
+      "id": "2138",
+      "description": "Outdoor seasonal pool"
+    },
+    {
+      "id": "2167",
+      "description": "Wedding services"
+    }
+  ],
+  "hotelStarRating": "4.0",
+  "hotelStarRatingCssClassName": "4-0",
+  "hotelGuestRating": "4.1",
+  "totalRecommendations": "19273",
+  "totalReviews": "21632",
+  "percentRecommended": "89",
+  "telesalesNumber": "1-800-914-5738",
+  "deskTopOverrideNumber": false,
+  "hotelMandatoryFeesText": {
+    "name": "Mandatory Fees and Taxes",
+    "content": "<ul><li>You’ll be asked to pay the following charges at the hotel:<ul><li>Resort fee: USD 28 per accommodation, per night</li></ul></li><li>The hotel resort fee includes:<ul><li>Fitness center access</li><li>Internet access</li><li>Newspaper</li><li>Phone calls</li><li>Faxes</li><li>Additional inclusions</li></ul></li><li>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book.</li></ul>"
+  },
+  "hotelOverviewText": [
+    {
+      "name": "On the Las Vegas Strip",
+      "content": "Treasure Island - TI Hotel & Casino is connected to the Fashion Show shopping mall by bridge as well as The Mirage by tram, and within easy walking distance of Wynn/Encore, the Sands Expo, and Venetian/Palazzo."
+    },
+    {
+      "name": "Variety of Action",
+      "content": "TI Las Vegas features a tropical outdoor pool, award winning spa, a wide variety of dining, bars and lounges as well as romantic wedding chapel, headliner comedians, and the salient Mystère by Cirque du Soleil."
+    },
+    {
+      "name": "Rooms with a Vegas view",
+      "content": "Accommodations at the TI feature floor-to-ceiling windows with views of the Las Vegas Strip and surrounding mountains. Pillow-top bedding is draped with canopies, and marble floor bathrooms with spa amenities."
+    }
+  ],
+  "firstHotelOverview": "Treasure Island - TI Hotel & Casino is connected to the Fashion Show shopping mall by bridge as well as The Mirage by tram, and within easy walking distance of Wynn/Encore, the Sands Expo, and Venetian/Palazzo.",
+  "hotelAmenitiesText": {
+    "name": "Property Amenities",
+    "content": "<p>TI - Treasure Island Hotel and Casino is home to the multi-award winning Cirque du Soleil Mystère stage show and headliner comedians as well as a treasure trove of fun bars, lounges, and restaurants.</p><p>Relaxation options feature a world-class spa and tropical outdoor pool.  The heated outdoor pool with 25-person whirlpool tub and poolside cabanas (surcharge) with flat-screen TVs and chaise lounges. Cabana hosts are available for poolside food and beverage service, and an on-site pool store offers sunbathing essentials.  The hotel's Oleksandra Spa and Salon was designed by former Miss Ukraine Universe. Various head, body, and foot treatments are available including Swedish, Therapeutic, and Hot Stone Massage, and fitness facilities (included with hotel's resort fee) feature modern equipment, free weights and cardio machines.</p><p>Shopping enthusiasts will find designer footwear and fashions, accessories, jewelry and logo items in several boutique stores at the property as well as over 200 shops and major department stores at Fashion Show mall, connected to the hotel by a pedestrian bridge.</p><p>TI guests also experience culinary diversity found at the hotel owner's namesake Phil's Itailan Steak House, Seafood Shack, Señor Frog’s, Gilley's Bar-B-Que, Pizzeria Francesco’s, and Kahunaville Tropical Restaurant.  Additional dining options include the award winning Buffet at TI, twenty-four hours of service at The Coffee Shop, Pho featuring the only Vietnamese cuisine on the Strip, Little Richie's Chicago Style Beef & Dogs Deli, two Starbucks Cafés as well as Ben & Jerry’s Ice Cream.</p><p>Nightlife at TI features the urban cowboy Gilley's Saloon & Dance Hall, world champion flair bartenders at Kahunaville, shot girls and live music at Señor Frog’s, happy hour at the Seafood Shack bar, the always open Breeze Bar, and the TI Casino featuring over 90,000 sq. ft. of live gaming including the Race & Sports Book and TI Poker Room.</p><p>The Wedding Chapels at TI are elegantly designed in champagne tones, with stately marble altars and elaborate floral arrangements providing the ideal setting for any type of romantic ceremony (surcharge).</p><p>The hotel's resort fee includes high-speed Internet access in the guest rooms. Internet in the public areas (free or surcharge for higher speed) is available throughout the public areas. Both self and valet parking are complimentary (gratuity not included).</p><ul><li>24-hour front desk</li><li>Total number of rooms - 2,884</li><li>Number of floors - 36</li><li>ATM/banking</li><li>Number of bars/lounges - 7</li><li>Breakfast available (surcharge)</li><li>Business center</li><li>Casino</li><li>Number of coffee shops/cafes - 3</li><li>Complimentary newspapers in lobby</li><li>Concierge services</li><li>Conference space</li><li>Dry cleaning/laundry service</li><li>Elevator/lift</li><li>Express check-out</li><li>Fitness facilities</li><li>Full-service spa</li><li>Gift shops or newsstand</li><li>Hair salon</li><li>Wired (high-speed) Internet access - surcharge</li><li>Designated smoking areas</li><li>Tours/ticket assistance</li><li>Designated smoking areas (fines apply)</li><li>Computer station</li><li>Limo or Town Car service available</li><li>Spa treatment room(s)</li><li>Meeting rooms</li><li>Multilingual staff</li><li>Nightclub</li><li>Free valet parking</li><li>Poolside bar</li><li>Porter/bellhop</li><li>Luggage storage</li><li>Pool cabanas (surcharge)</li><li>Pool sun loungers</li><li>Free self parking</li><li>Conference center</li><li>Snack bar/deli</li><li>Conference space size (meters) - 1672</li><li>Number of meeting rooms - 8</li><li>Year Built 1993</li><li>Number of restaurants - 10</li><li>Conference space size (feet) - 18000</li><li>Sauna</li><li>Shopping on site</li><li>Number of buildings/towers - 1</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Outdoor pool</li><li>Outdoor seasonal pool</li><li>Wedding services</li></ul>"
+  },
+  "hotelPoliciesText": {
+    "name": "Policies",
+    "content": "<ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card or cash deposit are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.  <ul><li>The name on the credit card used at check-in to pay for incidentals must be the primary name on the guestroom reservation. </li></ul></li><li>Pets not allowed</li><li>Check-out time is 11 AM</li><li>Check-in time starts at 3 PM</li><li>Only service dogs are allowed</li><li>Minimum check-in age is 21</li><li>24-hour check-in</li><li>Parking height restrictions apply</li><li>American Express</li><li>Carte Blanche</li><li>Diners Club</li><li>Discover</li><li>JCB International</li><li>MasterCard</li><li>Visa</li></ul>"
+  },
+  "hotelFeesText": {
+    "name": "Fees",
+    "content": "<ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>    <li>Fee for high-speed Internet (wired) in public areas: USD 1 per minute (rates may vary)</li>           <li>Deposit: USD 100 per night</li>     <li>Crib (infant bed) fee: USD 30 per night</li><li>Rollaway bed fee: USD 30 per night</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul>"
+  },
+  "isVipAccess": true,
+  "locationDescription": "US Resort Fee Test",
+  "locationId": "800045",
+  "regions": [
+    {
+      "id": 201,
+      "type": "COUNTRY",
+      "name": "United States of America",
+      "description": "",
+      "latitude": 45.69547838565718,
+      "longitude": -112.49355035565124
+    },
+    {
+      "id": 230,
+      "type": "PROVINCESTATE",
+      "name": "Nevada",
+      "description": "",
+      "latitude": 38.8873518924009,
+      "longitude": -116.501386808636
+    },
+    {
+      "id": 2008,
+      "type": "CITY",
+      "name": "Las Vegas",
+      "description": "",
+      "latitude": 36.114666,
+      "longitude": -115.172872
+    },
+    {
+      "id": 143393,
+      "type": "CITY",
+      "name": "Paradise",
+      "description": "",
+      "latitude": 36.0830097215948,
+      "longitude": -115.136317084765
+    },
+    {
+      "id": 178276,
+      "type": "MULTICITYVICINITY",
+      "name": "Las Vegas (and vicinity)",
+      "description": "",
+      "latitude": 36.079842173187,
+      "longitude": -115.29000609445
+    },
+    {
+      "id": 800045,
+      "type": "NEIGHBORHOOD",
+      "name": "The Strip (Las Vegas)",
+      "description": "",
+      "latitude": 36.1092917148487,
+      "longitude": -115.16957177055
+    },
+    {
+      "id": 6054173,
+      "type": "MULTIREGIONWITHINACOUNTRY",
+      "name": "Clark County - Las Vegas",
+      "description": "",
+      "latitude": 36.1214731504619,
+      "longitude": -114.882852817552
+    }
+  ]
+}

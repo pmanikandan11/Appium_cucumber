@@ -1,0 +1,419 @@
+GET
+.*?/api/trips/(71217925912|c65fb5fb-489a-4fa8-a007-715b946d3b04).*
+*
+200
+Content-Type: application/json
+
+{
+    "apiVersion": "1.0",
+    "responseType": "TRIP_DETAILS",
+    "responseData": {
+        "levelOfDetail": "FULL",
+        "tripId": "c65fb5fb-489a-4fa8-a007-715b946d3b04",
+        "webDetailsURL": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/trips/71217925912?email=jeskandarian@expedia.com",
+        "tripNumber": 71217925912,
+        "orderNumber": 8066893350319,
+        "title": "Changeable/Upgradeable Hongdae Olive Guesthouse, Seoul",
+        "updateTripNameDescPathURL": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/api/trips/c65fb5fb-489a-4fa8-a007-715b946d3b04/updateTripNameDescription",
+        "startTime": {
+            "raw": "2017-02-12T15:00:00+09:00",
+            "localized": "Feb 12, 2017 3:00:00 PM",
+            "epochSeconds": 1486879200,
+            "timeZoneOffsetSeconds": 32400,
+            "localizedShortDate": "2/12/2017",
+            "localizedMediumDate": "Feb 12",
+            "localizedFullDate": "Sun, Feb 12",
+            "localizedLongDate": "Feb 12, 2017",
+            "localizedShortTime": "3:00PM"
+        },
+        "endTime": {
+            "raw": "2017-02-13T11:00:00+09:00",
+            "localized": "Feb 13, 2017 11:00:00 AM",
+            "epochSeconds": 1486951200,
+            "timeZoneOffsetSeconds": 32400,
+            "localizedShortDate": "2/13/2017",
+            "localizedMediumDate": "Feb 13",
+            "localizedFullDate": "Mon, Feb 13",
+            "localizedLongDate": "Feb 13, 2017",
+            "localizedShortTime": "11:00AM"
+        },
+        "tripCreatedTime": {
+            "raw": "2017-01-30T23:51:59Z",
+            "localized": "Jan 30, 2017 11:51:59 PM",
+            "epochSeconds": 1485820319,
+            "timeZoneOffsetSeconds": 0,
+            "localizedShortDate": "Mon, 30 Jan",
+            "localizedMediumDate": "Jan 30, 2017",
+            "localizedFullDate": "Monday, January 30, 2017",
+            "localizedLongDate": "January 30, 2017",
+            "localizedShortTime": "11:51 PM"
+        },
+        "tripUpdatedTime": {
+            "raw": "2017-02-07T01:28:15Z",
+            "localized": "Feb 7, 2017 1:28:15 AM",
+            "epochSeconds": 1486430895,
+            "timeZoneOffsetSeconds": 0,
+            "localizedShortDate": "Tue, 7 Feb",
+            "localizedMediumDate": "Feb 7, 2017",
+            "localizedFullDate": "Tuesday, February 7, 2017",
+            "localizedLongDate": "February 7, 2017",
+            "localizedShortTime": "1:28 AM"
+        },
+        "tripCacheUpdatedTime": {
+            "raw": "2017-02-07T23:12:54Z",
+            "localized": "Feb 7, 2017 11:12:54 PM",
+            "epochSeconds": 1486509174,
+            "timeZoneOffsetSeconds": 0,
+            "localizedShortDate": "Tue, 7 Feb",
+            "localizedMediumDate": "Feb 7, 2017",
+            "localizedFullDate": "Tuesday, February 7, 2017",
+            "localizedLongDate": "February 7, 2017",
+            "localizedShortTime": "11:12 PM"
+        },
+        "ownerId": 6219030,
+        "bookingStatus": "BOOKED",
+        "rewards": {
+            "totalPoints": 159.00,
+            "basePoints": 85.00,
+            "bonusPoints": [
+                {
+                    "m_pointValue": 26.00,
+                    "m_pointType": "offerPoint",
+                    "m_pointDescription": "+gold Bonus Offer",
+                    "m_status": "PENDING",
+                    "m_programId": 3
+                },
+                {
+                    "m_pointValue": 10.00,
+                    "m_pointType": "offerPoint",
+                    "m_pointDescription": "Gold Bonus Offer",
+                    "m_status": "PENDING",
+                    "m_programId": 3
+                },
+                {
+                    "m_pointValue": 9.00,
+                    "m_pointType": "offerPoint",
+                    "m_pointDescription": "Display Name with Date 2016-03-16T02:54:53.456-07:00",
+                    "m_status": "PENDING",
+                    "m_programId": 3
+                },
+                {
+                    "m_pointValue": 10.00,
+                    "m_pointType": "offerPoint",
+                    "m_pointDescription": "Gold Bonus Offer",
+                    "m_status": "PENDING",
+                    "m_programId": 3
+                },
+                {
+                    "m_pointValue": 9.00,
+                    "m_pointType": "offerPoint",
+                    "m_pointDescription": "Display Name with Date 2016-03-16T02:53:38.211-07:00",
+                    "m_status": "PENDING",
+                    "m_programId": 3
+                },
+                {
+                    "m_pointValue": 10.00,
+                    "m_pointType": "offerPoint",
+                    "m_pointDescription": "Gold Bonus Offer",
+                    "m_status": "PENDING",
+                    "m_programId": 3
+                }
+            ],
+            "logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+            "viewStatementURL": "/user/rewards"
+        },
+        "sharableDetailsURL": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/api/trips/shared/ZtnB2E1gdl6o8k9cLfz1JcCAZzR-JgcmxdOKl6lqVSCr1t0asvMjxKcyfoOWyQfnzwiD6lbQmsrlCGtmOduobzeg",
+        "customerSupport": {
+            "customerSupportURL": "http://www.expedia.com/service/",
+            "customerSupportPhoneNumberDomestic": "+1 800-397-3342",
+            "customerSupportPhoneNumberInternational": "+1 404-728-8787",
+            "customerSupportPhoneInfoForEmail": [
+                "Call us at 1-877-261-3523.",
+                "For faster service, mention <strong>itinerary #71217925912 </strong>"
+            ],
+            "termsAndConditionsURL": ""
+        },
+        "isBookedUsingForeignCurrency": false,
+        "hotels": [
+            {
+                "uniqueID": "10F544A6-846C-4A62-978C-F9F7B778B7D3_0",
+                "hotelId": "12366337",
+                "checkInDateTime": {
+                    "raw": "2017-02-12T15:00:00+09:00",
+                    "localized": "Feb 12, 2017 3:00:00 PM",
+                    "epochSeconds": 1486879200,
+                    "timeZoneOffsetSeconds": 32400,
+                    "localizedShortDate": "2/12/2017",
+                    "localizedMediumDate": "Feb 12",
+                    "localizedFullDate": "Sun, Feb 12",
+                    "localizedLongDate": "Feb 12, 2017",
+                    "localizedShortTime": "3:00PM"
+                },
+                "checkOutDateTime": {
+                    "raw": "2017-02-13T11:00:00+09:00",
+                    "localized": "Feb 13, 2017 11:00:00 AM",
+                    "epochSeconds": 1486951200,
+                    "timeZoneOffsetSeconds": 32400,
+                    "localizedShortDate": "2/13/2017",
+                    "localizedMediumDate": "Feb 13",
+                    "localizedFullDate": "Mon, Feb 13",
+                    "localizedLongDate": "Feb 13, 2017",
+                    "localizedShortTime": "11:00AM"
+                },
+                "checkInDate": "2017-02-12T15:00:00+09:00",
+                "checkOutDate": "2017-02-13T11:00:00+09:00",
+                "checkInDateLocalized": "Feb 12, 2017",
+                "checkOutDateLocalized": "Feb 13, 2017",
+                "numberOfNights": 1,
+                "bookingStatus": "BOOKED",
+                "bookingStatusText": "Booked",
+                "bookingStatusMessage": "Your reservation is booked. No need to call us to reconfirm this reservation.",
+                "inventoryType": "MERCHANT",
+                "inventorySource": "INTERNAL",
+                "paymentModel": "EXPEDIA_COLLECT",
+                "inventoryVisibility": "VISIBLE",
+                "orderNumber": "8066893350319",
+                "state": "PRE_START_4",
+                "infositeURL": "http://wwwexpediacom.sandbox.dev.sb.karmalab.net/itin.h12366337.Hotel-Information?langid=1033",
+                "epcConversationURL": "http://wwwexpediacom.sandbox.dev.sb.karmalab.net/createConversation/create/?bookingId=12278649&bookingItemId=14122213&itineraryId=71217925912&checkinDate=02/12/2017&checkoutDate=02/13/2017&tpid=1&eapid=0&siteId=1&hotelId=12366337&hotelName=Hongdae Olive Guesthouse&userTokenString=RabGUDxtHPNxrFLXLh1HHOf3hJG9k-Nd8zosJoqBsh8J8AI9J88QN-Dl1z1BSLKd34Eybf6pujDYe5AXum5YZEc61h4cpHGX2a9TkPOhYCkoypaC0otRitYGR63p6Mu3Hi_a",
+                "hotelPropertyInfo": {
+                    "address": {
+                        "addressLine1": "50, World Cup buk-ro 5-gil, Mapo-gu",
+                        "city": "Seoul",
+                        "countrySubdivisionCode": "",
+                        "postalCode": "121-210",
+                        "countryCode": "KOR",
+                        "countryName": " South Korea",
+                        "fullAddress": "50, World Cup buk-ro 5-gil, Mapo-gu, Seoul, 121-210 South Korea",
+                        "airportCode": ""
+                    },
+                    "name": "Changeable/Upgradeable Hongdae Olive Guesthouse",
+                    "starRating": "20",
+                    "photoThumbnailURL": "/hotels/13000000/12370000/12366400/12366337/12366337_29_l.jpg",
+                    "photoThumbnail500pixURL": "/hotels/13000000/12370000/12366400/12366337/12366337_29_y.jpg",
+                    "photoThumbnail1000pixURL": "/hotels/13000000/12370000/12366400/12366337/12366337_29_z.jpg",
+                    "localPhone": "82-10-62233438",
+                    "tollFreePhone": "82-10-62233438",
+                    "formattedPhoneNumbers": "Tel: 82 (10) 62233438, Fax: 82 (2) 3241394",
+                    "checkInPolicies": [
+                        "Check-in time starts at 3 PM",
+                        "Check-in time ends at 8 PM",
+                        "Minimum check-in age is 18"
+                    ],
+                    "checkInStartTimePolicy": {
+                        "label": "Check-in time starts at",
+                        "value": "3 PM"
+                    },
+                    "checkInEndTimePolicy": {
+                        "label": "Check-in time ends at",
+                        "value": "8 PM"
+                    },
+                    "checkOutTimePolicy": {
+                        "label": "Check-out time is",
+                        "value": "11 AM"
+                    },
+                    "generalRules": [
+                        "Check-out time is 11 AM",
+                        "No rollaway/extra beds available",
+                        "No cribs (infant beds) available"
+                    ],
+                    "restrictionPolicies": [],
+                    "fees": [],
+                    "mandatoryFees": [],
+                    "specialCheckInInstructions": [],
+                    "latitude": 37.556368,
+                    "longitude": 126.916117,
+                    "isVipAccess": false,
+                    "googleMapsLink": "//maps.google.com?q=121-210+Seoul,+50,+World+Cup+buk-ro+5-gil,+Mapo-gu+",
+                    "regionId": "3124"
+                },
+                "totalPriceDetails": {
+                    "primaryCurrencyCode": "USD",
+                    "base": "38.81",
+                    "baseFormatted": "$38.81",
+                    "baseWithAdjustmentForDRRRateDiscount": "38.81",
+                    "baseWithAdjustmentForDRRRateDiscountFormatted": "$38.81",
+                    "taxesAndFees": "3.88",
+                    "taxesAndFeesFormatted": "$3.88",
+                    "drrRateDiscountDescription": "",
+                    "subTotalBeforeCoupon": "42.69",
+                    "subTotalBeforeCouponFormatted": "$42.69",
+                    "taxStatus": "ESTIMATED",
+                    "total": "42.69",
+                    "totalFormatted": "$42.69",
+                    "hasFees": true,
+                    "expediaChangeFee": "0",
+                    "expediaChangeFeeFormatted": "$0.00"
+                },
+                "rules": {
+                    "cancelChangeRulesIntroduction": "We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the property charges such fees in accordance with its own policies, the cost will be passed on to you. Hongdae Olive Guesthouse charges the following cancellation and change fees.",
+                    "cancelChangeRules": [
+                        "Cancellations or changes made after 11:59PM (Korea Daylight Time) on Feb 11, 2017 or no-shows are subject to a property fee equal to 100% of the total amount paid for the reservation."
+                    ],
+                    "cancellationWindowTime": {
+                        "raw": "2017-02-11T23:59:00-08:00",
+                        "localized": "Feb 11, 2017 11:59:00 PM",
+                        "epochSeconds": 1486886340,
+                        "timeZoneOffsetSeconds": -28800,
+                        "localizedShortDate": "Sat, 11 Feb",
+                        "localizedMediumDate": "Feb 11, 2017",
+                        "localizedFullDate": "Saturday, February 11, 2017",
+                        "localizedLongDate": "February 11, 2017",
+                        "localizedShortTime": "11:59 PM"
+                    },
+                    "opaqueRules": [],
+                    "opaquePolicies": [],
+                    "lateArrivalInstructions": "Your room/unit will be guaranteed for late arrival.",
+                    "loyaltyPointsDisclaimer": "Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate properties.",
+                    "currencyDisclaimer": "Unless specified otherwise, <span class=\"rr-bold\">rates are quoted in </span><span class=\"rr-bold\" id=\"hotel_id-default-currency\">US dollars</span>.",
+                    "extraGuestPolicies": [
+                        "Availability of accommodation in the same property for extra guests is not guaranteed."
+                    ],
+                    "occupancyPolicies": [
+                        "Base rate is for 2 guests.",
+                        "This property considers guests of any age to be an adult."
+                    ],
+                    "paymentPolicies": [
+                        "Your credit card is charged the total cost at time of purchase. Prices and room/unit availability are not guaranteed until full payment is received.",
+                        "Some properties request that we wait to submit guest names until 7 days prior to check in. In such a case, your room/unit is reserved, but your name is not yet on file with the property."
+                    ],
+                    "roomRequestDisclaimer": "All special requests (such as in-room amenities, bed type, and smoking preference) are shared with the hotel, but requests are not guaranteed and may incur additional charges. We recommend you confirm them directly with the hotel before travel.",
+                    "dualCurrencyText": "Rate quotes in USD are based on current exchange rates, which may vary at time of travel. Final payment will be settled in local currency directly with the hotel."
+                },
+                "rooms": [
+                    {
+                        "uniqueID": "10F544A6-846C-4A62-978C-F9F7B778B7D3_0_14122213",
+                        "roomRatePlanDescription": "Deluxe Shared Dormitory, Mixed Dorm",
+                        "roomTypeCode": "201310350",
+                        "ratePlanCode": "207247183",
+                        "bookingStatus": "BOOKED",
+                        "drrRateDiscountDescription": "",
+                        "orderLineNumber": "74f89606-241f-4d08-9294-8c17942333dd",
+                        "refundabilityStatus": "REFUNDABLE",
+                        "availableOnAllDates": true,
+                        "roomCancelLink": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/hotel-cancel-details?tripid=c65fb5fb-489a-4fa8-a007-715b946d3b04&ordernumber=8066893350319&orderlineguid=74f89606-241f-4d08-9294-8c17942333dd&roomNumber=0",
+                        "roomChangeLink": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/trips/c65fb5fb-489a-4fa8-a007-715b946d3b04/ordernumber/8066893350319/orderlinenumber/74f89606-241f-4d08-9294-8c17942333dd/change",
+                        "roomChangeLinkForMobileWebView": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/trips/c65fb5fb-489a-4fa8-a007-715b946d3b04/ordernumber/8066893350319/orderlinenumber/74f89606-241f-4d08-9294-8c17942333dd/change?blockHardChange=true&mobileWebView=true",
+                        "roomUpgradeOfferApiUrl": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/api/trips/c65fb5fb-489a-4fa8-a007-715b946d3b04/8066893350319/74f89606-241f-4d08-9294-8c17942333dd/1/sGUZBxGESgB2eGM7GeXkhqJuzdi8Ucq1jl7NI9NzcW1mSSoGJ4njkXYWPCT2e__Ilwdc4lgBRnwlanmEgukEJWqNybe4NPSppEUZf9quVqD_kCjh_2HSZY_-K1HvZU-tUQ3h/upgradeOffers",
+                        "roomUpgradeLink": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/hotelUpgrades/sGUZBxGESgB2eGM7GeXkhqJuzdi8Ucq1jl7NI9NzcW1mSSoGJ4njkXYWPCT2e__Ilwdc4lgBRnwlanmEgukEJWqNybe4NPSppEUZf9quVqD_kCjh_2HSZY_-K1HvZU-tUQ3h/c65fb5fb-489a-4fa8-a007-715b946d3b04/1/upgradeDeals?mcicid=App.Itinerary.Hotel.Upgrade&mobileWebView=true",
+                        "totalPriceDetails": {
+                            "primaryCurrencyCode": "USD",
+                            "base": "38.81",
+                            "baseFormatted": "$38.81",
+                            "baseWithAdjustmentForDRRRateDiscount": "38.81",
+                            "baseWithAdjustmentForDRRRateDiscountFormatted": "$38.81",
+                            "taxesAndFees": "3.88",
+                            "taxesAndFeesFormatted": "$3.88",
+                            "subTotalBeforeCoupon": "42.69",
+                            "subTotalBeforeCouponFormatted": "$42.69",
+                            "total": "42.69",
+                            "totalFormatted": "$42.69",
+                            "averagePricePerDay": "38.81",
+                            "averagePricePerDayFormatted": "$38.81",
+                            "averageTaxPerDay": "3.88",
+                            "averageTaxPerDayFormatted": "$3.88",
+                            "priceDetailsPerDay": [
+                                {
+                                    "day": {
+                                        "raw": "2017-02-12T15:00:00+09:00",
+                                        "localized": "Feb 12, 2017 3:00:00 PM",
+                                        "epochSeconds": 1486879200,
+                                        "timeZoneOffsetSeconds": 32400,
+                                        "localizedShortDate": "Sun, 12 Feb",
+                                        "localizedMediumDate": "Feb 12, 2017",
+                                        "localizedFullDate": "Sunday, February 12, 2017",
+                                        "localizedLongDate": "February 12, 2017",
+                                        "localizedShortTime": "3:00 PM"
+                                    },
+                                    "primaryCurrencyCode": "USD",
+                                    "amount": "38.81",
+                                    "amountFormatted": "$38.81",
+                                    "localizedDay": {
+                                        "raw": "2017-02-12T15:00:00+09:00",
+                                        "localized": "Feb 12, 2017 3:00:00 PM",
+                                        "epochSeconds": 1486879200,
+                                        "timeZoneOffsetSeconds": 32400,
+                                        "localizedShortDate": "2/12/2017",
+                                        "localizedMediumDate": "Feb 12",
+                                        "localizedFullDate": "Sun, Feb 12",
+                                        "localizedLongDate": "Feb 12, 2017",
+                                        "localizedShortTime": "3:00PM"
+                                    }
+                                }
+                            ],
+                            "isSameRateForAllNights": true,
+                            "expediaChangeFee": "0",
+                            "expediaChangeFeeFormatted": "$0.00"
+                        },
+                        "roomPreferences": {
+                            "primaryOccupant": {
+                                "firstName": "joey",
+                                "fullName": "joey buttefuco",
+                                "email": "jeskandarian@expedia.com",
+                                "phone": "1-949-4561218"
+                            },
+                            "otherOccupantInfo": {
+                                "adultCount": 2,
+                                "childCount": 0,
+                                "infantCount": 0,
+                                "childAndInfantCount": 0,
+                                "maxGuestCount": 0,
+                                "childAndInfantAges": []
+                            },
+                            "occupantSelectedRoomOptions": {
+                                "bedTypeName": "2 Twin Bunk Beds",
+                                "smokingPreference": "NONSMOKING_ROOM",
+                                "specialRequest": "Chauffeur should pick you Ram from the airport.",
+                                "accessibilityOptions": [],
+                                "hasExtraBedAdult": false,
+                                "hasExtraBedChild": false,
+                                "hasExtraBedInfant": false,
+                                "isSmokingPreferenceSelected": true,
+                                "isRoomOptionsAvailable": true
+                            },
+                            "availableRoomOptions": {
+                                "bedTypes": [
+                                    {
+                                        "id": "d2c955bb69618cff46c9da4a70765fc52392afdc",
+                                        "description": "2 Twin Bunk Beds",
+                                        "selected": false
+                                    }
+                                ],
+                                "isNewBedTypes": true,
+                                "isSmokingRoomAvailable": false,
+                                "isNonSmokingRoomAvailable": true
+                            }
+                        },
+                        "nonPricePromotionData": {},
+                        "hotelRatePlan": {
+                            "m_type": 524288
+                        }
+                    }
+                ],
+                "isFreeCancellationAvailable": false,
+                "paymentsAndCreditFees": {
+                    "paymentsHotelFeesAndDepositsDisclaimer": "The below fees and deposits only apply if they are not included in your selected room rate.",
+                    "noFeesStaticText": "The price above DOES NOT include any applicable hotel service fees, charges for optional incidentals (such as minibar snacks or telephone calls), or regulatory surcharges. The hotel will assess these fees, charges, and surcharges upon check-out.",
+                    "isDirectAgency": false,
+                    "isGDS": false,
+                    "isFullyCancelled": false,
+                    "isAnyRoomCancelled": false,
+                    "isDepositRequired": false,
+                    "isPaymentsCreditsVisible": false
+                }
+            }
+        ],
+        "totalTripPrice": {
+            "currency": "USD",
+            "total": "42.69",
+            "totalFormatted": "$42.69"
+        },
+        "isCouponApplied": false,
+        "readTripError": false,
+        "tripSource": "expedia",
+        "zetaTrip": false,
+        "isMRP": false,
+        "tripDataSource": "EXPWEB",
+        "isTripUpgradable": true
+    }
+}

@@ -1,0 +1,75 @@
+POST
+.*?/m/api/lx/trip/checkout.*
+*
+200
+Content-Type: application/json
+
+{
+    "lxProduct": {
+        "totalPrice": {
+            "amount": "69.00",
+            "formattedPrice": "$69.00",
+            "formattedWholePrice": "$69",
+            "currencyCode": "USD"
+        },
+        "lxBookableItems": [
+            {
+                "tickets": [
+                    {
+                        "priceBreakdownItemList": [
+                            {
+                                "type": "PER_PASSENGER_TOTAL",
+                                "price": {
+                                    "amount": "69.00",
+                                    "formattedPrice": "$69.00",
+                                    "formattedWholePrice": "$69",
+                                    "currencyCode": "USD"
+                                }
+                            },
+                            {
+                                "type": "PER_CATEGORY_TOTAL",
+                                "price": {
+                                    "amount": "69.00",
+                                    "formattedPrice": "$69.00",
+                                    "formattedWholePrice": "$69",
+                                    "currencyCode": "USD"
+                                }
+                            }
+                        ],
+                        "count": 1,
+                        "code": "Adult",
+                        "ticketId": "4626"
+                    }
+                ],
+                "activityDate": {
+                    "raw": "2017-04-07T21:30:00-07:00",
+                    "localized": "Apr 7, 2017 9:30:00 PM",
+                    "epochSeconds": 1491625800,
+                    "timeZoneOffsetSeconds": -25200,
+                    "localizedShortDate": "Fri, 7 Apr"
+                },
+                "activityId": "184415",
+                "activityItemId": "278131",
+                "amount": "69.00",
+                "allDayActivity": false,
+                "regionId": "178276"
+            }
+        ],
+        "tripName": "Las Vegas, United States"
+    },
+    "newTrip": {
+        "itineraryNumber": "7981891802",
+        "travelRecordLocator": "17130586",
+        "tripId": "8abbd045-ea58-4114-84e3-0b013af7e728"
+    },
+    "orderId": "8082263192068",
+    "currencyCode": "USD",
+    "totalCharges": "69.00",
+    "totalChargesPrice": {
+        "amount": "69.00",
+        "formattedPrice": "$69.00",
+        "formattedWholePrice": "$69",
+        "currencyCode": "USD"
+    },
+    "activityId": "7bc0220c-e9d4-4481-acf9-6077b33d4157"
+}

@@ -1,0 +1,1026 @@
+POST
+.*/rails/trip/checkout.*
+*
+200
+Content-Type: application/json
+
+{
+    "railDomainProduct": {
+        "railOffer": {
+            "totalPrice": {
+                "amount": "276.54",
+                "currencyCode": "GBP",
+                "mainCurrency": 276,
+                "fractionalCurrency": 54,
+                "currencySymbol": "£",
+                "formattedPrice": "£276.54",
+                "formattedWholePrice": "£277"
+            },
+            "priceBreakdown": [{
+                               "amount": "272.45",
+                               "currencyCode": "GBP",
+                               "mainCurrency": 272,
+                               "fractionalCurrency": 45,
+                               "currencySymbol": "£",
+                               "formattedPrice": "£272.45",
+                               "formattedWholePrice": "£272",
+                               "priceCategory": "Ticket Price",
+                               "priceCategoryCode": "TICKET"
+                               }, {
+                               "amount": "0",
+                               "currencyCode": "GBP",
+                               "mainCurrency": 0,
+                               "fractionalCurrency": 0,
+                               "currencySymbol": "£",
+                               "formattedPrice": "£0.00",
+                               "formattedWholePrice": "£0",
+                               "priceCategory": "Expedia Booking Fee",
+                               "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+                               }, {
+                               "amount": "0.00",
+                               "currencyCode": "GBP",
+                               "mainCurrency": 0,
+                               "fractionalCurrency": 0,
+                               "formattedPrice": "£0.00",
+                               "formattedWholePrice": "£0.00",
+                               "priceCategory": "Ticket Delivery Charges",
+                               "priceCategoryCode": "TICKET_DELIVERY"
+                               }, {
+                               "amount": "4.09",
+                               "currencyCode": "GBP",
+                               "mainCurrency": 4,
+                               "fractionalCurrency": 9,
+                               "formattedPrice": "£4.09",
+                               "formattedWholePrice": "£4",
+                               "priceCategory": "Credit Card fee",
+                               "priceCategoryCode": "CREDIT_CARD_FEE"
+                               }],
+            "railProductList": [{
+                                "aggregatedCarrierServiceClassDisplayName": "Standard",
+                                "aggregatedCarrierFareClassDisplayName": "Anytime Single",
+                                "aggregatedFareDescription": "Travel anytime of day",
+                                "aggregatedCarrierFareClassCategoryName": "Anytime",
+                                "fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid only for travel via (changing trains or passing through) London."],
+                                "refundable": "REFUNDABLE",
+                                "refundableRules": ["Your ticket is refundable before 29 Dec, 2016 14:05", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+                                "legOptionList": [{
+                                                  "legOptionIndex": 1,
+                                                  "departureStation": {
+                                                  "stationCode": "GBRYD",
+                                                  "stationDisplayName": "Ryde Esplanade"
+                                                  },
+                                                  "arrivalStation": {
+                                                  "stationCode": "GBEDG",
+                                                  "stationDisplayName": "Edge Hill"
+                                                  },
+                                                  "departureDateTime": {
+                                                  "raw": "2016-11-30T14:05:00",
+                                                  "epochSeconds": 1480514700,
+                                                  "localized": "30 Nov, 2016 14:05",
+                                                  "localizedShortDate": "Wed, 30 Nov"
+                                                  },
+                                                  "arrivalDateTime": {
+                                                  "raw": "2016-11-30T20:24:00",
+                                                  "epochSeconds": 1480537440,
+                                                  "localized": "30 Nov, 2016 20:24",
+                                                  "localizedShortDate": "Wed, 30 Nov"
+                                                  },
+                                                  "duration": "PT6H19M",
+                                                  "aggregatedMarketingCarrier": "Multiple train operators",
+                                                  "aggregatedOperatingCarrier": "Multiple train operators",
+                                                  "travelSegmentList": [{
+                                                                        "travelSegmentIndex": 1,
+                                                                        "travelMode": "Transfer",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBRYD",
+                                                                        "stationDisplayName": "Ryde Esplanade"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBXRD",
+                                                                        "stationDisplayName": "Ryde Hoverport"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-30T14:05:00",
+                                                                        "epochSeconds": 1480514700,
+                                                                        "localized": "30 Nov, 2016 14:05",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-30T14:15:00",
+                                                                        "epochSeconds": 1480515300,
+                                                                        "localized": "30 Nov, 2016 14:15",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Pedestrian",
+                                                                        "travelMediumCode": "PED"
+                                                                        },
+                                                                        "duration": "PT10M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 1,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Anytime Single",
+                                                                        "carrierFareClassCategoryName": "Anytime",
+                                                                        "fareDescription": "Travel anytime of day"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 2,
+                                                                        "travelMode": "Ferry",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBXRD",
+                                                                        "stationDisplayName": "Ryde Hoverport"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBSHV",
+                                                                        "stationDisplayName": "Southsea Hoverport"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-30T14:15:00",
+                                                                        "epochSeconds": 1480515300,
+                                                                        "localized": "30 Nov, 2016 14:15",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-30T14:25:00",
+                                                                        "epochSeconds": 1480515900,
+                                                                        "localized": "30 Nov, 2016 14:25",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "marketingCarrier": "Hovertravel",
+                                                                        "operatingCarrier": "Hovertravel",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Ferry",
+                                                                        "travelMediumCode": "FRY"
+                                                                        },
+                                                                        "duration": "PT10M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 2,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Anytime Single",
+                                                                        "carrierFareClassCategoryName": "Anytime",
+                                                                        "fareDescription": "Travel anytime of day"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 3,
+                                                                        "travelMode": "Bus",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBSHV",
+                                                                        "stationDisplayName": "Southsea Hoverport"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBPMS",
+                                                                        "stationDisplayName": "Portsmouth & Southsea"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-30T14:30:00",
+                                                                        "epochSeconds": 1480516200,
+                                                                        "localized": "30 Nov, 2016 14:30",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-30T14:42:00",
+                                                                        "epochSeconds": 1480516920,
+                                                                        "localized": "30 Nov, 2016 14:42",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "marketingCarrier": "Hovertravel",
+                                                                        "operatingCarrier": "Hovertravel",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Bus",
+                                                                        "travelMediumCode": "BUS"
+                                                                        },
+                                                                        "duration": "PT12M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 3,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Anytime Single",
+                                                                        "carrierFareClassCategoryName": "Anytime",
+                                                                        "fareDescription": "Travel anytime of day"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 4,
+                                                                        "travelMode": "Train",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBPMS",
+                                                                        "stationDisplayName": "Portsmouth & Southsea"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBQQW",
+                                                                        "stationDisplayName": "London Waterloo"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-30T14:50:00",
+                                                                        "epochSeconds": 1480517400,
+                                                                        "localized": "30 Nov, 2016 14:50",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-30T16:24:00",
+                                                                        "epochSeconds": 1480523040,
+                                                                        "localized": "30 Nov, 2016 16:24",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "marketingCarrier": "South West Trains",
+                                                                        "operatingCarrier": "South West Trains",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Inter-City",
+                                                                        "travelMediumCode": "ICY",
+                                                                        "supplierTravelMediumId": "SW8150"
+                                                                        },
+                                                                        "duration": "PT1H34M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 4,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Anytime Single",
+                                                                        "carrierFareClassCategoryName": "Anytime",
+                                                                        "fareDescription": "Travel anytime of day",
+                                                                        "amenityList": [{
+                                                                                        "displayName": "Snack Trolley Service"
+                                                                                        }]
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 5,
+                                                                        "travelMode": "Transfer",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBQQW",
+                                                                        "stationDisplayName": "London Waterloo"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBQQU",
+                                                                        "stationDisplayName": "London Euston"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-30T16:24:00",
+                                                                        "epochSeconds": 1480523040,
+                                                                        "localized": "30 Nov, 2016 16:24",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-30T17:14:00",
+                                                                        "epochSeconds": 1480526040,
+                                                                        "localized": "30 Nov, 2016 17:14",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "marketingCarrier": "London Underground",
+                                                                        "operatingCarrier": "London Underground",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Metro/City-Transit",
+                                                                        "travelMediumCode": "MCT"
+                                                                        },
+                                                                        "duration": "PT50M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 5,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Anytime Single",
+                                                                        "carrierFareClassCategoryName": "Anytime",
+                                                                        "fareDescription": "Travel anytime of day"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 6,
+                                                                        "travelMode": "Train",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBQQU",
+                                                                        "stationDisplayName": "London Euston"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBWBQ",
+                                                                        "stationDisplayName": "Warrington Bank Quay"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-30T17:30:00",
+                                                                        "epochSeconds": 1480527000,
+                                                                        "localized": "30 Nov, 2016 17:30",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-30T19:14:00",
+                                                                        "epochSeconds": 1480533240,
+                                                                        "localized": "30 Nov, 2016 19:14",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "marketingCarrier": "Virgin Trains",
+                                                                        "operatingCarrier": "Virgin Trains",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Inter-City",
+                                                                        "travelMediumCode": "ICY",
+                                                                        "supplierTravelMediumId": "VT6260"
+                                                                        },
+                                                                        "duration": "PT1H44M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 6,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Anytime Single",
+                                                                        "carrierFareClassCategoryName": "Anytime",
+                                                                        "fareDescription": "Travel anytime of day",
+                                                                        "amenityList": [{
+                                                                                        "displayName": "WiFi Access (Additional Cost)"
+                                                                                        }]
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 7,
+                                                                        "travelMode": "Transfer",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBWBQ",
+                                                                        "stationDisplayName": "Warrington Bank Quay"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBWAC",
+                                                                        "stationDisplayName": "Warrington Central"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-30T19:14:00",
+                                                                        "epochSeconds": 1480533240,
+                                                                        "localized": "30 Nov, 2016 19:14",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-30T19:39:00",
+                                                                        "epochSeconds": 1480534740,
+                                                                        "localized": "30 Nov, 2016 19:39",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Pedestrian",
+                                                                        "travelMediumCode": "PED"
+                                                                        },
+                                                                        "duration": "PT25M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 7,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Anytime Single",
+                                                                        "carrierFareClassCategoryName": "Anytime",
+                                                                        "fareDescription": "Travel anytime of day"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 8,
+                                                                        "travelMode": "Train",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBWAC",
+                                                                        "stationDisplayName": "Warrington Central"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBEDG",
+                                                                        "stationDisplayName": "Edge Hill"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-11-30T19:49:00",
+                                                                        "epochSeconds": 1480535340,
+                                                                        "localized": "30 Nov, 2016 19:49",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-11-30T20:24:00",
+                                                                        "epochSeconds": 1480537440,
+                                                                        "localized": "30 Nov, 2016 20:24",
+                                                                        "localizedShortDate": "Wed, 30 Nov"
+                                                                        },
+                                                                        "marketingCarrier": "Northern Rail",
+                                                                        "operatingCarrier": "Northern Rail",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Branch-Line/Regional",
+                                                                        "travelMediumCode": "BLR",
+                                                                        "supplierTravelMediumId": "NT9782"
+                                                                        },
+                                                                        "duration": "PT35M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 8,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Anytime Single",
+                                                                        "carrierFareClassCategoryName": "Anytime",
+                                                                        "fareDescription": "Travel anytime of day"
+                                                                        }
+                                                                        }],
+                                                  "noOfChanges": 5,
+                                                  "legBoundOrder": 1,
+                                                  "showTrainIcon": false,
+                                                  "overtakenJourney": false
+                                                  }],
+                                "fareBreakdownList": [{
+                                                      "farePrice": {
+                                                      "amount": "204.30",
+                                                      "currencyCode": "GBP",
+                                                      "mainCurrency": 204,
+                                                      "fractionalCurrency": 30,
+                                                      "currencySymbol": "£",
+                                                      "formattedPrice": "£204.30",
+                                                      "formattedWholePrice": "£204"
+                                                      },
+                                                      "passengerFareList": [{
+                                                                            "passengerIndex": 1,
+                                                                            "passengerSegmentFareList": [{
+                                                                                                         "travelSegmentIndex": 1,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Anytime Single",
+                                                                                                         "carrierFareClassCategoryName": "Anytime",
+                                                                                                         "fareDescription": "Travel anytime of day"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 2,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Anytime Single",
+                                                                                                         "carrierFareClassCategoryName": "Anytime",
+                                                                                                         "fareDescription": "Travel anytime of day"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 3,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Anytime Single",
+                                                                                                         "carrierFareClassCategoryName": "Anytime",
+                                                                                                         "fareDescription": "Travel anytime of day"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 4,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Anytime Single",
+                                                                                                         "carrierFareClassCategoryName": "Anytime",
+                                                                                                         "fareDescription": "Travel anytime of day",
+                                                                                                         "amenityList": [{
+                                                                                                                         "displayName": "Snack Trolley Service"
+                                                                                                                         }]
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 5,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Anytime Single",
+                                                                                                         "carrierFareClassCategoryName": "Anytime",
+                                                                                                         "fareDescription": "Travel anytime of day"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 6,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Anytime Single",
+                                                                                                         "carrierFareClassCategoryName": "Anytime",
+                                                                                                         "fareDescription": "Travel anytime of day",
+                                                                                                         "amenityList": [{
+                                                                                                                         "displayName": "WiFi Access (Additional Cost)"
+                                                                                                                         }]
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 7,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Anytime Single",
+                                                                                                         "carrierFareClassCategoryName": "Anytime",
+                                                                                                         "fareDescription": "Travel anytime of day"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 8,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Anytime Single",
+                                                                                                         "carrierFareClassCategoryName": "Anytime",
+                                                                                                         "fareDescription": "Travel anytime of day"
+                                                                                                         }]
+                                                                            }]
+                                                      }],
+                                "segmentFareDetailList": [{
+                                                          "travelSegmentIndex": 1,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Anytime Single",
+                                                          "carrierFareClassCategoryName": "Anytime",
+                                                          "fareDescription": "Travel anytime of day"
+                                                          }, {
+                                                          "travelSegmentIndex": 2,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Anytime Single",
+                                                          "carrierFareClassCategoryName": "Anytime",
+                                                          "fareDescription": "Travel anytime of day"
+                                                          }, {
+                                                          "travelSegmentIndex": 3,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Anytime Single",
+                                                          "carrierFareClassCategoryName": "Anytime",
+                                                          "fareDescription": "Travel anytime of day"
+                                                          }, {
+                                                          "travelSegmentIndex": 4,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Anytime Single",
+                                                          "carrierFareClassCategoryName": "Anytime",
+                                                          "fareDescription": "Travel anytime of day",
+                                                          "amenityList": [{
+                                                                          "displayName": "Snack Trolley Service"
+                                                                          }]
+                                                          }, {
+                                                          "travelSegmentIndex": 5,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Anytime Single",
+                                                          "carrierFareClassCategoryName": "Anytime",
+                                                          "fareDescription": "Travel anytime of day"
+                                                          }, {
+                                                          "travelSegmentIndex": 6,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Anytime Single",
+                                                          "carrierFareClassCategoryName": "Anytime",
+                                                          "fareDescription": "Travel anytime of day",
+                                                          "amenityList": [{
+                                                                          "displayName": "WiFi Access (Additional Cost)"
+                                                                          }]
+                                                          }, {
+                                                          "travelSegmentIndex": 7,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Anytime Single",
+                                                          "carrierFareClassCategoryName": "Anytime",
+                                                          "fareDescription": "Travel anytime of day"
+                                                          }, {
+                                                          "travelSegmentIndex": 8,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Anytime Single",
+                                                          "carrierFareClassCategoryName": "Anytime",
+                                                          "fareDescription": "Travel anytime of day"
+                                                          }],
+                                "openReturn": false
+                                }, {
+                                "aggregatedCarrierServiceClassDisplayName": "Standard",
+                                "aggregatedCarrierFareClassDisplayName": "Off Peak Single",
+                                "aggregatedFareDescription": "Any off-peak train",
+                                "aggregatedCarrierFareClassCategoryName": "Offpeak",
+                                "fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Outbound: VALID TO ARR EUS PRE 0720 OR AFTER 1129 M-F", "Valid only for travel via (changing trains or passing through) London."],
+                                "refundable": "REFUNDABLE",
+                                "refundableRules": ["Your ticket is refundable before 29 Dec, 2016 14:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+                                "legOptionList": [{
+                                                  "legOptionIndex": 6,
+                                                  "departureStation": {
+                                                  "stationCode": "GBEDG",
+                                                  "stationDisplayName": "Edge Hill"
+                                                  },
+                                                  "arrivalStation": {
+                                                  "stationCode": "GBRYD",
+                                                  "stationDisplayName": "Ryde Esplanade"
+                                                  },
+                                                  "departureDateTime": {
+                                                  "raw": "2016-12-01T14:15:00",
+                                                  "epochSeconds": 1480601700,
+                                                  "localized": "1 Dec, 2016 14:15",
+                                                  "localizedShortDate": "Thu, 1 Dec"
+                                                  },
+                                                  "arrivalDateTime": {
+                                                  "raw": "2016-12-01T20:20:00",
+                                                  "epochSeconds": 1480623600,
+                                                  "localized": "1 Dec, 2016 20:20",
+                                                  "localizedShortDate": "Thu, 1 Dec"
+                                                  },
+                                                  "duration": "PT6H5M",
+                                                  "aggregatedMarketingCarrier": "Multiple train operators",
+                                                  "aggregatedOperatingCarrier": "Multiple train operators",
+                                                  "travelSegmentList": [{
+                                                                        "travelSegmentIndex": 35,
+                                                                        "travelMode": "Train",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBEDG",
+                                                                        "stationDisplayName": "Edge Hill"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBLIV",
+                                                                        "stationDisplayName": "Liverpool Lime Street"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-12-01T14:15:00",
+                                                                        "epochSeconds": 1480601700,
+                                                                        "localized": "1 Dec, 2016 14:15",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-12-01T14:25:00",
+                                                                        "epochSeconds": 1480602300,
+                                                                        "localized": "1 Dec, 2016 14:25",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "marketingCarrier": "Northern Rail",
+                                                                        "operatingCarrier": "Northern Rail",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Branch-Line/Regional",
+                                                                        "travelMediumCode": "BLR",
+                                                                        "supplierTravelMediumId": "NT7679"
+                                                                        },
+                                                                        "duration": "PT10M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 35,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Off Peak Single",
+                                                                        "carrierFareClassCategoryName": "Offpeak",
+                                                                        "fareDescription": "Any off-peak train"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 36,
+                                                                        "travelMode": "Train",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBLIV",
+                                                                        "stationDisplayName": "Liverpool Lime Street"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBQQU",
+                                                                        "stationDisplayName": "London Euston"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-12-01T14:47:00",
+                                                                        "epochSeconds": 1480603620,
+                                                                        "localized": "1 Dec, 2016 14:47",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-12-01T16:59:00",
+                                                                        "epochSeconds": 1480611540,
+                                                                        "localized": "1 Dec, 2016 16:59",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "marketingCarrier": "Virgin Trains",
+                                                                        "operatingCarrier": "Virgin Trains",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Inter-City",
+                                                                        "travelMediumCode": "ICY",
+                                                                        "supplierTravelMediumId": "VT8800"
+                                                                        },
+                                                                        "duration": "PT2H12M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 36,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Off Peak Single",
+                                                                        "carrierFareClassCategoryName": "Offpeak",
+                                                                        "fareDescription": "Any off-peak train",
+                                                                        "amenityList": [{
+                                                                                        "displayName": "Buffet Service"
+                                                                                        }, {
+                                                                                        "displayName": "WiFi Access (Additional Cost)"
+                                                                                        }]
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 37,
+                                                                        "travelMode": "Transfer",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBQQU",
+                                                                        "stationDisplayName": "London Euston"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBQQW",
+                                                                        "stationDisplayName": "London Waterloo"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-12-01T16:59:00",
+                                                                        "epochSeconds": 1480611540,
+                                                                        "localized": "1 Dec, 2016 16:59",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-12-01T17:49:00",
+                                                                        "epochSeconds": 1480614540,
+                                                                        "localized": "1 Dec, 2016 17:49",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "marketingCarrier": "London Underground",
+                                                                        "operatingCarrier": "London Underground",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Metro/City-Transit",
+                                                                        "travelMediumCode": "MCT"
+                                                                        },
+                                                                        "duration": "PT50M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 37,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Off Peak Single",
+                                                                        "carrierFareClassCategoryName": "Offpeak",
+                                                                        "fareDescription": "Any off-peak train"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 38,
+                                                                        "travelMode": "Train",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBQQW",
+                                                                        "stationDisplayName": "London Waterloo"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBPMS",
+                                                                        "stationDisplayName": "Portsmouth & Southsea"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-12-01T18:00:00",
+                                                                        "epochSeconds": 1480615200,
+                                                                        "localized": "1 Dec, 2016 18:00",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-12-01T19:29:00",
+                                                                        "epochSeconds": 1480620540,
+                                                                        "localized": "1 Dec, 2016 19:29",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "marketingCarrier": "South West Trains",
+                                                                        "operatingCarrier": "South West Trains",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Inter-City",
+                                                                        "travelMediumCode": "ICY",
+                                                                        "supplierTravelMediumId": "SW8157"
+                                                                        },
+                                                                        "duration": "PT1H29M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 38,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Off Peak Single",
+                                                                        "carrierFareClassCategoryName": "Offpeak",
+                                                                        "fareDescription": "Any off-peak train",
+                                                                        "amenityList": [{
+                                                                                        "displayName": "Snack Trolley Service"
+                                                                                        }]
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 39,
+                                                                        "travelMode": "Bus",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBPMS",
+                                                                        "stationDisplayName": "Portsmouth & Southsea"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBSHV",
+                                                                        "stationDisplayName": "Southsea Hoverport"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-12-01T19:45:00",
+                                                                        "epochSeconds": 1480621500,
+                                                                        "localized": "1 Dec, 2016 19:45",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-12-01T19:53:00",
+                                                                        "epochSeconds": 1480621980,
+                                                                        "localized": "1 Dec, 2016 19:53",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "marketingCarrier": "Hovertravel",
+                                                                        "operatingCarrier": "Hovertravel",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Bus",
+                                                                        "travelMediumCode": "BUS"
+                                                                        },
+                                                                        "duration": "PT8M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 39,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Off Peak Single",
+                                                                        "carrierFareClassCategoryName": "Offpeak",
+                                                                        "fareDescription": "Any off-peak train"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 40,
+                                                                        "travelMode": "Ferry",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBSHV",
+                                                                        "stationDisplayName": "Southsea Hoverport"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBXRD",
+                                                                        "stationDisplayName": "Ryde Hoverport"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-12-01T20:00:00",
+                                                                        "epochSeconds": 1480622400,
+                                                                        "localized": "1 Dec, 2016 20:00",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-12-01T20:10:00",
+                                                                        "epochSeconds": 1480623000,
+                                                                        "localized": "1 Dec, 2016 20:10",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "marketingCarrier": "Hovertravel",
+                                                                        "operatingCarrier": "Hovertravel",
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Ferry",
+                                                                        "travelMediumCode": "FRY"
+                                                                        },
+                                                                        "duration": "PT10M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 40,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Off Peak Single",
+                                                                        "carrierFareClassCategoryName": "Offpeak",
+                                                                        "fareDescription": "Any off-peak train"
+                                                                        }
+                                                                        }, {
+                                                                        "travelSegmentIndex": 41,
+                                                                        "travelMode": "Transfer",
+                                                                        "departureStation": {
+                                                                        "stationCode": "GBXRD",
+                                                                        "stationDisplayName": "Ryde Hoverport"
+                                                                        },
+                                                                        "arrivalStation": {
+                                                                        "stationCode": "GBRYD",
+                                                                        "stationDisplayName": "Ryde Esplanade"
+                                                                        },
+                                                                        "departureDateTime": {
+                                                                        "raw": "2016-12-01T20:10:00",
+                                                                        "epochSeconds": 1480623000,
+                                                                        "localized": "1 Dec, 2016 20:10",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "arrivalDateTime": {
+                                                                        "raw": "2016-12-01T20:20:00",
+                                                                        "epochSeconds": 1480623600,
+                                                                        "localized": "1 Dec, 2016 20:20",
+                                                                        "localizedShortDate": "Thu, 1 Dec"
+                                                                        },
+                                                                        "travelMedium": {
+                                                                        "travelMediumName": "Pedestrian",
+                                                                        "travelMediumCode": "PED"
+                                                                        },
+                                                                        "duration": "PT10M",
+                                                                        "fareDetail": {
+                                                                        "travelSegmentIndex": 41,
+                                                                        "carrierServiceClassDisplayName": "Standard",
+                                                                        "carrierFareClassDisplayName": "Off Peak Single",
+                                                                        "carrierFareClassCategoryName": "Offpeak",
+                                                                        "fareDescription": "Any off-peak train"
+                                                                        }
+                                                                        }],
+                                                  "noOfChanges": 5,
+                                                  "legBoundOrder": 2,
+                                                  "showTrainIcon": false,
+                                                  "overtakenJourney": false
+                                                  }],
+                                "fareBreakdownList": [{
+                                                      "farePrice": {
+                                                      "amount": "68.15",
+                                                      "currencyCode": "GBP",
+                                                      "mainCurrency": 68,
+                                                      "fractionalCurrency": 15,
+                                                      "currencySymbol": "£",
+                                                      "formattedPrice": "£68.15",
+                                                      "formattedWholePrice": "£68"
+                                                      },
+                                                      "passengerFareList": [{
+                                                                            "passengerIndex": 1,
+                                                                            "passengerSegmentFareList": [{
+                                                                                                         "travelSegmentIndex": 35,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Off Peak Single",
+                                                                                                         "carrierFareClassCategoryName": "Offpeak",
+                                                                                                         "fareDescription": "Any off-peak train"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 36,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Off Peak Single",
+                                                                                                         "carrierFareClassCategoryName": "Offpeak",
+                                                                                                         "fareDescription": "Any off-peak train",
+                                                                                                         "amenityList": [{
+                                                                                                                         "displayName": "Buffet Service"
+                                                                                                                         }, {
+                                                                                                                         "displayName": "WiFi Access (Additional Cost)"
+                                                                                                                         }]
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 37,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Off Peak Single",
+                                                                                                         "carrierFareClassCategoryName": "Offpeak",
+                                                                                                         "fareDescription": "Any off-peak train"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 38,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Off Peak Single",
+                                                                                                         "carrierFareClassCategoryName": "Offpeak",
+                                                                                                         "fareDescription": "Any off-peak train",
+                                                                                                         "amenityList": [{
+                                                                                                                         "displayName": "Snack Trolley Service"
+                                                                                                                         }]
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 39,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Off Peak Single",
+                                                                                                         "carrierFareClassCategoryName": "Offpeak",
+                                                                                                         "fareDescription": "Any off-peak train"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 40,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Off Peak Single",
+                                                                                                         "carrierFareClassCategoryName": "Offpeak",
+                                                                                                         "fareDescription": "Any off-peak train"
+                                                                                                         }, {
+                                                                                                         "travelSegmentIndex": 41,
+                                                                                                         "carrierServiceClassDisplayName": "Standard",
+                                                                                                         "carrierFareClassDisplayName": "Off Peak Single",
+                                                                                                         "carrierFareClassCategoryName": "Offpeak",
+                                                                                                         "fareDescription": "Any off-peak train"
+                                                                                                         }]
+                                                                            }]
+                                                      }],
+                                "segmentFareDetailList": [{
+                                                          "travelSegmentIndex": 35,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Off Peak Single",
+                                                          "carrierFareClassCategoryName": "Offpeak",
+                                                          "fareDescription": "Any off-peak train"
+                                                          }, {
+                                                          "travelSegmentIndex": 36,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Off Peak Single",
+                                                          "carrierFareClassCategoryName": "Offpeak",
+                                                          "fareDescription": "Any off-peak train",
+                                                          "amenityList": [{
+                                                                          "displayName": "Buffet Service"
+                                                                          }, {
+                                                                          "displayName": "WiFi Access (Additional Cost)"
+                                                                          }]
+                                                          }, {
+                                                          "travelSegmentIndex": 37,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Off Peak Single",
+                                                          "carrierFareClassCategoryName": "Offpeak",
+                                                          "fareDescription": "Any off-peak train"
+                                                          }, {
+                                                          "travelSegmentIndex": 38,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Off Peak Single",
+                                                          "carrierFareClassCategoryName": "Offpeak",
+                                                          "fareDescription": "Any off-peak train",
+                                                          "amenityList": [{
+                                                                          "displayName": "Snack Trolley Service"
+                                                                          }]
+                                                          }, {
+                                                          "travelSegmentIndex": 39,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Off Peak Single",
+                                                          "carrierFareClassCategoryName": "Offpeak",
+                                                          "fareDescription": "Any off-peak train"
+                                                          }, {
+                                                          "travelSegmentIndex": 40,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Off Peak Single",
+                                                          "carrierFareClassCategoryName": "Offpeak",
+                                                          "fareDescription": "Any off-peak train"
+                                                          }, {
+                                                          "travelSegmentIndex": 41,
+                                                          "carrierServiceClassDisplayName": "Standard",
+                                                          "carrierFareClassDisplayName": "Off Peak Single",
+                                                          "carrierFareClassCategoryName": "Offpeak",
+                                                          "fareDescription": "Any off-peak train"
+                                                          }],
+                                "openReturn": false
+                                }],
+            "railOfferToken": "eNo9kDFLxEAUhJN92bimWsIVT0F5pWx1nnjJddYWInjoH7KSCMeh5Z1dKhWREBAUOxsFw_2CKySVxf0AEfdtEsuZ3dn9ZhTEn3705qtpsaU9XKdvaWJVP2Q3Qter2VxYKzIee6x0Xf3cAka03Xis7L33a8AdOrDehnJK15OsBDymTJjw5Czd3e-bnnImH-WAmaCVsIFN5bR9eHYOOAFaBiY8HQ8HQ5dg155dXglcBjSVTYK1feepEJhLRg6PxqMkHcSB8jXEL35U-OrxlRtF9CUNKnfZkl7cNfQ2kAyTkeO1Xgt1SAvBv6dpv-XNuyoLQSV0vGVX-gPoN2gbJpxoyruR5pLumbf3PxPP-Sypat1mUJ4aK8mYnuVf04B7fyZ4h2o=",
+            "passengerList": [{
+                              "passengerIndex": 1,
+                              "age": 26,
+                              "primaryTraveler": true,
+                              "passengerAgeGroup": "ADULT",
+                              "price": {
+                              "amount": "272.45",
+                              "currencyCode": "GBP",
+                              "mainCurrency": 272,
+                              "fractionalCurrency": 45,
+                              "currencySymbol": "£",
+                              "formattedPrice": "£272.45",
+                              "formattedWholePrice": "£272"
+                              }
+                              }],
+            "ticketDeliveryOptionList": [{
+                                         "ticketDeliveryOptionToken": "PICK_UP_AT_TICKETING_OFFICE_NONE",
+                                         "ticketDeliveryOptionCategoryCode": "PICK_UP_AT_TICKETING_OFFICE",
+                                         "ticketDeliveryDescription": "Collect at Ticket Office",
+                                         "ticketDeliveryFee": {
+                                         "amount": "0.00",
+                                         "currencyCode": "GBP",
+                                         "mainCurrency": 0,
+                                         "fractionalCurrency": 0,
+                                         "currencySymbol": "£",
+                                         "formattedPrice": "£0.00",
+                                         "formattedWholePrice": "£0"
+                                         },
+                                         "departureStation": true
+                                         }, {
+                                         "ticketDeliveryOptionToken": "KIOSK_NONE",
+                                         "ticketDeliveryOptionCategoryCode": "KIOSK",
+                                         "ticketDeliveryDescription": "Collect at Ticket Vending Machine",
+                                         "ticketDeliveryFee": {
+                                         "amount": "0.00",
+                                         "currencyCode": "GBP",
+                                         "mainCurrency": 0,
+                                         "fractionalCurrency": 0,
+                                         "currencySymbol": "£",
+                                         "formattedPrice": "£0.00",
+                                         "formattedWholePrice": "£0"
+                                         },
+                                         "departureStation": true
+                                         }],
+            "bookingInstructions": {
+                "selectedTicketDeliveryOption": {
+                    "ticketDeliveryOptionToken": "PICK_UP_AT_TICKETING_OFFICE_NONE",
+                    "ticketDeliveryOptionCategoryCode": "PICK_UP_AT_TICKETING_OFFICE",
+                    "ticketDeliveryDescription": "Collect at Ticket Office",
+                    "ticketDeliveryFee": {
+                        "amount": "0.00",
+                        "currencyCode": "GBP",
+                        "mainCurrency": 0,
+                        "fractionalCurrency": 0,
+                        "currencySymbol": "£",
+                        "formattedPrice": "£0.00",
+                        "formattedWholePrice": "£0"
+                    },
+                    "departureStation": true
+                }
+            }
+        }
+    },
+    "newTrip": {
+        "itineraryNumber": "71126404159",
+        "tripId": "ac649949-06d6-4942-bcb1-fcb76a8d5b62"
+    },
+    "orderId": "8088601543813",
+    "currencyCode": "GBP",
+    "totalCharges": "276.54",
+    "totalChargesPrice": {
+        "amount": "276.54",
+        "formattedPrice": "£276.54",
+        "formattedWholePrice": "£277",
+        "currencyCode": "GBP"
+    },
+    "activityId": "a1c96b3b-e271-4fcd-be76-2fccf1323058"
+}

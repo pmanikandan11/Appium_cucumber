@@ -1,0 +1,431 @@
+GET
+.*?api/hotel/info.*
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+	"hotelId": "2565776",
+	"hotelName": "ARIA Resort & Casino",
+	"localizedHotelName": "ARIA Resort & Casino",
+	"nonLocalizedHotelName": "ARIA Resort & Casino",
+	"hotelAddress": "3730 Las Vegas Blvd. South",
+	"hotelCity": "Las Vegas",
+	"hotelStateProvince": "NV",
+	"hotelCountry": "USA",
+	"latitude": "36.106678",
+	"longitude": "-115.173173",
+	"longDescription": "<p><strong><strong>Modern luxury, Center-Strip</strong>:</strong> At the heart of the Las Vegas Strip, ARIA Resort & Casino offers a luxurious resort experience with technologically advanced accommodations, world-class dining and entertainment, upscale shopping and more. \r\n</p><p><strong><strong>Casino, Cabanas, and Zarkana™</strong>:</strong> ARIA Resort & Casino provides plenty of gaming, swimming pools with cabanas, and Cirque du Soleil’s visually stunning modern acrobatic spectacular, Zarkana™.  </p><p><strong><strong>High-Tech Rooms with Panoramic Views</strong>:</strong> Guestrooms feature floor-to-ceiling windows, custom bedding, and touchscreen panels that control lighting, temperature, music/TV channels, privacy notifications, alarm clock and light settings.</p><p><strong>Rooms</strong><br>Guestrooms at ARIA Resort & Casino at CityCenter offer cordless phones with speakerphone. Guestrooms feature high-definition televisions with premium TV channel(s). Bathrooms include double sinks, separate bathtubs and showers, and bathrobes. Business-friendly rooms are equipped with wireless and wired high-speed Internet access. Guestrooms provide minibars, clock radios, and remote lighting/drapery/curtain control. Other amenities include bathroom phones and complimentary newspapers. Services include a turndown service and housekeeping. Amenities available on request include hypo-allergenic bedding. Room service is available 24 hours a day.</p><p><strong>Awards</strong><br><strong>Green / Sustainable Property </strong> This property participates in Green Key Eco-Rating Program, a program that measures the property's impact on one or more of the following: environment, community, cultural-heritage, the local economy.</p><p><strong>Dining</strong><br><b>barMASA</b> - Chef Masayoshi Takayama's Japanese restaurant serves clean, simple and uncomplicated food focused on freshness and seasonality; the restaurant only uses fish that have been out of Japan’s coastal waters for less than 24 hours.\r\n<b>Bardot Brasserie</b> - Chef Michael Mina prepares French comfort cuisine for brunch and dinner daily. Happy Hour is available. \r\n<b>Sage</b> - Chef Shawn McClain's restaurant offers farm-to-table produce, artisanal meats, and sustainable seafood in a sophisticated yet comfortable atmosphere.   \r\n<b>Julian Serrano</b> - The chef's restaurant offers a casual atmosphere with menus at different price points. An expansive seafood bar highlights fresh shellfish and ceviches, while the dining room and lounge serve tapas and other dishes from Serrano's native Spain.  \r\n  \r\n<b>Jean-Georges Steakhouse</b> - Chef Jean-Georges Vongerichten melds steakhouse touches with a contemporary experience. The menu offers an innovative array of side dishes and sauces, while the restaurant's lounge and bar focus on classic cocktails.   \r\n<b>JP Patisserie</b> - Offering signature chocolates and desserts by Chef Jean-Philippe Maury, as well as breakfast pastries, sandwiches, crepes, salads, and paninis.\r\n<b>FIVE50 Pizza Bar</b> - The restaurant’s name is inspired by the temperature at which the pizza is cooked, and is also the time when the bar celebrates a special daily happy hour. Award-winning chefs put their twist on East Coast and Sicilian-style pizzas, paired with an impressive selection of craft beers along with small plates, handmade pastas, an artisan charcuterie selection and decadent desserts.<b>Blossom</b> - Offers a meticulously researched menu of 100 Beijing and Hong Kong dishes that span every preference, from classic to cutting edge.\r\n\r\n<b>Javier’s</b> - Exquisitely presented regionally-influenced homestyle Mexican cooking accompanied by an unrivaled tequila selection and Javier’s famous hand-shaken, made-to-order margaritas.\r\n\r\n<b>Lemongrass</b> - Enjoy Thai cuisine in a modern atmosphere.\r\n\r\n<b>Cafe Vettro</b> - This spot serves breakfast, lunch, and dinner daily.\r\n\r\n<b>The Buffet</b> - This restaurant has a contemporary take on standard buffet cuisine. \r\n<strong>Alibi Cocktail Lounge</strong> - Offers premium spirits with imaginative ingredients crafted by master mixologists, with a timeless soundtrack playing day and night.</p><p><strong>Fees</strong><br><ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>                <li>Crib (infant bed) fee: USD 35.00 per day</li><li>Rollaway bed fee: USD 50.00 per day</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul></p><p><strong>Location Highlights</strong><br><ul><li>Metro station nearby</li><li>In city center</li><li>In entertainment district</li><li>Airport nearby</li></ul></p><p><strong>Spa</strong><br>The Spa and Salon at ARIA offers a unique blend of services, products, and experiences. Distinctive design features combining Aji stone, water gardens, and natural light create a sense of warmth, calmness, and tranquility. The Spa features 50 treatment suites, sauna, and spa tub. Services offered at this spa include scrubs, wraps, facials, hydrotherapy and aromatherapy treatments, and massages.<ul><li>Number of treatment rooms 50</li><li>Manicures and pedicures</li><li>Body wraps</li><li>Body scrubs</li><li>Aromatherapy treatments</li><li>Hydrotherapy treatments</li><li>Sauna in spa</li><li>Spa tub in spa</li><li>Massages</li><li>Body treatments</li><li>Facial treatments</li></ul></p><p><strong>Property Amenities</strong><br>In the heart of the Las Vegas Strip,  the award-winning ARIA Resort & Casino at CityCenter offers it all, from high-tech guestrooms and world-class dining from celebrated chefs, to enthralling entertainment and upscale shopping.\r\nThe full-service spa features massage and treatment rooms. In addition to an outdoor pool, ARIA Resort & Casino at CityCenter provides fitness facilities, a spa tub, a sauna, and a steam room. Business-related amenities include wireless Internet access (included in daily resort fee), Wi-Fi (surcharge), a conference center, 300,000 square feet of meeting facilities, and a technology helpdesk. Meeting facilities include conference rooms, a ballroom, and meeting rooms for small groups. ARIA Resort & Casino at CityCenter also offers a casino, a bar/lounge, and a nightclub. Wedding services are offered at this hotel. ARIA Resort & Casino at CityCenter has designated areas for smoking (fines may apply for smoking in non-smoking areas). Guests can reserve pool cabanas (surcharge) through the concierge (seasonal closures may apply).<ul><li>Total number of rooms - 4004</li><li>Number of floors - 61</li><li>ATM/banking</li><li>Number of bars/lounges - 13</li><li>Business center</li><li>Casino</li><li>Number of coffee shops/cafes - 3</li><li>Concierge services</li><li>Conference space</li><li>Dry cleaning/laundry service</li><li>Elevator/lift</li><li>Express check-in</li><li>Express check-out</li><li>Fitness facilities</li><li>Full-service spa</li><li>Gift shops or newsstand</li><li>Hair salon</li><li>Designated smoking areas</li><li>Tours/ticket assistance</li><li>WiFi (surcharge)</li><li>Limo or Town Car service available</li><li>Spa treatment room(s)</li><li>Meeting rooms 66</li><li>Multilingual staff</li><li>Nightclub</li><li>Poolside bar</li><li>Porter/bellhop</li><li>Luggage storage</li><li>Conference space size (meters) - 28</li><li>Year Built 2009</li><li>Number of restaurants - 16</li><li>Conference space size (feet) - 300,000</li><li>Conference center</li><li>Sauna</li><li>Shopping on site</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Outdoor pool</li><li>Wedding services</li></ul></p><p><strong>Room Amenities</strong><br><ul><li>Premium TV channels</li><li>Pay movies</li><li>Hypo-allergenic bedding available</li><li>Premium bedding</li><li>Climate control</li><li>Air conditioning</li><li>Minibar</li><li>Daily housekeeping</li><li>Turndown service</li><li>Private bathroom</li><li>Bathrobes</li><li>Free toiletries</li><li>Hair dryer</li><li>Separate bathtub and shower</li><li>Flat-panel TV</li><li>HDTV</li><li>Iron/ironing board</li><li>Desk</li><li>Free WiFi</li><li>In-room safe (laptop compatible)</li><li>Digital TV service</li><li>Blackout drapes/curtains</li><li>Cribs/infant beds (surcharge)</li><li>Rollaway/extra beds (surcharge)</li><li>Room service (24 hours)</li></ul></p><p><strong>Recreation</strong><br><ul><li>Golfing nearby</li><li>Surfing/boogie boarding nearby</li><li>Rafting nearby</li><li>Kayaking nearby</li><li>Sailing nearby</li><li>Water skiing nearby</li><li>Windsurfing nearby</li><li>Scooter/moped rentals nearby</li><li>Mountain biking nearby</li><li>Hiking/biking trails nearby</li><li>Skydiving nearby</li><li>Parasailing nearby</li><li>Personal motorized watercraft on site</li><li>Ecotours nearby</li><li>Golf lessons available nearby</li><li>Aerobics on site</li><li>Pilates classes on site</li><li>Yoga classes/instruction on site</li></ul></p><p><strong>Points of Interest</strong><br><ul><li>Crystals at City Center - 0.2 km / 0.1 mi</li><li>Miracle Mile Shops - 0.4 km / 0.3 mi</li><li>The Linq - 1.2 km / 0.7 mi</li><li>High Roller - 1.2 km / 0.8 mi</li><li>The Auto Collections - 1.3 km / 0.8 mi</li><li>Sands Expo Convention Center - 1.9 km / 1.2 mi</li><li>Fashion Show Mall - 2.4 km / 1.5 mi</li><li>National Atomic Testing Museum - 2.4 km / 1.5 mi</li><li>Desert Research Institute - 2.5 km / 1.5 mi</li><li>Thomas and Mack Center - 2.5 km / 1.6 mi</li><li>Bali Hai Golf Club - 2.5 km / 1.6 mi</li><li>Orleans Arena - 2.6 km / 1.6 mi</li><li>Welcome to Fabulous Las Vegas Sign - 2.7 km / 1.7 mi</li><li>University of Nevada-Las Vegas - 2.8 km / 1.8 mi</li><li>Marjorie Barrick Museum - 2.9 km / 1.8 mi</li></ul>The preferred airport for ARIA Resort & Casino is Las Vegas, NV (LAS-McCarran Intl.) - 3.1 km / 2 mi. Distances are calculated in a straight line from the property's location to the point of interest or airport and may not reflect actual travel distance. Distances are displayed to the nearest 0.1 km and mile. </p><p><strong>Policies</strong><br><ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.</li><li>Check-in time ends at Midnight</li><li>Check-out time is 11 AM</li><li>Check-in time starts at 3 PM</li><li>Pets not allowed</li><li>American Express</li><li>Discover</li><li>MasterCard</li><li>Visa</li><li>Minimum check-in age is 21</li></ul></p>",
+	"photos": [{
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_66_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_66_t.jpg",
+		"featured": true,
+		"displayText": "Featured Image"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_142_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_142_t.jpg",
+		"displayText": "Lobby"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_1_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_1_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_2_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_2_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_3_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_3_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_4_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_4_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_65_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_65_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_100_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_100_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_121_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_121_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_138_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_138_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_75_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_75_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_76_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_76_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_119_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_119_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_122_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_122_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_123_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_123_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_126_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_126_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_136_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_136_t.jpg",
+		"displayText": "Living Room"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_67_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_67_t.jpg",
+		"displayText": "Outdoor Pool"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_140_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_140_t.jpg",
+		"displayText": "Outdoor Pool"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_69_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_69_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_120_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_120_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_127_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_127_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_134_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_134_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_141_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_141_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_95_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_95_t.jpg",
+		"displayText": "Gift Shop"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_109_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_109_t.jpg",
+		"displayText": "Gift Shop"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_137_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_137_t.jpg",
+		"displayText": "Dining"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_77_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_77_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_78_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_78_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_97_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_97_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_130_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_130_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_144_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_144_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_145_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_145_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_148_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_148_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_146_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_146_t.jpg",
+		"displayText": "Buffet"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_147_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_147_t.jpg",
+		"displayText": "Hotel Bar"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_92_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_92_t.jpg",
+		"displayText": "Hotel Lounge"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_129_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_129_t.jpg",
+		"displayText": "Hotel Lounge"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_131_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_131_t.jpg",
+		"displayText": "Banquet Hall"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_79_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_79_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_103_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_103_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_104_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_104_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_106_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_106_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_107_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_107_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_139_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_139_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_133_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_133_t.jpg",
+		"displayText": "Hotel Front - Evening/Night"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_132_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_132_t.jpg",
+		"displayText": "Exterior detail"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_20_y.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_20_t.jpg",
+		"displayText": "Casino"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_114_y.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_114_t.jpg",
+		"displayText": "Exterior"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_143_l.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_143_t.jpg",
+		"displayText": "Hotel Interior"
+	}],
+	"hotelAmenities": [{
+		"id": "52",
+		"description": "Total number of rooms - 4004"
+	}, {
+		"id": "54",
+		"description": "Number of floors - 61"
+	}, {
+		"id": "41",
+		"description": "ATM/banking"
+	}, {
+		"id": "3913",
+		"description": "Number of bars/lounges - 13"
+	}, {
+		"id": "2065",
+		"description": "Business center"
+	}, {
+		"id": "2112",
+		"description": "Casino"
+	}, {
+		"id": "3929",
+		"description": "Number of coffee shops/cafes - 3"
+	}, {
+		"id": "43",
+		"description": "Concierge services"
+	}, {
+		"id": "81",
+		"description": "Conference space"
+	}, {
+		"id": "2070",
+		"description": "Dry cleaning/laundry service"
+	}, {
+		"id": "8",
+		"description": "Elevator/lift"
+	}, {
+		"id": "2177",
+		"description": "Express check-in"
+	}, {
+		"id": "2067",
+		"description": "Express check-out"
+	}, {
+		"id": "9",
+		"description": "Fitness facilities"
+	}, {
+		"id": "2123",
+		"description": "Full-service spa"
+	}, {
+		"id": "44",
+		"description": "Gift shops or newsstand"
+	}, {
+		"id": "40",
+		"description": "Hair salon"
+	}, {
+		"id": "2349",
+		"description": "Designated smoking areas"
+	}, {
+		"id": "2387",
+		"description": "Tours/ticket assistance"
+	}, {
+		"id": "2391",
+		"description": "WiFi (surcharge)"
+	}, {
+		"id": "2072",
+		"description": "Limo or Town Car service available"
+	}, {
+		"id": "2129",
+		"description": "Spa treatment room(s)"
+	}, {
+		"id": "2131",
+		"description": "Meeting rooms 66"
+	}, {
+		"id": "2043",
+		"description": "Multilingual staff"
+	}, {
+		"id": "2010",
+		"description": "Nightclub"
+	}, {
+		"id": "400",
+		"description": "Poolside bar"
+	}, {
+		"id": "2066",
+		"description": "Porter/bellhop"
+	}, {
+		"id": "4003",
+		"description": "Luggage storage"
+	}, {
+		"id": "2592",
+		"description": "Conference space size (meters) - 28"
+	}, {
+		"id": "2515",
+		"description": "Year Built 2009"
+	}, {
+		"id": "2537",
+		"description": "Number of restaurants - 16"
+	}, {
+		"id": "2539",
+		"description": "Conference space size (feet) - 300,000"
+	}, {
+		"id": "3372",
+		"description": "Conference center"
+	}, {
+		"id": "2135",
+		"description": "Sauna"
+	}, {
+		"id": "45",
+		"description": "Shopping on site"
+	}, {
+		"id": "2017",
+		"description": "Spa services on site"
+	}, {
+		"id": "371",
+		"description": "Spa tub"
+	}, {
+		"id": "2134",
+		"description": "Steam room"
+	}, {
+		"id": "24",
+		"description": "Outdoor pool"
+	}, {
+		"id": "2167",
+		"description": "Wedding services"
+	}],
+	"hotelStarRating": "5.0",
+	"hotelStarRatingCssClassName": "5-0",
+	"hotelGuestRating": "4.5",
+	"totalRecommendations": "14457",
+	"totalReviews": "15521",
+	"percentRecommended": "93",
+	"telesalesNumber": "1-800-914-5738",
+	"deskTopOverrideNumber": false,
+	"hotelMandatoryFeesText": {
+		"name": "Mandatory Fees and Taxes",
+		"content": "<ul><li>You'll be asked to pay the following charges at the hotel:<ul><li>Deposit: USD 130 per night</li><li>Resort fee: USD 35.84 per accommodation, per night</li></ul></li><li>The hotel resort fee includes:<ul><li>Fitness center access</li><li>Internet access</li><li>Newspaper</li><li>Phone calls</li><li>Additional inclusions</li></ul></li><li>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book.</li></ul>"
+	},
+	"hotelOverviewText": [{
+		"name": "<strong>Modern luxury, Center-Strip</strong>",
+		"content": "At the heart of the Las Vegas Strip, ARIA Resort & Casino offers a luxurious resort experience with technologically advanced accommodations, world-class dining and entertainment, upscale shopping and more."
+	}, {
+		"name": "<strong>Casino, Cabanas, and Zarkana™</strong>",
+		"content": "ARIA Resort & Casino provides plenty of gaming, swimming pools with cabanas, and Cirque du Soleil’s visually stunning modern acrobatic spectacular, Zarkana™."
+	}, {
+		"name": "<strong>High-Tech Rooms with Panoramic Views</strong>",
+		"content": "Guestrooms feature floor-to-ceiling windows, custom bedding, and touchscreen panels that control lighting, temperature, music/TV channels, privacy notifications, alarm clock and light settings."
+	}],
+	"firstHotelOverview": "At the heart of the Las Vegas Strip, ARIA Resort & Casino offers a luxurious resort experience with technologically advanced accommodations, world-class dining and entertainment, upscale shopping and more.",
+	"hotelAmenitiesText": {
+		"name": "Property Amenities",
+		"content": "<p>In the heart of the Las Vegas Strip,  the award-winning ARIA Resort & Casino at CityCenter offers it all, from high-tech guestrooms and world-class dining from celebrated chefs, to enthralling entertainment and upscale shopping.</p><p>The full-service spa features massage and treatment rooms. In addition to an outdoor pool, ARIA Resort & Casino at CityCenter provides fitness facilities, a spa tub, a sauna, and a steam room. Business-related amenities include wireless Internet access (included in daily resort fee), Wi-Fi (surcharge), a conference center, 300,000 square feet of meeting facilities, and a technology helpdesk. Meeting facilities include conference rooms, a ballroom, and meeting rooms for small groups. ARIA Resort & Casino at CityCenter also offers a casino, a bar/lounge, and a nightclub. Wedding services are offered at this hotel.</p><p></p><p>ARIA Resort & Casino at CityCenter has designated areas for smoking (fines may apply for smoking in non-smoking areas).</p><p>Guests can reserve pool cabanas (surcharge) through the concierge (seasonal closures may apply).</p><ul><li>Total number of rooms - 4004</li><li>Number of floors - 61</li><li>ATM/banking</li><li>Number of bars/lounges - 13</li><li>Business center</li><li>Casino</li><li>Number of coffee shops/cafes - 3</li><li>Concierge services</li><li>Conference space</li><li>Dry cleaning/laundry service</li><li>Elevator/lift</li><li>Express check-in</li><li>Express check-out</li><li>Fitness facilities</li><li>Full-service spa</li><li>Gift shops or newsstand</li><li>Hair salon</li><li>Designated smoking areas</li><li>Tours/ticket assistance</li><li>WiFi (surcharge)</li><li>Limo or Town Car service available</li><li>Spa treatment room(s)</li><li>Meeting rooms 66</li><li>Multilingual staff</li><li>Nightclub</li><li>Poolside bar</li><li>Porter/bellhop</li><li>Luggage storage</li><li>Conference space size (meters) - 28</li><li>Year Built 2009</li><li>Number of restaurants - 16</li><li>Conference space size (feet) - 300,000</li><li>Conference center</li><li>Sauna</li><li>Shopping on site</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Outdoor pool</li><li>Wedding services</li></ul>"
+	},
+	"hotelPoliciesText": {
+		"name": "Policies",
+		"content": "<ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.</li><li>Check-in time ends at Midnight</li><li>Check-out time is 11 AM</li><li>Check-in time starts at 3 PM</li><li>Pets not allowed</li><li>American Express</li><li>Discover</li><li>MasterCard</li><li>Visa</li><li>Minimum check-in age is 21</li></ul>"
+	},
+	"hotelFeesText": {
+		"name": "Fees",
+		"content": "<ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>                <li>Crib (infant bed) fee: USD 35.00 per day</li><li>Rollaway bed fee: USD 50.00 per day</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul>"
+	},
+	"isVipAccess": false,
+	"locationDescription": "The Strip (Las Vegas)",
+	"locationId": "800045",
+	"regions": [{
+		"id": 201,
+		"type": "COUNTRY",
+		"name": "United States of America",
+		"description": "",
+		"latitude": 46.181268535876484,
+		"longitude": -113.76776055324544
+	}, {
+		"id": 230,
+		"type": "PROVINCESTATE",
+		"name": "Nevada",
+		"description": "",
+		"latitude": 39.3564384389419,
+		"longitude": -116.655371495514
+	}, {
+		"id": 2008,
+		"type": "CITY",
+		"name": "Las Vegas",
+		"description": "",
+		"latitude": 36.114666,
+		"longitude": -115.172872
+	}, {
+		"id": 143393,
+		"type": "CITY",
+		"name": "Paradise",
+		"description": "",
+		"latitude": 36.0830097215948,
+		"longitude": -115.136317084765
+	}, {
+		"id": 178276,
+		"type": "MULTICITYVICINITY",
+		"name": "Las Vegas (and vicinity)",
+		"description": "",
+		"latitude": 36.114666,
+		"longitude": -115.172872
+	}, {
+		"id": 800045,
+		"type": "NEIGHBORHOOD",
+		"name": "The Strip (Las Vegas)",
+		"description": "",
+		"latitude": 36.1095982359662,
+		"longitude": -115.169329134102
+	}, {
+		"id": 6054173,
+		"type": "MULTIREGIONWITHINACOUNTRY",
+		"name": "Clark County - Las Vegas",
+		"description": "",
+		"latitude": 36.1017960708337,
+		"longitude": -114.87418365644
+	}],
+	"deepLinkUrl": "https://www.expedia.com/Las-Vegas-Hotels-ARIA-Resort-Casino.h2565776.Hotel-Information"
+}

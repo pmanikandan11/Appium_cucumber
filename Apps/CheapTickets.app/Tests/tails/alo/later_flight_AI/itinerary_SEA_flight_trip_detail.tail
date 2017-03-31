@@ -1,0 +1,342 @@
+GET
+.*?/api/trips/5ca48839-e860-4cde-be71-7b977804238b.*
+*
+200
+Content-Type: application/json
+
+{
+	"apiVersion": "1.0",
+	"responseType": "TRIP_DETAILS",
+	"responseData": {
+		"levelOfDetail": "FULL",
+		"tripId": "5ca48839-e860-4cde-be71-7b977804238b",
+		"webDetailsURL": "https://www.expedia.com/trips/1130228389120",
+		"tripNumber": 1130228389120,
+		"title": "Flight to Seattle",
+		"description": "",
+		"updateTripNameDescPathURL": "https://www.expedia.com/api/trips/5ca48839-e860-4cde-be71-7b977804238b/updateTripNameDescription",
+		"startTime": {
+			"raw": "2016-03-22T17:56:00-07:00",
+			"localized": "Mar 22, 2016 5:56:00 PM",
+			"epochSeconds": {{ epoch_seconds_plus_36_hours_20_seconds }},
+			"timeZoneOffsetSeconds": -25200,
+			"localizedShortDate": "3/22/2016",
+			"localizedMediumDate": "Mar 22",
+			"localizedFullDate": "Tue, Mar 22",
+			"localizedLongDate": "Mar 22, 2016"
+		},
+		"endTime": {
+			"raw": "2016-03-22T20:04:00-07:00",
+			"localized": "Mar 22, 2016 8:04:00 PM",
+			"epochSeconds": {{ epoch_seconds_plus_2_days }},
+			"timeZoneOffsetSeconds": -25200,
+			"localizedShortDate": "3/22/2016",
+			"localizedMediumDate": "Mar 22",
+			"localizedFullDate": "Tue, Mar 22",
+			"localizedLongDate": "Mar 22, 2016"
+		},
+		"tripCreatedTime": {
+			"raw": "2016-03-14T19:51:56Z",
+			"localized": "Mar 14, 2016 7:51:56 PM",
+			"epochSeconds": 1457985116,
+			"timeZoneOffsetSeconds": 0,
+			"localizedShortDate": "Mon, 14 Mar"
+		},
+		"tripUpdatedTime": {
+			"raw": "2016-03-22T16:42:27Z",
+			"localized": "Mar 22, 2016 4:42:27 PM",
+			"epochSeconds": 1458664947,
+			"timeZoneOffsetSeconds": 0,
+			"localizedShortDate": "Tue, 22 Mar"
+		},
+		"tripCacheUpdatedTime": {
+			"raw": "2016-03-22T16:42:27Z",
+			"localized": "Mar 22, 2016 4:42:27 PM",
+			"epochSeconds": 1458664947,
+			"timeZoneOffsetSeconds": 0,
+			"localizedShortDate": "Tue, 22 Mar"
+		},
+		"bookingStatus": "BOOKED",
+		"rewards": {
+			"totalPoints": 1139.00,
+			"basePoints": 42.00,
+			"bonusPoints": [{
+				"m_pointValue": 13.00,
+				"m_pointType": "offerPoint",
+				"m_pointDescription": "+gold Bonus",
+				"m_status": "PENDING"
+			}, {
+				"m_pointValue": 84.00,
+				"m_pointType": "offerPoint",
+				"m_pointDescription": "App Booking Triple Points",
+				"m_status": "PENDING"
+			}, {
+				"m_pointValue": 1000.00,
+				"m_pointType": "offerPoint",
+				"m_pointDescription": "Expedia Escape Employee Flight Offer",
+				"m_status": "PENDING"
+			}],
+			"logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+			"viewStatementURL": "/user/rewards"
+		},
+		"sharableDetailsURL": "https://www.expedia.com/api/trips/shared/65hTQ4YmKZYPM1IL5lwox8CA8lISKrbGXrcAxvuADYS3__hpr1Btip6B3y2opGPTvgN-GhKifTp7X0tPVZBQLU2e",
+		"airAttachQualificationInfo": {
+			"airAttachQualified": true,
+			"offerExpires": "2016-03-24T12:51:56.563-07:00",
+			"offerExpiresTime": {
+				"raw": "2016-03-24T12:51:56-07:00",
+				"localized": "Mar 24, 2016 12:51:56 PM",
+				"epochSeconds": {{ epoch_seconds_plus_1_month }},
+				"timeZoneOffsetSeconds": -25200,
+				"localizedShortDate": "3/24/16",
+				"localizedMediumDate": "Mar 24, 2016",
+				"localizedFullDate": "Thursday, March 24, 2016",
+				"localizedLongDate": "March 24, 2016"
+			}
+		},
+		"customerSupport": {
+			"customerSupportURL": "http://www.expedia.com/service/",
+			"customerSupportPhoneInfo": [
+				"Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+				"For faster service, mention <strong>itinerary #1130228389120 </strong>"],
+			"customerSupportPhoneNumberDomestic": "+1-866-539-4149",
+			"customerSupportPhoneNumberInternational": "+1 702-939-2635",
+			"customerSupportPhoneInfoForEmail": [
+				"Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+				"For faster service, mention <strong>itinerary #1130228389120 </strong>"],
+			"termsAndConditionsURL": ""
+		},
+		"isBookedUsingForeignCurrency": false,
+		"flights": [{
+			"uniqueID": "8B839553-44F0-4E3B-86C2-2CE80C3D5C0C_0",
+			"bookingStatus": "BOOKED",
+			"bookingStatusText": "Confirmed",
+			"bookingStatusMessage": "Your reservation is booked and confirmed. There is no need to call us to reconfirm this reservation.",
+			"ticketingStatus": "COMPLETE",
+			"orderNumber": "8007240956762",
+			"webCancelPathURL": "https://www.expedia.com/flight-cancel-exchange?itinnumber=1130228389120&arl=251948275&bookingid=26GROA",
+			"updateFrequentFlyerPathURL": "https://www.expedia.com/api/trips/5ca48839-e860-4cde-be71-7b977804238b/updateFrequentFlyerInformation",
+			"orderLineNumber": "61dfc513-26ff-4d43-af3b-058f2ed72ec0",
+			"confirmationNumbers": [{
+				"airlineName": "Air India",
+				"number": "IY60DQ"
+			}],
+			"expediaBookingId": "26GROA",
+			"paymentModel": "AGENCY",
+			"fareType": "PUBLISHED",
+			"flightType": "ONE_WAY",
+			"isInternational": false,
+			"fareTotal": {
+				"subTotal": "208.1",
+				"subTotalFormatted": "$208.10",
+				"currency": "USD",
+				"base": "180.47",
+				"baseFormatted": "$180.47",
+				"taxes": "27.63",
+				"taxesFormatted": "$27.63",
+				"total": "208.1",
+				"totalFormatted": "$208.10"
+			},
+			"farePerPassenger": [{
+				"passengerIndex": 0,
+				"passengerTypeCode": "ADULT",
+				"passengerTypeCodeLocalized": "Adult",
+				"currency": "USD",
+				"base": "180.47",
+				"baseFormatted": "$180.47",
+				"taxes": "27.63",
+				"taxesFormatted": "$27.63",
+				"fees": [{
+					"localizedName": "Transportation Tax",
+					"amount": "13.53",
+					"amountFormatted": "$13.53"
+				}, {
+					"localizedName": "Passenger Civil Aviation Security Service Fee",
+					"amount": "5.6",
+					"amountFormatted": "$5.60"
+				}, {
+					"localizedName": "Flight Segment Tax",
+					"amount": "4.0",
+					"amountFormatted": "$4.00"
+				}, {
+					"localizedName": "Passenger Facility Charge",
+					"amount": "4.5",
+					"amountFormatted": "$4.50"
+				}],
+				"total": "208.1",
+				"totalFormatted": "$208.10"
+			}],
+			"isSplitTicket": false,
+			"fulfillmentMethod": "ETICKET",
+			"passengers": [{
+				"typeCode": "ADULT",
+				"typeLocalized": "Adult",
+				"title": "",
+				"firstName": "Firsttest",
+				"lastName": "LastTest",
+				"fullName": "Firsttest LastTest",
+				"age": 31,
+				"gender": "Male",
+				"dateOfBirth": "1985-1-12",
+				"TSAKnownTravelerNumber": "",
+				"passportNumber": "",
+				"passportCountryCode": "US",
+				"phoneNumbers": [{
+					"countryCode": "1",
+					"phone": "5182759488"
+				}],
+				"ticketNumbers": [
+					"0167805233710"],
+				"frequentFlyerPlans": [],
+				"seats": [{
+					"assigned": "30B",
+					"seatPreference": "",
+					"seatPreferenceLocalized": "Unknown",
+					"smokingAllowed": false,
+					"seatType": "SEAT_UNPAID",
+					"statusCode": "Unknown",
+					"legIndex": 0,
+					"segmentIndex": 0
+				}, {
+					"assigned": "28A",
+					"seatPreference": "",
+					"seatPreferenceLocalized": "Unknown",
+					"smokingAllowed": false,
+					"seatType": "SEAT_UNPAID",
+					"statusCode": "Unknown",
+					"legIndex": 0,
+					"segmentIndex": 0
+				}]
+			}],
+			"brandedFareFamilyName": "",
+			"legs": [{
+				"type": "NONSTOP",
+				"state": "PRE_START_2",
+				"numberOfStops": 0,
+				"airlineLogoURL": "https://images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/smAI.gif",
+				"segments": [{
+					"transportationType": "FLIGHT",
+					"departureType": "FLIGHT_DEPARTURE",
+					"departureLocation": {
+						"latitude": 37.61594,
+						"longitude": -122.387996,
+						"name": "San Francisco Intl.",
+						"longName": "San Francisco, CA (SFO-San Francisco Intl.)",
+						"airportCode": "SFO",
+						"airportMetroCode": "QSF",
+						"city": "San Francisco",
+						"countryCode": "USA"
+					},
+					"departureTime": {
+						"raw": "2016-03-22T17:56:00-07:00",
+						"localized": "Mar 22, 2016 5:56:00 PM",
+						"epochSeconds": {{ epoch_seconds_plus_36_hours_20_seconds }},
+						"timeZoneOffsetSeconds": -25200,
+						"localizedShortDate": "Tue, 22 Mar",
+						"localizedMediumDate": "Mar 22, 2016",
+						"localizedFullDate": "Tuesday, March 22, 2016",
+						"localizedLongDate": "March 22, 2016",
+						"localizedShortTime": "5:56 PM"
+					},
+					"arrivalType": "FLIGHT_ARRIVAL",
+					"arrivalLocation": {
+						"latitude": 47.44363,
+						"longitude": -122.30175,
+						"name": "Seattle - Tacoma Intl.",
+						"longName": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+						"airportCode": "SEA",
+						"city": "Seattle",
+						"countryCode": "USA"
+					},
+					"arrivalTime": {
+						"raw": "2016-03-22T20:04:00-07:00",
+						"localized": "Mar 22, 2016 8:04:00 PM",
+						"epochSeconds": {{ epoch_seconds_plus_2_days }},
+						"timeZoneOffsetSeconds": -25200,
+						"localizedShortDate": "Tue, 22 Mar",
+						"localizedMediumDate": "Mar 22, 2016",
+						"localizedFullDate": "Tuesday, March 22, 2016",
+						"localizedLongDate": "March 22, 2016",
+						"localizedShortTime": "8:04 PM"
+					},
+					"departureTerminal": "3",
+					"airlineCode": "AI",
+					"externalAirlineCode": "AI",
+					"airlineName": "Air India",
+					"operatedByAirCarrierName": "",
+					"confirmationAirline": "Air India",
+					"confirmationNUmber": "IY60DQ",
+					"flightNumber": "291",
+					"equipmentCode": "739",
+					"equipmentDescription": "Boeing 737-900",
+					"formattedLayoverDuration": "",
+					"duration": "PT2H8M",
+					"formattedDuration": "2h 8m",
+					"providerCode": "Amadeus",
+					"bookingCode": "W",
+					"cabinCode": "coach",
+					"cabinCodeLocalized": "Economy / Coach",
+					"isSeatMapAvailable": true,
+					"flightIdForSeatMap": "8B839553-44F0-4E3B-86C2-2CE80C3D5C0C_0_L1_S1_1",
+					"status": "UNKNOWN",
+					"airSegmentStatusCode": "HK",
+					"isHidden": false
+				}],
+				"sharableFlightLegURL": "https://www.expedia.com/api/trips/shared/5IewiiljsYypnD5KiyhNEMCAHjng3_TRj89RJSwH1yFrsZLiiGQQ7ch8vmebuphaNLN6IPEmTfefUSkma1dp7C0OX_v8l8pLZnQkOcYMb8Q-xgLgeOMrqikRFfb1feP8y-jWGu8Z--_Ct8PTrbiOVLHuEBc6X2WIc8KoyKAIDK86AI",
+				"duration": "PT2H8M",
+				"formattedDuration": "2h 8m"
+			}],
+			"rules": {
+				"cancellationFeeLegalText": "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call.",
+				"cancelChangeIntroductionText": "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+				"feeChangeRefundIntroductionText": "When the airline charges any cancellation or change fees in accordance with its own policies, the cost will be passed on to you.",
+				"refundabilityText": "Tickets are nonrefundable, nontransferable and name changes are not allowed.",
+				"completePenaltyRules": {
+					"text": "Rules and restrictions as imposed by the airline will be applicable to your fare should you need to change or cancel your flight.",
+					"url": "https://www.expedia.com/Fare-Rules?tripid=5ca48839-e860-4cde-be71-7b977804238b",
+					"textAndURL": "Please read the <a id=\"complete_penalty_rules_for_changes_and_cancellations_link\" href=\"https://www.expedia.com/Fare-Rules?tripid=5ca48839-e860-4cde-be71-7b977804238b\" class=\"tooltip\" target=\"rulesAndRestrictions\">complete penalty rules for changes and cancellations <span class=\"visually-hidden\" style=\"display:none;\">(Opens a new window) </span> </a> applicable to this fare.",
+					"apiURL": "https://www.expedia.com/api/trips/1130228389120/items/8B839553-44F0-4E3B-86C2-2CE80C3D5C0C_0/gdsFareRulesText?useCache=true"
+				},
+				"additionalAirlineFees": {
+					"text": "The airline may charge additional fees for checked baggage or other optional services.",
+					"url": "https://www.expedia.com/Flights-BagFees?originapt=SFO&destinationapt=SEA&cabinclass=3&mktgcarrier=AI&opcarrier=AI&farebasis=WAA07AQN&bookingclass=W&travelDate=2016-03-22&flightNumber=291",
+					"textAndURL": "The airline may charge <a href=\"https://www.expedia.com/Flights-BagFees?originapt=SFO&destinationapt=SEA&cabinclass=3&mktgcarrier=AI&opcarrier=AI&farebasis=WAA07AQN&bookingclass=W&travelDate=2016-03-22&flightNumber=291\" class=\"tooltip\" target=\"rulesAndRestrictions\">additional fees <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a> for checked baggage or other optional services."
+				},
+				"airlineLiabilityLimitations": {
+					"text": "Please read important information regarding airline liability limitations.",
+					"url": "https://www.expedia.com/p/info-main/warsaw?",
+					"textAndURL": "Please read important information regarding <a id=\"airline_liability_limitations_link\" href=\"https://www.expedia.com/p/info-main/warsaw?\" class=\"tooltip\" target=\"rulesAndRestrictions\">airline liability limitations <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a>."
+				},
+				"airlineCheckInInstructionText": "Remember to bring your itinerary and government-issued photo ID for airport check-in and security.",
+				"railFeederMessages": [],
+				"expediaChangeFeeChargeable": false
+			},
+			"sharableItemDetailURL": "https://www.expedia.com/api/trips/shared/s62C9L8Jd5gBXSl2f_VhPcCA1ODjPbQzMnTSedpbcEYNbQ7S1y9-XOXscC_TOwmE8LcCpgAsuZzgKSGxEgZpcruou1xON88f3SPtJeA5l4-cU5PlojpK9b6kUcfkYap_d31flq2QFcia1Q8JtNrVLcr9",
+			"airRecordLocator": "251948275",
+			"isSeatMapAvailable": true,
+			"ticketingTime": {
+				"raw": "2016-03-14T12:53:00-07:00",
+				"localized": "Mar 14, 2016 12:53:00 PM",
+				"epochSeconds": 1457985180,
+				"timeZoneOffsetSeconds": -25200,
+				"localizedShortDate": "Mon, 14 Mar",
+				"localizedMediumDate": "Mar 14, 2016",
+				"localizedFullDate": "Monday, March 14, 2016",
+				"localizedLongDate": "March 14, 2016",
+				"localizedShortTime": "12:53 PM"
+			},
+			"webChangePathURL": "https://www.expedia.com/flight-change-gds?itinnumber=1130228389120&arl=251948275&cname=Air India",
+			"bookingProvider": "Amadeus",
+			"hasTrainTransfer": false,
+			"ticketingAirCarrierNames": [
+				"Air India"],
+			"isLccOrCharter": false,
+			"airlineManageBookingURL": "http://ManagerAirLineBookingMockURL",
+			"airlineCheckInURL": "http://CheckInAirlineMockURL",
+			"destinationRegionId": 6000578
+		}],
+		"readTripError": false,
+		"tripSource": "expedia",
+		"isMRP": false
+	}
+}

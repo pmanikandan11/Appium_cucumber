@@ -1,0 +1,21 @@
+POST
+.*/rails/trip/cardFee.*
+*
+200
+Content-Type: application/json
+
+{
+    "tripId": "93a419a7-7277-44ba-924a-eeee5d159cfa",
+    "feePrice":{
+        "amount": "4.09",
+        "formattedPrice": "£4.09",
+        "formattedWholePrice": "£4",
+        "currencyCode": "GBP"
+    },
+    "tripTotalPrice":{
+        "amount": "276.54",
+        "formattedPrice": "£276.54",
+        "formattedWholePrice": "£277",
+        "currencyCode": "GBP"
+    }
+}

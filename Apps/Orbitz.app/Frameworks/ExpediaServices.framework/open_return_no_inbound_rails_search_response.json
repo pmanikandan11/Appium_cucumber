@@ -1,0 +1,5149 @@
+{
+	"passengerList": [{
+		"passengerIndex": 1,
+		"age": 26,
+		"primaryTraveler": true,
+		"passengerAgeGroup": "ADULT"
+	}],
+	"legList": [{
+		"departureStation": {
+			"stationCode": "GB#RY",
+			"stationDisplayName": "Ryde (All Stations)"
+		},
+		"arrivalStation": {
+			"stationCode": "GBQQU",
+			"stationDisplayName": "London Euston"
+		},
+		"legOptionList": [{
+			"legOptionIndex": 2,
+			"departureStation": {
+				"stationCode": "GB#RY",
+				"stationDisplayName": "Ryde (All Stations)"
+			},
+			"arrivalStation": {
+				"stationCode": "GBQQU",
+				"stationDisplayName": "London Euston"
+			},
+			"departureDateTime": {
+				"raw": "2016-10-26T17:15:00",
+				"epochSeconds": 1477502100,
+				"localized": "26 Oct, 2016 17:15",
+				"localizedShortDate": "Wed, 26 Oct"
+			},
+			"arrivalDateTime": {
+				"raw": "2016-10-26T20:09:00",
+				"epochSeconds": 1477512540,
+				"localized": "26 Oct, 2016 20:09",
+				"localizedShortDate": "Wed, 26 Oct"
+			},
+			"duration": "PT2H54M",
+			"aggregatedMarketingCarrier": "Multiple train operators",
+			"aggregatedOperatingCarrier": "Multiple train operators",
+			"travelSegmentList": [{
+				"travelSegmentIndex": 5,
+				"travelMode": "Ferry",
+				"departureStation": {
+					"stationCode": "GBXRD",
+					"stationDisplayName": "Ryde Hoverport"
+				},
+				"arrivalStation": {
+					"stationCode": "GBSHV",
+					"stationDisplayName": "Southsea Hoverport"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-26T17:15:00",
+					"epochSeconds": 1477502100,
+					"localized": "26 Oct, 2016 17:15",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-26T17:25:00",
+					"epochSeconds": 1477502700,
+					"localized": "26 Oct, 2016 17:25",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"marketingCarrier": "Hovertravel",
+				"operatingCarrier": "Hovertravel",
+				"travelMedium": {
+					"travelMediumName": "Ferry",
+					"travelMediumCode": "FRY"
+				},
+				"duration": "PT10M"
+			}, {
+				"travelSegmentIndex": 6,
+				"travelMode": "Bus",
+				"departureStation": {
+					"stationCode": "GBSHV",
+					"stationDisplayName": "Southsea Hoverport"
+				},
+				"arrivalStation": {
+					"stationCode": "GBPMS",
+					"stationDisplayName": "Portsmouth & Southsea"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-26T17:30:00",
+					"epochSeconds": 1477503000,
+					"localized": "26 Oct, 2016 17:30",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-26T17:42:00",
+					"epochSeconds": 1477503720,
+					"localized": "26 Oct, 2016 17:42",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"marketingCarrier": "Hovertravel",
+				"operatingCarrier": "Hovertravel",
+				"travelMedium": {
+					"travelMediumName": "Bus",
+					"travelMediumCode": "BUS"
+				},
+				"duration": "PT12M"
+			}, {
+				"travelSegmentIndex": 7,
+				"travelMode": "Train",
+				"departureStation": {
+					"stationCode": "GBPMS",
+					"stationDisplayName": "Portsmouth & Southsea"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-26T17:50:00",
+					"epochSeconds": 1477504200,
+					"localized": "26 Oct, 2016 17:50",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-26T19:29:00",
+					"epochSeconds": 1477510140,
+					"localized": "26 Oct, 2016 19:29",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Inter-City",
+					"travelMediumCode": "ICY",
+					"supplierTravelMediumId": "SW8262"
+				},
+				"duration": "PT1H39M"
+			}, {
+				"travelSegmentIndex": 8,
+				"travelMode": "Transfer",
+				"departureStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQU",
+					"stationDisplayName": "London Euston"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-26T19:29:00",
+					"epochSeconds": 1477510140,
+					"localized": "26 Oct, 2016 19:29",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-26T20:09:00",
+					"epochSeconds": 1477512540,
+					"localized": "26 Oct, 2016 20:09",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"marketingCarrier": "London Underground",
+				"operatingCarrier": "London Underground",
+				"travelMedium": {
+					"travelMediumName": "Metro/City-Transit",
+					"travelMediumCode": "MCT"
+				},
+				"duration": "PT40M"
+			}],
+			"noOfChanges": 3,
+			"bestPrice": {
+				"amount": "32.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£32.85",
+				"formattedWholePrice": "£33"
+			},
+			"legBoundOrder": 1,
+			"showTrainIcon": false,
+			"overtakenJourney": false
+		}, {
+			"legOptionIndex": 1,
+			"departureStation": {
+				"stationCode": "GB#RY",
+				"stationDisplayName": "Ryde (All Stations)"
+			},
+			"arrivalStation": {
+				"stationCode": "GBQQU",
+				"stationDisplayName": "London Euston"
+			},
+			"departureDateTime": {
+				"raw": "2016-10-26T16:15:00",
+				"epochSeconds": 1477498500,
+				"localized": "26 Oct, 2016 16:15",
+				"localizedShortDate": "Wed, 26 Oct"
+			},
+			"arrivalDateTime": {
+				"raw": "2016-10-26T19:18:00",
+				"epochSeconds": 1477509480,
+				"localized": "26 Oct, 2016 19:18",
+				"localizedShortDate": "Wed, 26 Oct"
+			},
+			"duration": "PT3H3M",
+			"aggregatedMarketingCarrier": "Multiple train operators",
+			"aggregatedOperatingCarrier": "Multiple train operators",
+			"travelSegmentList": [{
+				"travelSegmentIndex": 1,
+				"travelMode": "Ferry",
+				"departureStation": {
+					"stationCode": "GBXRD",
+					"stationDisplayName": "Ryde Hoverport"
+				},
+				"arrivalStation": {
+					"stationCode": "GBSHV",
+					"stationDisplayName": "Southsea Hoverport"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-26T16:15:00",
+					"epochSeconds": 1477498500,
+					"localized": "26 Oct, 2016 16:15",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-26T16:25:00",
+					"epochSeconds": 1477499100,
+					"localized": "26 Oct, 2016 16:25",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"marketingCarrier": "Hovertravel",
+				"operatingCarrier": "Hovertravel",
+				"travelMedium": {
+					"travelMediumName": "Ferry",
+					"travelMediumCode": "FRY"
+				},
+				"duration": "PT10M"
+			}, {
+				"travelSegmentIndex": 2,
+				"travelMode": "Bus",
+				"departureStation": {
+					"stationCode": "GBSHV",
+					"stationDisplayName": "Southsea Hoverport"
+				},
+				"arrivalStation": {
+					"stationCode": "GBPMS",
+					"stationDisplayName": "Portsmouth & Southsea"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-26T16:30:00",
+					"epochSeconds": 1477499400,
+					"localized": "26 Oct, 2016 16:30",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-26T16:42:00",
+					"epochSeconds": 1477500120,
+					"localized": "26 Oct, 2016 16:42",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"marketingCarrier": "Hovertravel",
+				"operatingCarrier": "Hovertravel",
+				"travelMedium": {
+					"travelMediumName": "Bus",
+					"travelMediumCode": "BUS"
+				},
+				"duration": "PT12M"
+			}, {
+				"travelSegmentIndex": 3,
+				"travelMode": "Train",
+				"departureStation": {
+					"stationCode": "GBPMS",
+					"stationDisplayName": "Portsmouth & Southsea"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-26T16:50:00",
+					"epochSeconds": 1477500600,
+					"localized": "26 Oct, 2016 16:50",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-26T18:43:00",
+					"epochSeconds": 1477507380,
+					"localized": "26 Oct, 2016 18:43",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Branch-Line/Regional",
+					"travelMediumCode": "BLR",
+					"supplierTravelMediumId": "SW8360"
+				},
+				"duration": "PT1H53M"
+			}, {
+				"travelSegmentIndex": 4,
+				"travelMode": "Transfer",
+				"departureStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQU",
+					"stationDisplayName": "London Euston"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-26T18:43:00",
+					"epochSeconds": 1477507380,
+					"localized": "26 Oct, 2016 18:43",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-26T19:18:00",
+					"epochSeconds": 1477509480,
+					"localized": "26 Oct, 2016 19:18",
+					"localizedShortDate": "Wed, 26 Oct"
+				},
+				"marketingCarrier": "London Underground",
+				"operatingCarrier": "London Underground",
+				"travelMedium": {
+					"travelMediumName": "Metro/City-Transit",
+					"travelMediumCode": "MCT"
+				},
+				"duration": "PT35M"
+			}],
+			"noOfChanges": 3,
+			"bestPrice": {
+				"amount": "32.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£32.85",
+				"formattedWholePrice": "£33"
+			},
+			"legBoundOrder": 1,
+			"showTrainIcon": false,
+			"overtakenJourney": false
+		}],
+		"legIndex": 1,
+		"legBoundOrder": 1,
+		"cheapestPrice": {
+			"amount": "32.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£32.85",
+			"formattedWholePrice": "£33"
+		}
+	}, {
+		"departureStation": {
+			"stationCode": "GBQQU",
+			"stationDisplayName": "London Euston"
+		},
+		"arrivalStation": {
+			"stationCode": "GB#RY",
+			"stationDisplayName": "Ryde (All Stations)"
+		},
+		"legOptionList": [{
+			"legOptionIndex": 7,
+			"departureStation": {
+				"stationCode": "GBQQU",
+				"stationDisplayName": "London Euston"
+			},
+			"arrivalStation": {
+				"stationCode": "GB#RY",
+				"stationDisplayName": "Ryde (All Stations)"
+			},
+			"departureDateTime": {
+				"raw": "2016-10-27T17:25:00",
+				"epochSeconds": 1477589100,
+				"localized": "27 Oct, 2016 17:25",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"arrivalDateTime": {
+				"raw": "2016-10-27T20:10:00",
+				"epochSeconds": 1477599000,
+				"localized": "27 Oct, 2016 20:10",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"duration": "PT2H45M",
+			"aggregatedMarketingCarrier": "Multiple train operators",
+			"aggregatedOperatingCarrier": "Multiple train operators",
+			"travelSegmentList": [{
+				"travelSegmentIndex": 22,
+				"travelMode": "Transfer",
+				"departureStation": {
+					"stationCode": "GBQQU",
+					"stationDisplayName": "London Euston"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T17:25:00",
+					"epochSeconds": 1477589100,
+					"localized": "27 Oct, 2016 17:25",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T18:00:00",
+					"epochSeconds": 1477591200,
+					"localized": "27 Oct, 2016 18:00",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "London Underground",
+				"operatingCarrier": "London Underground",
+				"travelMedium": {
+					"travelMediumName": "Metro/City-Transit",
+					"travelMediumCode": "MCT"
+				},
+				"duration": "PT35M"
+			}, {
+				"travelSegmentIndex": 23,
+				"travelMode": "Train",
+				"departureStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"arrivalStation": {
+					"stationCode": "GBPMS",
+					"stationDisplayName": "Portsmouth & Southsea"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T18:00:00",
+					"epochSeconds": 1477591200,
+					"localized": "27 Oct, 2016 18:00",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T19:29:00",
+					"epochSeconds": 1477596540,
+					"localized": "27 Oct, 2016 19:29",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Inter-City",
+					"travelMediumCode": "ICY",
+					"supplierTravelMediumId": "SW8157"
+				},
+				"duration": "PT1H29M"
+			}, {
+				"travelSegmentIndex": 24,
+				"travelMode": "Bus",
+				"departureStation": {
+					"stationCode": "GBPMS",
+					"stationDisplayName": "Portsmouth & Southsea"
+				},
+				"arrivalStation": {
+					"stationCode": "GBSHV",
+					"stationDisplayName": "Southsea Hoverport"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T19:45:00",
+					"epochSeconds": 1477597500,
+					"localized": "27 Oct, 2016 19:45",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T19:53:00",
+					"epochSeconds": 1477597980,
+					"localized": "27 Oct, 2016 19:53",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "Hovertravel",
+				"operatingCarrier": "Hovertravel",
+				"travelMedium": {
+					"travelMediumName": "Bus",
+					"travelMediumCode": "BUS"
+				},
+				"duration": "PT8M"
+			}, {
+				"travelSegmentIndex": 25,
+				"travelMode": "Ferry",
+				"departureStation": {
+					"stationCode": "GBSHV",
+					"stationDisplayName": "Southsea Hoverport"
+				},
+				"arrivalStation": {
+					"stationCode": "GBXRD",
+					"stationDisplayName": "Ryde Hoverport"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T20:00:00",
+					"epochSeconds": 1477598400,
+					"localized": "27 Oct, 2016 20:00",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T20:10:00",
+					"epochSeconds": 1477599000,
+					"localized": "27 Oct, 2016 20:10",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "Hovertravel",
+				"operatingCarrier": "Hovertravel",
+				"travelMedium": {
+					"travelMediumName": "Ferry",
+					"travelMediumCode": "FRY"
+				},
+				"duration": "PT10M"
+			}],
+			"noOfChanges": 3,
+			"bestPrice": {
+				"amount": "33.10",
+				"currencyCode": "GBP",
+				"formattedPrice": "£33.10",
+				"formattedWholePrice": "£33"
+			},
+			"legBoundOrder": 2,
+			"showTrainIcon": false,
+			"overtakenJourney": false
+		}, {
+			"legOptionIndex": 4,
+			"departureStation": {
+				"stationCode": "GBQQU",
+				"stationDisplayName": "London Euston"
+			},
+			"arrivalStation": {
+				"stationCode": "GB#RY",
+				"stationDisplayName": "Ryde (All Stations)"
+			},
+			"departureDateTime": {
+				"raw": "2016-10-27T16:25:00",
+				"epochSeconds": 1477585500,
+				"localized": "27 Oct, 2016 16:25",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"arrivalDateTime": {
+				"raw": "2016-10-27T19:07:00",
+				"epochSeconds": 1477595220,
+				"localized": "27 Oct, 2016 19:07",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"duration": "PT2H42M",
+			"aggregatedMarketingCarrier": "South West Trains",
+			"aggregatedOperatingCarrier": "South West Trains",
+			"travelSegmentList": [{
+				"travelSegmentIndex": 12,
+				"travelMode": "Transfer",
+				"departureStation": {
+					"stationCode": "GBQQU",
+					"stationDisplayName": "London Euston"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T16:25:00",
+					"epochSeconds": 1477585500,
+					"localized": "27 Oct, 2016 16:25",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T17:00:00",
+					"epochSeconds": 1477587600,
+					"localized": "27 Oct, 2016 17:00",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "London Underground",
+				"operatingCarrier": "London Underground",
+				"travelMedium": {
+					"travelMediumName": "Metro/City-Transit",
+					"travelMediumCode": "MCT"
+				},
+				"duration": "PT35M"
+			}, {
+				"travelSegmentIndex": 13,
+				"travelMode": "Train",
+				"departureStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"arrivalStation": {
+					"stationCode": "GBPMH",
+					"stationDisplayName": "Portsmouth Harbour"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T17:00:00",
+					"epochSeconds": 1477587600,
+					"localized": "27 Oct, 2016 17:00",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T18:39:00",
+					"epochSeconds": 1477593540,
+					"localized": "27 Oct, 2016 18:39",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Inter-City",
+					"travelMediumCode": "ICY",
+					"supplierTravelMediumId": "SW8153"
+				},
+				"duration": "PT1H39M"
+			}, {
+				"travelSegmentIndex": 14,
+				"travelMode": "Ferry",
+				"departureStation": {
+					"stationCode": "GBPMH",
+					"stationDisplayName": "Portsmouth Harbour"
+				},
+				"arrivalStation": {
+					"stationCode": "GBRYP",
+					"stationDisplayName": "Ryde Pier Head"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T18:45:00",
+					"epochSeconds": 1477593900,
+					"localized": "27 Oct, 2016 18:45",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T19:07:00",
+					"epochSeconds": 1477595220,
+					"localized": "27 Oct, 2016 19:07",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Ferry",
+					"travelMediumCode": "FRY",
+					"supplierTravelMediumId": "SW3285"
+				},
+				"duration": "PT22M"
+			}],
+			"noOfChanges": 2,
+			"bestPrice": {
+				"amount": "34.55",
+				"currencyCode": "GBP",
+				"formattedPrice": "£34.55",
+				"formattedWholePrice": "£35"
+			},
+			"legBoundOrder": 2,
+			"showTrainIcon": false,
+			"overtakenJourney": false
+		}, {
+			"legOptionIndex": 3,
+			"departureStation": {
+				"stationCode": "GBQQU",
+				"stationDisplayName": "London Euston"
+			},
+			"arrivalStation": {
+				"stationCode": "GB#RY",
+				"stationDisplayName": "Ryde (All Stations)"
+			},
+			"departureDateTime": {
+				"raw": "2016-10-27T15:55:00",
+				"epochSeconds": 1477583700,
+				"localized": "27 Oct, 2016 15:55",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"arrivalDateTime": {
+				"raw": "2016-10-27T18:37:00",
+				"epochSeconds": 1477593420,
+				"localized": "27 Oct, 2016 18:37",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"duration": "PT2H42M",
+			"aggregatedMarketingCarrier": "South West Trains",
+			"aggregatedOperatingCarrier": "South West Trains",
+			"travelSegmentList": [{
+				"travelSegmentIndex": 9,
+				"travelMode": "Transfer",
+				"departureStation": {
+					"stationCode": "GBQQU",
+					"stationDisplayName": "London Euston"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T15:55:00",
+					"epochSeconds": 1477583700,
+					"localized": "27 Oct, 2016 15:55",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T16:30:00",
+					"epochSeconds": 1477585800,
+					"localized": "27 Oct, 2016 16:30",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "London Underground",
+				"operatingCarrier": "London Underground",
+				"travelMedium": {
+					"travelMediumName": "Metro/City-Transit",
+					"travelMediumCode": "MCT"
+				},
+				"duration": "PT35M"
+			}, {
+				"travelSegmentIndex": 10,
+				"travelMode": "Train",
+				"departureStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"arrivalStation": {
+					"stationCode": "GBPMH",
+					"stationDisplayName": "Portsmouth Harbour"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T16:30:00",
+					"epochSeconds": 1477585800,
+					"localized": "27 Oct, 2016 16:30",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T18:09:00",
+					"epochSeconds": 1477591740,
+					"localized": "27 Oct, 2016 18:09",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Inter-City",
+					"travelMediumCode": "ICY",
+					"supplierTravelMediumId": "SW8151"
+				},
+				"duration": "PT1H39M"
+			}, {
+				"travelSegmentIndex": 11,
+				"travelMode": "Ferry",
+				"departureStation": {
+					"stationCode": "GBPMH",
+					"stationDisplayName": "Portsmouth Harbour"
+				},
+				"arrivalStation": {
+					"stationCode": "GBRYP",
+					"stationDisplayName": "Ryde Pier Head"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T18:15:00",
+					"epochSeconds": 1477592100,
+					"localized": "27 Oct, 2016 18:15",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T18:37:00",
+					"epochSeconds": 1477593420,
+					"localized": "27 Oct, 2016 18:37",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Ferry",
+					"travelMediumCode": "FRY",
+					"supplierTravelMediumId": "SW4452"
+				},
+				"duration": "PT22M"
+			}],
+			"noOfChanges": 2,
+			"bestPrice": {
+				"amount": "34.55",
+				"currencyCode": "GBP",
+				"formattedPrice": "£34.55",
+				"formattedWholePrice": "£35"
+			},
+			"legBoundOrder": 2,
+			"showTrainIcon": false,
+			"overtakenJourney": false
+		}, {
+			"legOptionIndex": 6,
+			"departureStation": {
+				"stationCode": "GBQQU",
+				"stationDisplayName": "London Euston"
+			},
+			"arrivalStation": {
+				"stationCode": "GB#RY",
+				"stationDisplayName": "Ryde (All Stations)"
+			},
+			"departureDateTime": {
+				"raw": "2016-10-27T16:55:00",
+				"epochSeconds": 1477587300,
+				"localized": "27 Oct, 2016 16:55",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"arrivalDateTime": {
+				"raw": "2016-10-27T19:42:00",
+				"epochSeconds": 1477597320,
+				"localized": "27 Oct, 2016 19:42",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"duration": "PT2H47M",
+			"aggregatedMarketingCarrier": "South West Trains",
+			"aggregatedOperatingCarrier": "South West Trains",
+			"travelSegmentList": [{
+				"travelSegmentIndex": 19,
+				"travelMode": "Transfer",
+				"departureStation": {
+					"stationCode": "GBQQU",
+					"stationDisplayName": "London Euston"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T16:55:00",
+					"epochSeconds": 1477587300,
+					"localized": "27 Oct, 2016 16:55",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T17:30:00",
+					"epochSeconds": 1477589400,
+					"localized": "27 Oct, 2016 17:30",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "London Underground",
+				"operatingCarrier": "London Underground",
+				"travelMedium": {
+					"travelMediumName": "Metro/City-Transit",
+					"travelMediumCode": "MCT"
+				},
+				"duration": "PT35M"
+			}, {
+				"travelSegmentIndex": 20,
+				"travelMode": "Train",
+				"departureStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"arrivalStation": {
+					"stationCode": "GBPMH",
+					"stationDisplayName": "Portsmouth Harbour"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T17:30:00",
+					"epochSeconds": 1477589400,
+					"localized": "27 Oct, 2016 17:30",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T19:10:00",
+					"epochSeconds": 1477595400,
+					"localized": "27 Oct, 2016 19:10",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Inter-City",
+					"travelMediumCode": "ICY",
+					"supplierTravelMediumId": "SW8155"
+				},
+				"duration": "PT1H40M"
+			}, {
+				"travelSegmentIndex": 21,
+				"travelMode": "Ferry",
+				"departureStation": {
+					"stationCode": "GBPMH",
+					"stationDisplayName": "Portsmouth Harbour"
+				},
+				"arrivalStation": {
+					"stationCode": "GBRYP",
+					"stationDisplayName": "Ryde Pier Head"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T19:20:00",
+					"epochSeconds": 1477596000,
+					"localized": "27 Oct, 2016 19:20",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T19:42:00",
+					"epochSeconds": 1477597320,
+					"localized": "27 Oct, 2016 19:42",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Ferry",
+					"travelMediumCode": "FRY",
+					"supplierTravelMediumId": "SW4458"
+				},
+				"duration": "PT22M"
+			}],
+			"noOfChanges": 2,
+			"bestPrice": {
+				"amount": "34.55",
+				"currencyCode": "GBP",
+				"formattedPrice": "£34.55",
+				"formattedWholePrice": "£35"
+			},
+			"legBoundOrder": 2,
+			"showTrainIcon": false,
+			"overtakenJourney": true
+		}, {
+			"legOptionIndex": 5,
+			"departureStation": {
+				"stationCode": "GBQQU",
+				"stationDisplayName": "London Euston"
+			},
+			"arrivalStation": {
+				"stationCode": "GB#RY",
+				"stationDisplayName": "Ryde (All Stations)"
+			},
+			"departureDateTime": {
+				"raw": "2016-10-27T16:55:00",
+				"epochSeconds": 1477587300,
+				"localized": "27 Oct, 2016 16:55",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"arrivalDateTime": {
+				"raw": "2016-10-27T19:40:00",
+				"epochSeconds": 1477597200,
+				"localized": "27 Oct, 2016 19:40",
+				"localizedShortDate": "Thu, 27 Oct"
+			},
+			"duration": "PT2H45M",
+			"aggregatedMarketingCarrier": "Multiple train operators",
+			"aggregatedOperatingCarrier": "Multiple train operators",
+			"travelSegmentList": [{
+				"travelSegmentIndex": 15,
+				"travelMode": "Transfer",
+				"departureStation": {
+					"stationCode": "GBQQU",
+					"stationDisplayName": "London Euston"
+				},
+				"arrivalStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T16:55:00",
+					"epochSeconds": 1477587300,
+					"localized": "27 Oct, 2016 16:55",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T17:30:00",
+					"epochSeconds": 1477589400,
+					"localized": "27 Oct, 2016 17:30",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "London Underground",
+				"operatingCarrier": "London Underground",
+				"travelMedium": {
+					"travelMediumName": "Metro/City-Transit",
+					"travelMediumCode": "MCT"
+				},
+				"duration": "PT35M"
+			}, {
+				"travelSegmentIndex": 16,
+				"travelMode": "Train",
+				"departureStation": {
+					"stationCode": "GBQQW",
+					"stationDisplayName": "London Waterloo"
+				},
+				"arrivalStation": {
+					"stationCode": "GBPMS",
+					"stationDisplayName": "Portsmouth & Southsea"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T17:30:00",
+					"epochSeconds": 1477589400,
+					"localized": "27 Oct, 2016 17:30",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T19:03:00",
+					"epochSeconds": 1477594980,
+					"localized": "27 Oct, 2016 19:03",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "South West Trains",
+				"operatingCarrier": "South West Trains",
+				"travelMedium": {
+					"travelMediumName": "Inter-City",
+					"travelMediumCode": "ICY",
+					"supplierTravelMediumId": "SW8155"
+				},
+				"duration": "PT1H33M"
+			}, {
+				"travelSegmentIndex": 17,
+				"travelMode": "Bus",
+				"departureStation": {
+					"stationCode": "GBPMS",
+					"stationDisplayName": "Portsmouth & Southsea"
+				},
+				"arrivalStation": {
+					"stationCode": "GBSHV",
+					"stationDisplayName": "Southsea Hoverport"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T19:15:00",
+					"epochSeconds": 1477595700,
+					"localized": "27 Oct, 2016 19:15",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T19:23:00",
+					"epochSeconds": 1477596180,
+					"localized": "27 Oct, 2016 19:23",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "Hovertravel",
+				"operatingCarrier": "Hovertravel",
+				"travelMedium": {
+					"travelMediumName": "Bus",
+					"travelMediumCode": "BUS"
+				},
+				"duration": "PT8M"
+			}, {
+				"travelSegmentIndex": 18,
+				"travelMode": "Ferry",
+				"departureStation": {
+					"stationCode": "GBSHV",
+					"stationDisplayName": "Southsea Hoverport"
+				},
+				"arrivalStation": {
+					"stationCode": "GBXRD",
+					"stationDisplayName": "Ryde Hoverport"
+				},
+				"departureDateTime": {
+					"raw": "2016-10-27T19:30:00",
+					"epochSeconds": 1477596600,
+					"localized": "27 Oct, 2016 19:30",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"arrivalDateTime": {
+					"raw": "2016-10-27T19:40:00",
+					"epochSeconds": 1477597200,
+					"localized": "27 Oct, 2016 19:40",
+					"localizedShortDate": "Thu, 27 Oct"
+				},
+				"marketingCarrier": "Hovertravel",
+				"operatingCarrier": "Hovertravel",
+				"travelMedium": {
+					"travelMediumName": "Ferry",
+					"travelMediumCode": "FRY"
+				},
+				"duration": "PT10M"
+			}],
+			"noOfChanges": 3,
+			"bestPrice": {
+				"amount": "33.10",
+				"currencyCode": "GBP",
+				"formattedPrice": "£33.10",
+				"formattedWholePrice": "£33"
+			},
+			"legBoundOrder": 2,
+			"showTrainIcon": false,
+			"overtakenJourney": false
+		}],
+		"legIndex": 2,
+		"legBoundOrder": 2,
+		"cheapestPrice": {
+			"amount": "33.10",
+			"currencyCode": "GBP",
+			"formattedPrice": "£33.10",
+			"formattedWholePrice": "£33"
+		}
+	}],
+	"offerList": [{
+		"totalPrice": {
+			"amount": "34.10",
+			"currencyCode": "GBP",
+			"formattedPrice": "£34.10",
+			"formattedWholePrice": "£34"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "33.10",
+			"currencyCode": "GBP",
+			"mainCurrency": 33,
+			"fractionalCurrency": 10,
+			"currencySymbol": "£",
+			"formattedPrice": "£33.10",
+			"formattedWholePrice": "£33",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "33.10",
+					"currencyCode": "GBP",
+					"formattedPrice": "£33.10",
+					"formattedWholePrice": "£33"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq48riWLVaSoBBoolR4R6zlgjHsw9z5zEJPLvwZw0zSGwaoxYDSBTEF3j24fRUZokFjAo7QKJSHGC-wLMJPduYJU4wKvQxa7EFh1sYmRmBdIBEQXLLmCX6mEFmMwixcDAJMEsxcYhLGAMALMYm9A==",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "33.10",
+				"currencyCode": "GBP",
+				"formattedPrice": "£33.10",
+				"formattedWholePrice": "£33"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "50.40",
+			"currencyCode": "GBP",
+			"formattedPrice": "£50.40",
+			"formattedWholePrice": "£50"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "49.40",
+			"currencyCode": "GBP",
+			"mainCurrency": 49,
+			"fractionalCurrency": 40,
+			"currencySymbol": "£",
+			"formattedPrice": "£49.40",
+			"formattedWholePrice": "£49",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "49.40",
+					"currencyCode": "GBP",
+					"formattedPrice": "£49.40",
+					"formattedWholePrice": "£49"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq48riWLVaSoBBoolR4R6zlgjHsw9z5zEJPLvwZw0zSGwaoxYDSBTEF3j24fRUZokFjAo7QKJSHGC-wLMJPduYJU4wKvQxa7EFh1sYmRmBdIBEQXLLmCX6mEFmMwixcDAJMEoxcYhLGAMALLgm8g==",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "49.40",
+				"currencyCode": "GBP",
+				"formattedPrice": "£49.40",
+				"formattedWholePrice": "£49"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "32.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£32.85",
+			"formattedWholePrice": "£33"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "31.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 31,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£31.85",
+			"formattedWholePrice": "£32",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Super Off-Peak Day Single",
+			"aggregatedFareDescription": "Selected off-peak trains",
+			"aggregatedCarrierFareClassCategoryName": "Offpeak",
+			"fareNotes": ["Outbound: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "31.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£31.85",
+					"formattedWholePrice": "£32"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Selected off-peak trains"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Selected off-peak trains"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Selected off-peak trains",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Selected off-peak trains"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Selected off-peak trains"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Selected off-peak trains"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Selected off-peak trains",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Selected off-peak trains"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq48riWLVaSoBBoolR4R6zlgjHsw9z5zEJPLvwZw0zSGwaoxYDSBTEF3j24fRUZokFjAo7QKJSHGC-wLMJPduYJU4wKvQxa7EFh1sYmRmBdIBEQXLLmCX6mEFmMwixcPAKMEsxcYhLGAMALSkm_w==",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "31.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£31.85",
+				"formattedWholePrice": "£32"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "34.10",
+			"currencyCode": "GBP",
+			"formattedPrice": "£34.10",
+			"formattedWholePrice": "£34"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "33.10",
+			"currencyCode": "GBP",
+			"mainCurrency": 33,
+			"fractionalCurrency": 10,
+			"currencySymbol": "£",
+			"formattedPrice": "£33.10",
+			"formattedWholePrice": "£33",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 15:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "33.10",
+					"currencyCode": "GBP",
+					"formattedPrice": "£33.10",
+					"formattedWholePrice": "£33"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq4ErhWLVaSoBBgkvhB5OWEMezD3PnMQk8u_BnDTNQSE6LASQG4gk8-3B6KrOEhoIDUEySA8wTeDahZxuzRIDCJiYttuBwC2MzAy0RDrAgSGoZs8QmJpCxDEIsHEwCzFJMHOISxgAEWSSE",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "33.10",
+				"currencyCode": "GBP",
+				"formattedPrice": "£33.10",
+				"formattedWholePrice": "£33"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "50.40",
+			"currencyCode": "GBP",
+			"formattedPrice": "£50.40",
+			"formattedWholePrice": "£50"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "49.40",
+			"currencyCode": "GBP",
+			"mainCurrency": 49,
+			"fractionalCurrency": 40,
+			"currencySymbol": "£",
+			"formattedPrice": "£49.40",
+			"formattedWholePrice": "£49",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 15:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "49.40",
+					"currencyCode": "GBP",
+					"formattedPrice": "£49.40",
+					"formattedWholePrice": "£49"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq4ErhWLVaSoBBgkvhB5OWEMezD3PnMQk8u_BnDTNQSE6LASQG4gk8-3B6KrOEhoIDUEySA8wTeDahZxuzRIDCJiYttuBwC2MzAy0RDrAgSGoZs8QmJpCxDEIsHEwCjFJMHOISxgAESySC",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "49.40",
+				"currencyCode": "GBP",
+				"formattedPrice": "£49.40",
+				"formattedWholePrice": "£49"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "32.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£32.85",
+			"formattedWholePrice": "£33"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "31.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 31,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£31.85",
+			"formattedWholePrice": "£32",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Super Off-Peak Day Single",
+			"aggregatedFareDescription": "Selected off-peak trains",
+			"aggregatedCarrierFareClassCategoryName": "Offpeak",
+			"fareNotes": ["Outbound: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 15:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "31.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£31.85",
+					"formattedWholePrice": "£32"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Selected off-peak trains"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Selected off-peak trains"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Selected off-peak trains",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Selected off-peak trains"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Selected off-peak trains"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Selected off-peak trains"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Selected off-peak trains",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Super Off-Peak Day Single",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Selected off-peak trains"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq4ErhWLVaSoBBgkvhB5OWEMezD3PnMQk8u_BnDTNQSE6LASQG4gk8-3B6KrOEhoIDUEySA8wTeDahZxuzRIDCJiYttuBwC2MzAy0RDrAgSGoZs8QmJpCxDEIsHLwCzFJMHOISxgAEvCSP",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "31.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£31.85",
+				"formattedWholePrice": "£32"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "33.10",
+			"currencyCode": "GBP",
+			"formattedPrice": "£33.10",
+			"formattedWholePrice": "£33"
+		},
+		"priceBreakdown": [{
+			"amount": "33.10",
+			"currencyCode": "GBP",
+			"mainCurrency": 33,
+			"fractionalCurrency": 10,
+			"currencySymbol": "£",
+			"formattedPrice": "£33.10",
+			"formattedWholePrice": "£33",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 16:25", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [7],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "33.10",
+					"currencyCode": "GBP",
+					"formattedPrice": "£33.10",
+					"formattedWholePrice": "£33"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 22,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 23,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 24,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 25,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 22,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 23,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 24,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 25,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq48riOLVNSoBBYhqjwgNmLRGOZxN6ljELAMltzCCxO4xaDFpSHGC-wLMPp6cyS9xhVOhj1mILDrcwNDUH6QCJCjy78GcNs8Q6ZoV9zEAdQFEQH6hj7jwmiTPMILMZhFg4mASYpZg4xCWMAQiYJ_4=",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "33.10",
+				"currencyCode": "GBP",
+				"formattedPrice": "£33.10",
+				"formattedWholePrice": "£33"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "49.40",
+			"currencyCode": "GBP",
+			"formattedPrice": "£49.40",
+			"formattedWholePrice": "£49"
+		},
+		"priceBreakdown": [{
+			"amount": "49.40",
+			"currencyCode": "GBP",
+			"mainCurrency": 49,
+			"fractionalCurrency": 40,
+			"currencySymbol": "£",
+			"formattedPrice": "£49.40",
+			"formattedWholePrice": "£49",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 16:25", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [7],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "49.40",
+					"currencyCode": "GBP",
+					"formattedPrice": "£49.40",
+					"formattedWholePrice": "£49"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 22,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 23,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 24,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 25,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 22,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 23,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 24,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 25,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq48riOLVNSoBBYhqjwgNmLRGOZxN6ljELAMltzCCxO4xaDFpSHGC-wLMPp6cyS9xhVOhj1mILDrcwNDUH6QCJCjy78GcNs8Q6ZoV9zEAdQFEQH6hj7jwmiTPMILMZhFg4mAQYpZg4xCWMAQiKJ_w=",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "49.40",
+				"currencyCode": "GBP",
+				"formattedPrice": "£49.40",
+				"formattedWholePrice": "£49"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "34.55",
+			"currencyCode": "GBP",
+			"formattedPrice": "£34.55",
+			"formattedWholePrice": "£35"
+		},
+		"priceBreakdown": [{
+			"amount": "34.55",
+			"currencyCode": "GBP",
+			"mainCurrency": 34,
+			"fractionalCurrency": 55,
+			"currencySymbol": "£",
+			"formattedPrice": "£34.55",
+			"formattedWholePrice": "£35",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel by any permitted route and Wightlink crossing."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 15:25", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [4],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "34.55",
+					"currencyCode": "GBP",
+					"formattedPrice": "£34.55",
+					"formattedWholePrice": "£35"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 12,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 13,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 14,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 12,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 13,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 14,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBZK4grjOLVNSoBBQk7hEZOWEMezCT3LmAWA5DZmoFCKFoOWJAeYJ_Dsw-m9TBIpCquYtNiCwy0MTY21pDjAggLPNvT8Z5LYxgQyAihnbGRhKsTCwSTALMXEIS5hDACppx7r",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "34.55",
+				"currencyCode": "GBP",
+				"formattedPrice": "£34.55",
+				"formattedWholePrice": "£35"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "50.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£50.85",
+			"formattedWholePrice": "£51"
+		},
+		"priceBreakdown": [{
+			"amount": "50.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 50,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£50.85",
+			"formattedWholePrice": "£51",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel by any permitted route and Wightlink crossing."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 15:25", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [4],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "50.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£50.85",
+					"formattedWholePrice": "£51"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 12,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 13,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 14,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 12,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 13,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 14,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBZK4grjOLVNSoBBQk7hEZOWEMezCT3LmAWA5DZmoFCKFoOWJAeYJ_Dsw-m9TBIpCquYtNiCwy0MTY21pDjAggLPNvT8Z5LYxgQyAihnbGRhKsTCwSTAKMXEIS5hDACpmR7p",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "50.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£50.85",
+				"formattedWholePrice": "£51"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "34.55",
+			"currencyCode": "GBP",
+			"formattedPrice": "£34.55",
+			"formattedWholePrice": "£35"
+		},
+		"priceBreakdown": [{
+			"amount": "34.55",
+			"currencyCode": "GBP",
+			"mainCurrency": 34,
+			"fractionalCurrency": 55,
+			"currencySymbol": "£",
+			"formattedPrice": "£34.55",
+			"formattedWholePrice": "£35",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel by any permitted route and Wightlink crossing."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 14:55", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [3],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "34.55",
+					"currencyCode": "GBP",
+					"formattedPrice": "£34.55",
+					"formattedWholePrice": "£35"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 9,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 10,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 11,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 9,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 10,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 11,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBZK4grjOLVNSoBBQlZhGZOWEMezCT3LmAWA5DZmoJCGFoOWJAeYJ_Dsw-m9TBIaCu8YtdiCwy0MTQ21pDjAggLPNvT8Z5L4xQgyAihnYmJqJMTCwSTALMXEIS5hDACFlh56",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "34.55",
+				"currencyCode": "GBP",
+				"formattedPrice": "£34.55",
+				"formattedWholePrice": "£35"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "50.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£50.85",
+			"formattedWholePrice": "£51"
+		},
+		"priceBreakdown": [{
+			"amount": "50.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 50,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£50.85",
+			"formattedWholePrice": "£51",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel by any permitted route and Wightlink crossing."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 14:55", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [3],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "50.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£50.85",
+					"formattedWholePrice": "£51"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 9,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 10,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 11,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 9,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 10,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 11,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBZK4grjOLVNSoBBQlZhGZOWEMezCT3LmAWA5DZmoJCGFoOWJAeYJ_Dsw-m9TBIaCu8YtdiCwy0MTQ21pDjAggLPNvT8Z5L4xQgyAihnYmJqJMTCwSTAKMXEIS5hDACFiB54",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "50.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£50.85",
+				"formattedWholePrice": "£51"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "34.55",
+			"currencyCode": "GBP",
+			"formattedPrice": "£34.55",
+			"formattedWholePrice": "£35"
+		},
+		"priceBreakdown": [{
+			"amount": "34.55",
+			"currencyCode": "GBP",
+			"mainCurrency": 34,
+			"fractionalCurrency": 55,
+			"currencySymbol": "£",
+			"formattedPrice": "£34.55",
+			"formattedWholePrice": "£35",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel by any permitted route and Wightlink crossing."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 15:55", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [6],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "34.55",
+					"currencyCode": "GBP",
+					"formattedPrice": "£34.55",
+					"formattedWholePrice": "£35"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 19,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 20,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 21,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 19,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 20,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 21,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBZK4YrgOLVNSoBBIkphBbOWMMezCT3LmAWA5DZmoNACRi0GLSkOMFfg2YfTe5kkFjAqvGDSYgsOtzA0NQXJgUQFnm3o-c8k8YcJZAhQzsTE1EKIhYNJgFmKiUNcwhgABrQf-g==",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "34.55",
+				"currencyCode": "GBP",
+				"formattedPrice": "£34.55",
+				"formattedWholePrice": "£35"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "50.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£50.85",
+			"formattedWholePrice": "£51"
+		},
+		"priceBreakdown": [{
+			"amount": "50.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 50,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£50.85",
+			"formattedWholePrice": "£51",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel by any permitted route and Wightlink crossing."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 15:55", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [6],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "50.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£50.85",
+					"formattedWholePrice": "£51"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 19,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 20,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 21,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 19,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 20,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 21,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBZK4YrgOLVNSoBBIkphBbOWMMezCT3LmAWA5DZmoNACRi0GLSkOMFfg2YfTe5kkFjAqvGDSYgsOtzA0NQXJgUQFnm3o-c8k8YcJZAhQzsTE1EKIhYNJgFGKiUNcwhgABqYf-A==",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "50.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£50.85",
+				"formattedWholePrice": "£51"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "33.10",
+			"currencyCode": "GBP",
+			"formattedPrice": "£33.10",
+			"formattedWholePrice": "£33"
+		},
+		"priceBreakdown": [{
+			"amount": "33.10",
+			"currencyCode": "GBP",
+			"mainCurrency": 33,
+			"fractionalCurrency": 10,
+			"currencySymbol": "£",
+			"formattedPrice": "£33.10",
+			"formattedWholePrice": "£33",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 15:55", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [5],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "33.10",
+					"currencyCode": "GBP",
+					"formattedPrice": "£33.10",
+					"formattedWholePrice": "£33"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 15,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 16,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 17,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 18,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Day Single",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 16,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 17,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 18,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 15,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Day Single",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq4crgOLVNSoBBIkphCbOWMMezCT3LmAWA5DZmoNACRi0GLSkOMFfg2YfTU5klFjAq3GLSYgsOtzA0NdUS4QCLCjy78GcNs8QnJoUmZqAOoCiID9Qxdx6TxARmkNEMQiwcTALMUkwc4hLGAJdFJqM=",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "33.10",
+				"currencyCode": "GBP",
+				"formattedPrice": "£33.10",
+				"formattedWholePrice": "£33"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "49.40",
+			"currencyCode": "GBP",
+			"formattedPrice": "£49.40",
+			"formattedWholePrice": "£49"
+		},
+		"priceBreakdown": [{
+			"amount": "49.40",
+			"currencyCode": "GBP",
+			"mainCurrency": 49,
+			"fractionalCurrency": 40,
+			"currencySymbol": "£",
+			"formattedPrice": "£49.40",
+			"formattedWholePrice": "£49",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 24 Nov, 2016 15:55", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [5],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "49.40",
+					"currencyCode": "GBP",
+					"formattedPrice": "£49.40",
+					"formattedWholePrice": "£49"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 15,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 16,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 17,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}, {
+						"travelSegmentIndex": 18,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 16,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 17,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 18,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}, {
+				"travelSegmentIndex": 15,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Day Single (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day"
+			}],
+			"openReturn": false
+		}],
+		"railOfferToken": "eNrjYBYq4crgOLVNSoBBIkphCbOWMMezCT3LmAWA5DZmoNACRi0GLSkOMFfg2YfTU5klFjAq3GLSYgsOtzA0NdUS4QCLCjy78GcNs8QnJoUmZqAOoCiID9Qxdx6TxARmkNEMQiwcTAKMUkwc4hLGAJc3JqE=",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "49.40",
+				"currencyCode": "GBP",
+				"formattedPrice": "£49.40",
+				"formattedWholePrice": "£49"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "67.20",
+			"currencyCode": "GBP",
+			"formattedPrice": "£67.20",
+			"formattedWholePrice": "£67"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "66.20",
+			"currencyCode": "GBP",
+			"mainCurrency": 66,
+			"fractionalCurrency": 20,
+			"currencySymbol": "£",
+			"formattedPrice": "£66.20",
+			"formattedWholePrice": "£66",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Return",
+			"aggregatedFareDescription": "Travel anytime of day; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 27 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1, 7],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "66.20",
+					"currencyCode": "GBP",
+					"formattedPrice": "£66.20",
+					"formattedWholePrice": "£66"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 22,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 23,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 24,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 25,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 22,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 23,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 24,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 25,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBa6w8iVwrFqtZQAgwSXwg8mLSGOZx_mzmMSeHbhzxpmoJCcFgNIDMQTePbh9FRmCQ0FB6CYJAeYJ_BsQs82ZokAhU1MWmzB4RbGZgZaIhxgQZDUMmaJTUwgYxm4sjhObQPZMo1R4QEzRM0ymHag2B1GoKFSMJ1gi-4wKvQxg001NDUH6YBYCHbYOmaFfcxAHSJwpwEdLXGGGWQ2gxALB6sAsxQTh7iEMQA97kul",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "66.20",
+				"currencyCode": "GBP",
+				"formattedPrice": "£66.20",
+				"formattedWholePrice": "£66"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "67.20",
+			"currencyCode": "GBP",
+			"formattedPrice": "£67.20",
+			"formattedWholePrice": "£67"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "66.20",
+			"currencyCode": "GBP",
+			"mainCurrency": 66,
+			"fractionalCurrency": 20,
+			"currencySymbol": "£",
+			"formattedPrice": "£66.20",
+			"formattedWholePrice": "£66",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Return",
+			"aggregatedFareDescription": "Travel anytime of day; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 27 Nov, 2016 17:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2, 7],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "66.20",
+					"currencyCode": "GBP",
+					"formattedPrice": "£66.20",
+					"formattedWholePrice": "£66"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 22,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 23,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 24,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 25,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 22,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 23,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 24,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 25,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBZ6xMiVxbFqtZQAg0QTo8I9Zi0Rjmcf5s5jEnh24c8aZpDYNEYtBpAoiC_w7MPpqcwSCxgVdoBEpTjAfIFnE3q2MUucYFToY9ZiCw63MDIzAukAiYLkljFL9DGDzGYA2nVqG8iuaYwKD5ghapbB9APF7kBNhegE23UHbqqhqTnYdWAbwa5bx6ywjxnFdUCXS5xhBpnNIMTCwSrALMXEIS5hDABwPk4V",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "66.20",
+				"currencyCode": "GBP",
+				"formattedPrice": "£66.20",
+				"formattedWholePrice": "£66"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "99.80",
+			"currencyCode": "GBP",
+			"formattedPrice": "£99.80",
+			"formattedWholePrice": "£100"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "98.80",
+			"currencyCode": "GBP",
+			"mainCurrency": 98,
+			"fractionalCurrency": 80,
+			"currencySymbol": "£",
+			"formattedPrice": "£98.80",
+			"formattedWholePrice": "£99",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Return (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 27 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1, 7],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "98.80",
+					"currencyCode": "GBP",
+					"formattedPrice": "£98.80",
+					"formattedWholePrice": "£99"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 22,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 23,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 24,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 25,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 22,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 23,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 24,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 25,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBa6w8iVwrFqtZQAgwSXwg8mLSGOZx_mzmMSeHbhzxpmoJCcFgNIDMQTePbh9FRmCQ0FB6CYJAeYJ_BsQs82ZokAhU1MWmzB4RbGZgZaIhxgQZDUMmaJTUwgYxm4sjhObQPZMo1R4QEzRM0ymHag2B1GoKFSMJ1gi-4wKvQxg001NDUH6YBYCHbYOmaFfcxAHSJwpwEdLXGGGWQ2gxALB6sAoxQTh7iEMQA94Euj",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "98.80",
+				"currencyCode": "GBP",
+				"formattedPrice": "£98.80",
+				"formattedWholePrice": "£99"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "99.80",
+			"currencyCode": "GBP",
+			"formattedPrice": "£99.80",
+			"formattedWholePrice": "£100"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "98.80",
+			"currencyCode": "GBP",
+			"mainCurrency": 98,
+			"fractionalCurrency": 80,
+			"currencySymbol": "£",
+			"formattedPrice": "£98.80",
+			"formattedWholePrice": "£99",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Return (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 27 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1, 5],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "98.80",
+					"currencyCode": "GBP",
+					"formattedPrice": "£98.80",
+					"formattedWholePrice": "£99"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 15,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 16,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 17,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 18,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 16,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 17,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 18,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 15,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBa6xciVwrFqtZQAgwSXwg8mLSGOZx_mzmMSeHbhzxpmoJCcFgNIDMQTePbh9FRmCQ0FB6CYJAeYJ_BsQs82ZokAhU1MWmzB4RbGZgZaIhxgQZDUMmaJTUwgYxm4MjhObQPZEqWwhFlLmAMsCdUdpbCAEWikFEwf2JoFjAq3IGYampqCzIRYB3bWJyaFJmagDhG4w4BOlpjADDKaQYiFg1WAUYqJQ1zCGACEd0pI",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "98.80",
+				"currencyCode": "GBP",
+				"formattedPrice": "£98.80",
+				"formattedWholePrice": "£99"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "99.80",
+			"currencyCode": "GBP",
+			"formattedPrice": "£99.80",
+			"formattedWholePrice": "£100"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "98.80",
+			"currencyCode": "GBP",
+			"mainCurrency": 98,
+			"fractionalCurrency": 80,
+			"currencySymbol": "£",
+			"formattedPrice": "£98.80",
+			"formattedWholePrice": "£99",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Return (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 27 Nov, 2016 17:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2, 5],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "98.80",
+					"currencyCode": "GBP",
+					"formattedPrice": "£98.80",
+					"formattedWholePrice": "£99"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 15,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 16,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 17,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 18,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 16,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 17,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 18,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 15,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBZ6wMiVxbFqtZQAg0QTo8I9Zi0Rjmcf5s5jEnh24c8aZpDYNEYtBpAoiC_w7MPpqcwSCxgVdoBEpTjAfIFnE3q2MUucYFToY9ZiCw63MDIzAukAiYLkljFL9DGDzGbgyuA4tQ1kV5TCEmYtYQ6wJFR7lMICqJkQfTCbbjGBzTQ0NQW7DWwf2G2fmBSamFHcBnS3xARmkNEMQiwcrAKMUkwc4hLGALHbTLg=",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "98.80",
+				"currencyCode": "GBP",
+				"formattedPrice": "£98.80",
+				"formattedWholePrice": "£99"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "46.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£46.85",
+			"formattedWholePrice": "£47"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "45.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 45,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£45.85",
+			"formattedWholePrice": "£46",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Off-Peak Return",
+			"aggregatedFareDescription": "Any off-peak train; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Offpeak",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Outbound: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Return: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 15:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1, 5],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "45.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£45.85",
+					"formattedWholePrice": "£46"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 15,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 16,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 17,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 18,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 16,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 17,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 18,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 15,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBa6xciVwrFqtZQAgwSXwg8mLSGOZx_mzmMSeHbhzxpmoJCcFgNIDMQTePbh9FRmCQ0FB6CYJAeYJ_BsQs82ZokAhU1MWmzB4RbGZgZaIhxgQZDUMmaJTUwgYxm4MjhObQPZEqWwhFlLmAMsCdUdpbCAEWikFEwf2JoFjAq3IGYampqCzIRYB3bWJyaFJmagDhG4w4BOlpjADDKaQYiFg0OAWYqJQ1zCGACEoEpN",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "45.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£45.85",
+				"formattedWholePrice": "£46"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "46.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£46.85",
+			"formattedWholePrice": "£47"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "45.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 45,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£45.85",
+			"formattedWholePrice": "£46",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Off-Peak Return",
+			"aggregatedFareDescription": "Any off-peak train; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Offpeak",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Outbound: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Return: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2, 5],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "45.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£45.85",
+					"formattedWholePrice": "£46"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 15,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 16,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 17,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 18,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 16,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 17,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 18,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 15,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBZ6wMiVxbFqtZQAg0QTo8I9Zi0Rjmcf5s5jEnh24c8aZpDYNEYtBpAoiC_w7MPpqcwSCxgVdoBEpTjAfIFnE3q2MUucYFToY9ZiCw63MDIzAukAiYLkljFL9DGDzGbgyuA4tQ1kV5TCEmYtYQ6wJFR7lMICqJkQfTCbbjGBzTQ0NQW7DWwf2G2fmBSamFHcBnS3xARmkNEMQiwcHALMUkwc4hLGALIETL0=",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "45.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£45.85",
+				"formattedWholePrice": "£46"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "67.20",
+			"currencyCode": "GBP",
+			"formattedPrice": "£67.20",
+			"formattedWholePrice": "£67"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "66.20",
+			"currencyCode": "GBP",
+			"mainCurrency": 66,
+			"fractionalCurrency": 20,
+			"currencySymbol": "£",
+			"formattedPrice": "£66.20",
+			"formattedWholePrice": "£66",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Return",
+			"aggregatedFareDescription": "Travel anytime of day; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 27 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1, 5],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "66.20",
+					"currencyCode": "GBP",
+					"formattedPrice": "£66.20",
+					"formattedWholePrice": "£66"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 15,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 16,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 17,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 18,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 16,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 17,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 18,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 15,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBa6xciVwrFqtZQAgwSXwg8mLSGOZx_mzmMSeHbhzxpmoJCcFgNIDMQTePbh9FRmCQ0FB6CYJAeYJ_BsQs82ZokAhU1MWmzB4RbGZgZaIhxgQZDUMmaJTUwgYxm4MjhObQPZEqWwhFlLmAMsCdUdpbCAEWikFEwf2JoFjAq3IGYampqCzIRYB3bWJyaFJmagDhG4w4BOlpjADDKaQYiFg1WAWYqJQ1zCGACEhUpK",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "66.20",
+				"currencyCode": "GBP",
+				"formattedPrice": "£66.20",
+				"formattedWholePrice": "£66"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "46.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£46.85",
+			"formattedWholePrice": "£47"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "45.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 45,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£45.85",
+			"formattedWholePrice": "£46",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Off-Peak Return",
+			"aggregatedFareDescription": "Any off-peak train; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Offpeak",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Outbound: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Return: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 16:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2, 7],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "45.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£45.85",
+					"formattedWholePrice": "£46"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 22,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 23,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 24,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 25,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 22,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 23,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 24,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 25,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBZ6xMiVxbFqtZQAg0QTo8I9Zi0Rjmcf5s5jEnh24c8aZpDYNEYtBpAoiC_w7MPpqcwSCxgVdoBEpTjAfIFnE3q2MUucYFToY9ZiCw63MDIzAukAiYLkljFL9DGDzGYA2nVqG8iuaYwKD5ghapbB9APF7kBNhegE23UHbqqhqTnYdWAbwa5bx6ywjxnFdUCXS5xhBpnNIMTCwSHALMXEIS5hDABwWU4Y",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "45.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£45.85",
+				"formattedWholePrice": "£46"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "67.20",
+			"currencyCode": "GBP",
+			"formattedPrice": "£67.20",
+			"formattedWholePrice": "£67"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "66.20",
+			"currencyCode": "GBP",
+			"mainCurrency": 66,
+			"fractionalCurrency": 20,
+			"currencySymbol": "£",
+			"formattedPrice": "£66.20",
+			"formattedWholePrice": "£66",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Return",
+			"aggregatedFareDescription": "Travel anytime of day; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 27 Nov, 2016 17:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2, 5],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "66.20",
+					"currencyCode": "GBP",
+					"formattedPrice": "£66.20",
+					"formattedWholePrice": "£66"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 15,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 16,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 17,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 18,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Anytime Return",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 16,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 17,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 18,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 15,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Anytime Return",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBZ6wMiVxbFqtZQAg0QTo8I9Zi0Rjmcf5s5jEnh24c8aZpDYNEYtBpAoiC_w7MPpqcwSCxgVdoBEpTjAfIFnE3q2MUucYFToY9ZiCw63MDIzAukAiYLkljFL9DGDzGbgyuA4tQ1kV5TCEmYtYQ6wJFR7lMICqJkQfTCbbjGBzTQ0NQW7DWwf2G2fmBSamFHcBnS3xARmkNEMQiwcrALMUkwc4hLGALHpTLo=",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "66.20",
+				"currencyCode": "GBP",
+				"formattedPrice": "£66.20",
+				"formattedWholePrice": "£66"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "99.80",
+			"currencyCode": "GBP",
+			"formattedPrice": "£99.80",
+			"formattedWholePrice": "£100"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "98.80",
+			"currencyCode": "GBP",
+			"mainCurrency": 98,
+			"fractionalCurrency": 80,
+			"currencySymbol": "£",
+			"formattedPrice": "£98.80",
+			"formattedWholePrice": "£99",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "First",
+			"aggregatedCarrierFareClassDisplayName": "Anytime Return (1st Class)",
+			"aggregatedFareDescription": "Travel anytime of day; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Anytime",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 27 Nov, 2016 17:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [2, 7],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "98.80",
+					"currencyCode": "GBP",
+					"formattedPrice": "£98.80",
+					"formattedWholePrice": "£99"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 5,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 6,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 7,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 8,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 22,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 23,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 24,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 25,
+						"carrierServiceClassDisplayName": "First",
+						"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+						"carrierFareClassCategoryName": "Anytime",
+						"fareDescription": "Travel anytime of day; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 5,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 6,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 22,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 7,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 23,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 8,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 24,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 25,
+				"carrierServiceClassDisplayName": "First",
+				"carrierFareClassDisplayName": "Anytime Return (1st Class)",
+				"carrierFareClassCategoryName": "Anytime",
+				"fareDescription": "Travel anytime of day; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBZ6xMiVxbFqtZQAg0QTo8I9Zi0Rjmcf5s5jEnh24c8aZpDYNEYtBpAoiC_w7MPpqcwSCxgVdoBEpTjAfIFnE3q2MUucYFToY9ZiCw63MDIzAukAiYLkljFL9DGDzGYA2nVqG8iuaYwKD5ghapbB9APF7kBNhegE23UHbqqhqTnYdWAbwa5bx6ywjxnFdUCXS5xhBpnNIMTCwSrAKMXEIS5hDABwME4T",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "98.80",
+				"currencyCode": "GBP",
+				"formattedPrice": "£98.80",
+				"formattedWholePrice": "£99"
+			}
+		}]
+	}, {
+		"totalPrice": {
+			"amount": "46.85",
+			"currencyCode": "GBP",
+			"formattedPrice": "£46.85",
+			"formattedWholePrice": "£47"
+		},
+		"priceBreakdown": [{
+			"amount": "1",
+			"currencyCode": "GBP",
+			"mainCurrency": 1,
+			"fractionalCurrency": 0,
+			"currencySymbol": "£",
+			"formattedPrice": "£1.00",
+			"formattedWholePrice": "£1",
+			"priceCategory": "Expedia Booking Fee",
+			"priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+		}, {
+			"amount": "45.85",
+			"currencyCode": "GBP",
+			"mainCurrency": 45,
+			"fractionalCurrency": 85,
+			"currencySymbol": "£",
+			"formattedPrice": "£45.85",
+			"formattedWholePrice": "£46",
+			"priceCategory": "Ticket Price",
+			"priceCategoryCode": "TICKET"
+		}],
+		"railProductList": [{
+			"aggregatedCarrierServiceClassDisplayName": "Standard",
+			"aggregatedCarrierFareClassDisplayName": "Off-Peak Return",
+			"aggregatedFareDescription": "Any off-peak train; Return within 1 month",
+			"aggregatedCarrierFareClassCategoryName": "Offpeak",
+			"fareNotes": ["Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx", "Outbound: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Return: RESTRICTIONS APPLY - PLEASE ENQUIRE", "Valid for travel via the Hovertravel service."],
+			"refundable": "REFUNDABLE",
+			"refundableRules": ["Your ticket is refundable before 23 Nov, 2016 15:15", "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.", "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."],
+			"legOptionIndexList": [1, 7],
+			"fareBreakdownList": [{
+				"farePrice": {
+					"amount": "45.85",
+					"currencyCode": "GBP",
+					"formattedPrice": "£45.85",
+					"formattedWholePrice": "£46"
+				},
+				"passengerFareList": [{
+					"passengerIndex": 1,
+					"passengerSegmentFareList": [{
+						"travelSegmentIndex": 1,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 2,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 3,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 4,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 22,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 23,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month",
+						"amenityList": [{
+							"displayName": "Snack Trolley Service"
+						}]
+					}, {
+						"travelSegmentIndex": 24,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}, {
+						"travelSegmentIndex": 25,
+						"carrierServiceClassDisplayName": "Standard",
+						"carrierFareClassDisplayName": "Off-Peak Return",
+						"carrierFareClassCategoryName": "Offpeak",
+						"fareDescription": "Any off-peak train; Return within 1 month"
+					}]
+				}],
+				"fareQualifierList": [{
+					"category": "DISCOUNT_CARD",
+					"program": "UK_DISABILITY",
+					"name": "UK Disability Railcard"
+				}]
+			}],
+			"fareQualifierList": [{
+				"category": "DISCOUNT_CARD",
+				"program": "UK_DISABILITY",
+				"name": "UK Disability Railcard"
+			}],
+			"segmentFareDetailList": [{
+				"travelSegmentIndex": 1,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 2,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 3,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 4,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 22,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 23,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month",
+				"amenityList": [{
+					"displayName": "Snack Trolley Service"
+				}]
+			}, {
+				"travelSegmentIndex": 24,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}, {
+				"travelSegmentIndex": 25,
+				"carrierServiceClassDisplayName": "Standard",
+				"carrierFareClassDisplayName": "Off-Peak Return",
+				"carrierFareClassCategoryName": "Offpeak",
+				"fareDescription": "Any off-peak train; Return within 1 month"
+			}],
+			"openReturn": true
+		}],
+		"railOfferToken": "eNrjYBa6w8iVwrFqtZQAgwSXwg8mLSGOZx_mzmMSeHbhzxpmoJCcFgNIDMQTePbh9FRmCQ0FB6CYJAeYJ_BsQs82ZokAhU1MWmzB4RbGZgZaIhxgQZDUMmaJTUwgYxm4sjhObQPZMo1R4QEzRM0ymHag2B1GoKFSMJ1gi-4wKvQxg001NDUH6YBYCHbYOmaFfcxAHSJwpwEdLXGGGWQ2gxALB4cAsxQTh7iEMQA-CUuo",
+		"passengerList": [{
+			"passengerIndex": 1,
+			"age": 26,
+			"primaryTraveler": true,
+			"passengerAgeGroup": "ADULT",
+			"price": {
+				"amount": "45.85",
+				"currencyCode": "GBP",
+				"formattedPrice": "£45.85",
+				"formattedWholePrice": "£46"
+			}
+		}]
+	}],
+	"responseStatus": {
+		"status": "SUCCESS"
+	}
+}

@@ -1,0 +1,3682 @@
+{
+  "passengerList": [
+    {
+      "passengerIndex": 1,
+      "age": 25,
+      "primaryTraveler": true,
+      "passengerAgeGroup": "YOUTH"
+    }
+  ],
+  "legList": [
+    {
+      "departureStation": {
+        "stationCode": "GB@MA",
+        "stationDisplayName": "Manchester (All Stations)"
+      },
+      "arrivalStation": {
+        "stationCode": "GB@LO",
+        "stationDisplayName": "London (All Stations)"
+      },
+      "legOptionList": [
+        {
+          "legOptionIndex": 4,
+          "departureStation": {
+            "stationCode": "GB@MA",
+            "stationDisplayName": "Manchester (All Stations)"
+          },
+          "arrivalStation": {
+            "stationCode": "GB@LO",
+            "stationDisplayName": "London (All Stations)"
+          },
+          "departureDateTime": {
+            "raw": "2016-10-20T16:35:00",
+            "epochSeconds": 1476981300,
+            "localized": "20 Oct, 2016 16:35",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "arrivalDateTime": {
+            "raw": "2016-10-20T18:43:00",
+            "epochSeconds": 1476988980,
+            "localized": "20 Oct, 2016 18:43",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "duration": "PT2H8M",
+          "aggregatedMarketingCarrier": "Virgin Trains",
+          "aggregatedOperatingCarrier": "Virgin Trains",
+          "travelSegmentList": [
+            {
+              "travelSegmentIndex": 4,
+              "travelMode": "Train",
+              "departureStation": {
+                "stationCode": "GBQQM",
+                "stationDisplayName": "Manchester Piccadilly"
+              },
+              "arrivalStation": {
+                "stationCode": "GBQQU",
+                "stationDisplayName": "London Euston"
+              },
+              "departureDateTime": {
+                "raw": "2016-10-20T16:35:00",
+                "epochSeconds": 1476981300,
+                "localized": "20 Oct, 2016 16:35",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "arrivalDateTime": {
+                "raw": "2016-10-20T18:43:00",
+                "epochSeconds": 1476988980,
+                "localized": "20 Oct, 2016 18:43",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "marketingCarrier": "Virgin Trains",
+              "operatingCarrier": "Virgin Trains",
+              "travelMedium": {
+                "travelMediumName": "Inter-City",
+                "travelMediumCode": "ICY",
+                "supplierTravelMediumId": "VT7675"
+              },
+              "duration": "PT2H8M"
+            }
+          ],
+          "noOfChanges": 0,
+          "bestPrice": {
+            "amount": "25.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£25.40",
+            "formattedWholePrice": "£25"
+          },
+          "legBoundOrder": 1,
+          "showTrainIcon": false,
+          "overtakenJourney": false
+        },
+        {
+          "legOptionIndex": 3,
+          "departureStation": {
+            "stationCode": "GB@MA",
+            "stationDisplayName": "Manchester (All Stations)"
+          },
+          "arrivalStation": {
+            "stationCode": "GB@LO",
+            "stationDisplayName": "London (All Stations)"
+          },
+          "departureDateTime": {
+            "raw": "2016-10-20T16:15:00",
+            "epochSeconds": 1476980100,
+            "localized": "20 Oct, 2016 16:15",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "arrivalDateTime": {
+            "raw": "2016-10-20T18:24:00",
+            "epochSeconds": 1476987840,
+            "localized": "20 Oct, 2016 18:24",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "duration": "PT2H9M",
+          "aggregatedMarketingCarrier": "Virgin Trains",
+          "aggregatedOperatingCarrier": "Virgin Trains",
+          "travelSegmentList": [
+            {
+              "travelSegmentIndex": 3,
+              "travelMode": "Train",
+              "departureStation": {
+                "stationCode": "GBQQM",
+                "stationDisplayName": "Manchester Piccadilly"
+              },
+              "arrivalStation": {
+                "stationCode": "GBQQU",
+                "stationDisplayName": "London Euston"
+              },
+              "departureDateTime": {
+                "raw": "2016-10-20T16:15:00",
+                "epochSeconds": 1476980100,
+                "localized": "20 Oct, 2016 16:15",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "arrivalDateTime": {
+                "raw": "2016-10-20T18:24:00",
+                "epochSeconds": 1476987840,
+                "localized": "20 Oct, 2016 18:24",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "marketingCarrier": "Virgin Trains",
+              "operatingCarrier": "Virgin Trains",
+              "travelMedium": {
+                "travelMediumName": "Inter-City",
+                "travelMediumCode": "ICY",
+                "supplierTravelMediumId": "VT7670"
+              },
+              "duration": "PT2H9M"
+            }
+          ],
+          "noOfChanges": 0,
+          "bestPrice": {
+            "amount": "25.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£25.40",
+            "formattedWholePrice": "£25"
+          },
+          "legBoundOrder": 1,
+          "showTrainIcon": false,
+          "overtakenJourney": false
+        },
+        {
+          "legOptionIndex": 5,
+          "departureStation": {
+            "stationCode": "GB@MA",
+            "stationDisplayName": "Manchester (All Stations)"
+          },
+          "arrivalStation": {
+            "stationCode": "GB@LO",
+            "stationDisplayName": "London (All Stations)"
+          },
+          "departureDateTime": {
+            "raw": "2016-10-20T16:55:00",
+            "epochSeconds": 1476982500,
+            "localized": "20 Oct, 2016 16:55",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "arrivalDateTime": {
+            "raw": "2016-10-20T19:09:00",
+            "epochSeconds": 1476990540,
+            "localized": "20 Oct, 2016 19:09",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "duration": "PT2H14M",
+          "aggregatedMarketingCarrier": "Virgin Trains",
+          "aggregatedOperatingCarrier": "Virgin Trains",
+          "travelSegmentList": [
+            {
+              "travelSegmentIndex": 5,
+              "travelMode": "Train",
+              "departureStation": {
+                "stationCode": "GBQQM",
+                "stationDisplayName": "Manchester Piccadilly"
+              },
+              "arrivalStation": {
+                "stationCode": "GBQQU",
+                "stationDisplayName": "London Euston"
+              },
+              "departureDateTime": {
+                "raw": "2016-10-20T16:55:00",
+                "epochSeconds": 1476982500,
+                "localized": "20 Oct, 2016 16:55",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "arrivalDateTime": {
+                "raw": "2016-10-20T19:09:00",
+                "epochSeconds": 1476990540,
+                "localized": "20 Oct, 2016 19:09",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "marketingCarrier": "Virgin Trains",
+              "operatingCarrier": "Virgin Trains",
+              "travelMedium": {
+                "travelMediumName": "Inter-City",
+                "travelMediumCode": "ICY",
+                "supplierTravelMediumId": "VT7680"
+              },
+              "duration": "PT2H14M"
+            }
+          ],
+          "noOfChanges": 0,
+          "bestPrice": {
+            "amount": "25.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£25.40",
+            "formattedWholePrice": "£25"
+          },
+          "legBoundOrder": 1,
+          "showTrainIcon": false,
+          "overtakenJourney": false
+        },
+        {
+          "legOptionIndex": 2,
+          "departureStation": {
+            "stationCode": "GB@MA",
+            "stationDisplayName": "Manchester (All Stations)"
+          },
+          "arrivalStation": {
+            "stationCode": "GB@LO",
+            "stationDisplayName": "London (All Stations)"
+          },
+          "departureDateTime": {
+            "raw": "2016-10-20T15:55:00",
+            "epochSeconds": 1476978900,
+            "localized": "20 Oct, 2016 15:55",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "arrivalDateTime": {
+            "raw": "2016-10-20T18:05:00",
+            "epochSeconds": 1476986700,
+            "localized": "20 Oct, 2016 18:05",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "duration": "PT2H10M",
+          "aggregatedMarketingCarrier": "Virgin Trains",
+          "aggregatedOperatingCarrier": "Virgin Trains",
+          "travelSegmentList": [
+            {
+              "travelSegmentIndex": 2,
+              "travelMode": "Train",
+              "departureStation": {
+                "stationCode": "GBQQM",
+                "stationDisplayName": "Manchester Piccadilly"
+              },
+              "arrivalStation": {
+                "stationCode": "GBQQU",
+                "stationDisplayName": "London Euston"
+              },
+              "departureDateTime": {
+                "raw": "2016-10-20T15:55:00",
+                "epochSeconds": 1476978900,
+                "localized": "20 Oct, 2016 15:55",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "arrivalDateTime": {
+                "raw": "2016-10-20T18:05:00",
+                "epochSeconds": 1476986700,
+                "localized": "20 Oct, 2016 18:05",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "marketingCarrier": "Virgin Trains",
+              "operatingCarrier": "Virgin Trains",
+              "travelMedium": {
+                "travelMediumName": "Inter-City",
+                "travelMediumCode": "ICY",
+                "supplierTravelMediumId": "VT7665"
+              },
+              "duration": "PT2H10M"
+            }
+          ],
+          "noOfChanges": 0,
+          "bestPrice": {
+            "amount": "25.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£25.40",
+            "formattedWholePrice": "£25"
+          },
+          "legBoundOrder": 1,
+          "showTrainIcon": false,
+          "overtakenJourney": false
+        },
+        {
+          "legOptionIndex": 1,
+          "departureStation": {
+            "stationCode": "GB@MA",
+            "stationDisplayName": "Manchester (All Stations)"
+          },
+          "arrivalStation": {
+            "stationCode": "GB@LO",
+            "stationDisplayName": "London (All Stations)"
+          },
+          "departureDateTime": {
+            "raw": "2016-10-20T15:35:00",
+            "epochSeconds": 1476977700,
+            "localized": "20 Oct, 2016 15:35",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "arrivalDateTime": {
+            "raw": "2016-10-20T17:43:00",
+            "epochSeconds": 1476985380,
+            "localized": "20 Oct, 2016 17:43",
+            "localizedShortDate": "Thu, 20 Oct"
+          },
+          "duration": "PT2H8M",
+          "aggregatedMarketingCarrier": "Virgin Trains",
+          "aggregatedOperatingCarrier": "Virgin Trains",
+          "travelSegmentList": [
+            {
+              "travelSegmentIndex": 1,
+              "travelMode": "Train",
+              "departureStation": {
+                "stationCode": "GBQQM",
+                "stationDisplayName": "Manchester Piccadilly"
+              },
+              "arrivalStation": {
+                "stationCode": "GBQQU",
+                "stationDisplayName": "London Euston"
+              },
+              "departureDateTime": {
+                "raw": "2016-10-20T15:35:00",
+                "epochSeconds": 1476977700,
+                "localized": "20 Oct, 2016 15:35",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "arrivalDateTime": {
+                "raw": "2016-10-20T17:43:00",
+                "epochSeconds": 1476985380,
+                "localized": "20 Oct, 2016 17:43",
+                "localizedShortDate": "Thu, 20 Oct"
+              },
+              "marketingCarrier": "Virgin Trains",
+              "operatingCarrier": "Virgin Trains",
+              "travelMedium": {
+                "travelMediumName": "Inter-City",
+                "travelMediumCode": "ICY",
+                "supplierTravelMediumId": "VT7660"
+              },
+              "duration": "PT2H8M"
+            }
+          ],
+          "noOfChanges": 0,
+          "bestPrice": {
+            "amount": "25.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£25.40",
+            "formattedWholePrice": "£25"
+          },
+          "legBoundOrder": 1,
+          "showTrainIcon": false,
+          "overtakenJourney": false
+        }
+      ],
+      "legIndex": 1,
+      "legBoundOrder": 1,
+      "cheapestPrice": {
+        "amount": "25.40",
+        "currencyCode": "GBP",
+        "formattedPrice": "£25.40",
+        "formattedWholePrice": "£25"
+      }
+    }
+  ],
+  "offerList": [
+    {
+      "totalPrice": {
+        "amount": "110.55",
+        "currencyCode": "GBP",
+        "formattedPrice": "£110.55",
+        "formattedWholePrice": "£111"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "109.55",
+          "currencyCode": "GBP",
+          "mainCurrency": 109,
+          "fractionalCurrency": 55,
+          "currencySymbol": "£",
+          "formattedPrice": "£109.55",
+          "formattedWholePrice": "£110",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 15:35",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            4
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "109.55",
+                "currencyCode": "GBP",
+                "formattedPrice": "£109.55",
+                "formattedWholePrice": "£110"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 4,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Anytime Single",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 4,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Anytime Single",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBIk_hHZOWJMezCT3PmASA5DJmiBBbWIi5mbmpEAsHowCzFBOHuIQhALlgDek=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "109.55",
+            "currencyCode": "GBP",
+            "formattedPrice": "£109.55",
+            "formattedWholePrice": "£110"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "157.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£157.75",
+        "formattedWholePrice": "£158"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "156.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 156,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£156.75",
+          "formattedWholePrice": "£157",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single (1st Class)",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 15:35",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            4
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "156.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£156.75",
+                "formattedWholePrice": "£157"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 4,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 4,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBIk_hHZOWJMezCT3PmASA5DJmiBBbWIi5mbmpEAsHowCjFBOHuIQhALlSDec=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "156.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£156.75",
+            "formattedWholePrice": "£157"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "54.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£54.75",
+        "formattedWholePrice": "£55"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "53.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 53,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£53.75",
+          "formattedWholePrice": "£54",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Off-Peak Single",
+          "aggregatedFareDescription": "Any off-peak train",
+          "aggregatedCarrierFareClassCategoryName": "Offpeak",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Outbound: VALID TO ARR EUS PRE 0720 OR AFTER 1129 M-F",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 17 Nov, 2016 15:35",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            4
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "53.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£53.75",
+                "formattedWholePrice": "£54"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 4,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Off-Peak Single",
+                      "carrierFareClassCategoryName": "Offpeak",
+                      "fareDescription": "Any off-peak train",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 4,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Off-Peak Single",
+              "carrierFareClassCategoryName": "Offpeak",
+              "fareDescription": "Any off-peak train",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBIk_hHZOWJMezCT3PmASA5DJmiBBbWIi5mbmpEAsHuwCzFBOHuIQhALmWDe8=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "53.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£53.75",
+            "formattedWholePrice": "£54"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "64.35",
+        "currencyCode": "GBP",
+        "formattedPrice": "£64.35",
+        "formattedWholePrice": "£64"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "63.35",
+          "currencyCode": "GBP",
+          "mainCurrency": 63,
+          "fractionalCurrency": 35,
+          "currencySymbol": "£",
+          "formattedPrice": "£63.35",
+          "formattedWholePrice": "£63",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single (1st Class)",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            4
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "63.35",
+                "currencyCode": "GBP",
+                "formattedPrice": "£63.35",
+                "formattedWholePrice": "£63"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 4,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Advance Single (1st Class)",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 4,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Advance Single (1st Class)",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBIk_hHZOWJMezCT3PmASA5DJmiBBbWIi5mbmpEAsHgwCjFBOHuIQhALlJDeY=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "63.35",
+            "currencyCode": "GBP",
+            "formattedPrice": "£63.35",
+            "formattedWholePrice": "£63"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "25.40",
+        "currencyCode": "GBP",
+        "formattedPrice": "£25.40",
+        "formattedWholePrice": "£25"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "24.40",
+          "currencyCode": "GBP",
+          "mainCurrency": 24,
+          "fractionalCurrency": 40,
+          "currencySymbol": "£",
+          "formattedPrice": "£24.40",
+          "formattedWholePrice": "£24",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            4
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "24.40",
+                "currencyCode": "GBP",
+                "formattedPrice": "£24.40",
+                "formattedWholePrice": "£24"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 4,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Advance Single",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 4,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Advance Single",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBIk_hHZOWJMezCT3PmASA5DJmiBBbWIi5mbmpEAsHgwCzFBOHuIQhALlXDeg=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "24.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£24.40",
+            "formattedWholePrice": "£24"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "110.55",
+        "currencyCode": "GBP",
+        "formattedPrice": "£110.55",
+        "formattedWholePrice": "£111"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "109.55",
+          "currencyCode": "GBP",
+          "mainCurrency": 109,
+          "fractionalCurrency": 55,
+          "currencySymbol": "£",
+          "formattedPrice": "£109.55",
+          "formattedWholePrice": "£110",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 15:15",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            3
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "109.55",
+                "currencyCode": "GBP",
+                "formattedPrice": "£109.55",
+                "formattedWholePrice": "£110"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 3,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Anytime Single",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 3,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Anytime Single",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBwk3hBJOWJMezCT3PmASA5DJmiBBbWIi5mbmBEAsHowCzFBOHuIQhAKVNDUg=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "109.55",
+            "currencyCode": "GBP",
+            "formattedPrice": "£109.55",
+            "formattedWholePrice": "£110"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "157.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£157.75",
+        "formattedWholePrice": "£158"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "156.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 156,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£156.75",
+          "formattedWholePrice": "£157",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single (1st Class)",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 15:15",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            3
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "156.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£156.75",
+                "formattedWholePrice": "£157"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 3,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 3,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBwk3hBJOWJMezCT3PmASA5DJmiBBbWIi5mbmBEAsHowCjFBOHuIQhAKU_DUY=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "156.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£156.75",
+            "formattedWholePrice": "£157"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "54.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£54.75",
+        "formattedWholePrice": "£55"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "53.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 53,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£53.75",
+          "formattedWholePrice": "£54",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Off-Peak Single",
+          "aggregatedFareDescription": "Any off-peak train",
+          "aggregatedCarrierFareClassCategoryName": "Offpeak",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Outbound: VALID TO ARR EUS PRE 0720 OR AFTER 1129 M-F",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 17 Nov, 2016 15:15",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            3
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "53.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£53.75",
+                "formattedWholePrice": "£54"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 3,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Off-Peak Single",
+                      "carrierFareClassCategoryName": "Offpeak",
+                      "fareDescription": "Any off-peak train",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 3,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Off-Peak Single",
+              "carrierFareClassCategoryName": "Offpeak",
+              "fareDescription": "Any off-peak train",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBwk3hBJOWJMezCT3PmASA5DJmiBBbWIi5mbmBEAsHuwCzFBOHuIQhAKWDDU4=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "53.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£53.75",
+            "formattedWholePrice": "£54"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "64.35",
+        "currencyCode": "GBP",
+        "formattedPrice": "£64.35",
+        "formattedWholePrice": "£64"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "63.35",
+          "currencyCode": "GBP",
+          "mainCurrency": 63,
+          "fractionalCurrency": 35,
+          "currencySymbol": "£",
+          "formattedPrice": "£63.35",
+          "formattedWholePrice": "£63",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single (1st Class)",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            3
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "63.35",
+                "currencyCode": "GBP",
+                "formattedPrice": "£63.35",
+                "formattedWholePrice": "£63"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 3,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Advance Single (1st Class)",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 3,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Advance Single (1st Class)",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBwk3hBJOWJMezCT3PmASA5DJmiBBbWIi5mbmBEAsHgwCjFBOHuIQhAKU2DUU=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "63.35",
+            "currencyCode": "GBP",
+            "formattedPrice": "£63.35",
+            "formattedWholePrice": "£63"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "25.40",
+        "currencyCode": "GBP",
+        "formattedPrice": "£25.40",
+        "formattedWholePrice": "£25"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "24.40",
+          "currencyCode": "GBP",
+          "mainCurrency": 24,
+          "fractionalCurrency": 40,
+          "currencySymbol": "£",
+          "formattedPrice": "£24.40",
+          "formattedWholePrice": "£24",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            3
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "24.40",
+                "currencyCode": "GBP",
+                "formattedPrice": "£24.40",
+                "formattedWholePrice": "£24"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 3,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Advance Single",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 3,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Advance Single",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBwk3hBJOWJMezCT3PmASA5DJmiBBbWIi5mbmBEAsHgwCzFBOHuIQhAKVEDUc=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "24.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£24.40",
+            "formattedWholePrice": "£24"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "64.35",
+        "currencyCode": "GBP",
+        "formattedPrice": "£64.35",
+        "formattedWholePrice": "£64"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "63.35",
+          "currencyCode": "GBP",
+          "mainCurrency": 63,
+          "fractionalCurrency": 35,
+          "currencySymbol": "£",
+          "formattedPrice": "£63.35",
+          "formattedWholePrice": "£63",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single (1st Class)",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            5
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "63.35",
+                "currencyCode": "GBP",
+                "formattedPrice": "£63.35",
+                "formattedWholePrice": "£63"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 5,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Advance Single (1st Class)",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 5,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Advance Single (1st Class)",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4dLgOPNcUoBBYhqjwiJmLSmOZxN6njEJAMllzFAxtrAQczMLAyEWDgYBRikmDnEJQwC_4Q2j",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "63.35",
+            "currencyCode": "GBP",
+            "formattedPrice": "£63.35",
+            "formattedWholePrice": "£63"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "25.40",
+        "currencyCode": "GBP",
+        "formattedPrice": "£25.40",
+        "formattedWholePrice": "£25"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "24.40",
+          "currencyCode": "GBP",
+          "mainCurrency": 24,
+          "fractionalCurrency": 40,
+          "currencySymbol": "£",
+          "formattedPrice": "£24.40",
+          "formattedWholePrice": "£24",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            5
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "24.40",
+                "currencyCode": "GBP",
+                "formattedPrice": "£24.40",
+                "formattedWholePrice": "£24"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 5,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Advance Single",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 5,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Advance Single",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4dLgOPNcUoBBYhqjwiJmLSmOZxN6njEJAMllzFAxtrAQczMLAyEWDgYBZikmDnEJQwC_7w2l",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "24.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£24.40",
+            "formattedWholePrice": "£24"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "110.55",
+        "currencyCode": "GBP",
+        "formattedPrice": "£110.55",
+        "formattedWholePrice": "£111"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "109.55",
+          "currencyCode": "GBP",
+          "mainCurrency": 109,
+          "fractionalCurrency": 55,
+          "currencySymbol": "£",
+          "formattedPrice": "£109.55",
+          "formattedWholePrice": "£110",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 15:55",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            5
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "109.55",
+                "currencyCode": "GBP",
+                "formattedPrice": "£109.55",
+                "formattedWholePrice": "£110"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 5,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Anytime Single",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 5,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Anytime Single",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4dLgOPNcUoBBYhqjwiJmLSmOZxN6njEJAMllzFAxtrAQczMLAyEWDkYBZikmDnEJQwC_-A2m",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "109.55",
+            "currencyCode": "GBP",
+            "formattedPrice": "£109.55",
+            "formattedWholePrice": "£110"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "157.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£157.75",
+        "formattedWholePrice": "£158"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "156.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 156,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£156.75",
+          "formattedWholePrice": "£157",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single (1st Class)",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 15:55",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            5
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "156.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£156.75",
+                "formattedWholePrice": "£157"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 5,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 5,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4dLgOPNcUoBBYhqjwiJmLSmOZxN6njEJAMllzFAxtrAQczMLAyEWDkYBRikmDnEJQwC_6g2k",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "156.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£156.75",
+            "formattedWholePrice": "£157"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "54.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£54.75",
+        "formattedWholePrice": "£55"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "53.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 53,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£53.75",
+          "formattedWholePrice": "£54",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Off-Peak Single",
+          "aggregatedFareDescription": "Any off-peak train",
+          "aggregatedCarrierFareClassCategoryName": "Offpeak",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Outbound: VALID TO ARR EUS PRE 0720 OR AFTER 1129 M-F",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 17 Nov, 2016 15:55",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            5
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "53.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£53.75",
+                "formattedWholePrice": "£54"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 5,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Off-Peak Single",
+                      "carrierFareClassCategoryName": "Offpeak",
+                      "fareDescription": "Any off-peak train",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 5,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Off-Peak Single",
+              "carrierFareClassCategoryName": "Offpeak",
+              "fareDescription": "Any off-peak train",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4dLgOPNcUoBBYhqjwiJmLSmOZxN6njEJAMllzFAxtrAQczMLAyEWDnYBZikmDnEJQwDALg2s",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "53.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£53.75",
+            "formattedWholePrice": "£54"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "110.55",
+        "currencyCode": "GBP",
+        "formattedPrice": "£110.55",
+        "formattedWholePrice": "£111"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "109.55",
+          "currencyCode": "GBP",
+          "mainCurrency": 109,
+          "fractionalCurrency": 55,
+          "currencySymbol": "£",
+          "formattedPrice": "£109.55",
+          "formattedWholePrice": "£110",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 14:55",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            2
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "109.55",
+                "currencyCode": "GBP",
+                "formattedPrice": "£109.55",
+                "formattedWholePrice": "£110"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 2,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Anytime Single",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 2,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Anytime Single",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBQk5hEZOWJMezCT3PmASA5DJmiBBbWIi5mZmpEAsHowCzFBOHuIQhAJGuDLA=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "109.55",
+            "currencyCode": "GBP",
+            "formattedPrice": "£109.55",
+            "formattedWholePrice": "£110"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "157.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£157.75",
+        "formattedWholePrice": "£158"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "156.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 156,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£156.75",
+          "formattedWholePrice": "£157",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single (1st Class)",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 14:55",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            2
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "156.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£156.75",
+                "formattedWholePrice": "£157"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 2,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 2,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBQk5hEZOWJMezCT3PmASA5DJmiBBbWIi5mZmpEAsHowCjFBOHuIQhAJGgDK4=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "156.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£156.75",
+            "formattedWholePrice": "£157"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "54.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£54.75",
+        "formattedWholePrice": "£55"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "53.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 53,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£53.75",
+          "formattedWholePrice": "£54",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Off-Peak Single",
+          "aggregatedFareDescription": "Any off-peak train",
+          "aggregatedCarrierFareClassCategoryName": "Offpeak",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Outbound: VALID TO ARR EUS PRE 0720 OR AFTER 1129 M-F",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 17 Nov, 2016 14:55",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            2
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "53.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£53.75",
+                "formattedWholePrice": "£54"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 2,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Off-Peak Single",
+                      "carrierFareClassCategoryName": "Offpeak",
+                      "fareDescription": "Any off-peak train",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 2,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Off-Peak Single",
+              "carrierFareClassCategoryName": "Offpeak",
+              "fareDescription": "Any off-peak train",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBQk5hEZOWJMezCT3PmASA5DJmiBBbWIi5mZmpEAsHuwCzFBOHuIQhAJHkDLY=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "53.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£53.75",
+            "formattedWholePrice": "£54"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "64.35",
+        "currencyCode": "GBP",
+        "formattedPrice": "£64.35",
+        "formattedWholePrice": "£64"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "63.35",
+          "currencyCode": "GBP",
+          "mainCurrency": 63,
+          "fractionalCurrency": 35,
+          "currencySymbol": "£",
+          "formattedPrice": "£63.35",
+          "formattedWholePrice": "£63",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single (1st Class)",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            2
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "63.35",
+                "currencyCode": "GBP",
+                "formattedPrice": "£63.35",
+                "formattedWholePrice": "£63"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 2,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Advance Single (1st Class)",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 2,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Advance Single (1st Class)",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBQk5hEZOWJMezCT3PmASA5DJmiBBbWIi5mZmpEAsHgwCjFBOHuIQhAJGXDK0=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "63.35",
+            "currencyCode": "GBP",
+            "formattedPrice": "£63.35",
+            "formattedWholePrice": "£63"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "25.40",
+        "currencyCode": "GBP",
+        "formattedPrice": "£25.40",
+        "formattedWholePrice": "£25"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "24.40",
+          "currencyCode": "GBP",
+          "mainCurrency": 24,
+          "fractionalCurrency": 40,
+          "currencySymbol": "£",
+          "formattedPrice": "£24.40",
+          "formattedWholePrice": "£24",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            2
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "24.40",
+                "currencyCode": "GBP",
+                "formattedPrice": "£24.40",
+                "formattedWholePrice": "£24"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 2,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Advance Single",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 2,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Advance Single",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBQk5hEZOWJMezCT3PmASA5DJmiBBbWIi5mZmpEAsHgwCzFBOHuIQhAJGlDK8=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "24.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£24.40",
+            "formattedWholePrice": "£24"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "110.55",
+        "currencyCode": "GBP",
+        "formattedPrice": "£110.55",
+        "formattedWholePrice": "£111"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "109.55",
+          "currencyCode": "GBP",
+          "mainCurrency": 109,
+          "fractionalCurrency": 55,
+          "currencySymbol": "£",
+          "formattedPrice": "£109.55",
+          "formattedWholePrice": "£110",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 14:35",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            1
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "109.55",
+                "currencyCode": "GBP",
+                "formattedPrice": "£109.55",
+                "formattedWholePrice": "£110"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 1,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Anytime Single",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 1,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Anytime Single",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBglPhG6OWJMezCT3PmASA5DJmiBBbWIi5mZmBEAsHowCzFBOHuIQhAKBdDSc=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "109.55",
+            "currencyCode": "GBP",
+            "formattedPrice": "£109.55",
+            "formattedWholePrice": "£110"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "157.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£157.75",
+        "formattedWholePrice": "£158"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "156.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 156,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£156.75",
+          "formattedWholePrice": "£157",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Anytime Single (1st Class)",
+          "aggregatedFareDescription": "Travel anytime of day",
+          "aggregatedCarrierFareClassCategoryName": "Anytime",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 18 Nov, 2016 14:35",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            1
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "156.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£156.75",
+                "formattedWholePrice": "£157"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 1,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+                      "carrierFareClassCategoryName": "Anytime",
+                      "fareDescription": "Travel anytime of day",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 1,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Anytime Single (1st Class)",
+              "carrierFareClassCategoryName": "Anytime",
+              "fareDescription": "Travel anytime of day",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBglPhG6OWJMezCT3PmASA5DJmiBBbWIi5mZmBEAsHowCjFBOHuIQhAKBPDSU=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "156.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£156.75",
+            "formattedWholePrice": "£157"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "54.75",
+        "currencyCode": "GBP",
+        "formattedPrice": "£54.75",
+        "formattedWholePrice": "£55"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "53.75",
+          "currencyCode": "GBP",
+          "mainCurrency": 53,
+          "fractionalCurrency": 75,
+          "currencySymbol": "£",
+          "formattedPrice": "£53.75",
+          "formattedWholePrice": "£54",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Off-Peak Single",
+          "aggregatedFareDescription": "Any off-peak train",
+          "aggregatedCarrierFareClassCategoryName": "Offpeak",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Outbound: VALID TO ARR EUS PRE 0720 OR AFTER 1129 M-F",
+            "Travel is allowed via any permitted route."
+          ],
+          "refundable": "REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is refundable before 17 Nov, 2016 14:35",
+            "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+            "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+          ],
+          "legOptionIndexList": [
+            1
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "53.75",
+                "currencyCode": "GBP",
+                "formattedPrice": "£53.75",
+                "formattedWholePrice": "£54"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 1,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Off-Peak Single",
+                      "carrierFareClassCategoryName": "Offpeak",
+                      "fareDescription": "Any off-peak train",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 1,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Off-Peak Single",
+              "carrierFareClassCategoryName": "Offpeak",
+              "fareDescription": "Any off-peak train",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBglPhG6OWJMezCT3PmASA5DJmiBBbWIi5mZmBEAsHuwCzFBOHuIQhAKCTDS0=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "53.75",
+            "currencyCode": "GBP",
+            "formattedPrice": "£53.75",
+            "formattedWholePrice": "£54"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "64.35",
+        "currencyCode": "GBP",
+        "formattedPrice": "£64.35",
+        "formattedWholePrice": "£64"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "63.35",
+          "currencyCode": "GBP",
+          "mainCurrency": 63,
+          "fractionalCurrency": 35,
+          "currencySymbol": "£",
+          "formattedPrice": "£63.35",
+          "formattedWholePrice": "£63",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "First",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single (1st Class)",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            1
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "63.35",
+                "currencyCode": "GBP",
+                "formattedPrice": "£63.35",
+                "formattedWholePrice": "£63"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 1,
+                      "carrierServiceClassDisplayName": "First",
+                      "carrierFareClassDisplayName": "Advance Single (1st Class)",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Free)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 1,
+              "carrierServiceClassDisplayName": "First",
+              "carrierFareClassDisplayName": "Advance Single (1st Class)",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Free)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBglPhG6OWJMezCT3PmASA5DJmiBBbWIi5mZmBEAsHgwCjFBOHuIQhAKBGDSQ=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "63.35",
+            "currencyCode": "GBP",
+            "formattedPrice": "£63.35",
+            "formattedWholePrice": "£63"
+          }
+        }
+      ]
+    },
+    {
+      "totalPrice": {
+        "amount": "25.40",
+        "currencyCode": "GBP",
+        "formattedPrice": "£25.40",
+        "formattedWholePrice": "£25"
+      },
+      "priceBreakdown": [
+        {
+          "amount": "1",
+          "currencyCode": "GBP",
+          "mainCurrency": 1,
+          "fractionalCurrency": 0,
+          "currencySymbol": "£",
+          "formattedPrice": "£1.00",
+          "formattedWholePrice": "£1",
+          "priceCategory": "Expedia Booking Fee",
+          "priceCategoryCode": "EXPEDIA_SERVICE_FEE"
+        },
+        {
+          "amount": "24.40",
+          "currencyCode": "GBP",
+          "mainCurrency": 24,
+          "fractionalCurrency": 40,
+          "currencySymbol": "£",
+          "formattedPrice": "£24.40",
+          "formattedWholePrice": "£24",
+          "priceCategory": "Ticket Price",
+          "priceCategoryCode": "TICKET"
+        }
+      ],
+      "railProductList": [
+        {
+          "aggregatedCarrierServiceClassDisplayName": "Standard",
+          "aggregatedCarrierFareClassDisplayName": "Advance Single",
+          "aggregatedFareDescription": "Specified train only",
+          "aggregatedCarrierFareClassCategoryName": "Advance",
+          "fareNotes": [
+            "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+            "Only valid on booked Virgin Trains services.",
+            "Outbound: VALID ON DATE&TRAIN SHOWN ONLY.LMTD CHNGE.NO RFND."
+          ],
+          "refundable": "NON_REFUNDABLE",
+          "refundableRules": [
+            "Your ticket is non-refundable."
+          ],
+          "legOptionIndexList": [
+            1
+          ],
+          "fareBreakdownList": [
+            {
+              "farePrice": {
+                "amount": "24.40",
+                "currencyCode": "GBP",
+                "formattedPrice": "£24.40",
+                "formattedWholePrice": "£24"
+              },
+              "passengerFareList": [
+                {
+                  "passengerIndex": 1,
+                  "passengerSegmentFareList": [
+                    {
+                      "travelSegmentIndex": 1,
+                      "carrierServiceClassDisplayName": "Standard",
+                      "carrierFareClassDisplayName": "Advance Single",
+                      "carrierFareClassCategoryName": "Advance",
+                      "fareDescription": "Specified train only",
+                      "amenityList": [
+                        {
+                          "displayName": "Buffet Service"
+                        },
+                        {
+                          "displayName": "WiFi Access (Additional Cost)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fareQualifierList": [
+                {
+                  "category": "DISCOUNT_CARD",
+                  "program": "UK_DISABILITY",
+                  "name": "UK Disability Railcard"
+                }
+              ]
+            }
+          ],
+          "fareQualifierList": [
+            {
+              "category": "DISCOUNT_CARD",
+              "program": "UK_DISABILITY",
+              "name": "UK Disability Railcard"
+            }
+          ],
+          "segmentFareDetailList": [
+            {
+              "travelSegmentIndex": 1,
+              "carrierServiceClassDisplayName": "Standard",
+              "carrierFareClassDisplayName": "Advance Single",
+              "carrierFareClassCategoryName": "Advance",
+              "fareDescription": "Specified train only",
+              "amenityList": [
+                {
+                  "displayName": "Buffet Service"
+                },
+                {
+                  "displayName": "WiFi Access (Additional Cost)"
+                }
+              ]
+            }
+          ],
+          "openReturn": false
+        }
+      ],
+      "railOfferToken": "eNrjYBYy4lLjOPNcUoBBglPhG6OWJMezCT3PmASA5DJmiBBbWIi5mZmBEAsHgwCzFBOHuIQhAKBUDSY=",
+      "passengerList": [
+        {
+          "passengerIndex": 1,
+          "age": 25,
+          "primaryTraveler": true,
+          "passengerAgeGroup": "YOUTH",
+          "price": {
+            "amount": "24.40",
+            "currencyCode": "GBP",
+            "formattedPrice": "£24.40",
+            "formattedWholePrice": "£24"
+          }
+        }
+      ]
+    }
+  ],
+  "responseStatus": {
+    "status": "SUCCESS"
+  }
+}

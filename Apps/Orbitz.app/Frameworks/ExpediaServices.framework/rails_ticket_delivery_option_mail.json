@@ -1,0 +1,13 @@
+{
+    "ticketDeliveryOptionToken": "SEND_BY_POST_UK",
+    "ticketDeliveryOptionCategoryCode": "SEND_BY_POST",
+    "ticketDeliveryDescription": "£1.00 - Royal Mail First Class Post Domestic UK",
+    "ticketDeliveryFee": {
+        "amount": "1.00",
+        "formattedPrice": "£1.00",
+        "formattedWholePrice": "£1",
+        "currencyCode": "GBP"
+    },
+    "ticketDeliveryCountryCodeList": ["GB"],
+    "departureStation": false
+}

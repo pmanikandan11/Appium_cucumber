@@ -1,0 +1,692 @@
+GET
+.*?/m/api/hotel/search?.*?(?=regionId=178276)
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+  "numberOfRoomsRequested": 1,
+  "filterUnavailableHotelsRequested": true,
+  "totalHotelCount": 206,
+  "availableHotelCount": 165,
+  "searchRegionId": "178276",
+  "searchRegionCity": "Las Vegas (and vicinity)",
+  "hotelList": [
+    {
+      "sortIndex": "0",
+      "hotelId": "2565776",
+      "name": "Test Hotel 1",
+      "localizedName": "ARIA Resort & Casino at CityCenter",
+      "nonLocalizedName": "ARIA Resort & Casino at CityCenter",
+      "address": "3730 Las Vegas Blvd. South",
+      "city": "Las Vegas",
+      "stateProvinceCode": "NV",
+      "countryCode": "USA",
+      "postalCode": "89109",
+      "airportCode": "LAS",
+      "supplierType": "MERCHANT",
+      "hotelStarRating": "5.0",
+      "hotelStarRatingCssClassName": "5-0",
+      "hotelGuestRating": "4.5",
+      "totalRecommendations": "6593",
+      "percentRecommended": "91",
+      "totalReviews": "7258",
+      "shortDescription": "At the heart of the Las Vegas Strip, ARIA Resort & Casino is the crowned jewel of CityCenter, a sleek and modern destination with upscale shopping, dining, entertainment and art venues. \r\n",
+      "locationDescription": "The Strip",
+      "locationId": "800045",
+      "lowRate": "259.00",
+      "lowRateInfo": {
+        "maxNightlyRate": "259.00",
+        "averageRate": "259.00",
+        "taxStatusType": "NONE",
+        "averageBaseRate": "259.00",
+        "nightlyRateTotal": "259.00",
+        "discountPercent": 0,
+        "total": "259.00",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+        "nightlyRatesPerRoom": [
+          {
+            "promo": "false",
+            "baseRate": "259.00",
+            "rate": "259.00"
+          }
+        ],
+        "priceToShowUsers": "259",
+        "strikethroughPriceToShowUsers": "259",
+        "strikethroughPriceWithTaxesAndFeesToShowUsers": "259",
+        "totalMandatoryFees": "0.00",
+        "totalPriceWithMandatoryFees": "259.00",
+        "formattedTotalPriceWithMandatoryFees": "$ 259.00",
+        "userPriceType": "PerNightRateNoTaxes",
+        "priceAdjustments": [],
+        "checkoutPriceType": "total",
+        "airAttached": false,
+        "roomTypeCode": "357956",
+        "ratePlanCode": "200351149"
+      },
+      "rateCurrencyCode": "USD",
+      "rateCurrencySymbol": "$",
+      "roomsLeftAtThisRate": "320",
+      "latitude": "36.106678",
+      "longitude": "-115.173173",
+      "proximityDistanceInMiles": "0.0",
+      "proximityDistanceInKiloMeters": "0.0",
+      "largeThumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_64_d.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_64_n.jpg",
+      "discountMessage": "",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "isHotelAvailable": true,
+      "notAvailableMessage": "",
+      "isSponsoredListing": false,
+      "hasFreeCancellation": false,
+      "distanceUnit": "Miles",
+      "didGetBackHighestPriceFromSurvey": false,
+      "isDudley": false,
+      "isVipAccess": false,
+      "isPaymentChoiceAvailable": false,
+      "isShowEtpChoice": false,
+      "shortDiscountMessage": ""
+    },
+    {
+      "sortIndex": "4",
+      "hotelId": "1337001",
+      "name": "Resort Fee - US",
+      "localizedName": "Resort Fee - US",
+      "nonLocalizedName": "Resort Fee - US",
+      "address": "3300 Las Vegas Blvd S",
+      "city": "Las Vegas",
+      "stateProvinceCode": "NV",
+      "countryCode": "USA",
+      "postalCode": "89109",
+      "airportCode": "LAS",
+      "supplierType": "MERCHANT",
+      "hotelStarRating": "4.0",
+      "hotelStarRatingCssClassName": "4-0",
+      "hotelGuestRating": "4.1",
+      "totalRecommendations": "19254",
+      "percentRecommended": "89",
+      "totalReviews": "21613",
+      "shortDescription": "This is a hotel with a resort fee, as represented in the US POS",
+      "locationDescription": "US Resort Fee Test",
+      "locationId": "800045",
+      "lowRate": "79.95",
+      "lowRateInfo": {
+        "maxNightlyRate": "51.97",
+        "averageRate": "51.97",
+        "taxStatusType": "NONE",
+        "averageBaseRate": "79.95",
+        "nightlyRateTotal": "51.97",
+        "discountPercent": -35,
+        "total": "51.97",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+        "nightlyRatesPerRoom": [
+          {
+            "promo": "true",
+            "baseRate": "79.95",
+            "rate": "51.97"
+          }
+        ],
+        "priceToShowUsers": "52",
+        "strikethroughPriceToShowUsers": "80",
+        "strikethroughPriceWithTaxesAndFeesToShowUsers": "80",
+        "totalMandatoryFees": "0.00",
+        "totalPriceWithMandatoryFees": "51.97",
+        "formattedTotalPriceWithMandatoryFees": "$ 51.97",
+        "userPriceType": "PerNightRateNoTaxes",
+        "priceAdjustments": [],
+        "checkoutPriceType": "total",
+        "airAttached": false,
+        "roomTypeCode": "1615",
+        "ratePlanCode": "1615",
+        "showResortFeeMessage": false,
+        "resortFeeInclusion": false
+      },
+      "rateCurrencyCode": "USD",
+      "rateCurrencySymbol": "$",
+      "roomsLeftAtThisRate": "100",
+      "latitude": "36.123377",
+      "longitude": "-115.170818",
+      "proximityDistanceInMiles": "0.0",
+      "proximityDistanceInKiloMeters": "0.0",
+      "largeThumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_193_d.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_193_n.jpg",
+      "discountMessage": "Sale! Save 35% on this Stay.",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "isHotelAvailable": true,
+      "notAvailableMessage": "",
+      "isSponsoredListing": false,
+      "hasFreeCancellation": false,
+      "amenities": [
+        {
+          "id": "16384",
+          "description": "Free Valet Parking"
+        }
+      ],
+      "distanceUnit": "Miles",
+      "didGetBackHighestPriceFromSurvey": false,
+      "isDudley": false,
+      "isVipAccess": true,
+      "isPaymentChoiceAvailable": false,
+      "isShowEtpChoice": false,
+      "shortDiscountMessage": "Save 35%"
+    },
+    {
+      "sortIndex": "5",
+      "hotelId": "1337002",
+      "name": "Resort Fee - IT",
+      "localizedName": "Resort Fee - IT",
+      "nonLocalizedName": "Resort Fee - IT",
+      "address": "3300 Las Vegas Blvd S",
+      "city": "Las Vegas",
+      "stateProvinceCode": "NV",
+      "countryCode": "USA",
+      "postalCode": "89109",
+      "airportCode": "LAS",
+      "supplierType": "MERCHANT",
+      "hotelStarRating": "4.0",
+      "hotelStarRatingCssClassName": "4-0",
+      "hotelGuestRating": "4.1",
+      "totalRecommendations": "19274",
+      "percentRecommended": "89",
+      "totalReviews": "21633",
+      "shortDescription": "Nei pressi dell'aeroporto, questo resort con spa si trova a Las Vegas (The Strip).<br /><br />Luoghi di interesse nelle vicinanze: Centro commerciale Fashion Show (0,5 km) • Sands Expo Convention Center (0,6 km) • Las Vegas Convention Center (1,9 km)  • The Auto Collections (0,6 km) • High Roller (0,6 km)",
+      "locationDescription": "IT Resort Fee Test",
+      "locationId": "800045",
+      "lowRate": "188.24",
+      "lowRateInfo": {
+        "maxNightlyRate": "122.36",
+        "averageRate": "122.36",
+        "taxStatusType": "ESTIMATED",
+        "surchargeTotal": "14.69",
+        "surchargeTotalForEntireStay": "0.00",
+        "averageBaseRate": "188.24",
+        "nightlyRateTotal": "122.36",
+        "discountPercent": -35,
+        "total": "137.05",
+        "currencyCode": "EUR",
+        "currencySymbol": "€",
+        "surcharges": [
+          {
+            "amount": "11.31",
+            "type": "TAX_ALL"
+          },
+          {
+            "amount": "11.31",
+            "type": "TAX_OTHER"
+          },
+          {
+            "amount": "3.38",
+            "type": "FEE_ALL"
+          },
+          {
+            "amount": "3.38",
+            "type": "FEE_MISC"
+          }
+        ],
+        "surchargesForEntireStay": [
+          {
+            "amount": "0.00",
+            "type": "TAX_ALL"
+          },
+          {
+            "amount": "0.00",
+            "type": "TAX_OTHER"
+          },
+          {
+            "amount": "0.00",
+            "type": "FEE_ALL"
+          },
+          {
+            "amount": "0.00",
+            "type": "FEE_MISC"
+          }
+        ],
+        "nightlyRatesPerRoom": [
+          {
+            "promo": "true",
+            "baseRate": "188.24",
+            "rate": "122.36"
+          }
+        ],
+        "priceToShowUsers": "137",
+        "strikethroughPriceToShowUsers": "203",
+        "strikethroughPriceWithTaxesAndFeesToShowUsers": "203",
+        "totalMandatoryFees": "22.43",
+        "totalPriceWithMandatoryFees": "137.05",
+        "formattedTotalPriceWithMandatoryFees": "€ 137,05",
+        "userPriceType": "RateForWholeStayWithTaxes",
+        "priceAdjustments": [],
+        "checkoutPriceType": "total",
+        "airAttached": false,
+        "roomTypeCode": "90628",
+        "ratePlanCode": "203123",
+        "showResortFeeMessage": true,
+        "resortFeeInclusion": false
+      },
+      "rateCurrencyCode": "EUR",
+      "rateCurrencySymbol": "€",
+      "roomsLeftAtThisRate": "100",
+      "latitude": "36.123377",
+      "longitude": "-115.170818",
+      "proximityDistanceInMiles": "0.0",
+      "proximityDistanceInKiloMeters": "0.0",
+      "largeThumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_193_d.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_193_n.jpg",
+      "discountMessage": "Saldi! Risparmia il 35% sul soggiorno.",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "isHotelAvailable": true,
+      "notAvailableMessage": "",
+      "isSponsoredListing": false,
+      "hasFreeCancellation": false,
+      "amenities": [
+        {
+          "id": "16384",
+          "description": "Valet parking gratuito"
+        }
+      ],
+      "distanceUnit": "Kilometers",
+      "didGetBackHighestPriceFromSurvey": false,
+      "isDudley": false,
+      "isVipAccess": false,
+      "isPaymentChoiceAvailable": false,
+      "isShowEtpChoice": false,
+      "shortDiscountMessage": "Risparmia il 35%"
+    },
+    {
+      "sortIndex": "6",
+      "hotelId": "1337003",
+      "name": "Resort Fee - DE",
+      "localizedName": "Resort Fee - DE",
+      "nonLocalizedName": "Resort Fee - DE",
+      "address": "3300 Las Vegas Blvd S",
+      "city": "Las Vegas",
+      "stateProvinceCode": "NV",
+      "countryCode": "USA",
+      "postalCode": "89109",
+      "airportCode": "LAS",
+      "supplierType": "MERCHANT",
+      "hotelStarRating": "4.0",
+      "hotelStarRatingCssClassName": "4-0",
+      "hotelGuestRating": "0.0",
+      "totalRecommendations": "0",
+      "percentRecommended": "0",
+      "totalReviews": "0",
+      "shortDescription": "Dieses Resort mit Wellnessangebot in Las Vegas (The Strip) liegt in der Nähe des Flughafens.<br /><br />• Fashion Show Mall (0,5 km) • Sands Expo Convention Center (0,6 km) • Las Vegas Convention Center (1,9 km) • The Auto Collections (0,6 km) • High Roller (0,6 km)",
+      "locationDescription": "DE Resort Fee Test",
+      "locationId": "800045",
+      "lowRate": "60.05",
+      "lowRateInfo": {
+        "maxNightlyRate": "39.03",
+        "averageRate": "39.03",
+        "taxStatusType": "ESTIMATED",
+        "surchargeTotal": "4.69",
+        "surchargeTotalForEntireStay": "0.00",
+        "averageBaseRate": "60.05",
+        "nightlyRateTotal": "39.03",
+        "discountPercent": -35,
+        "total": "43.72",
+        "currencyCode": "EUR",
+        "currencySymbol": "€",
+        "surcharges": [
+          {
+            "amount": "3.61",
+            "type": "TAX_ALL"
+          },
+          {
+            "amount": "3.61",
+            "type": "TAX_OTHER"
+          },
+          {
+            "amount": "1.08",
+            "type": "FEE_ALL"
+          },
+          {
+            "amount": "1.08",
+            "type": "FEE_MISC"
+          }
+        ],
+        "surchargesForEntireStay": [
+          {
+            "amount": "0.00",
+            "type": "TAX_ALL"
+          },
+          {
+            "amount": "0.00",
+            "type": "TAX_OTHER"
+          },
+          {
+            "amount": "0.00",
+            "type": "FEE_ALL"
+          },
+          {
+            "amount": "0.00",
+            "type": "FEE_MISC"
+          }
+        ],
+        "nightlyRatesPerRoom": [
+          {
+            "promo": "true",
+            "baseRate": "60.05",
+            "rate": "39.03"
+          }
+        ],
+        "priceToShowUsers": "66",
+        "strikethroughPriceToShowUsers": "65",
+        "strikethroughPriceWithTaxesAndFeesToShowUsers": "65",
+        "totalMandatoryFees": "22.43",
+        "totalPriceWithMandatoryFees": "66.15",
+        "formattedTotalPriceWithMandatoryFees": "66,15 €",
+        "userPriceType": "RateForWholeStayWithTaxes",
+        "priceAdjustments": [],
+        "checkoutPriceType": "totalPriceWithMandatoryFees",
+        "airAttached": false,
+        "roomTypeCode": "1615",
+        "ratePlanCode": "1615",
+        "showResortFeeMessage": true,
+        "resortFeeInclusion": true
+      },
+      "rateCurrencyCode": "EUR",
+      "rateCurrencySymbol": "€",
+      "roomsLeftAtThisRate": "100",
+      "latitude": "36.123377",
+      "longitude": "-115.170818",
+      "proximityDistanceInMiles": "0.0",
+      "proximityDistanceInKiloMeters": "0.0",
+      "largeThumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_193_d.jpg",
+      "thumbnailUrl": "/hotels/1000000/20000/16000/15930/15930_193_n.jpg",
+      "discountMessage": "Sonderangebot! Sparen Sie 35% bei diesem Urlaub.",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "isHotelAvailable": true,
+      "notAvailableMessage": "",
+      "isSponsoredListing": false,
+      "hasFreeCancellation": false,
+      "amenities": [
+        {
+          "id": "16384",
+          "description": "Kostenloser Parkservice"
+        }
+      ],
+      "distanceUnit": "Kilometers",
+      "didGetBackHighestPriceFromSurvey": false,
+      "isDudley": false,
+      "isVipAccess": false,
+      "isPaymentChoiceAvailable": false,
+      "isShowEtpChoice": false,
+      "shortDiscountMessage": "35% sparen"
+    }
+  ],
+  "allNeighborhoodsInSearchRegion": [
+    {
+      "name": "Las Vegas (and vicinity)",
+      "id": 178276
+    },
+    {
+      "name": "East Las Vegas",
+      "id": 6130516
+    },
+    {
+      "name": "East of The Strip",
+      "id": 800046
+    },
+    {
+      "name": "Fremont Street - Downtown Las Vegas",
+      "id": 800047
+    },
+    {
+      "name": "Henderson - Green Valley",
+      "id": 6054168
+    },
+    {
+      "name": "Lake Las Vegas",
+      "id": 6054169
+    },
+    {
+      "name": "North Las Vegas",
+      "id": 6054170
+    },
+    {
+      "name": "South of The Strip",
+      "id": 6130518
+    },
+    {
+      "name": "Summerlin - Northwest Las Vegas",
+      "id": 6054171
+    },
+    {
+      "name": "The Strip",
+      "id": 800045
+    },
+    {
+      "name": "West of The Strip",
+      "id": 6085271
+    }
+  ],
+  "filteredSearchMatchedNoHotels": false,
+  "amenityFilterOptions": {
+    "69": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "10",
+      "filterName": "Babysitting service"
+    },
+    "71": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "3",
+      "filterName": "Children's club"
+    },
+    "66": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "26",
+      "filterName": "Free airport transportation"
+    },
+    "7": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "191",
+      "filterName": "Swimming pool"
+    },
+    "2070": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "134",
+      "filterName": "Dry cleaning/laundry service"
+    },
+    "9": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "89",
+      "filterName": "Restaurant in hotel"
+    },
+    "11": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "155",
+      "filterName": "Fitness equipment"
+    },
+    "72": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "8",
+      "filterName": "Childcare"
+    },
+    "12": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "129",
+      "filterName": "Business services"
+    },
+    "13": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "95",
+      "filterName": "Room service"
+    },
+    "14": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "170",
+      "filterName": "Free parking"
+    },
+    "15": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "51",
+      "filterName": "Spa services on site"
+    },
+    "17": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "84",
+      "filterName": "Pets allowed (conditions apply)"
+    },
+    "16": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "55",
+      "filterName": "Free breakfast"
+    },
+    "19": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "179",
+      "filterName": "High-speed Internet"
+    },
+    "18": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "84",
+      "filterName": "Free newspaper"
+    },
+    "27": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "187",
+      "filterName": "Air conditioning"
+    },
+    "26": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "182",
+      "filterName": "Hair dryer"
+    },
+    "32": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "2",
+      "filterName": "Expedia Local Expert"
+    },
+    "369": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "101",
+      "filterName": "Laundry facilities"
+    },
+    "312": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "13",
+      "filterName": "Kitchenette"
+    },
+    "59": {
+      "isAccessible": "true",
+      "filterNumOccurrences": "143",
+      "filterName": "Accessible path of travel"
+    },
+    "2158": {
+      "isAccessible": "false",
+      "filterNumOccurrences": "32",
+      "filterName": "Kitchen"
+    },
+    "58": {
+      "isAccessible": "true",
+      "filterNumOccurrences": "154",
+      "filterName": "Accessible bathroom"
+    },
+    "57": {
+      "isAccessible": "true",
+      "filterNumOccurrences": "98",
+      "filterName": "Accessibility equipment for the deaf"
+    },
+    "63": {
+      "isAccessible": "true",
+      "filterNumOccurrences": "116",
+      "filterName": "Roll-in shower"
+    },
+    "62": {
+      "isAccessible": "true",
+      "filterNumOccurrences": "152",
+      "filterName": "In-room accessibility"
+    },
+    "61": {
+      "isAccessible": "true",
+      "filterNumOccurrences": "156",
+      "filterName": "Handicapped parking"
+    },
+    "60": {
+      "isAccessible": "true",
+      "filterNumOccurrences": "86",
+      "filterName": "Braille or raised signage"
+    }
+  },
+  "starOptions": [
+    {
+      "starRating": 0,
+      "count": 0
+    },
+    {
+      "starRating": 5,
+      "count": 0
+    },
+    {
+      "starRating": 10,
+      "count": 4
+    },
+    {
+      "starRating": 15,
+      "count": 0
+    },
+    {
+      "starRating": 20,
+      "count": 71
+    },
+    {
+      "starRating": 25,
+      "count": 0
+    },
+    {
+      "starRating": 30,
+      "count": 83
+    },
+    {
+      "starRating": 35,
+      "count": 0
+    },
+    {
+      "starRating": 40,
+      "count": 32
+    },
+    {
+      "starRating": 45,
+      "count": 0
+    },
+    {
+      "starRating": 50,
+      "count": 13
+    }
+  ],
+  "priceOptions": [
+    {
+      "minPrice": "0",
+      "maxPrice": "75",
+      "count": 50
+    },
+    {
+      "minPrice": "75",
+      "maxPrice": "124",
+      "count": 74
+    },
+    {
+      "minPrice": "125",
+      "maxPrice": "199",
+      "count": 35
+    },
+    {
+      "minPrice": "200",
+      "maxPrice": "299",
+      "count": 5
+    },
+    {
+      "minPrice": "300",
+      "maxPrice": "0",
+      "count": 1
+    }
+  ]
+}
+

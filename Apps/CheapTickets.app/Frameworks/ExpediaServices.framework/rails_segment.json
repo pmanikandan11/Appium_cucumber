@@ -1,0 +1,32 @@
+{
+    "travelSegmentIndex": 17,
+    "travelMode": "Train",
+    "departureStation": {
+        "stationCode": "GBLIV",
+        "stationDisplayName": "Liverpool Lime Street"
+    },
+    "arrivalStation": {
+        "stationCode": "GBQQU",
+        "stationDisplayName": "London Euston"
+    },
+    "departureDateTime": {
+        "raw": "2016-12-20T20:48:00",
+        "epochSeconds": 1482266880,
+        "localized": "20 Dec, 2016 20:48",
+        "localizedShortDate": "Tue, 20 Dec"
+    },
+    "arrivalDateTime": {
+        "raw": "2016-12-20T23:46:00",
+        "epochSeconds": 1482277560,
+        "localized": "20 Dec, 2016 23:46",
+        "localizedShortDate": "Tue, 20 Dec"
+    },
+    "marketingCarrier": "Virgin Trains",
+    "operatingCarrier": "Virgin Trains",
+    "travelMedium": {
+        "travelMediumName": "Inter-City",
+        "travelMediumCode": "ICY",
+        "supplierTravelMediumId": "VT8980"
+    },
+    "duration": "PT2H58M"
+}

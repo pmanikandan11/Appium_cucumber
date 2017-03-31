@@ -1,0 +1,48 @@
+GET
+.*?/api/v4/typeahead/San.*Francisco.*
+*
+200
+Content-Type: application/json
+
+{
+  "q": "sfo",
+  "rid": "94bbbbfb-8ec3-4b54-b9c5-b98e9b605956",
+  "rc": "OK",
+  "sr": [
+    {
+      "@type": "gaiaRegionResult",
+	  "index": "0",
+	  "gaiaId": "800127",
+	  "type": "NEIGHBORHOOD",
+	  "regionNames": {
+		"fullName": "San Francisco International Airport (SFO), California, United States of America",
+			"shortName": "San Francisco International Airport (SFO)",
+			"displayName": "San Francisco International Airport (<B>SFO</B>), CA",
+			"lastSearchName": "San Francisco International Airport (SFO), California"
+	  },
+	  "coordinates": {
+		"lat": "37.586298",
+		"long": "-122.324955"
+	  },
+	  "hierarchyInfo": {
+		"airport": {
+			"airportCode": "SFO",
+			"metrocode": "QSF",
+			"multicity": "178305"
+		},
+		"country": {
+			"name": "United States of America",
+			"isoCode2": "US",
+			"isoCode3": "USA"
+		}
+      },
+	  "regionMetadata": {
+		"hotelCount": "115"
+	  },
+	  "regionGrades": {
+		"globalGrade": "99"
+	  },
+	  "packageable": "false"
+	}
+  ]
+}

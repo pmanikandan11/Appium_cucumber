@@ -1,0 +1,113 @@
+{
+    "US": {
+        "supportPhoneNumber": {
+            "*": "8446881649",
+            "iPhone": "8446643185",
+            "iPad": "8447000997",
+            "Android": "8446881650",
+            "AndroidTablet": "8447509060"
+        },
+        "supportPhoneNumberSilver": {
+            "*": "8447496978",
+            "iPhone": "8447496981",
+            "iPad": "8447509051",
+            "Android": "8447496979",
+            "AndroidTablet": "8447496980"
+        },
+        "supportPhoneNumberGold": {
+            "*": "8447496973",
+            "iPhone": "8447496976",
+            "iPad": "8447496977",
+            "Android": "8447496974",
+            "AndroidTablet": "8447496975"
+        },
+        "supportPhoneNumberPlatinum": {
+            "*": "8447620084",
+            "iPhone": "8447372744",
+            "iPad": "8447496972",
+            "Android": "8447372742",
+            "AndroidTablet": "8447372743"
+        },
+        "supportPhoneNumberBaseTier": {
+            "*": "8447496978",
+            "iPhone": "8447496981",
+            "iPad": "8447509051",
+            "Android": "8447496979",
+            "AndroidTablet": "8447496980"
+        },
+        "supportPhoneNumberMiddleTier": {
+            "*": "8447496973",
+            "iPhone": "8447496976",
+            "iPad": "8447496977",
+            "Android": "8447496974",
+            "AndroidTablet": "8447496975"
+        },
+        "supportPhoneNumberTopTier": {
+            "*": "8447620084",
+            "iPhone": "8447372744",
+            "iPad": "8447496972",
+            "Android": "8447372742",
+            "AndroidTablet": "8447372743"
+        },
+        "TPID": 70201,
+        "flightsEnabled": true,
+        "carsEnabled": true,
+        "lxEnabled": true,
+        "packagesEnabled": true,
+        "pwpEnabled:hotels" : true,
+        "swpEnabled:hotels": true,
+        "earnMessageEnabled:hotels": true,
+        "earnMessageEnabled:flights": true,
+        "earnMessageEnabled:packages": true,
+        "url": "orbitz.com",
+        "countryCode": "USA",
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_US",
+                "appInfoURL": "https://www.orbitz.com/app",
+                "hotelDescriptionLocaleKey": "en",
+                "appSupportURL": "https://www.orbitz.com/service/",
+                "forgotPasswordURL": "https://www.orbitz.com/user/forgotpassword",
+                "websiteURL": "https://www.orbitz.com/?rfrr=app.iphone",
+                "websiteURL-pad": "https://www.orbitz.com/?rfrr=app.tablet",
+                "bestPriceGuaranteePolicyURL": "https://www.orbitz.com/guarantee",
+                "hotelBookingStatement": "By completing this booking I agree that I have read and accept the <a href=\"https://www.orbitz.com/\">Rules and Restrictions, the Terms and Conditions, and the Privacy Policy</a>.",
+                "hotelBookingStatement-pad": "By completing this booking I agree that I have read and accept the Rules and Restrictions, the Terms and Conditions, and the Privacy Policy.",
+                "flightBookingStatement": "By completing this booking I agree that I have read and accept the <a href=\"https://www.orbitz.com/\">Rules and Restrictions, the Terms and Conditions, the Privacy Policy and Fare Information</a>.",
+                "termsAndConditionsLinkText": "Terms and Conditions",
+                "privacyPolicyLinkText": "Privacy Policy",
+                "termsAndConditionsURL": "https://www.orbitz.com/terms",
+                "privacyPolicyURL": "https://www.orbitz.com/privacy",
+                "createAccountMarketingText" : "Please send me Orbitz.com emails with travel deals, special offers, and other information.",
+                "loyaltyTermsAndConditionsURL" : "https://www.orbitz.com/serviceloyaltyterms",
+                "rewardsInfoURL" : "https://www.orbitz.com/rewards/"
+            }
+        ],
+        "branding": "Orbitz",
+        "deepLinkDateFormat": "MM/dd/yyyy",
+        "explicitConsentRequired": false,
+        "pointOfSaleId": 70201,
+        "automaticallyMappedLocales": [
+            "en_US"
+        ],
+        "shouldDisplayAveragePrices": true,
+        "shouldDisplayBestPriceGuarantee": true,
+        "googleWalletEnabled": false,
+        "distanceUnit": "miles",
+        "shouldShowKnownTravelerNumber": true,
+        "requiredPaymentFields:hotels": "postalCode",
+        "requiredPaymentFields:cars": "postalCode",
+        "requiredPaymentFields:lx": "postalCode",
+        "requiresPostalCodeField" : true,
+        "supportsVipAccess": true,
+        "supportsVipAccessV2": true,
+        "shouldShowRewards": true,
+        "showMultiBrandCreateAccountText": true,
+        "shouldShowFTCResortRegulations": true,
+        "marketingOptIn" : "SHOW_CHECKED",
+        "autoEnrollUserInRewards" : false,
+        "showInsuranceOnCheckout:flights" : true,
+        "showBundleTotalWhenResortFees" : true,
+        "showPackageFreeUnrealDeal" : true
+    }
+}

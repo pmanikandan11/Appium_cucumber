@@ -1,0 +1,32 @@
+{
+    "travelSegmentIndex": 19,
+    "travelMode": "Train",
+    "departureStation": {
+        "stationCode": "GBQQW",
+        "stationDisplayName": "London Waterloo"
+    },
+    "arrivalStation": {
+        "stationCode": "GBESL",
+        "stationDisplayName": "Eastleigh"
+    },
+    "departureDateTime": {
+        "raw": "2016-12-21T01:05:00",
+        "epochSeconds": 1482282300,
+        "localized": "21 Dec, 2016 01:05",
+        "localizedShortDate": "Wed, 21 Dec"
+    },
+    "arrivalDateTime": {
+        "raw": "2016-12-21T03:10:00",
+        "epochSeconds": 1482289800,
+        "localized": "21 Dec, 2016 03:10",
+        "localizedShortDate": "Wed, 21 Dec"
+    },
+    "marketingCarrier": "South West Trains",
+    "operatingCarrier": "South West Trains",
+    "travelMedium": {
+        "travelMediumName": "Inter-City",
+        "travelMediumCode": "ICY",
+        "supplierTravelMediumId": "SW6661"
+    },
+    "duration": "PT2H5M"
+}

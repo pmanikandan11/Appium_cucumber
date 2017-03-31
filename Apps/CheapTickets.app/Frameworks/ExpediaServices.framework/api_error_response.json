@@ -1,0 +1,20 @@
+{
+  "errors": [
+    {
+      "errorCode": "INVALID_INPUT",
+      "errorInfo": {
+        "summary": "Invalid input error1",
+        "field": "checkInDate"
+      },
+      "diagnosticId": 0
+    },
+    {
+      "errorCode": "INVALID_INPUT",
+      "errorInfo": {
+        "summary": "Invalid input error2",
+        "field": "checkOutDate"
+      },
+      "diagnosticId": 0
+    }
+  ]
+}

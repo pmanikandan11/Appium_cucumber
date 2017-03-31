@@ -1,0 +1,27 @@
+POST
+.*?api/flight/checkout
+*
+200
+Content-Type: application/json
+
+{
+  "newTrip": {
+    "itineraryNumber": "11497812293",
+    "travelRecordLocator": "14978122",
+    "tripId": "0f0e00d7-0b8d-46a8-b751-8787f483ff3e"
+  },
+  "orderId": "8045031058888",
+  "currencyCode": "USD",
+  "totalCharges": "214.20",
+  "totalChargesPrice": {
+    "amount": "214.20",
+    "formattedPrice": "$214.20",
+    "formattedWholePrice": "$214"
+  },
+  "activityId": "5d7fa286-976d-4232-a707-cb381316ab03",
+  "mobileAirAttachQualifier": {
+    "airAttachQualified": true,
+    "offerExpires": "2030-12-25T14:53:46.317-08:00"
+  }
+}
+

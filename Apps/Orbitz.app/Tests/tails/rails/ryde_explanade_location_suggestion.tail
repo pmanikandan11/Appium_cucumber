@@ -1,0 +1,51 @@
+GET
+.*/api/v4/typeahead/[Rr]yd.*
+*
+200
+Content-Type: application/json
+
+{
+    "q": "Ryde Esplanade",
+    "rid": "e1530047-ec81-4518-a5cb-cfa13bc3d212",
+    "rc": "OK",
+    "activeABTests": "11891.1",
+    "throttledABTests": "1908.0",
+    "sr": [{
+           "@type": "gaiaRegionResult",
+           "index": "0",
+           "gaiaId": "200000000000002217",
+           "type": "TRAINSTATION",
+           "regionNames": {
+           "fullName": "Ryde Esplanade, Ryde, UK",
+           "shortName": "Ryde Esplanade",
+           "displayName": "<B>Ryde</B> <B>Esplanade</B>, <B>Ryde</B>, UK",
+           "lastSearchName": "Ryde Esplanade, Ryde, UK"
+           },
+           "essId": {
+           "sourceName": "GAI",
+           "sourceId": "200000000000002217"
+           },
+           "coordinates": {
+           "lat": "50.732853",
+           "long": "-1.159773"
+           },
+           "hierarchyInfo": {
+           "airport": {
+           "airportCode": "SOU",
+           "multicity": "6046218"
+           },
+           "rails": {
+           "stationCode": "GBRYD",
+           "parentTrainStation": "200000000000000081"
+           },
+           "country": {
+           "name": "United Kingdom",
+           "isoCode2": "GB",
+           "isoCode3": "GBR"
+           }
+           },
+           "packageable": "false",
+           "score": "1.0",
+           "popularity": "7.0"
+           }]
+}

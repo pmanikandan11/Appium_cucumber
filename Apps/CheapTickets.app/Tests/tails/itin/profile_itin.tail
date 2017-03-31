@@ -1,0 +1,48 @@
+POST
+.*?api/user/profile.*
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+  "tuid": 999999,
+  "firstName": "Itin",
+  "middleName": "",
+  "lastName": "Scenario",
+  "phoneNumbers": [
+    {
+      "number": "2425161661",
+      "areaCode": "424",
+      "category": "PRIMARY",
+      "countryCode": "1",
+      "extensionNumber": ""
+    }
+  ],
+  "loyaltyMembershipNumber": "274191",
+  "loyaltyMemebershipActive": true,
+  "loyaltyPointsAvailable": 970116,
+  "loyaltyPointsPending": 679187,
+  "loyaltyMemebershipName": "Elite Plus",
+  "membershipTierName": "Gold",
+  "loyaltyTierCredits": {
+    "m_pointsAmount": 0,
+    "m_grossBookingValue": {
+      "amount": 183094.45,
+      "currency": {
+        "currencyCode": "USD"
+      },
+      "uCurrency": {
+        "isoCode": "USD"
+      }
+    },
+    "m_roomNights": 613
+  },
+  "isSmokingPreferred": false,
+  "tsaDetails": {
+    "gender": "Female",
+    "dateOfBirth": "1994-11-03"
+  },
+  "seatPreference": "ANY",
+  "specialAssistance": "NONE",
+  "activityId": "34ef33d9-ca3f-42d7-85b9-ca4f24e98293"
+}

@@ -1,0 +1,353 @@
+GET
+.*?/api/trips/833f6a9d-bcd4-42dc-a40b-b2d2ca148edd.*
+*
+200
+Content-Type: application/json
+
+{
+	"apiVersion": "1.0",
+	"responseType": "TRIP_DETAILS",
+	"responseData": {
+		"levelOfDetail": "FULL",
+		"tripId": "833f6a9d-bcd4-42dc-a40b-b2d2ca148edd",
+		"webDetailsURL": "https://www.expedia.com/trips/1130409733285",
+		"tripNumber": 1130409733285,
+		"title": "Hotel in Kirkland",
+		"description": "",
+		"updateTripNameDescPathURL": "https://www.expedia.com/api/trips/833f6a9d-bcd4-42dc-a40b-b2d2ca148edd/updateTripNameDescription",
+		"startTime": {
+			"raw": "2018-03-23T15:00:00-08:00",
+			"localized": "Mar 23, 2016 3:00:00 PM",
+			"epochSeconds": {{ epoch_seconds_plus_2_days }},
+			"timeZoneOffsetSeconds": -28800,
+			"localizedShortDate": "3/23/2016",
+			"localizedMediumDate": "Mar 23",
+			"localizedFullDate": "Wed, Mar 23",
+			"localizedLongDate": "Mar 23, 2016"
+		},
+		"endTime": {
+			"raw": "2018-03-24T11:00:00-08:00",
+			"localized": "Mar 24, 2016 11:00:00 AM",
+			"epochSeconds": {{ epoch_seconds_plus_1_week }},
+			"timeZoneOffsetSeconds": -28800,
+			"localizedShortDate": "3/24/2016",
+			"localizedMediumDate": "Mar 24",
+			"localizedFullDate": "Thu, Mar 24",
+			"localizedLongDate": "Mar 24, 2016"
+		},
+		"tripCreatedTime": {
+			"raw": "2016-03-16T17:45:32Z",
+			"localized": "Mar 16, 2016 5:45:32 PM",
+			"epochSeconds": 1458150332,
+			"timeZoneOffsetSeconds": 0,
+			"localizedShortDate": "Wed, 16 Mar"
+		},
+		"tripUpdatedTime": {
+			"raw": "2016-03-22T16:42:26Z",
+			"localized": "Mar 22, 2016 4:42:26 PM",
+			"epochSeconds": 1458664946,
+			"timeZoneOffsetSeconds": 0,
+			"localizedShortDate": "Tue, 22 Mar"
+		},
+		"tripCacheUpdatedTime": {
+			"raw": "2016-03-22T16:42:26Z",
+			"localized": "Mar 22, 2016 4:42:26 PM",
+			"epochSeconds": 1458664946,
+			"timeZoneOffsetSeconds": 0,
+			"localizedShortDate": "Tue, 22 Mar"
+		},
+		"bookingStatus": "BOOKED",
+		"rewards": {
+			"totalPoints": 1867.00,
+			"basePoints": 490.00,
+			"bonusPoints": [{
+				"m_pointValue": 980.00,
+				"m_pointType": "offerPoint",
+				"m_pointDescription": "App Booking Triple Points",
+				"m_status": "PENDING"
+			}, {
+				"m_pointValue": 147.00,
+				"m_pointType": "offerPoint",
+				"m_pointDescription": "+gold Bonus",
+				"m_status": "PENDING"
+			}, {
+				"m_pointValue": 250.00,
+				"m_pointType": "offerPoint",
+				"m_pointDescription": "+VIP Access Bonus Offer",
+				"m_status": "PENDING"
+			}],
+			"logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+			"viewStatementURL": "/user/rewards"
+		},
+		"sharableDetailsURL": "https://www.expedia.com/api/trips/shared/O4_THjN0XFWqLaTUg3Py7cCAAvVTPTigY5MAueW1bnpe0Mj1D1puk0LHWbdX8ImpgMy5yVwbGVOr6BGzwlpybwJf",
+		"customerSupport": {
+			"customerSupportURL": "http://www.expedia.com/service/",
+			"customerSupportPhoneInfo": [
+				"Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+				"For faster service, mention <strong>itinerary #1130409733285 </strong>"],
+			"customerSupportPhoneNumberDomestic": "+1-866-539-4149",
+			"customerSupportPhoneNumberInternational": "+1 702-939-2635",
+			"customerSupportPhoneInfoForEmail": [
+				"Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+				"For faster service, mention <strong>itinerary #1130409733285 </strong>"],
+			"termsAndConditionsURL": ""
+		},
+		"isBookedUsingForeignCurrency": false,
+		"hotels": [{
+			"uniqueID": "E7FDD09B-C136-457F-AFF4-884D3BC9AB3B_0",
+			"hotelId": "104382",
+			"checkInDateTime": {
+				"raw": "2018-03-23T15:00:00-08:00",
+				"localized": "Mar 23, 2016 3:00:00 PM",
+				"epochSeconds": {{ epoch_seconds_plus_2_days }},
+				"timeZoneOffsetSeconds": -28800,
+				"localizedShortDate": "3/23/2016",
+				"localizedMediumDate": "Mar 23",
+				"localizedFullDate": "Wed, Mar 23",
+				"localizedLongDate": "Mar 23, 2016"
+			},
+			"checkOutDateTime": {
+				"raw": "2018-03-24T11:00:00-08:00",
+				"localized": "Mar 24, 2016 11:00:00 AM",
+				"epochSeconds": {{ epoch_seconds_plus_1_week }},
+				"timeZoneOffsetSeconds": -28800,
+				"localizedShortDate": "3/24/2016",
+				"localizedMediumDate": "Mar 24",
+				"localizedFullDate": "Thu, Mar 24",
+				"localizedLongDate": "Mar 24, 2016"
+			},
+			"checkInDate": "2018-03-23T15:00:00-08:00",
+			"checkOutDate": "2018-03-24T11:00:00-08:00",
+			"checkInDateLocalized": "Mar 23, 2016",
+			"checkOutDateLocalized": "Mar 24, 2016",
+			"numberOfNights": 1,
+			"bookingStatus": "BOOKED",
+			"bookingStatusText": "Confirmed",
+			"bookingStatusMessage": "We have confirmed your hotel reservation with the property.",
+			"inventoryType": "MERCHANT",
+			"inventorySource": "INTERNAL",
+			"paymentModel": "EXPEDIA_COLLECT",
+			"inventoryVisibility": "VISIBLE",
+			"orderNumber": "8015919631192",
+			"state": "PRE_START_3",
+			"infositeURL": "http://www.expedia.com/itin.h104382.Hotel-Information?langid=1033",
+			"hotelPropertyInfo": {
+				"address": {
+					"addressLine1": "1200 Carillon Pt",
+					"city": "Kirkland",
+					"countrySubdivisionCode": "WA",
+					"postalCode": "98033",
+					"countryCode": "USA",
+					"countryName": " United States of America",
+					"fullAddress": "1200 Carillon Pt, Kirkland, WA, 98033 United States of America",
+					"airportCode": "SEA"
+				},
+				"name": "Woodmark Hotel and Still Spa",
+				"starRating": "40",
+				"photoThumbnailURL": "/hotels/1000000/110000/104400/104382/104382_89_l.jpg",
+				"photoThumbnail500pixURL": "/hotels/1000000/110000/104400/104382/104382_89_y.jpg",
+				"photoThumbnail1000pixURL": "/hotels/1000000/110000/104400/104382/104382_89_z.jpg",
+				"localPhone": "1-425-822-3700",
+				"tollFreePhone": "1-800-822-3700",
+				"formattedPhoneNumbers": "Tel: 1 (425) 822-3700, Fax: 1 (425) 822-3699",
+				"checkInPolicies": [
+					"Minimum check-in age is 18",
+					"Check-in time starts at 4 PM"],
+				"checkInStartTimePolicy": {
+					"label": "Check-in time starts at",
+					"value": "4 PM"
+				},
+				"checkInEndTimePolicy": {},
+				"checkOutTimePolicy": {
+					"label": "Check-out time is",
+					"value": "Noon"
+				},
+				"generalRules": [
+					"Check-out time is Noon",
+					"No rollaway/extra beds available",
+					"No cribs (infant beds) available"],
+				"restrictionPolicies": [],
+				"fees": [
+					"The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul> <li>Breakfast fee: between USD 8 and USD 12 per person (approximately)</li>  <li>Fee for in-room wireless Internet: USD 0.00 (rates may vary)</li> <li>Fee for in-room high-speed Internet (wired): USD 0.00 (rates may vary)</li>    <li>Self parking fee: USD 17.00 per day (in/out privileges)</li> <li>Valet parking fee: USD 22.00 per day (in/out privileges)</li>          </ul>",
+					"The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change."],
+				"mandatoryFees": [
+					"<p>You'll be asked to pay the following charges at the hotel:</p>",
+					"<ul><li>Resort fee: USD 15 per accommodation, per night</li></ul>",
+					"The hotel resort fee includes:<ul><li>Spa access</li><li>Nearby fitness center access</li><li>Business center/computer access</li><li>Internet access</li><li>Newspaper</li><li>Phone calls</li><li>Faxes</li><li>In-room coffee</li><li>Additional inclusions</li></ul>",
+					"<p>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book. </p>"],
+				"specialCheckInInstructions": [],
+				"latitude": 47.65755,
+				"longitude": -122.20648,
+				"isVipAccess": true,
+				"googleMapsLink": "//maps.google.com?q=98033+Kirkland,+1200+Carillon+Pt+",
+				"regionId": "8469"
+			},
+			"totalPriceDetails": {
+				"primaryCurrencyCode": "USD",
+				"base": "271.01",
+				"baseFormatted": "$271.01",
+				"baseWithAdjustmentForDRRRateDiscount": "219.21",
+				"baseWithAdjustmentForDRRRateDiscountFormatted": "$219.21",
+				"taxesAndFees": "25.59",
+				"taxesAndFeesFormatted": "$25.59",
+				"adjustmentForDRRRateDiscount": "-51.80",
+				"adjustmentForDRRRateDiscountFormatted": "-$51.80",
+				"drrRateDiscountDescription": "Sale!",
+				"subTotalBeforeCoupon": "244.80",
+				"subTotalBeforeCouponFormatted": "$244.80",
+				"taxStatus": "ESTIMATED",
+				"total": "244.80",
+				"totalFormatted": "$244.80",
+				"hasFees": true,
+				"expediaChangeFee": "0",
+				"expediaChangeFeeFormatted": "$0.00"
+			},
+			"rules": {
+				"cancelChangeRulesIntroduction": "We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. Woodmark Hotel and Still Spa charges the following cancellation and change fees.",
+				"cancelChangeRules": [
+					"Cancellations or changes made after 11:00 PM (Pacific Daylight Time (US & Canada); Tijuana) on Mar 22, 2016 or no-shows are subject to a hotel fee equal to 100% of the total amount paid for the reservation.",
+					"Prices and hotel availability are not guaranteed until full payment is received.If you would like to book multiple rooms, you must use a different name for each room. Otherwise, the duplicate reservation will be canceled by the hotel."],
+				"cancellationWindowTime": {
+					"raw": "2016-03-22T23:00:00-07:00",
+					"localized": "Mar 22, 2016 11:00:00 PM",
+					"epochSeconds": 1458712800,
+					"timeZoneOffsetSeconds": -25200,
+					"localizedShortDate": "Tue, 22 Mar",
+					"localizedMediumDate": "Mar 22, 2016",
+					"localizedFullDate": "Tuesday, March 22, 2016",
+					"localizedLongDate": "March 22, 2016",
+					"localizedShortTime": "11:00 PM"
+				},
+				"opaqueRules": [],
+				"opaquePolicies": [],
+				"lateArrivalInstructions": "Your room will be guaranteed for late arrival.",
+				"loyaltyPointsDisclaimer": "Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate hotels.",
+				"currencyDisclaimer": "Unless specified otherwise, <span class=\"rr-bold\">rates are quoted in </span><span class=\"rr-bold\" id=\"hotel_id-default-currency\">US dollars</span>.",
+				"extraGuestPolicies": [
+					"Availability of accommodation in the same property for extra guests is not guaranteed."],
+				"occupancyPolicies": [
+					"Base rate is for 2 guests.",
+					"This property considers guests of any age to be an adult."],
+				"paymentPolicies": [
+					"Your credit card is charged the total cost at time of purchase. Prices and room availability are not guaranteed until full payment is received.",
+					"Some hotels request that we wait to submit guest names until 7 days prior to check in. In such a case, your hotel room is reserved, but your name is not yet on file with the hotel."],
+				"roomRequestDisclaimer": "All special requests (such as in-room amenities, bed type, and smoking preference) are shared with the hotel, but requests are not guaranteed and may incur additional charges. We recommend you confirm them directly with the hotel before travel.",
+				"dualCurrencyText": "Rate quotes in USD are based on current exchange rates, which may vary at time of travel. Final payment will be settled in local currency directly with the hotel.",
+				"feesDisclaimer": "The list of fees presented may not be comprehensive. Fees and deposits may not include tax and are subject to change."
+			},
+			"rooms": [{
+				"uniqueID": "E7FDD09B-C136-457F-AFF4-884D3BC9AB3B_0_644759656",
+				"roomRatePlanDescription": "Lakefront Guestroom",
+				"roomTypeCode": "9316",
+				"ratePlanCode": "9316",
+				"bookingStatus": "BOOKED",
+				"hotelConfirmationNumber": "30P55T",
+				"drrRateDiscountDescription": "Sale!",
+				"orderLineNumber": "ccc906f8-35cb-4c01-8bb5-b83acfcb966d",
+				"refundabilityStatus": "REFUNDABLE",
+				"availableOnAllDates": true,
+				"roomCancelLink": "https://www.expedia.com/hotel-cancel-details?tripid=833f6a9d-bcd4-42dc-a40b-b2d2ca148edd&ordernumber=8015919631192&orderlineguid=ccc906f8-35cb-4c01-8bb5-b83acfcb966d&roomNumber=0",
+				"roomChangeLink": "https://www.expedia.com/trips/833f6a9d-bcd4-42dc-a40b-b2d2ca148edd/ordernumber/8015919631192/orderlinenumber/ccc906f8-35cb-4c01-8bb5-b83acfcb966d/change",
+				"totalPriceDetails": {
+					"primaryCurrencyCode": "USD",
+					"base": "271.01",
+					"baseFormatted": "$271.01",
+					"baseWithAdjustmentForDRRRateDiscount": "219.21",
+					"baseWithAdjustmentForDRRRateDiscountFormatted": "$219.21",
+					"taxesAndFees": "25.59",
+					"taxesAndFeesFormatted": "$25.59",
+					"adjustmentForDRRRateDiscount": "-51.80",
+					"adjustmentForDRRRateDiscountFormatted": "-$51.80",
+					"subTotalBeforeCoupon": "244.80",
+					"subTotalBeforeCouponFormatted": "$244.80",
+					"total": "244.80",
+					"totalFormatted": "$244.80",
+					"averagePricePerDay": "219.21",
+					"averagePricePerDayFormatted": "$219.21",
+					"averageTaxPerDay": "25.59",
+					"averageTaxPerDayFormatted": "$25.59",
+					"priceDetailsPerDay": [{
+						"day": {
+							"raw": "2018-03-23T15:00:00-08:00",
+							"localized": "Mar 23, 2016 3:00:00 PM",
+							"epochSeconds": {{ epoch_seconds_plus_2_days }},
+							"timeZoneOffsetSeconds": -28800,
+							"localizedShortDate": "Wed, 23 Mar"
+						},
+						"primaryCurrencyCode": "USD",
+						"amount": "219.21",
+						"amountFormatted": "$219.21"
+					}],
+					"isSameRateForAllNights": true,
+					"expediaChangeFee": "0",
+					"expediaChangeFeeFormatted": "$0.00"
+				},
+				"roomPreferences": {
+					"primaryOccupant": {
+						"firstName": "Firsttest",
+						"fullName": "Firsttest LastTest",
+						"email": "test@email.com",
+						"phone": "1-518-2759488"
+					},
+					"otherOccupantInfo": {
+						"adultCount": 1,
+						"childCount": 0,
+						"infantCount": 0,
+						"childAndInfantCount": 0,
+						"childAndInfantAges": []
+					},
+					"occupantSelectedRoomOptions": {
+						"bedTypeName": "1 king bed",
+						"smokingPreference": "NONSMOKING_ROOM",
+						"accessibilityOptions": [],
+						"hasExtraBedAdult": false,
+						"hasExtraBedChild": false,
+						"hasExtraBedInfant": false,
+						"isSmokingPreferenceSelected": true,
+						"isRoomOptionsAvailable": true
+					},
+					"availableRoomOptions": {
+						"bedTypes": [{
+							"id": "14",
+							"description": "1 king bed",
+							"selected": true
+						}, {
+							"id": "15",
+							"description": "1 queen bed",
+							"selected": false
+						}],
+						"accessibilityOptions": [{
+							"id": "2420",
+							"description": "Accessible bathroom",
+							"selected": false
+						}, {
+							"id": "2423",
+							"description": "In-room accessibility",
+							"selected": false
+						}],
+						"isSmokingRoomAvailable": false,
+						"isNonSmokingRoomAvailable": true
+					}
+				},
+				"amenities": [
+					"Free Wireless Internet"],
+				"nonPricePromotionData": {}
+			}],
+			"isFreeCancellationAvailable": false,
+			"paymentsAndCreditFees": {
+				"paymentsHotelFeesAndDepositsDisclaimer": "The below fees and deposits only apply if they are not included in your selected room rate.",
+				"noFeesStaticText": "The price above DOES NOT include any applicable hotel service fees, charges for optional incidentals (such as minibar snacks or telephone calls), or regulatory surcharges. The hotel will assess these fees, charges, and surcharges upon check-out.",
+				"isDirectAgency": false,
+				"isGDS": false,
+				"isFullyCancelled": false,
+				"isAnyRoomCancelled": false,
+				"isDepositRequired": false,
+				"isPaymentsCreditsVisible": false
+			}
+		}],
+		"readTripError": false,
+		"tripSource": "expedia",
+		"isMRP": false,
+		"exclusiveAmenitiesLogoURL": "/static/default/default/images/myrewards/Rewards_Member_Gold.png"
+	}
+}

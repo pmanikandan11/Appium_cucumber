@@ -1,0 +1,316 @@
+GET
+.*?/api/trips/trip_1\?.*
+*
+200
+Content-Type: application/json
+
+{
+    "apiVersion": "1.0",
+    "responseType": "TRIP_DETAILS",
+    "responseData": {
+        "levelOfDetail": "FULL",
+        "tripId": "5d5a6fef-ccef-4043-8051-9e23e68b5607",
+        "webDetailsURL": "https://www.expedia.com/trips/1128530079869?email=mbl.orbitzipadtest@gmail.com",
+        "tripNumber": 1128530079869,
+        "title": "Flight to New York",
+        "updateTripNameDescPathURL": "https://www.expedia.com/api/trips/5d5a6fef-ccef-4043-8051-9e23e68b5607/updateTripNameDescription",
+        "startTime": {
+            "raw": "2017-02-24T12:01:00-06:00",
+            "localized": "Feb 24, 2017 12:01:00 PM",
+            "epochSeconds": 1487937660,
+            "timeZoneOffsetSeconds": -21600,
+            "localizedShortDate": "2/24/2017",
+            "localizedMediumDate": "Feb 24",
+            "localizedFullDate": "Wed, Feb 24",
+            "localizedLongDate": "Feb 24, 2017"
+        },
+        "endTime": {
+            "raw": "2017-02-24T15:14:00-05:00",
+            "localized": "Feb 24, 2017 3:14:00 PM",
+            "epochSeconds": 1487949240,
+            "timeZoneOffsetSeconds": -18000,
+            "localizedShortDate": "2/24/2017",
+            "localizedMediumDate": "Feb 24",
+            "localizedFullDate": "Wed, Feb 24",
+            "localizedLongDate": "Feb 24, 2017"
+        },
+        "tripCreatedTime": {
+            "raw": "2017-02-23T17:41:09Z",
+            "localized": "Feb 23, 2017 5:41:09 PM",
+            "epochSeconds": 1487871669,
+            "timeZoneOffsetSeconds": 0,
+            "localizedShortDate": "Tue, 23 Feb"
+        },
+        "tripUpdatedTime": {
+            "raw": "2017-02-23T17:42:08Z",
+            "localized": "Feb 23, 2017 5:42:08 PM",
+            "epochSeconds": 1487871728,
+            "timeZoneOffsetSeconds": 0,
+            "localizedShortDate": "Tue, 23 Feb"
+        },
+        "tripCacheUpdatedTime": {
+            "raw": "2017-02-23T17:42:08Z",
+            "localized": "Feb 23, 2017 5:42:08 PM",
+            "epochSeconds": 1487871728,
+            "timeZoneOffsetSeconds": 0,
+            "localizedShortDate": "Tue, 23 Feb"
+        },
+        "bookingStatus": "BOOKED",
+        "rewards": {
+            "totalPoints": 39.00,
+            "basePoints": 13.00,
+            "bonusPoints": [
+                            {
+                            "m_pointValue": 26.00,
+                            "m_pointType": "offerPoint",
+                            "m_pointDescription": "App Booking Triple Points",
+                            "m_status": "PENDING"
+                            }
+                            ],
+            "logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+            "viewStatementURL": "/user/rewards"
+        },
+        "sharableDetailsURL": "https://www.expedia.com/api/trips/shared/8p0XaYPLJWDTu64J2N5HasCAiJ9rb5zXUOAeLIRJ0-ljWAXy1qQbzw0Zzb9qwJ_CzJCZw0KhS48SQcz2RW721fjP",
+        "airAttachQualificationInfo": {
+            "airAttachQualified": true,
+            "offerExpires": "2017-03-04T09:41:09.417-08:00",
+            "offerExpiresTime": {
+                "raw": "2017-03-04T09:41:09-08:00",
+                "localized": "Mar 4, 2017 9:41:09 AM",
+                "epochSeconds": 1488620469,
+                "timeZoneOffsetSeconds": -28800,
+                "localizedShortDate": "3/4/16",
+                "localizedMediumDate": "Mar 4, 2017",
+                "localizedFullDate": "Friday, March 4, 2017",
+                "localizedLongDate": "March 4, 2017"
+            }
+        },
+        "customerSupport": {
+            "customerSupportURL": "http://www.expedia.com/service/",
+            "customerSupportPhoneNumberDomestic": "+1-877-787-3117",
+            "customerSupportPhoneNumberInternational": "+1-877-787-3117",
+            "customerSupportPhoneInfoForEmail": [
+                                                 "Call Expedia+ blue Customer Care at 1-877-787-3117.",
+                                                 "For faster service, mention <strong>itinerary #1128530079869 </strong>"
+                                                 ],
+            "termsAndConditionsURL": ""
+        },
+        "isBookedUsingForeignCurrency": false,
+        "flights": [
+                    {
+                    "uniqueID": "0C5AF2C5-2C60-49CD-9718-1512E292D6F4_0",
+                    "bookingStatus": "BOOKED",
+                    "bookingStatusText": "Booked",
+                    "bookingStatusMessage": "Your ticket is not yet confirmed. We are confirming it with the airline and will update your online itinerary within 24 hours.",
+                    "ticketingStatus": "INPROGRESS",
+                    "orderNumber": "8021641596972",
+                    "updateFrequentFlyerPathURL": "https://www.expedia.com/api/trips/5d5a6fef-ccef-4043-8051-9e23e68b5607/updateFrequentFlyerInformation",
+                    "orderLineNumber": "b26e79cc-84b7-4d7e-94b6-60ff2dff450d",
+                    "expediaBookingId": "Z3RDF5",
+                    "paymentModel": "AGENCY",
+                    "fareType": "PUBLISHED",
+                    "flightType": "ONE_WAY",
+                    "isInternational": false,
+                    "fareTotal": {
+                    "subTotal": "63.1",
+                    "subTotalFormatted": "$63.10",
+                    "currency": "USD",
+                    "base": "45.58",
+                    "baseFormatted": "$45.58",
+                    "taxes": "17.52",
+                    "taxesFormatted": "$17.52",
+                    "total": "63.1",
+                    "totalFormatted": "$63.10"
+                    },
+                    "farePerPassenger": [
+                                         {
+                                         "passengerIndex": 0,
+                                         "passengerTypeCode": "ADULT",
+                                         "passengerTypeCodeLocalized": "Adult",
+                                         "currency": "USD",
+                                         "base": "45.58",
+                                         "baseFormatted": "$45.58",
+                                         "taxes": "17.52",
+                                         "taxesFormatted": "$17.52",
+                                         "fees": [
+                                                  {
+                                                  "localizedName": "Transportation Tax",
+                                                  "amount": "3.42",
+                                                  "amountFormatted": "$3.42"
+                                                  },
+                                                  {
+                                                  "localizedName": "Passenger Civil Aviation Security Service Fee",
+                                                  "amount": "5.6",
+                                                  "amountFormatted": "$5.60"
+                                                  },
+                                                  {
+                                                  "localizedName": "Flight Segment Tax",
+                                                  "amount": "4.0",
+                                                  "amountFormatted": "$4.00"
+                                                  },
+                                                  {
+                                                  "localizedName": "Passenger Facility Charge",
+                                                  "amount": "4.5",
+                                                  "amountFormatted": "$4.50"
+                                                  }
+                                                  ],
+                                         "total": "63.1",
+                                         "totalFormatted": "$63.10"
+                                         }
+                                         ],
+                    "isSplitTicket": false,
+                    "fulfillmentMethod": "ETICKET",
+                    "passengers": [
+                                   {
+                                   "typeCode": "ADULT",
+                                   "typeLocalized": "Adult",
+                                   "title": "",
+                                   "firstName": "Raj",
+                                   "lastName": "Raj",
+                                   "fullName": "Raj Raj",
+                                   "age": 35,
+                                   "gender": "Male",
+                                   "dateOfBirth": "1981-1-1",
+                                   "TSAKnownTravelerNumber": "",
+                                   "passportNumber": "",
+                                   "passportCountryCode": "UZ",
+                                   "phoneNumbers": [
+                                                    {
+                                                    "countryCode": "1",
+                                                    "phone": "3128945000"
+                                                    }
+                                                    ],
+                                   "ticketNumbers": [],
+                                   "frequentFlyerPlans": [],
+                                   "seats": []
+                                   }
+                                   ],
+                    "brandedFareFamilyName": "",
+                    "legs": [
+                             {
+                             "type": "NONSTOP",
+                             "state": "PRE_START_3",
+                             "numberOfStops": 0,
+                             "airlineLogoURL": "https://images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/smAA.gif",
+                             "segments": [
+                                          {
+                                          "transportationType": "FLIGHT",
+                                          "departureType": "FLIGHT_DEPARTURE",
+                                          "departureLocation": {
+                                          "latitude": 41.976928,
+                                          "longitude": -87.904787,
+                                          "name": "O'Hare Intl.",
+                                          "longName": "Chicago, IL (ORD-O'Hare Intl.)",
+                                          "airportCode": "ORD",
+                                          "airportMetroCode": "CHI",
+                                          "city": "Chicago",
+                                          "countryCode": "USA"
+                                          },
+                                          "departureTime": {
+                                          "raw": "2017-02-24T12:01:00-06:00",
+                                          "localized": "Feb 24, 2017 12:01:00 PM",
+                                          "epochSeconds": {{ epoch_seconds_plus_1_hour }},
+                                          "timeZoneOffsetSeconds": -21600,
+                                          "localizedShortDate": "Wed, 24 Feb",
+                                          "localizedMediumDate": "Feb 24, 2017",
+                                          "localizedFullDate": "Wednesday, February 24, 2017",
+                                          "localizedLongDate": "February 24, 2017",
+                                          "localizedShortTime": "12:01 PM"
+                                          },
+                                          "arrivalType": "FLIGHT_ARRIVAL",
+                                          "arrivalLocation": {
+                                          "latitude": 40.644166,
+                                          "longitude": -73.782548,
+                                          "name": "John F. Kennedy Intl.",
+                                          "longName": "New York, NY (JFK-John F. Kennedy Intl.)",
+                                          "airportCode": "JFK",
+                                          "airportMetroCode": "NYC",
+                                          "city": "New York",
+                                          "countryCode": "USA"
+                                          },
+                                          "arrivalTime": {
+                                          "raw": "2017-02-24T15:14:00-05:00",
+                                          "localized": "Feb 24, 2017 3:14:00 PM",
+                                          "epochSeconds": 1457182780,
+                                          "timeZoneOffsetSeconds": -18000,
+                                          "localizedShortDate": "Wed, 24 Feb",
+                                          "localizedMediumDate": "Feb 24, 2017",
+                                          "localizedFullDate": "Wednesday, February 24, 2017",
+                                          "localizedLongDate": "February 24, 2017",
+                                          "localizedShortTime": "3:14 PM"
+                                          },
+                                          "departureTerminal": "3",
+                                          "departureGate": "H16",
+                                          "arrivalTerminal": "8",
+                                          "arrivalGate": "B3",
+                                          "airlineCode": "AA",
+                                          "externalAirlineCode": "AA",
+                                          "airlineName": "American Airlines",
+                                          "operatedByAirCarrierName": "",
+                                          "confirmationAirline": "American Airlines",
+                                          "flightNumber": "130",
+                                          "formattedLayoverDuration": "",
+                                          "duration": "PT2H13M",
+                                          "formattedDuration": "2h 13m",
+                                          "providerCode": "Amadeus",
+                                          "bookingCode": "O",
+                                          "cabinCode": "coach",
+                                          "cabinCodeLocalized": "Economy / Coach",
+                                          "isSeatMapAvailable": true,
+                                          "flightIdForSeatMap": "0C5AF2C5-2C60-49CD-9718-1512E292D6F4_0_L1_S1_1",
+                                          "status": "SCHEDULED",
+                                          "airSegmentStatusCode": "HK",
+                                          "isHidden": false
+                                          }
+                                          ],
+                             "sharableFlightLegURL": "https://www.expedia.com/api/trips/shared/eaM3rEKaucwXZ4T5aw7ZpcCALh_75AI6EIYZjwMIsht-rvvBKj0Dd_zt-SzS1xbGfVFitQQzQw2rULgSJ9i4ZSoajegmQYWrl9GksrJcjSrgld5D7K4LnhlGKr94AHEsSuJM3lwOnJT8L3_8lUKtypFe88jEDqVBuZB0Ykwie_5FFw",
+                             "duration": "PT2H13M",
+                             "formattedDuration": "2h 13m"
+                             }
+                             ],
+                    "rules": {
+                    "cancellationFeeLegalText": "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call.",
+                    "faresNotGuaranteedText": "Fares are not guaranteed until ticketed.",
+                    "cancelChangeIntroductionText": "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+                    "feeChangeRefundIntroductionText": "When the airline charges any cancellation or change fees in accordance with its own policies, the cost will be passed on to you.",
+                    "refundabilityText": "Tickets are nonrefundable, nontransferable and name changes are not allowed.",
+                    "completePenaltyRules": {
+                    "text": "Rules and restrictions as imposed by the airline will be applicable to your fare should you need to change or cancel your flight.",
+                    "url": "https://www.expedia.com/Fare-Rules?tripid=5d5a6fef-ccef-4043-8051-9e23e68b5607",
+                    "textAndURL": "Please read the <a id=\"complete_penalty_rules_for_changes_and_cancellations_link\" href=\"https://www.expedia.com/Fare-Rules?tripid=5d5a6fef-ccef-4043-8051-9e23e68b5607\" class=\"tooltip\" target=\"rulesAndRestrictions\">complete penalty rules for changes and cancellations <span class=\"visually-hidden\" style=\"display:none;\">(Opens a new window) </span> </a> applicable to this fare.",
+                    "apiURL": "https://www.expedia.com/api/trips/1128530079869/items/0C5AF2C5-2C60-49CD-9718-1512E292D6F4_0/gdsFareRulesText?useCache=true"
+                    },
+                    "additionalAirlineFees": {
+                    "text": "The airline may charge additional fees for checked baggage or other optional services.",
+                    "url": "https://www.expedia.com/Flights-BagFees?originapt=ORD&destinationapt=JFK&cabinclass=3&mktgcarrier=AA&opcarrier=&farebasis=OA00XNL3&bookingclass=O&travelDate=2017-02-24&flightNumber=130",
+                    "textAndURL": "The airline may charge <a href=\"https://www.expedia.com/Flights-BagFees?originapt=ORD&destinationapt=JFK&cabinclass=3&mktgcarrier=AA&opcarrier=&farebasis=OA00XNL3&bookingclass=O&travelDate=2017-02-24&flightNumber=130\" class=\"tooltip\" target=\"rulesAndRestrictions\">additional fees <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a> for checked baggage or other optional services."
+                    },
+                    "airlineLiabilityLimitations": {
+                    "text": "Please read important information regarding airline liability limitations.",
+                    "url": "https://www.expedia.com/p/info-main/warsaw?",
+                    "textAndURL": "Please read important information regarding <a id=\"airline_liability_limitations_link\" href=\"https://www.expedia.com/p/info-main/warsaw?\" class=\"tooltip\" target=\"rulesAndRestrictions\">airline liability limitations <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a>."
+                    },
+                    "airlineCheckInInstructionText": "Remember to bring your itinerary and government-issued photo ID for airport check-in and security.",
+                    "railFeederMessages": [],
+                    "expediaChangeFeeChargeable": false
+                    },
+                    "sharableItemDetailURL": "https://www.expedia.com/api/trips/shared/_q4rUZ8J3-4m_12G8sTwMsCA_d2_vBVKDZH1uipnRXxCFSKZu_-9_D1K7qgX2I2vDWoTH5a5X3y7H4PTv9zosMx-TK0ojx3dHYmmQL8FeuINCzewEXsZFnIxEGtJUJ9SEMRKIobLLRY-uGrFYPXGMB59",
+                    "airRecordLocator": "248452193",
+                    "isSeatMapAvailable": true,
+                    "webChangePathURL": "https://www.expedia.com/flight-change-gds?itinnumber=1128530079869&arl=248452193&cname=American Airlines",
+                    "bookingProvider": "Amadeus",
+                    "hasTrainTransfer": false,
+                    "ticketingAirCarrierNames": [
+                                                 "American Airlines"
+                                                 ],
+                    "isLccOrCharter": false,
+                    "airlineManageBookingURL": "http://ManagerAirLineBookingMockURL",
+                    "airlineCheckInURL": "http://CheckInAirlineMockURL",
+                    "destinationRegionId": 6139058
+                    }
+                    ],
+        "readTripError": false,
+        "tripSource": "expedia",
+        "isMRP": false
+    }
+}

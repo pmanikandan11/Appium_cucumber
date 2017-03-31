@@ -1,0 +1,26 @@
+POST
+.*?api/cars/trip/checkout.*
+*
+200
+Content-Type: application/json
+
+{
+	"newTrip": {
+		"itineraryNumber": "7103420659540",
+		"travelRecordLocator": "1007581063",
+		"tripId": "a3494ffe-3afc-45b4-afca-1e46588371d9"
+	},
+	"orderId": "000000",
+	"currencyCode": "USD",
+	"totalCharges": "109.59",
+	"totalChargesPrice": {
+		"amount": "109.59",
+		"formattedPrice": "$109.59",
+		"formattedWholePrice": "$110"
+	},
+	"activityId": "cars_checkout_default",
+	"trackingData": {
+		"INVENTORY_TYPE": "AGENCY",
+		"SIPP_CODE": "MV"
+	}
+}

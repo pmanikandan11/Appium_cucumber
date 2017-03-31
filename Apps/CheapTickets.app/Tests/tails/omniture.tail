@@ -1,0 +1,7 @@
+GET
+.*?b/ss.*
+*
+200
+Content-Type: application/json
+
+{}

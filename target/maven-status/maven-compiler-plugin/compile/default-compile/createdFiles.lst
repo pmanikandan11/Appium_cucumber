@@ -1,0 +1,6 @@
+objectRepo/Common_objects.class
+objectRepo/Hotels_page.class
+functionLibrary/Main_methods.class
+dataReader/Xls_reader.class
+objectRepo/Flights_page.class
+functionLibrary/Common_methods.class

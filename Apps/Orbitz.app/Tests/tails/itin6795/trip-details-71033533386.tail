@@ -1,0 +1,654 @@
+GET
+.*?/api/trips/(71033533386|82539f72-3a04-41bf-8bc6-14ad73dfb0e1).*
+*
+200
+Content-Type: application/json
+
+{
+    "responseType": "TRIP_DETAILS",
+    "apiVersion": "1.0",
+    "responseData": {
+        "ownerId": 6219030,
+        "bookingStatus": "BOOKED",
+        "airAttachQualificationInfo": {
+            "airAttachQualified": true,
+            "offerExpiresTime": {
+                "raw": "2016-08-14T11:24:42-07:00",
+                "epochSeconds": 1471199082,
+                "localizedMediumDate": "Aug 14, 2016",
+                "timeZoneOffsetSeconds": -25200,
+                "localized": "Aug 14, 2016 11:24:42 AM",
+                "localizedFullDate": "Sunday, August 14, 2016",
+                "localizedShortDate": "8\/14\/16",
+                "localizedLongDate": "August 14, 2016",
+                "localizedShortTime": "11:24 AM"
+            },
+            "offerExpires": "2016-08-14T11:24:42.320-07:00"
+        },
+        "title": "Philadelphia",
+        "zetaTrip": false,
+        "isFromCloud": false,
+        "sharableDetailsURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/api\/trips\/shared\/4B3dqT3niwIMw_cu9K0rS8CAbVzveKclRzSxBhxAfcX6lal1Y06eFjpPHWQolTLh1hwu1c7ZRG3BGiMgL9NkLebm",
+        "customerSupport": {
+            "customerSupportPhoneNumberDomestic": "+1-866-539-4149",
+            "customerSupportPhoneInfoForEmail": [
+                "Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+                "For faster service, mention <strong>itinerary #71033533386 <\/strong>"
+            ],
+            "customerSupportURL": "http:\/\/www.expedia.com\/service\/",
+            "customerSupportPhoneInfo": [
+                "Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+                "For faster service, mention <strong>itinerary #71033533386 <\/strong>"
+            ],
+            "customerSupportPhoneNumberInternational": "+1 702-939-2635",
+            "termsAndConditionsURL": ""
+        },
+        "isMRP": false,
+        "tripNumber": 71033533386,
+        "levelOfDetail": "FULL",
+        "endTime": {
+            "raw": "2017-05-07T22:44:00-08:00",
+            "epochSeconds": 1494225840,
+            "localizedMediumDate": "May 7",
+            "timeZoneOffsetSeconds": -28800,
+            "localized": "May 7, 2017 10:44:00 PM",
+            "localizedFullDate": "Sun, May 7",
+            "localizedShortDate": "5\/7\/2017",
+            "localizedLongDate": "May 7, 2017",
+            "localizedShortTime": "10:44PM"
+        },
+        "tripCacheUpdatedTime": {
+            "raw": "2016-07-25T18:28:19Z",
+            "epochSeconds": 1469471299,
+            "localizedMediumDate": "Jul 25, 2016",
+            "timeZoneOffsetSeconds": 0,
+            "localized": "Jul 25, 2016 6:28:19 PM",
+            "localizedFullDate": "Monday, July 25, 2016",
+            "localizedShortDate": "Mon, 25 Jul",
+            "localizedLongDate": "July 25, 2016",
+            "localizedShortTime": "6:28 PM"
+        },
+        "rewards": {
+            "logoUrl": "\/static\/default\/default\/images\/myrewards\/RewardsLogo_193x76.png",
+            "totalPoints": 151,
+            "basePoints": 116,
+            "viewStatementURL": "\/user\/rewards",
+            "bonusPoints": [
+                {
+                    "m_status": "PENDING",
+                    "m_pointValue": 35,
+                    "m_pointType": "offerPoint",
+                    "m_pointDescription": "+gold Bonus Offer"
+                }
+            ]
+        },
+        "tripSource": "expedia",
+        "tripCreatedTime": {
+            "raw": "2016-07-25T18:24:42Z",
+            "epochSeconds": 1469471082,
+            "localizedMediumDate": "Jul 25, 2016",
+            "timeZoneOffsetSeconds": 0,
+            "localized": "Jul 25, 2016 6:24:42 PM",
+            "localizedFullDate": "Monday, July 25, 2016",
+            "localizedShortDate": "Mon, 25 Jul",
+            "localizedLongDate": "July 25, 2016",
+            "localizedShortTime": "6:24 PM"
+        },
+        "isBookedUsingForeignCurrency": false,
+        "webDetailsURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/trips\/71033533386",
+        "isCouponApplied": false,
+        "tripUpdatedTime": {
+            "raw": "2016-07-25T18:28:19Z",
+            "epochSeconds": 1469471299,
+            "localizedMediumDate": "Jul 25, 2016",
+            "timeZoneOffsetSeconds": 0,
+            "localized": "Jul 25, 2016 6:28:19 PM",
+            "localizedFullDate": "Monday, July 25, 2016",
+            "localizedShortDate": "Mon, 25 Jul",
+            "localizedLongDate": "July 25, 2016",
+            "localizedShortTime": "6:28 PM"
+        },
+        "flights": [
+            {
+                "bookingStatus": "BOOKED",
+                "fareType": "PUBLISHED",
+                "isSeatMapAvailable": true,
+                "hasTrainTransfer": false,
+                "passengers": [
+                    {
+                        "dateOfBirth": "1966-1-12",
+                        "TSAKnownTravelerNumber": "",
+                        "lastName": "Grohl",
+                        "firstName": "Dave",
+                        "typeCode": "ADULT",
+                        "age": 51,
+                        "TSARedressNumber": "",
+                        "phoneNumbers": [
+                            {
+                                "countryCode": "1",
+                                "phone": "9494561218"
+                            }
+                        ],
+                        "typeLocalized": "Adult",
+                        "fullName": "Dave Grohl",
+                        "ticketNumbers": [
+
+                        ],
+                        "seats": [
+
+                        ],
+                        "frequentFlyerPlans": [
+
+                        ],
+                        "gender": "Male"
+                    }
+                ],
+                "isInternational": false,
+                "bookingStatusMessage": "Your ticket is not yet confirmed. We are confirming it with the airline and will update your online itinerary within 24 hours.",
+                "uniqueID": "8C4427AF-BE06-4320-9E49-1FCE08E11C72_0",
+                "ticketingStatus": "INPROGRESS",
+                "orderNumber": "8064326396009",
+                "isLccOrCharter": false,
+                "fulfillmentMethod": "ETICKET",
+                "rules": {
+                    "faresNotGuaranteedText": "Fares are not guaranteed until ticketed.",
+                    "cancelChangeIntroductionText": "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+                    "refundabilityText": "Tickets are nonrefundable, nontransferable and name changes are not allowed.",
+                    "additionalAirlineFees": {
+                        "url": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/Flights-BagFees?originapt=SNA&destinationapt=PHL&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=SAA21AKN&bookingclass=S&travelDate=2017-05-01&flightNumber=3",
+                        "text": "The airline may charge additional fees for checked baggage or other optional services.",
+                        "textAndURL": "The airline may charge <a href=\"https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/Flights-BagFees?originapt=SNA&destinationapt=PHL&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=SAA21AKN&bookingclass=S&travelDate=2017-05-01&flightNumber=3\" class=\"tooltip\" target=\"rulesAndRestrictions\">additional fees <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) <\/span> <\/a> for checked baggage or other optional services."
+                    },
+                    "airlineLiabilityLimitations": {
+                        "url": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/p\/info-main\/warsaw?",
+                        "text": "Please read important information regarding airline liability limitations.",
+                        "textAndURL": "Please read important information regarding <a id=\"airline_liability_limitations_link\" href=\"https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/p\/info-main\/warsaw?\" class=\"tooltip\" target=\"rulesAndRestrictions\">airline liability limitations <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) <\/span> <\/a>."
+                    },
+                    "railFeederMessages": [
+
+                    ],
+                    "feeChangeRefundIntroductionText": "When the airline charges any cancellation or change fees in accordance with its own policies, the cost will be passed on to you.",
+                    "airlineCheckInInstructionText": "Remember to bring your itinerary and government-issued photo ID for airport check-in and security.",
+                    "completePenaltyRules": {
+                        "textAndURL": "Please read the <a id=\"complete_penalty_rules_for_changes_and_cancellations_link\" href=\"https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/Fare-Rules?tripid=82539f72-3a04-41bf-8bc6-14ad73dfb0e1\" class=\"tooltip\" target=\"rulesAndRestrictions\">complete penalty rules for changes and cancellations <span class=\"visually-hidden\" style=\"display:none;\">(Opens a new window) <\/span> <\/a> applicable to this fare.",
+                        "apiURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/api\/trips\/71033533386\/items\/8C4427AF-BE06-4320-9E49-1FCE08E11C72_0\/gdsFareRulesText?useCache=true",
+                        "url": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/Fare-Rules?tripid=82539f72-3a04-41bf-8bc6-14ad73dfb0e1",
+                        "text": "Rules and restrictions as imposed by the airline will be applicable to your fare should you need to change or cancel your flight."
+                    },
+                    "expediaChangeFeeChargeable": false,
+                    "cancellationFeeLegalText": "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call."
+                },
+                "paymentModel": "AGENCY",
+                "orderLineNumber": "aca22cb7-37a5-46e1-8565-9f47734fa780",
+                "updateFrequentFlyerPathURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/api\/trips\/82539f72-3a04-41bf-8bc6-14ad73dfb0e1\/updateFrequentFlyerInformation",
+                "isSplitTicket": false,
+                "brandedFareFamilyName": "",
+                "airRecordLocator": "100087755",
+                "webChangePathURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/flight-change-gds?itinnumber=11734805901&arl=100087755&cname=United",
+                "ticketingAirCarrierNames": [
+                    "United"
+                ],
+                "flightType": "ROUND_TRIP",
+                "farePerPassenger": [
+                    {
+                        "base": "498.5",
+                        "passengerTypeCodeLocalized": "Adult",
+                        "taxes": "82.58",
+                        "total": "581.08",
+                        "taxesFormatted": "$82.58",
+                        "totalFormatted": "$581.08",
+                        "passengerTypeCode": "ADULT",
+                        "currency": "USD",
+                        "passengerIndex": 0,
+                        "baseFormatted": "$498.50"
+                    }
+                ],
+                "legs": [
+                    {
+                        "state": "PRE_START_4",
+                        "formattedDuration": "7h 53m",
+                        "legArrivaltime": {
+                            "raw": "2017-05-01T23:33:00-07:00",
+                            "epochSeconds": 1493706780,
+                            "localizedMediumDate": "May 1, 2017",
+                            "timeZoneOffsetSeconds": -25200,
+                            "localized": "May 1, 2017 11:33:00 PM",
+                            "localizedFullDate": "Monday, May 1, 2017",
+                            "localizedShortDate": "Mon, 1 May",
+                            "localizedLongDate": "May 1, 2017",
+                            "localizedShortTime": "11:33 PM"
+                        },
+                        "numberOfStops": 1,
+                        "segments": [
+                            {
+                                "providerCode": "SABRE",
+                                "flightNumber": "3",
+                                "arrivalType": "FLIGHT_ARRIVAL",
+                                "arrivalTime": {
+                                    "raw": "2017-05-01T17:55:00-07:00",
+                                    "epochSeconds": 1493686500,
+                                    "localizedMediumDate": "May 1, 2017",
+                                    "timeZoneOffsetSeconds": -25200,
+                                    "localized": "May 1, 2017 5:55:00 PM",
+                                    "localizedFullDate": "Monday, May 1, 2017",
+                                    "localizedShortDate": "Mon, 1 May",
+                                    "localizedLongDate": "May 1, 2017",
+                                    "localizedShortTime": "5:55 PM"
+                                },
+                                "airlineCode": "UA",
+                                "cabinCodeLocalized": "Economy \/ Coach",
+                                "layoverDuration": "PT15M",
+                                "duration": "PT3H15M",
+                                "isSeatMapAvailable": true,
+                                "flightIdForSeatMap": "8C4427AF-BE06-4320-9E49-1FCE08E11C72_0_L1_S1_1",
+                                "status": "UNKNOWN",
+                                "arrivalLocation": {
+                                    "countrySubdivisionCode": " TX",
+                                    "city": "Houston",
+                                    "longitude": -95.33423999999999,
+                                    "longName": "Houston, TX (IAH-George Bush Intercontinental)",
+                                    "airportMetroCode": "HOU",
+                                    "latitude": 29.98755,
+                                    "countryCode": "USA",
+                                    "name": "George Bush Intercontinental",
+                                    "airportCode": "IAH"
+                                },
+                                "formattedDuration": "3h 15m",
+                                "airSegmentStatusCode": "SS",
+                                "confirmationAirline": "United",
+                                "externalAirlineCode": "UA",
+                                "bookingCode": "S",
+                                "cabinCode": "coach",
+                                "departureType": "FLIGHT_DEPARTURE",
+                                "departureTime": {
+                                    "raw": "2017-05-01T12:40:00-07:00",
+                                    "epochSeconds": 1493667600,
+                                    "localizedMediumDate": "May 1, 2017",
+                                    "timeZoneOffsetSeconds": -25200,
+                                    "localized": "May 1, 2017 12:40:00 PM",
+                                    "localizedFullDate": "Monday, May 1, 2017",
+                                    "localizedShortDate": "Mon, 1 May",
+                                    "localizedLongDate": "May 1, 2017",
+                                    "localizedShortTime": "12:40 PM"
+                                },
+                                "departureLocation": {
+                                    "countrySubdivisionCode": " CA",
+                                    "city": "Orange County",
+                                    "longitude": -117.861092,
+                                    "longName": "Orange County, CA (SNA-John Wayne)",
+                                    "airportMetroCode": "QLA",
+                                    "latitude": 33.679256,
+                                    "countryCode": "USA",
+                                    "name": "John Wayne",
+                                    "airportCode": "SNA"
+                                },
+                                "operatedByAirCarrierName": "",
+                                "isHidden": false,
+                                "airlineName": "United",
+                                "transportationType": "FLIGHT",
+                                "formattedLayoverDuration": "15m"
+                            },
+                            {
+                                "providerCode": "SABRE",
+                                "flightNumber": "1115",
+                                "arrivalType": "FLIGHT_ARRIVAL",
+                                "arrivalTime": {
+                                    "raw": "2017-05-01T23:33:00-07:00",
+                                    "epochSeconds": 1493706780,
+                                    "localizedMediumDate": "May 1, 2017",
+                                    "timeZoneOffsetSeconds": -25200,
+                                    "localized": "May 1, 2017 11:33:00 PM",
+                                    "localizedFullDate": "Monday, May 1, 2017",
+                                    "localizedShortDate": "Mon, 1 May",
+                                    "localizedLongDate": "May 1, 2017",
+                                    "localizedShortTime": "11:33 PM"
+                                },
+                                "airlineCode": "UA",
+                                "cabinCodeLocalized": "Economy \/ Coach",
+                                "isSeatMapAvailable": true,
+                                "duration": "PT3H23M",
+                                "flightIdForSeatMap": "8C4427AF-BE06-4320-9E49-1FCE08E11C72_0_L1_S2_1",
+                                "status": "UNKNOWN",
+                                "airSegmentStatusCode": "SS",
+                                "arrivalLocation": {
+                                    "countrySubdivisionCode": " PA",
+                                    "city": "Philadelphia",
+                                    "longitude": -75.240781,
+                                    "longName": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                                    "airportMetroCode": "PHL",
+                                    "latitude": 39.877451,
+                                    "countryCode": "USA",
+                                    "name": "Philadelphia Intl.",
+                                    "airportCode": "PHL"
+                                },
+                                "formattedDuration": "3h 23m",
+                                "confirmationAirline": "United",
+                                "externalAirlineCode": "UA",
+                                "bookingCode": "S",
+                                "cabinCode": "coach",
+                                "departureType": "FLIGHT_DEPARTURE",
+                                "departureTime": {
+                                    "raw": "2017-05-01T19:10:00-07:00",
+                                    "epochSeconds": 1493691000,
+                                    "localizedMediumDate": "May 1, 2017",
+                                    "timeZoneOffsetSeconds": -25200,
+                                    "localized": "May 1, 2017 7:10:00 PM",
+                                    "localizedFullDate": "Monday, May 1, 2017",
+                                    "localizedShortDate": "Mon, 1 May",
+                                    "localizedLongDate": "May 1, 2017",
+                                    "localizedShortTime": "7:10 PM"
+                                },
+                                "departureLocation": {
+                                    "countrySubdivisionCode": " TX",
+                                    "city": "Houston",
+                                    "longitude": -95.33423999999999,
+                                    "longName": "Houston, TX (IAH-George Bush Intercontinental)",
+                                    "airportMetroCode": "HOU",
+                                    "latitude": 29.98755,
+                                    "countryCode": "USA",
+                                    "name": "George Bush Intercontinental",
+                                    "airportCode": "IAH"
+                                },
+                                "operatedByAirCarrierName": "",
+                                "isHidden": false,
+                                "airlineName": "United",
+                                "transportationType": "FLIGHT",
+                                "formattedLayoverDuration": ""
+                            }
+                        ],
+                        "type": "ONESTOP",
+                        "sharableFlightLegURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/api\/trips\/shared\/qfxKujniX_Fa9OE9Y1cBysCAVJ5tZhCfgZFlJXdCtzaLpa1ElmpijDq63jw_zdCDNduOnwW-XelWtoM5Sd1smO2SQQEi5kK3qPjSflLgvhZaxCBAvyKUv4f7k-va6m13A8X46ED3uNxE2-hFHAwxTLZx",
+                        "departingAirport": {
+                            "airportID": 4279891,
+                            "longName": "Orange County, CA (SNA-John Wayne)",
+                            "isMetroCode": false,
+                            "airportCityCode": "Orange County, CA (SNA)",
+                            "localName": "John Wayne",
+                            "longitude": -117.861092,
+                            "isMinorAirport": false,
+                            "latitude": 33.679256,
+                            "isProhibitedAirport": false,
+                            "countryCode": "USA",
+                            "code": "SNA",
+                            "airportStateCode": " CA",
+                            "city": "Orange County",
+                            "metroCode": "QLA",
+                            "name": "Orange County (SNA)",
+                            "identicalMetroCode": false
+                        },
+                        "arrivalAirport": {
+                            "airportID": 4999248,
+                            "longName": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                            "isMetroCode": false,
+                            "airportCityCode": "Philadelphia, PA (PHL)",
+                            "localName": "Philadelphia Intl.",
+                            "longitude": -75.240781,
+                            "isMinorAirport": false,
+                            "latitude": 39.877451,
+                            "isProhibitedAirport": false,
+                            "countryCode": "USA",
+                            "code": "PHL",
+                            "airportStateCode": " PA",
+                            "city": "Philadelphia",
+                            "metroCode": "PHL",
+                            "name": "Philadelphia (Philadelphia Intl.)",
+                            "identicalMetroCode": true
+                        },
+                        "airlineLogoURL": "https:\/\/images.trvl-media.com\/media\/content\/expus\/graphics\/static_content\/fusion\/v0.1b\/images\/airlines\/smUA.gif",
+                        "duration": "PT7H53M",
+                        "legDepartureTime": {
+                            "raw": "2017-05-01T12:40:00-07:00",
+                            "epochSeconds": 1493667600,
+                            "localizedMediumDate": "May 1, 2017",
+                            "timeZoneOffsetSeconds": -25200,
+                            "localized": "May 1, 2017 12:40:00 PM",
+                            "localizedFullDate": "Monday, May 1, 2017",
+                            "localizedShortDate": "Mon, 1 May",
+                            "localizedLongDate": "May 1, 2017",
+                            "localizedShortTime": "12:40 PM"
+                        }
+                    },
+                    {
+                        "state": "PRE_START_4",
+                        "formattedDuration": "8h 14m",
+                        "legArrivaltime": {
+                            "raw": "2017-05-07T22:44:00-07:00",
+                            "epochSeconds": 1494222240,
+                            "localizedMediumDate": "May 7, 2017",
+                            "timeZoneOffsetSeconds": -25200,
+                            "localized": "May 7, 2017 10:44:00 PM",
+                            "localizedFullDate": "Sunday, May 7, 2017",
+                            "localizedShortDate": "Sun, 7 May",
+                            "localizedLongDate": "May 7, 2017",
+                            "localizedShortTime": "10:44 PM"
+                        },
+                        "numberOfStops": 1,
+                        "segments": [
+                            {
+                                "providerCode": "SABRE",
+                                "flightNumber": "1765",
+                                "arrivalType": "FLIGHT_ARRIVAL",
+                                "arrivalTime": {
+                                    "raw": "2017-05-07T20:06:00-07:00",
+                                    "epochSeconds": 1494212760,
+                                    "localizedMediumDate": "May 7, 2017",
+                                    "timeZoneOffsetSeconds": -25200,
+                                    "localized": "May 7, 2017 8:06:00 PM",
+                                    "localizedFullDate": "Sunday, May 7, 2017",
+                                    "localizedShortDate": "Sun, 7 May",
+                                    "localizedLongDate": "May 7, 2017",
+                                    "localizedShortTime": "8:06 PM"
+                                },
+                                "airlineCode": "UA",
+                                "cabinCodeLocalized": "Economy \/ Coach",
+                                "layoverDuration": "PT1M",
+                                "duration": "PT3H36M",
+                                "isSeatMapAvailable": true,
+                                "flightIdForSeatMap": "8C4427AF-BE06-4320-9E49-1FCE08E11C72_0_L2_S1_1",
+                                "status": "UNKNOWN",
+                                "arrivalLocation": {
+                                    "countrySubdivisionCode": " TX",
+                                    "city": "Houston",
+                                    "longitude": -95.33423999999999,
+                                    "longName": "Houston, TX (IAH-George Bush Intercontinental)",
+                                    "airportMetroCode": "HOU",
+                                    "latitude": 29.98755,
+                                    "countryCode": "USA",
+                                    "name": "George Bush Intercontinental",
+                                    "airportCode": "IAH"
+                                },
+                                "formattedDuration": "3h 36m",
+                                "airSegmentStatusCode": "SS",
+                                "confirmationAirline": "United",
+                                "externalAirlineCode": "UA",
+                                "bookingCode": "S",
+                                "cabinCode": "coach",
+                                "departureType": "FLIGHT_DEPARTURE",
+                                "departureTime": {
+                                    "raw": "2017-05-07T17:30:00-07:00",
+                                    "epochSeconds": 1494203400,
+                                    "localizedMediumDate": "May 7, 2017",
+                                    "timeZoneOffsetSeconds": -25200,
+                                    "localized": "May 7, 2017 5:30:00 PM",
+                                    "localizedFullDate": "Sunday, May 7, 2017",
+                                    "localizedShortDate": "Sun, 7 May",
+                                    "localizedLongDate": "May 7, 2017",
+                                    "localizedShortTime": "5:30 PM"
+                                },
+                                "departureLocation": {
+                                    "countrySubdivisionCode": " PA",
+                                    "city": "Philadelphia",
+                                    "longitude": -75.240781,
+                                    "longName": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                                    "airportMetroCode": "PHL",
+                                    "latitude": 39.877451,
+                                    "countryCode": "USA",
+                                    "name": "Philadelphia Intl.",
+                                    "airportCode": "PHL"
+                                },
+                                "operatedByAirCarrierName": "",
+                                "isHidden": false,
+                                "airlineName": "United",
+                                "transportationType": "FLIGHT",
+                                "formattedLayoverDuration": "1m"
+                            },
+                            {
+                                "providerCode": "SABRE",
+                                "flightNumber": "1817",
+                                "arrivalType": "FLIGHT_ARRIVAL",
+                                "arrivalTime": {
+                                    "raw": "2017-05-07T22:44:00-07:00",
+                                    "epochSeconds": 1494222240,
+                                    "localizedMediumDate": "May 7, 2017",
+                                    "timeZoneOffsetSeconds": -25200,
+                                    "localized": "May 7, 2017 10:44:00 PM",
+                                    "localizedFullDate": "Sunday, May 7, 2017",
+                                    "localizedShortDate": "Sun, 7 May",
+                                    "localizedLongDate": "May 7, 2017",
+                                    "localizedShortTime": "10:44 PM"
+                                },
+                                "airlineCode": "UA",
+                                "cabinCodeLocalized": "Economy \/ Coach",
+                                "isSeatMapAvailable": true,
+                                "duration": "PT3H37M",
+                                "flightIdForSeatMap": "8C4427AF-BE06-4320-9E49-1FCE08E11C72_0_L2_S2_1",
+                                "status": "UNKNOWN",
+                                "airSegmentStatusCode": "SS",
+                                "arrivalLocation": {
+                                    "countrySubdivisionCode": " CA",
+                                    "city": "Orange County",
+                                    "longitude": -117.861092,
+                                    "longName": "Orange County, CA (SNA-John Wayne)",
+                                    "airportMetroCode": "QLA",
+                                    "latitude": 33.679256,
+                                    "countryCode": "USA",
+                                    "name": "John Wayne",
+                                    "airportCode": "SNA"
+                                },
+                                "formattedDuration": "3h 37m",
+                                "confirmationAirline": "United",
+                                "externalAirlineCode": "UA",
+                                "bookingCode": "S",
+                                "cabinCode": "coach",
+                                "departureType": "FLIGHT_DEPARTURE",
+                                "departureTime": {
+                                    "raw": "2017-05-07T21:07:00-07:00",
+                                    "epochSeconds": 1494216420,
+                                    "localizedMediumDate": "May 7, 2017",
+                                    "timeZoneOffsetSeconds": -25200,
+                                    "localized": "May 7, 2017 9:07:00 PM",
+                                    "localizedFullDate": "Sunday, May 7, 2017",
+                                    "localizedShortDate": "Sun, 7 May",
+                                    "localizedLongDate": "May 7, 2017",
+                                    "localizedShortTime": "9:07 PM"
+                                },
+                                "departureLocation": {
+                                    "countrySubdivisionCode": " TX",
+                                    "city": "Houston",
+                                    "longitude": -95.33423999999999,
+                                    "longName": "Houston, TX (IAH-George Bush Intercontinental)",
+                                    "airportMetroCode": "HOU",
+                                    "latitude": 29.98755,
+                                    "countryCode": "USA",
+                                    "name": "George Bush Intercontinental",
+                                    "airportCode": "IAH"
+                                },
+                                "operatedByAirCarrierName": "",
+                                "isHidden": false,
+                                "airlineName": "United",
+                                "transportationType": "FLIGHT",
+                                "formattedLayoverDuration": ""
+                            }
+                        ],
+                        "type": "ONESTOP",
+                        "sharableFlightLegURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/api\/trips\/shared\/iR3KkfYs9G6RjSv69iZEnMCAasWSCeJ3ZJPx9b60BqUePALAEogRx-SoPuL_PWi4YlwWBh7DB1MncDRg6eJyeB4J6zoqwC7qshLTfIvZ5HCwuG5zlM2EkMPmGx-YH0vrV9XwlLBBMaceH2ZLKZbh14vJ",
+                        "departingAirport": {
+                            "airportID": 4999248,
+                            "longName": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                            "isMetroCode": false,
+                            "airportCityCode": "Philadelphia, PA (PHL)",
+                            "localName": "Philadelphia Intl.",
+                            "longitude": -75.240781,
+                            "isMinorAirport": false,
+                            "latitude": 39.877451,
+                            "isProhibitedAirport": false,
+                            "countryCode": "USA",
+                            "code": "PHL",
+                            "airportStateCode": " PA",
+                            "city": "Philadelphia",
+                            "metroCode": "PHL",
+                            "name": "Philadelphia (Philadelphia Intl.)",
+                            "identicalMetroCode": true
+                        },
+                        "arrivalAirport": {
+                            "airportID": 4279891,
+                            "longName": "Orange County, CA (SNA-John Wayne)",
+                            "isMetroCode": false,
+                            "airportCityCode": "Orange County, CA (SNA)",
+                            "localName": "John Wayne",
+                            "longitude": -117.861092,
+                            "isMinorAirport": false,
+                            "latitude": 33.679256,
+                            "isProhibitedAirport": false,
+                            "countryCode": "USA",
+                            "code": "SNA",
+                            "airportStateCode": " CA",
+                            "city": "Orange County",
+                            "metroCode": "QLA",
+                            "name": "Orange County (SNA)",
+                            "identicalMetroCode": false
+                        },
+                        "airlineLogoURL": "https:\/\/images.trvl-media.com\/media\/content\/expus\/graphics\/static_content\/fusion\/v0.1b\/images\/airlines\/smUA.gif",
+                        "duration": "PT8H14M",
+                        "legDepartureTime": {
+                            "raw": "2017-05-07T17:30:00-07:00",
+                            "epochSeconds": 1494203400,
+                            "localizedMediumDate": "May 7, 2017",
+                            "timeZoneOffsetSeconds": -25200,
+                            "localized": "May 7, 2017 5:30:00 PM",
+                            "localizedFullDate": "Sunday, May 7, 2017",
+                            "localizedShortDate": "Sun, 7 May",
+                            "localizedLongDate": "May 7, 2017",
+                            "localizedShortTime": "5:30 PM"
+                        }
+                    }
+                ],
+                "destinationRegionId": 6000505,
+                "bookingProvider": "SABRE",
+                "sharableItemDetailURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/api\/trips\/shared\/7Izb8TBCs_qZWLtaJOfMY8CA4SjnRCx_wxCwop-BBbjXWnkQhfZo5Sn3QGsHR6T5dA0WyVFZz8fXj7bC0sAkrVZVAcAf-PcICHLGQszeE_FUmxJXucTXKyDa7YRZlEsuKh-QBL48Y4ZtVhRz5Q39fXA2",
+                "bookingStatusText": "Booked",
+                "fareTotal": {
+                    "subTotal": "581.08",
+                    "base": "498.5",
+                    "totalFormatted": "$581.08",
+                    "taxesFormatted": "$82.58",
+                    "subTotalFormatted": "$581.08",
+                    "total": "581.08",
+                    "currency": "USD",
+                    "baseFormatted": "$498.50",
+                    "taxes": "82.58"
+                }
+            }
+        ],
+        "tripId": "82539f72-3a04-41bf-8bc6-14ad73dfb0e1",
+        "clientId": "NOT_SET",
+        "updateTripNameDescPathURL": "https:\/\/wwwexpediacom.trunk.sb.karmalab.net\/api\/trips\/82539f72-3a04-41bf-8bc6-14ad73dfb0e1\/updateTripNameDescription",
+        "startTime": {
+            "raw": "2017-05-01T12:40:00-08:00",
+            "epochSeconds": 1493671200,
+            "localizedMediumDate": "May 1",
+            "timeZoneOffsetSeconds": -28800,
+            "localized": "May 1, 2017 12:40:00 PM",
+            "localizedFullDate": "Mon, May 1",
+            "localizedShortDate": "5\/1\/2017",
+            "localizedLongDate": "May 1, 2017",
+            "localizedShortTime": "12:40PM"
+        },
+        "totalTripPrice": {
+            "currency": "USD",
+            "total": "581.08",
+            "totalFormatted": "$581.08"
+        },
+        "readTripError": false
+    }
+}

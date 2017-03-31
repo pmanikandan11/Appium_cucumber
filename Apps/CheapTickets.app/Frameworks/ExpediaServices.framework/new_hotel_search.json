@@ -1,0 +1,3871 @@
+
+{
+	"pageData": {
+		"filteredSearchMatchedNoHotels": false,
+		"availableHotelCount": 182,
+		"totalHotelCount": 244,
+		"deepLinkUrl": "https://wwwexpediacom.sandbox.dev.sb.karmalab.net/Las-Vegas-Hotels.d178276.Travel-Guide-Hotels",
+		"regionList": [{
+			"id": 178276,
+			"name": "Las Vegas (and vicinity)"
+		}, {
+			"id": 800047,
+			"name": "Downtown Las Vegas"
+		}, {
+			"id": 6130516,
+			"name": "East Las Vegas"
+		}, {
+			"id": 800046,
+			"name": "East of The Strip"
+		}, {
+			"id": 6054168,
+			"name": "Henderson"
+		}, {
+			"id": 6054169,
+			"name": "Lake Las Vegas"
+		}, {
+			"id": 6054170,
+			"name": "North Las Vegas"
+		}, {
+			"id": 6130518,
+			"name": "South of The Strip"
+		}, {
+			"id": 6054171,
+			"name": "Summerlin"
+		}, {
+			"id": 800045,
+			"name": "The Strip"
+		}, {
+			"id": 6085271,
+			"name": "West of The Strip"
+		}],
+		"hotelAmenityList": {
+			"amenityOptionList": [{
+				"id": 66,
+				"name": "Free airport transportation",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 28
+			}, {
+				"id": 69,
+				"name": "Babysitting service",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 12
+			}, {
+				"id": 71,
+				"name": "Children's club",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 7
+			}, {
+				"id": 7,
+				"name": "Swimming pool",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 218
+			}, {
+				"id": 72,
+				"name": "Childcare",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 14
+			}, {
+				"id": 9,
+				"name": "Restaurant in hotel",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 130
+			}, {
+				"id": 11,
+				"name": "Fitness equipment",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 170
+			}, {
+				"id": 12,
+				"name": "Business services",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 157
+			}, {
+				"id": 13,
+				"name": "Room service",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 100
+			}, {
+				"id": 14,
+				"name": "Free parking",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 209
+			}, {
+				"id": 15,
+				"name": "Spa services on site",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 64
+			}, {
+				"id": 16,
+				"name": "Free breakfast",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 56
+			}, {
+				"id": 17,
+				"name": "Pets allowed (conditions apply)",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 93
+			}, {
+				"id": 18,
+				"name": "Free newspaper",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 87
+			}, {
+				"id": 19,
+				"name": "High-speed Internet",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 231
+			}, {
+				"id": 2070,
+				"name": "Dry cleaning/laundry service",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 148
+			}, {
+				"id": 26,
+				"name": "Hair dryer",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 186
+			}, {
+				"id": 27,
+				"name": "Air conditioning",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 90
+			}, {
+				"id": 32,
+				"name": "Expedia Local Expert",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 1
+			}, {
+				"id": 2158,
+				"name": "Kitchen",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 40
+			}, {
+				"id": 369,
+				"name": "Laundry facilities",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 133
+			}, {
+				"id": 312,
+				"name": "Kitchenette",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 16
+			}],
+			"accessibilityOptionList": [{
+				"id": 58,
+				"name": "Accessible bathroom",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 183
+			}, {
+				"id": 62,
+				"name": "In-room accessibility",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 176
+			}, {
+				"id": 63,
+				"name": "Roll-in shower",
+				"sequenceId": 0,
+				"selected": false,
+				"count": 137
+			}],
+			"showAccessibilityOptions": true
+		},
+		"priceOptions": [{
+			"minPrice": "0",
+			"maxPrice": "75",
+			"count": 73
+		}, {
+			"minPrice": "75",
+			"maxPrice": "124",
+			"count": 63
+		}, {
+			"minPrice": "125",
+			"maxPrice": "199",
+			"count": 33
+		}, {
+			"minPrice": "200",
+			"maxPrice": "299",
+			"count": 5
+		}, {
+			"minPrice": "300",
+			"maxPrice": "0",
+			"count": 8
+		}],
+		"starOptions": [{
+			"starRating": 0,
+			"count": 0
+		}, {
+			"starRating": 5,
+			"count": 0
+		}, {
+			"starRating": 10,
+			"count": 4
+		}, {
+			"starRating": 15,
+			"count": 0
+		}, {
+			"starRating": 20,
+			"count": 79
+		}, {
+			"starRating": 25,
+			"count": 0
+		}, {
+			"starRating": 30,
+			"count": 95
+		}, {
+			"starRating": 35,
+			"count": 0
+		}, {
+			"starRating": 40,
+			"count": 44
+		}, {
+			"starRating": 45,
+			"count": 0
+		}, {
+			"starRating": 50,
+			"count": 16
+		}]
+	},
+	"pageInput": {
+		"numRooms": 1,
+		"filterUnavailableHotelsRequested": false
+	},
+	"hotels": [{
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": true,
+		"isMobileExclusive": true,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": true,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "27.99",
+			"averageRate": "27.99",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "3.36",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "39.99",
+			"nightlyRateTotal": "55.98",
+			"discountPercent": -30,
+			"total": "62.70",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "2.65",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "2.65",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.71",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.71",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "39.99",
+				"rate": "27.99"
+			}, {
+				"promo": "true",
+				"baseRate": "39.99",
+				"rate": "27.99"
+			}],
+			"priceToShowUsers": "28",
+			"strikethroughPriceToShowUsers": "40",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "87",
+			"totalMandatoryFees": "55.98",
+			"totalPriceWithMandatoryFees": "62.70",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "55.98"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 62.70",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": true,
+			"roomTypeCode": "289367",
+			"ratePlanCode": "853380",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 125,
+						"bonus": 250,
+						"total": 375
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "2000 Las Vegas Blvd S",
+			"postalCode": "89104"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "Memberâ€™s price: 30%",
+		"distanceUnit": "Miles",
+		"hotelDescription": "The Stratosphere Tower observation deck features 360-degree views of Las Vegas to the Strip. The gateway between vintage Vegas and Strip glitz, the hotel is close to shopping, the monorail and the Convention Center. The Strip (Las Vegas)",
+		"hotelGuestRating": "3.6",
+		"hotelId": "41081",
+		"hotelName": "Stratosphere Hotel - Casino & Resort Hotel",
+		"hotelStarRating": "3.5",
+		"hotelStarRatingCssClassName": "3-5",
+		"largeThumbnailUrl": "/hotels/1000000/50000/41100/41081/41081_206_d.jpg",
+		"latitude": "36.146989",
+		"localizedHotelName": "Stratosphere Hotel - Casino & Resort Hotel",
+		"locationId": "800045",
+		"longitude": "-115.155298",
+		"lowRate": "39.99",
+		"nonLocalizedName": "Stratosphere Hotel - Casino & Resort Hotel",
+		"notAvailableMessage": "",
+		"percentRecommended": "84",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "31754",
+		"reviewTotal": "37899",
+		"roomsLeftAtThisRate": "4",
+		"shortDiscountMessage": "Save 30%",
+		"sortIndex": "0",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/50000/41100/41081/41081_206_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": true,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "152.00",
+			"averageRate": "136.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "16.33",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "170.00",
+			"nightlyRateTotal": "272.00",
+			"discountPercent": -20,
+			"total": "304.64",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "13.39",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "13.39",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "2.94",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "2.94",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "150.00",
+				"rate": "120.00"
+			}, {
+				"promo": "true",
+				"baseRate": "190.00",
+				"rate": "152.00"
+			}],
+			"priceToShowUsers": "136",
+			"strikethroughPriceToShowUsers": "170",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "373",
+			"totalMandatoryFees": "67.20",
+			"totalPriceWithMandatoryFees": "304.64",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "67.20"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 304.64",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200062768",
+			"ratePlanCode": "204134647",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 609,
+						"bonus": 1218,
+						"total": 1827
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3708 Las Vegas Blvd S",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"amenities": [{
+			"id": "128",
+			"description": "Free Parking"
+		}, {
+			"id": "16384",
+			"description": "Free Valet Parking"
+		}],
+		"airportCode": "LAS",
+		"discountMessage": "Book now and save",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Set in the center of the Strip, this unique resort provides an enchanting destination amid the attractions of Las Vegas. The Cosmopolitan of Las Vegas is less than 5 miles from McCarran International Airport. The Strip (Las Vegas)",
+		"hotelGuestRating": "4.4",
+		"hotelId": "3818880",
+		"hotelName": "The Cosmopolitan Of Las Vegas",
+		"hotelStarRating": "5.0",
+		"hotelStarRatingCssClassName": "5-0",
+		"largeThumbnailUrl": "/hotels/4000000/3820000/3818900/3818880/3818880_221_d.jpg",
+		"latitude": "36.109118",
+		"localizedHotelName": "The Cosmopolitan Of Las Vegas",
+		"locationId": "800045",
+		"longitude": "-115.173163",
+		"lowRate": "170.00",
+		"nonLocalizedName": "The Cosmopolitan Of Las Vegas",
+		"notAvailableMessage": "",
+		"percentRecommended": "93",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "6721",
+		"reviewTotal": "7238",
+		"roomsLeftAtThisRate": "2",
+		"shortDiscountMessage": "Promo",
+		"sortIndex": "1",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/4000000/3820000/3818900/3818880/3818880_221_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "119.00",
+			"averageRate": "60.09",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "7.22",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "119.00",
+			"nightlyRateTotal": "120.19",
+			"discountPercent": -50,
+			"total": "134.61",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "5.99",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "5.99",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "1.23",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "1.23",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "119.00",
+				"rate": "1.19"
+			}, {
+				"promo": "false",
+				"baseRate": "119.00",
+				"rate": "119.00"
+			}],
+			"priceToShowUsers": "60",
+			"strikethroughPriceToShowUsers": "119",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "252",
+			"totalMandatoryFees": "71.68",
+			"totalPriceWithMandatoryFees": "134.61",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "71.68"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 134.61",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200893557",
+			"ratePlanCode": "204531964",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 269,
+						"bonus": 538,
+						"total": 807
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3655 Las Vegas Blvd S",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "498",
+			"brandName": "Caesars Entertainment"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "This Paris-themed hotel is 3 miles from the Las Vegas Convention Center and less than 5 miles from downtown. Guests enter through the Arc de Triomphe, star-gaze from atop the Eiffel Tower, and stroll past the Louvre. The Strip (Las Vegas)",
+		"hotelGuestRating": "4.0",
+		"hotelId": "200710",
+		"hotelName": "Paris Las Vegas",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/1000000/210000/200800/200710/200710_127_d.jpg",
+		"latitude": "36.111525",
+		"localizedHotelName": "Paris Las Vegas",
+		"locationId": "800045",
+		"longitude": "-115.17274",
+		"lowRate": "119.00",
+		"nonLocalizedName": "Paris Las Vegas",
+		"notAvailableMessage": "",
+		"percentRecommended": "88",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "17517",
+		"reviewTotal": "19837",
+		"roomsLeftAtThisRate": "41",
+		"shortDiscountMessage": "",
+		"sortIndex": "2",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/210000/200800/200710/200710_127_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": false,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": true,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": true,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "134.00",
+			"averageRate": "67.67",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "127.39",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "134.00",
+			"nightlyRateTotal": "135.34",
+			"discountPercent": -50,
+			"total": "390.09",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "39.79",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "12.37",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "27.42",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "87.60",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "81.42",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "6.18",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "134.00",
+				"rate": "1.34"
+			}, {
+				"promo": "false",
+				"baseRate": "134.00",
+				"rate": "134.00"
+			}],
+			"priceToShowUsers": "68",
+			"strikethroughPriceToShowUsers": "134",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "523",
+			"totalMandatoryFees": "64.96",
+			"totalPriceWithMandatoryFees": "390.09",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "64.96"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 390.09",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200320307",
+			"ratePlanCode": "201972747",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 780,
+						"bonus": 1560,
+						"total": 2340
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3645 Las Vegas Blvd S",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "498",
+			"brandName": "Caesars Entertainment"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "24 hour deal: save 53%",
+		"distanceUnit": "Miles",
+		"hotelDescription": "This Art Deco-style hotel is located on the Strip behind the Grand Bazaar Shops, a 2-acre shopping plaza with over 120 specialty stores and dining venues and is accessible via a moving sidewalk at the Heart of the Las Vegas Strip. The Strip (Las Vegas)",
+		"hotelGuestRating": "3.8",
+		"hotelId": "7611",
+		"hotelName": "Bally's Las Vegas",
+		"hotelStarRating": "3.5",
+		"hotelStarRatingCssClassName": "3-5",
+		"largeThumbnailUrl": "/hotels/1000000/10000/7700/7611/7611_111_d.jpg",
+		"latitude": "36.113579",
+		"localizedHotelName": "Bally's Las Vegas",
+		"locationId": "800045",
+		"longitude": "-115.172792",
+		"lowRate": "134.00",
+		"nonLocalizedName": "Bally's Las Vegas",
+		"notAvailableMessage": "",
+		"percentRecommended": "89",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "16770",
+		"reviewTotal": "18829",
+		"roomsLeftAtThisRate": "269",
+		"shortDiscountMessage": "Save 53%",
+		"sortIndex": "3",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/10000/7700/7611/7611_111_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": false,
+		"vip": true,
+		"lowRateInfo": {
+			"maxNightlyRate": "129.00",
+			"averageRate": "129.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "15.48",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "129.00",
+			"nightlyRateTotal": "258.00",
+			"discountPercent": 0,
+			"total": "288.96",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "12.07",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "12.07",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "3.41",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "3.41",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "129.00",
+				"rate": "129.00"
+			}, {
+				"promo": "false",
+				"baseRate": "129.00",
+				"rate": "129.00"
+			}],
+			"priceToShowUsers": "129",
+			"totalMandatoryFees": "64.96",
+			"totalPriceWithMandatoryFees": "288.96",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "64.96"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 288.96",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200443743",
+			"ratePlanCode": "204801712",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 578,
+						"bonus": 1156,
+						"total": 1734
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "2000 Fashion Show Drive",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2878",
+			"brandName": "Trump International"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Overlooking the Las Vegas skyline, this 64-story luxury resort stands adjacent to the Fashion Show Mall. It is a short cab ride to the Las Vegas Convention Center. West of The Strip",
+		"hotelGuestRating": "4.5",
+		"hotelId": "1857289",
+		"hotelName": "Trump International Hotel Las Vegas",
+		"hotelStarRating": "5.0",
+		"hotelStarRatingCssClassName": "5-0",
+		"largeThumbnailUrl": "/hotels/2000000/1860000/1857300/1857289/1857289_193_d.jpg",
+		"latitude": "36.128837",
+		"localizedHotelName": "Trump International Hotel Las Vegas",
+		"locationId": "6085271",
+		"longitude": "-115.17244",
+		"lowRate": "129.00",
+		"nonLocalizedName": "Trump International Hotel Las Vegas",
+		"notAvailableMessage": "",
+		"percentRecommended": "92",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "7998",
+		"reviewTotal": "8683",
+		"roomsLeftAtThisRate": "758",
+		"shortDiscountMessage": "",
+		"sortIndex": "4",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/2000000/1860000/1857300/1857289/1857289_193_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": true,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "29.00",
+			"averageRate": "29.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "15.90",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "29.00",
+			"nightlyRateTotal": "58.00",
+			"discountPercent": 0,
+			"total": "89.79",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "3.71",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "1.49",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "2.22",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "12.19",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "11.44",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.75",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "29.00",
+				"rate": "29.00"
+			}, {
+				"promo": "false",
+				"baseRate": "29.00",
+				"rate": "29.00"
+			}],
+			"priceToShowUsers": "29",
+			"totalMandatoryFees": "64.96",
+			"totalPriceWithMandatoryFees": "89.79",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "64.96"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 89.79",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "201259734",
+			"ratePlanCode": "206103748",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 180,
+						"bonus": 360,
+						"total": 540
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3475 Las Vegas Blvd S",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "498",
+			"brandName": "Caesars Entertainment"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "One of 7 stops on the Monorail line, this famed, 2,579-room hotel is in the midst of Strip activity. It is 1 mile from Fashion Show Mall and less than 3 miles from the Las Vegas Convention Center.  The Strip (Las Vegas)",
+		"hotelGuestRating": "3.7",
+		"hotelId": "41307",
+		"hotelName": "Harrah's Hotel and Casino Las Vegas",
+		"hotelStarRating": "3.5",
+		"hotelStarRatingCssClassName": "3-5",
+		"largeThumbnailUrl": "/hotels/1000000/50000/41400/41307/41307_202_d.jpg",
+		"latitude": "36.11881",
+		"localizedHotelName": "Harrah's Hotel and Casino Las Vegas",
+		"locationId": "800045",
+		"longitude": "-115.17265",
+		"lowRate": "29.00",
+		"nonLocalizedName": "Harrah's Hotel and Casino Las Vegas",
+		"notAvailableMessage": "",
+		"percentRecommended": "85",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "12990",
+		"reviewTotal": "15195",
+		"roomsLeftAtThisRate": "201",
+		"shortDiscountMessage": "",
+		"sortIndex": "5",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/50000/41400/41307/41307_202_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": true,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "149.00",
+			"averageRate": "149.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "14.44",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "149.00",
+			"nightlyRateTotal": "298.00",
+			"discountPercent": 0,
+			"total": "326.88",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "12.43",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "6.33",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "6.10",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "2.01",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "2.01",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "149.00",
+				"rate": "149.00"
+			}, {
+				"promo": "false",
+				"baseRate": "149.00",
+				"rate": "149.00"
+			}],
+			"priceToShowUsers": "149",
+			"totalMandatoryFees": "71.68",
+			"totalPriceWithMandatoryFees": "326.88",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "71.68"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 326.88",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "357956",
+			"ratePlanCode": "200351149",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 654,
+						"bonus": 1308,
+						"total": 1962
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3730 Las Vegas Blvd. South",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2102",
+			"brandName": "MGM"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "At the heart of the Las Vegas Strip, ARIA Resort & Casino offers a luxurious resort experience with technologically advanced accommodations, world-class dining and entertainment, upscale shopping and more. \r\n The Strip (Las Vegas)",
+		"hotelGuestRating": "4.4",
+		"hotelId": "2565776",
+		"hotelName": "ARIA Resort & Casino",
+		"hotelStarRating": "5.0",
+		"hotelStarRatingCssClassName": "5-0",
+		"largeThumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_133_d.jpg",
+		"latitude": "36.106678",
+		"localizedHotelName": "ARIA Resort & Casino",
+		"locationId": "800045",
+		"longitude": "-115.173173",
+		"lowRate": "149.00",
+		"nonLocalizedName": "ARIA Resort & Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "92",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "14802",
+		"reviewTotal": "16047",
+		"roomsLeftAtThisRate": "4995",
+		"shortDiscountMessage": "",
+		"sortIndex": "6",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_133_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": false,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "80.10",
+			"averageRate": "80.10",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "45.45",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "89.00",
+			"nightlyRateTotal": "160.20",
+			"discountPercent": -10,
+			"total": "251.10",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "11.34",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "11.34",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "34.11",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "32.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "2.11",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "89.00",
+				"rate": "80.10"
+			}, {
+				"promo": "true",
+				"baseRate": "89.00",
+				"rate": "80.10"
+			}],
+			"priceToShowUsers": "80",
+			"strikethroughPriceToShowUsers": "89",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "269",
+			"totalMandatoryFees": "0.00",
+			"totalPriceWithMandatoryFees": "251.10",
+			"formattedTotalPriceWithMandatoryFees": "$ 251.10",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200763052",
+			"ratePlanCode": "203796911",
+			"showResortFeeMessage": false,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 502,
+						"bonus": 1004,
+						"total": 1506
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "125 E Harmon Ave",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "Save 7%",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Located in Paradise, this luxury condominium resort is within 2 mi (3 km) of Crystals at City Center, University of Nevada-Las Vegas, and Thomas and Mack Center. Las Vegas Convention Center and Fashion Show Mall are also within 3 mi (5 km).  East of The Strip",
+		"hotelGuestRating": "4.2",
+		"hotelId": "1877035",
+		"hotelName": "Luxury Suites International At The Signature",
+		"hotelStarRating": "4.5",
+		"hotelStarRatingCssClassName": "4-5",
+		"largeThumbnailUrl": "/hotels/2000000/1880000/1877100/1877035/1877035_142_d.jpg",
+		"latitude": "36.107972",
+		"localizedHotelName": "Luxury Suites International At The Signature",
+		"locationId": "800046",
+		"longitude": "-115.165749",
+		"lowRate": "89.00",
+		"nonLocalizedName": "Luxury Suites International At The Signature",
+		"notAvailableMessage": "",
+		"percentRecommended": "91",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "530",
+		"reviewTotal": "585",
+		"roomsLeftAtThisRate": "10",
+		"shortDiscountMessage": "Save 7%",
+		"sortIndex": "7",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/2000000/1880000/1877100/1877035/1877035_142_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "219.00",
+			"averageRate": "110.59",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "28.37",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "219.00",
+			"nightlyRateTotal": "221.19",
+			"discountPercent": -50,
+			"total": "277.93",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "9.99",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "4.98",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "5.01",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "18.38",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "15.51",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "2.87",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "219.00",
+				"rate": "2.19"
+			}, {
+				"promo": "false",
+				"baseRate": "219.00",
+				"rate": "219.00"
+			}],
+			"priceToShowUsers": "111",
+			"strikethroughPriceToShowUsers": "219",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "495",
+			"totalMandatoryFees": "71.68",
+			"totalPriceWithMandatoryFees": "277.93",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "71.68"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 277.93",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200993280",
+			"ratePlanCode": "204844255",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 556,
+						"bonus": 1112,
+						"total": 1668
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3570 Las Vegas Boulevard South",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "498",
+			"brandName": "Caesars Entertainment"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "A tribute to the opulence of Rome, this Las Vegas Strip resort is buffered from crowds by a vast open-air plaza; both the Las Vegas Convention Center and downtown are within 3 miles.  The Strip (Las Vegas)",
+		"hotelGuestRating": "4.0",
+		"hotelId": "41245",
+		"hotelName": "Caesars Palace",
+		"hotelStarRating": "4.5",
+		"hotelStarRatingCssClassName": "4-5",
+		"largeThumbnailUrl": "/hotels/1000000/50000/41300/41245/41245_282_d.jpg",
+		"latitude": "36.117367",
+		"localizedHotelName": "Caesars Palace",
+		"locationId": "800045",
+		"longitude": "-115.172988",
+		"lowRate": "219.00",
+		"nonLocalizedName": "Caesars Palace",
+		"notAvailableMessage": "",
+		"percentRecommended": "86",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "13461",
+		"reviewTotal": "15643",
+		"roomsLeftAtThisRate": "10",
+		"shortDiscountMessage": "",
+		"sortIndex": "8",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/50000/41300/41245/41245_282_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": false,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "80.00",
+			"averageRate": "80.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "9.60",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "80.00",
+			"nightlyRateTotal": "160.00",
+			"discountPercent": 0,
+			"total": "179.20",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "7.10",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "7.10",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "2.50",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "2.50",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "80.00",
+				"rate": "80.00"
+			}, {
+				"promo": "false",
+				"baseRate": "80.00",
+				"rate": "80.00"
+			}],
+			"priceToShowUsers": "80",
+			"totalMandatoryFees": "33.60",
+			"totalPriceWithMandatoryFees": "179.20",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "33.60"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 179.20",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "141807",
+			"ratePlanCode": "205909927",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 358,
+						"bonus": 716,
+						"total": 1074
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "7200 Las Vegas Blvd S",
+			"postalCode": "89119"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "This all-suite Las Vegas resort and spa offers complimentary shuttle service to casinos and local shopping areas. The hotel boasts an onsite Lazy River.\r\n South of The Strip",
+		"hotelGuestRating": "4.2",
+		"hotelId": "1445791",
+		"hotelName": "Tahiti Village Resort & Spa",
+		"hotelStarRating": "3.5",
+		"hotelStarRatingCssClassName": "3-5",
+		"largeThumbnailUrl": "/hotels/2000000/1450000/1445800/1445791/1445791_40_d.jpg",
+		"latitude": "36.059167",
+		"localizedHotelName": "Tahiti Village Resort & Spa",
+		"locationId": "6130518",
+		"longitude": "-115.172216",
+		"lowRate": "80.00",
+		"nonLocalizedName": "Tahiti Village Resort & Spa",
+		"notAvailableMessage": "",
+		"percentRecommended": "94",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "3274",
+		"reviewTotal": "3483",
+		"roomsLeftAtThisRate": "47",
+		"shortDiscountMessage": "",
+		"sortIndex": "9",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/2000000/1450000/1445800/1445791/1445791_40_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": false,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "125.00",
+			"averageRate": "63.12",
+			"taxStatusType": "INCLUDED",
+			"averageBaseRate": "125.00",
+			"nightlyRateTotal": "126.25",
+			"discountPercent": -50,
+			"total": "126.25",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "125.00",
+				"rate": "1.25"
+			}, {
+				"promo": "false",
+				"baseRate": "125.00",
+				"rate": "125.00"
+			}],
+			"priceToShowUsers": "63",
+			"strikethroughPriceToShowUsers": "125",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "250",
+			"totalMandatoryFees": "64.96",
+			"totalPriceWithMandatoryFees": "126.25",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "64.96"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 126.25",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "201340866",
+			"ratePlanCode": "207627568",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 253,
+						"bonus": 506,
+						"total": 759
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3700 W Flamingo Rd",
+			"postalCode": "89103"
+		},
+		"jsonHotelBrand": {
+			"brandId": "498",
+			"brandName": "Caesars Entertainment"
+		},
+		"amenities": [{
+			"id": "64",
+			"description": "Food/Beverage Credit"
+		}],
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Every room is a suite at the Rio! The Rio hosts more than 2,500 suites, providing spectacular views of Las Vegas. Complimentary shuttles whisk guests to the Strip, a mile away; Fashion Show Mall and the convention center are within 4 miles.\r\n West of The Strip",
+		"hotelGuestRating": "3.8",
+		"hotelId": "19837",
+		"hotelName": "Rio All-Suite Hotel & Casino",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/1000000/20000/19900/19837/19837_123_d.jpg",
+		"latitude": "36.115299",
+		"localizedHotelName": "Rio All-Suite Hotel & Casino",
+		"locationId": "6085271",
+		"longitude": "-115.187083",
+		"lowRate": "125.00",
+		"nonLocalizedName": "Rio All-Suite Hotel & Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "87",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "11192",
+		"reviewTotal": "12800",
+		"roomsLeftAtThisRate": "50",
+		"shortDiscountMessage": "",
+		"sortIndex": "10",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/20000/19900/19837/19837_123_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "44.29",
+			"averageRate": "44.29",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "5.31",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "44.29",
+			"nightlyRateTotal": "88.58",
+			"discountPercent": 0,
+			"total": "99.20",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "4.46",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "4.46",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.85",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.85",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "44.29",
+				"rate": "44.29"
+			}, {
+				"promo": "false",
+				"baseRate": "44.29",
+				"rate": "44.29"
+			}],
+			"priceToShowUsers": "44",
+			"totalMandatoryFees": "58.24",
+			"totalPriceWithMandatoryFees": "99.20",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "58.24"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 99.20",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "201288295",
+			"ratePlanCode": "206241517",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 198,
+						"bonus": 396,
+						"total": 594
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3850 Las Vegas Blvd S",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2102",
+			"brandName": "MGM"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Located at the southern end of the Las Vegas Strip and close to McCarran Airport, this castle-shaped hotel features royal accommodations and a traditional action-packed medieval dinner show.\r\n The Strip (Las Vegas)",
+		"hotelGuestRating": "3.6",
+		"hotelId": "41308",
+		"hotelName": "Excalibur Hotel Casino",
+		"hotelStarRating": "3.0",
+		"hotelStarRatingCssClassName": "3-0",
+		"largeThumbnailUrl": "/hotels/1000000/50000/41400/41308/41308_135_d.jpg",
+		"latitude": "36.099212",
+		"localizedHotelName": "Excalibur Hotel Casino",
+		"locationId": "800045",
+		"longitude": "-115.1731",
+		"lowRate": "44.29",
+		"nonLocalizedName": "Excalibur Hotel Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "84",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "38670",
+		"reviewTotal": "46149",
+		"roomsLeftAtThisRate": "487",
+		"shortDiscountMessage": "",
+		"sortIndex": "11",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/50000/41400/41308/41308_135_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "59.00",
+			"averageRate": "59.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "7.08",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "59.00",
+			"nightlyRateTotal": "118.00",
+			"discountPercent": 0,
+			"total": "132.16",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "5.52",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "5.52",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "1.56",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "1.56",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "59.00",
+				"rate": "59.00"
+			}, {
+				"promo": "false",
+				"baseRate": "59.00",
+				"rate": "59.00"
+			}],
+			"priceToShowUsers": "59",
+			"totalMandatoryFees": "62.72",
+			"totalPriceWithMandatoryFees": "132.16",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "62.72"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 132.16",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200131513",
+			"ratePlanCode": "200728134",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 264,
+						"bonus": 528,
+						"total": 792
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "4455 Paradise Rd",
+			"postalCode": "89169"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2002",
+			"brandName": "Hard Rock Hotels"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "The Hard Rock, which contains a 5-acre water playground popular with the young and the hip, is within 2 miles of the Las Vegas Strip, Las Vegas Convention Center, and McCarran International Airport. East of The Strip",
+		"hotelGuestRating": "3.8",
+		"hotelId": "198225",
+		"hotelName": "Hard Rock Hotel & Casino",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/1000000/200000/198300/198225/198225_141_d.jpg",
+		"latitude": "36.10897",
+		"localizedHotelName": "Hard Rock Hotel & Casino",
+		"locationId": "800046",
+		"longitude": "-115.152376",
+		"lowRate": "59.00",
+		"nonLocalizedName": "Hard Rock Hotel & Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "83",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "9945",
+		"reviewTotal": "11920",
+		"roomsLeftAtThisRate": "48",
+		"shortDiscountMessage": "",
+		"sortIndex": "12",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/200000/198300/198225/198225_141_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "55.71",
+			"averageRate": "55.71",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "6.68",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "55.71",
+			"nightlyRateTotal": "111.42",
+			"discountPercent": 0,
+			"total": "124.78",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "5.68",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "5.68",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "1.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "1.00",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "55.71",
+				"rate": "55.71"
+			}, {
+				"promo": "false",
+				"baseRate": "55.71",
+				"rate": "55.71"
+			}],
+			"priceToShowUsers": "56",
+			"totalMandatoryFees": "58.24",
+			"totalPriceWithMandatoryFees": "124.78",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "58.24"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 124.78",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "201288302",
+			"ratePlanCode": "206241531",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 250,
+						"bonus": 500,
+						"total": 750
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3900 S. Las Vegas Blvd",
+			"postalCode": "89119"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2102",
+			"brandName": "MGM"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "With 2 22-story towers and an eye-catching 30-story pyramid topped by a powerful light beam, this resort is 2 miles from McCarran International Airport in Las Vegas.\r\n The Strip (Las Vegas)",
+		"hotelGuestRating": "3.6",
+		"hotelId": "15237",
+		"hotelName": "Luxor Hotel and Casino",
+		"hotelStarRating": "3.5",
+		"hotelStarRatingCssClassName": "3-5",
+		"largeThumbnailUrl": "/hotels/1000000/20000/15300/15237/15237_227_d.jpg",
+		"latitude": "36.09659",
+		"localizedHotelName": "Luxor Hotel and Casino",
+		"locationId": "800045",
+		"longitude": "-115.173085",
+		"lowRate": "55.71",
+		"nonLocalizedName": "Luxor Hotel and Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "83",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "36097",
+		"reviewTotal": "43474",
+		"roomsLeftAtThisRate": "678",
+		"shortDiscountMessage": "",
+		"sortIndex": "13",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/20000/15300/15237/15237_227_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "75.00",
+			"averageRate": "75.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "22.95",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "75.00",
+			"nightlyRateTotal": "150.00",
+			"discountPercent": 0,
+			"total": "195.88",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "7.26",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "3.46",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "3.80",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "15.69",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "13.74",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "1.95",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "75.00",
+				"rate": "75.00"
+			}, {
+				"promo": "false",
+				"baseRate": "75.00",
+				"rate": "75.00"
+			}],
+			"priceToShowUsers": "75",
+			"totalMandatoryFees": "58.00",
+			"totalPriceWithMandatoryFees": "195.88",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "58.00"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 195.88",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "201227869",
+			"ratePlanCode": "205807447",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 392,
+						"bonus": 784,
+						"total": 1176
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3535 Las Vegas Blvd South Suite 1",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "498",
+			"brandName": "Caesars Entertainment"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Occupying a premium spot on the iconic Las Vegas Strip, this modern resort is a short stroll from the LINQ outdoor shopping promenade and the High Roller, the worldâ€™s tallest observation wheel.   The Strip (Las Vegas)",
+		"hotelGuestRating": "3.7",
+		"hotelId": "8753178",
+		"hotelName": "The LINQ Hotel & Casino",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/9000000/8760000/8753200/8753178/8753178_25_d.jpg",
+		"latitude": "36.117608",
+		"localizedHotelName": "The LINQ Hotel & Casino",
+		"locationId": "800045",
+		"longitude": "-115.172808",
+		"lowRate": "75.00",
+		"nonLocalizedName": "The LINQ Hotel & Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "86",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "3368",
+		"reviewTotal": "3931",
+		"roomsLeftAtThisRate": "50",
+		"shortDiscountMessage": "",
+		"sortIndex": "14",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/9000000/8760000/8753200/8753178/8753178_25_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "219.00",
+			"averageRate": "219.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "55.62",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "219.00",
+			"nightlyRateTotal": "438.00",
+			"discountPercent": 0,
+			"total": "549.24",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "20.27",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "10.69",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "9.58",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "35.35",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "32.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "3.35",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "219.00",
+				"rate": "219.00"
+			}, {
+				"promo": "false",
+				"baseRate": "219.00",
+				"rate": "219.00"
+			}],
+			"priceToShowUsers": "219",
+			"totalMandatoryFees": "0.00",
+			"totalPriceWithMandatoryFees": "549.24",
+			"formattedTotalPriceWithMandatoryFees": "$ 549.24",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200099471",
+			"ratePlanCode": "200558899",
+			"showResortFeeMessage": false,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 1098,
+						"bonus": 2196,
+						"total": 3294
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3752 Las Vegas Blvd S",
+			"postalCode": "89158"
+		},
+		"jsonHotelBrand": {
+			"brandId": "91",
+			"brandName": "Mandarin Oriental Hotel Group"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "We are connected to Crystals and a step from the casinos, but in our hotel youâ€™ll find an oasis of serenity. Our rooms are a model of contemporary design with subtle oriental touches and breathtaking views. The Strip (Las Vegas)",
+		"hotelGuestRating": "4.8",
+		"hotelId": "3016186",
+		"hotelName": "Mandarin Oriental, Las Vegas",
+		"hotelStarRating": "5.0",
+		"hotelStarRatingCssClassName": "5-0",
+		"largeThumbnailUrl": "/hotels/4000000/3020000/3016200/3016186/3016186_63_d.jpg",
+		"latitude": "36.105943",
+		"localizedHotelName": "Mandarin Oriental, Las Vegas",
+		"locationId": "800045",
+		"longitude": "-115.173178",
+		"lowRate": "219.00",
+		"nonLocalizedName": "Mandarin Oriental, Las Vegas",
+		"notAvailableMessage": "",
+		"percentRecommended": "97",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "1626",
+		"reviewTotal": "1683",
+		"roomsLeftAtThisRate": "-1",
+		"shortDiscountMessage": "",
+		"sortIndex": "15",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/4000000/3020000/3016200/3016186/3016186_63_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "79.00",
+			"averageRate": "79.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "9.48",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "79.00",
+			"nightlyRateTotal": "158.00",
+			"discountPercent": 0,
+			"total": "176.96",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "7.11",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "7.11",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "2.37",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "2.37",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "79.00",
+				"rate": "79.00"
+			}, {
+				"promo": "false",
+				"baseRate": "79.00",
+				"rate": "79.00"
+			}],
+			"priceToShowUsers": "79",
+			"totalMandatoryFees": "28.00",
+			"totalPriceWithMandatoryFees": "176.96",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "28.00"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 176.96",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200487649",
+			"ratePlanCode": "202692201",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 354,
+						"bonus": 708,
+						"total": 1062
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "9777 Las Vegas Blvd S",
+			"postalCode": "89183"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Opened in late 2005, this 25-story hotel and casino is just east of I-15, on the South Strip, 5 miles from the airport, and 9 miles from the Las Vegas Convention Center. South of The Strip",
+		"hotelGuestRating": "4.4",
+		"hotelId": "1309521",
+		"hotelName": "South Point Hotel, Casino, and Spa",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/2000000/1310000/1309600/1309521/1309521_161_d.jpg",
+		"latitude": "36.011975",
+		"localizedHotelName": "South Point Hotel, Casino, and Spa",
+		"locationId": "6130518",
+		"longitude": "-115.17254",
+		"lowRate": "79.00",
+		"nonLocalizedName": "South Point Hotel, Casino, and Spa",
+		"notAvailableMessage": "",
+		"percentRecommended": "95",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "19805",
+		"reviewTotal": "20825",
+		"roomsLeftAtThisRate": "199",
+		"shortDiscountMessage": "",
+		"sortIndex": "16",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/2000000/1310000/1309600/1309521/1309521_161_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": true,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": true,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": false,
+		"vip": true,
+		"lowRateInfo": {
+			"maxNightlyRate": "79.00",
+			"averageRate": "74.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "8.88",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "74.00",
+			"nightlyRateTotal": "148.00",
+			"discountPercent": 0,
+			"total": "165.76",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "7.10",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "7.10",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "1.78",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "1.78",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "79.00",
+				"rate": "79.00"
+			}, {
+				"promo": "false",
+				"baseRate": "69.00",
+				"rate": "69.00"
+			}],
+			"priceToShowUsers": "74",
+			"totalMandatoryFees": "67.08",
+			"totalPriceWithMandatoryFees": "165.76",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "67.08"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 165.76",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "232203",
+			"ratePlanCode": "203749251",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 332,
+						"bonus": 664,
+						"total": 996
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "4381 W Flamingo Rd",
+			"postalCode": "89103"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"amenities": [{
+			"id": "128",
+			"description": "Free Parking"
+		}, {
+			"id": "16384",
+			"description": "Free Valet Parking"
+		}],
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Connected to the Palms Las Vegas via an enclosed, motorized walkway, this 49-story hotel is 2 miles from the Sands Expo Convention and less than 3 miles from the Bali Hai Golf Club. West of The Strip",
+		"hotelGuestRating": "4.2",
+		"hotelId": "1847179",
+		"hotelName": "Palms Place Hotel and Spa at the Palms Las Vegas",
+		"hotelStarRating": "4.5",
+		"hotelStarRatingCssClassName": "4-5",
+		"largeThumbnailUrl": "/hotels/2000000/1850000/1847200/1847179/1847179_102_d.jpg",
+		"latitude": "36.11542",
+		"localizedHotelName": "Palms Place Hotel and Spa at the Palms Las Vegas",
+		"locationId": "6085271",
+		"longitude": "-115.19906",
+		"lowRate": "74.00",
+		"nonLocalizedName": "Palms Place Hotel and Spa at the Palms Las Vegas",
+		"notAvailableMessage": "",
+		"percentRecommended": "92",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "4540",
+		"reviewTotal": "4953",
+		"roomsLeftAtThisRate": "50",
+		"shortDiscountMessage": "",
+		"sortIndex": "17",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/2000000/1850000/1847200/1847179/1847179_102_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "89.71",
+			"averageRate": "89.71",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "55.00",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "124.60",
+			"nightlyRateTotal": "179.42",
+			"discountPercent": -28,
+			"total": "289.42",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "13.35",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "13.35",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "41.65",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "39.50",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "2.15",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "124.60",
+				"rate": "89.71"
+			}, {
+				"promo": "true",
+				"baseRate": "124.60",
+				"rate": "89.71"
+			}],
+			"priceToShowUsers": "90",
+			"strikethroughPriceToShowUsers": "125",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "359",
+			"totalMandatoryFees": "0.00",
+			"totalPriceWithMandatoryFees": "289.42",
+			"formattedTotalPriceWithMandatoryFees": "$ 289.42",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200644330",
+			"ratePlanCode": "203225904",
+			"showResortFeeMessage": false,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 579,
+						"bonus": 1158,
+						"total": 1737
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "147 E Harmon Ave",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "Save 21%",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Located in Paradise, this luxury hotel is within 2 mi (3 km) of Crystals at City Center, University of Nevada-Las Vegas, and Thomas and Mack Center. Las Vegas Convention Center and Fashion Show Mall are also within 3 mi (5 km).  East of The Strip",
+		"hotelGuestRating": "4.2",
+		"hotelId": "7867463",
+		"hotelName": "Jet Luxury Resorts @ The Signature Condo Hotel",
+		"hotelStarRating": "4.5",
+		"hotelStarRatingCssClassName": "4-5",
+		"largeThumbnailUrl": "/hotels/8000000/7870000/7867500/7867463/7867463_16_d.jpg",
+		"latitude": "36.108022",
+		"localizedHotelName": "Jet Luxury Resorts @ The Signature Condo Hotel",
+		"locationId": "800046",
+		"longitude": "-115.166245",
+		"lowRate": "124.60",
+		"nonLocalizedName": "Jet Luxury Resorts @ The Signature Condo Hotel",
+		"notAvailableMessage": "",
+		"percentRecommended": "89",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "329",
+		"reviewTotal": "371",
+		"roomsLeftAtThisRate": "28",
+		"shortDiscountMessage": "Save 21%",
+		"sortIndex": "18",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/8000000/7870000/7867500/7867463/7867463_16_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": false,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "53.10",
+			"averageRate": "53.10",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "19.60",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "59.00",
+			"nightlyRateTotal": "106.20",
+			"discountPercent": -10,
+			"total": "145.38",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "5.47",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "2.47",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "3.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "14.13",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "12.58",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "1.55",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "59.00",
+				"rate": "53.10"
+			}, {
+				"promo": "true",
+				"baseRate": "59.00",
+				"rate": "53.10"
+			}],
+			"priceToShowUsers": "53",
+			"strikethroughPriceToShowUsers": "59",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "157",
+			"totalMandatoryFees": "67.20",
+			"totalPriceWithMandatoryFees": "145.38",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "67.20"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 145.38",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "201388745",
+			"ratePlanCode": "206857801",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 291,
+						"bonus": 582,
+						"total": 873
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "2535 Las Vegas Blvd S",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2200",
+			"brandName": "Starwood other branded"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "Private sale: save 9%",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Located in The Strip, this spa hotel is within 1 mi (2 km) of Little White Wedding Chapel, Las Vegas Convention Center, and Fashion Show Mall. Las Vegas Premium Outlets is 1.8 mi (2.9 km) away.  The Strip (Las Vegas)",
+		"hotelGuestRating": "3.3",
+		"hotelId": "20194",
+		"hotelName": "SLS Las Vegas a Tribute Portfolio Resort",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/1000000/30000/20200/20194/20194_400_d.jpg",
+		"latitude": "36.142852",
+		"localizedHotelName": "SLS Las Vegas a Tribute Portfolio Resort",
+		"locationId": "800045",
+		"longitude": "-115.157754",
+		"lowRate": "59.00",
+		"nonLocalizedName": "SLS Las Vegas a Tribute Portfolio Resort",
+		"notAvailableMessage": "",
+		"percentRecommended": "72",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "8704",
+		"reviewTotal": "12053",
+		"roomsLeftAtThisRate": "3",
+		"shortDiscountMessage": "Save 9%",
+		"sortIndex": "19",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/30000/20200/20194/20194_400_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "59.00",
+			"averageRate": "59.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "20.51",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "59.00",
+			"nightlyRateTotal": "118.00",
+			"discountPercent": 0,
+			"total": "158.99",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "5.59",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "2.53",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "3.06",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "14.92",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "12.66",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "2.26",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "59.00",
+				"rate": "59.00"
+			}, {
+				"promo": "false",
+				"baseRate": "59.00",
+				"rate": "59.00"
+			}],
+			"priceToShowUsers": "59",
+			"totalMandatoryFees": "56.00",
+			"totalPriceWithMandatoryFees": "158.99",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "56.00"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 158.99",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "3126",
+			"ratePlanCode": "3126",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 318,
+						"bonus": 636,
+						"total": 954
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "129 Fremont St",
+			"postalCode": "89101"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "A storied name in Las Vegas, the downtown Golden Nugget Hotel and Casino is 2 miles north of the Strip; the Fremont Street Experience dazzles right outside, nightly. Downtown Las Vegas",
+		"hotelGuestRating": "4.1",
+		"hotelId": "43312",
+		"hotelName": "Golden Nugget Hotel & Casino",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/1000000/50000/43400/43312/43312_83_d.jpg",
+		"latitude": "36.16996",
+		"localizedHotelName": "Golden Nugget Hotel & Casino",
+		"locationId": "800047",
+		"longitude": "-115.144606",
+		"lowRate": "59.00",
+		"nonLocalizedName": "Golden Nugget Hotel & Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "92",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "18032",
+		"reviewTotal": "19543",
+		"roomsLeftAtThisRate": "72",
+		"shortDiscountMessage": "",
+		"sortIndex": "20",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/50000/43400/43312/43312_83_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": true,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": true,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": false,
+		"vip": true,
+		"lowRateInfo": {
+			"maxNightlyRate": "114.75",
+			"averageRate": "114.75",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "13.77",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "135.00",
+			"nightlyRateTotal": "229.50",
+			"discountPercent": -15,
+			"total": "257.04",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "11.02",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "11.02",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "2.75",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "2.75",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "135.00",
+				"rate": "114.75"
+			}, {
+				"promo": "true",
+				"baseRate": "135.00",
+				"rate": "114.75"
+			}],
+			"priceToShowUsers": "115",
+			"strikethroughPriceToShowUsers": "135",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "298",
+			"totalMandatoryFees": "33.60",
+			"totalPriceWithMandatoryFees": "257.04",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "33.60"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 257.04",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "122371",
+			"ratePlanCode": "284930",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 514,
+						"bonus": 1028,
+						"total": 1542
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "211 E Flamingo Rd",
+			"postalCode": "89169"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"amenities": [{
+			"id": "2048",
+			"description": "Free Wireless Internet"
+		}],
+		"airportCode": "LAS",
+		"discountMessage": "Mobile exclusive: save 15%",
+		"distanceUnit": "Miles",
+		"hotelDescription": "This non-gaming and non-smoking all-suite Vegas resort presents a relaxing atmosphere with views of the Strip and mountains; the Strip is 1.5 blocks away; the Las Vegas Convention Center is less than 2 miles.\r\n East of The Strip",
+		"hotelGuestRating": "4.5",
+		"hotelId": "7414",
+		"hotelName": "Platinum Hotel",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/1000000/10000/7500/7414/7414_159_d.jpg",
+		"latitude": "36.114415",
+		"localizedHotelName": "Platinum Hotel",
+		"locationId": "800046",
+		"longitude": "-115.163226",
+		"lowRate": "135.00",
+		"nonLocalizedName": "Platinum Hotel",
+		"notAvailableMessage": "",
+		"percentRecommended": "95",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "2001",
+		"reviewTotal": "2102",
+		"roomsLeftAtThisRate": "312",
+		"shortDiscountMessage": "Save 15%",
+		"sortIndex": "21",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/10000/7500/7414/7414_159_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": false,
+		"vip": true,
+		"lowRateInfo": {
+			"maxNightlyRate": "79.95",
+			"averageRate": "59.95",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "7.20",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "85.65",
+			"nightlyRateTotal": "119.90",
+			"discountPercent": -30,
+			"total": "134.30",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "5.58",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "5.58",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "1.62",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "1.62",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "57.07",
+				"rate": "39.95"
+			}, {
+				"promo": "true",
+				"baseRate": "114.22",
+				"rate": "79.95"
+			}],
+			"priceToShowUsers": "60",
+			"strikethroughPriceToShowUsers": "86",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "186",
+			"totalMandatoryFees": "67.08",
+			"totalPriceWithMandatoryFees": "134.30",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "67.08"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 134.30",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "169535",
+			"ratePlanCode": "394013",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 269,
+						"bonus": 538,
+						"total": 807
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3000 Paradise Road",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2428",
+			"brandName": "Westgate Resorts "
+		},
+		"airportCode": "LAS",
+		"discountMessage": "Book now and save",
+		"distanceUnit": "Miles",
+		"hotelDescription": "<p>Adjacent to the Las Vegas Convention Center, this resort is a 10-minute drive from McCarran International Airport. The on-site stop for the Las Vegas Monorail offers convenient access to the Strip.</p> East of The Strip",
+		"hotelGuestRating": "3.6",
+		"hotelId": "19558",
+		"hotelName": "Westgate Las Vegas Resort & Casino",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/1000000/20000/19600/19558/19558_410_d.jpg",
+		"latitude": "36.136033",
+		"localizedHotelName": "Westgate Las Vegas Resort & Casino",
+		"locationId": "800046",
+		"longitude": "-115.154706",
+		"lowRate": "85.65",
+		"nonLocalizedName": "Westgate Las Vegas Resort & Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "76",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "14370",
+		"reviewTotal": "18786",
+		"roomsLeftAtThisRate": "582",
+		"shortDiscountMessage": "Promo",
+		"sortIndex": "22",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/20000/19600/19558/19558_410_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": false,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "69.00",
+			"averageRate": "64.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "7.68",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "64.00",
+			"nightlyRateTotal": "128.00",
+			"discountPercent": 0,
+			"total": "143.36",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "5.99",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "5.99",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "1.69",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "1.69",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "69.00",
+				"rate": "69.00"
+			}, {
+				"promo": "false",
+				"baseRate": "59.00",
+				"rate": "59.00"
+			}],
+			"priceToShowUsers": "64",
+			"totalMandatoryFees": "67.08",
+			"totalPriceWithMandatoryFees": "143.36",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "67.08"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 143.36",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200037611",
+			"ratePlanCode": "200219993",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 287,
+						"bonus": 574,
+						"total": 861
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "4321 W Flamingo Rd",
+			"postalCode": "89103"
+		},
+		"jsonHotelBrand": {
+			"brandId": "0",
+			"brandName": "Independent"
+		},
+		"amenities": [{
+			"id": "128",
+			"description": "Free Parking"
+		}, {
+			"id": "16384",
+			"description": "Free Valet Parking"
+		}],
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "Comprising 40- and 55-story towers, <b>Palms Casino Resort</b> is 1 mile west of the Las Vegas Strip, 3 miles from the Forum Shops, and 5 miles from the convention center. West of The Strip",
+		"hotelGuestRating": "3.9",
+		"hotelId": "792446",
+		"hotelName": "The Palms Casino Resort",
+		"hotelStarRating": "4.0",
+		"hotelStarRatingCssClassName": "4-0",
+		"largeThumbnailUrl": "/hotels/1000000/800000/792500/792446/792446_94_d.jpg",
+		"latitude": "36.115437",
+		"localizedHotelName": "The Palms Casino Resort",
+		"locationId": "6085271",
+		"longitude": "-115.194823",
+		"lowRate": "64.00",
+		"nonLocalizedName": "The Palms Casino Resort",
+		"notAvailableMessage": "",
+		"percentRecommended": "86",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "5027",
+		"reviewTotal": "5876",
+		"roomsLeftAtThisRate": "50",
+		"shortDiscountMessage": "",
+		"sortIndex": "23",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/800000/792500/792446/792446_94_n.jpg"
+	}, {
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": true,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": false,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": false,
+		"isSponsoredListing": false,
+		"vip": true,
+		"lowRateInfo": {
+			"maxNightlyRate": "499.00",
+			"averageRate": "379.00",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "69.37",
+			"surchargeTotalForEntireStay": "0.00",
+			"averageBaseRate": "379.00",
+			"nightlyRateTotal": "758.00",
+			"discountPercent": 0,
+			"total": "896.72",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "30.30",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "16.26",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "14.04",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "39.07",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "28.65",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "10.42",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "0.00",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_VAT"
+			}, {
+				"amount": "0.00",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_SERVICE"
+			}, {
+				"amount": "0.00",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "false",
+				"baseRate": "259.00",
+				"rate": "259.00"
+			}, {
+				"promo": "false",
+				"baseRate": "499.00",
+				"rate": "499.00"
+			}],
+			"priceToShowUsers": "379",
+			"totalMandatoryFees": "64.00",
+			"totalPriceWithMandatoryFees": "896.72",
+			"mandatoryFees": [{
+				"feeName": "Resort fee",
+				"amount": "64.00"
+			}],
+			"formattedTotalPriceWithMandatoryFees": "$ 896.72",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [
+
+			],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "158",
+			"ratePlanCode": "158",
+			"showResortFeeMessage": true,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 1793,
+						"bonus": 3586,
+						"total": 5379
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Las Vegas",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3355 Las Vegas Blvd S",
+			"postalCode": "89109"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2470",
+			"brandName": "Las Vegas Sands"
+		},
+		"airportCode": "LAS",
+		"discountMessage": "",
+		"distanceUnit": "Miles",
+		"hotelDescription": "This all-suite resort and casino on the Las Vegas Strip is a short drive from Fashion Show Mall, the convention center,  Downtown, and McCarran Airport. The Strip (Las Vegas)",
+		"hotelGuestRating": "4.5",
+		"hotelId": "1443",
+		"hotelName": "The Venetian Resort Hotel & Casino",
+		"hotelStarRating": "5.0",
+		"hotelStarRatingCssClassName": "5-0",
+		"largeThumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_364_d.jpg",
+		"latitude": "36.12209",
+		"localizedHotelName": "The Venetian Resort Hotel & Casino",
+		"locationId": "800045",
+		"longitude": "-115.17139",
+		"lowRate": "379.00",
+		"nonLocalizedName": "The Venetian Resort Hotel & Casino",
+		"notAvailableMessage": "",
+		"percentRecommended": "94",
+		"proximityDistanceInKiloMeters": "0.0",
+		"proximityDistanceInMiles": "0.0",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "17471",
+		"reviewTotal": "18566",
+		"roomsLeftAtThisRate": "50",
+		"shortDiscountMessage": "",
+		"sortIndex": "24",
+		"stateProvinceCode": "NV",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_364_n.jpg"
+	}],
+	"travelAdsList": [{
+		"available": true,
+		"didGetBackHighestPriceFromSurvey": false,
+		"hasFreeCancellation": false,
+		"isDiscountRestrictedToCurrentSourceType": false,
+		"isDudley": false,
+		"isMemberDeal": false,
+		"isMobileExclusive": false,
+		"isPaymentChoiceAvailable": true,
+		"isSameDayDRR": false,
+		"isShowEtpChoice": true,
+		"isSponsoredListing": true,
+		"vip": false,
+		"lowRateInfo": {
+			"maxNightlyRate": "110.29",
+			"averageRate": "110.29",
+			"taxStatusType": "ESTIMATED",
+			"surchargeTotal": "11.03",
+			"surchargeTotalForEntireStay": "11.03",
+			"averageBaseRate": "147.06",
+			"nightlyRateTotal": "110.29",
+			"discountPercent": -25,
+			"total": "121.32",
+			"currencyCode": "USD",
+			"currencySymbol": "$",
+			"surcharges": [{
+				"amount": "9.04",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "9.04",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "1.99",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "1.99",
+				"type": "FEE_MISC"
+			}],
+			"surchargesForEntireStay": [{
+				"amount": "9.04",
+				"type": "TAX_ALL"
+			}, {
+				"amount": "9.04",
+				"type": "TAX_OTHER"
+			}, {
+				"amount": "1.99",
+				"type": "FEE_ALL"
+			}, {
+				"amount": "1.99",
+				"type": "FEE_MISC"
+			}],
+			"nightlyRatesPerRoom": [{
+				"promo": "true",
+				"baseRate": "147.06",
+				"rate": "110.29"
+			}],
+			"priceToShowUsers": "110",
+			"strikethroughPriceToShowUsers": "147",
+			"strikethroughPriceWithTaxesAndFeesToShowUsers": "158",
+			"totalMandatoryFees": "0.00",
+			"totalPriceWithMandatoryFees": "121.32",
+			"formattedTotalPriceWithMandatoryFees": "$ 121.32",
+			"userPriceType": "PerNightRateNoTaxes",
+			"priceAdjustments": [],
+			"checkoutPriceType": "total",
+			"airAttached": false,
+			"roomTypeCode": "200070595",
+			"ratePlanCode": "200424222",
+			"showResortFeeMessage": false,
+			"resortFeeInclusion": false,
+			"loyaltyInfo": {
+				"earn": {
+					"points": {
+						"base": 243,
+						"bonus": 486,
+						"total": 729
+					}
+				},
+				"isBurnApplied": false
+			}
+		},
+		"hotelAddress": {
+			"city": "Daly City",
+			"countryAlpha3Code": "USA",
+			"firstAddressLine": "3255 Geneva Ave",
+			"postalCode": "94014"
+		},
+		"jsonHotelBrand": {
+			"brandId": "2885",
+			"brandName": "Magnuson Managed"
+		},
+		"amenities": [{
+			"id": "2",
+			"description": "Continental Breakfast"
+		}],
+		"airportCode": "SFO",
+		"clickTrackingRedirectUrl": "https://dev2.travelhook.com/TravelAdsService/v3/Hotels/TravelAdClickRedirect?trackingData=Cmp-8/ytT8PTNw/eADM8BeoluBDwp32t+AeJ9bCyeuHwLY79Q4GzBY5zFnGQstnBhSGdBfRFpEzUQT/ebswn6Y46tqQkH3/cGK5UajG6eZ3tRBxqGPIJdlXfWMl5MaC/s4dCbTP9xCgwZGwevrxi9iUcdu5IvgnP2h+ompG+t3SLxUm5pJsQS9JqPS7XAHsYOf/l/2I0u3vLY8s3hLRvH7/2jpr0oxEfXi7OHsdg8oh1UkvTSINc5hXnyTZ3O4LRX8rDADEvm1IwAH67Zp1PboJc8UsLhNvmLb92fpuWMWaOyXU8q0J0mMP4SbBaDj/ZI/XOI4SF9odSsvuydLpLaXvBP5WSLNU/C+WeTrRHSjMA/okL7sZVcazgn6sAQ80xn/hIoCgCubJRKlpErFqqrqkCXosr8hu1pcBBZ0vFFhLD4b+26p2I0jU8AQRGaCLI0FXkDV6MmCVWar1kT0MRcKMI6OmeBnitOK+QpiZdQO2McPH1v1amAJ6/8SE5p0+Sx0cyZHD1u7q49XR2h9MdPLwaAoEHIX3ieZmOL3L4y2kd32djOzO5Lg4Av+MSpU5VQbN8p1rGwNwA9j7hOFgoehy4Y6mRu7dXkk5z7UpWoD4aKLH4K3qYSu8wlaMXKrHCvZAEZtEz1tcrvTMUXbMBVu0dAtW5dBZ5wHmr6HwOslTfvoWQq+8Oswg9dwNsrLoETmO71TrcGUIf8Mu1InZlpXtfft/RhA/NP/YB/flqpPmVcUePdu+BgP/mcQkZTZMUQ1+k9e5tANC2g2DpqftBgnvwbEDPW1o5PXRVUvm5q/G9jh9g7xVbpZ8tfB5vVShHyIM6tvoDHb0wx+e17K7w40Fs6R4WYl0IRWhHn8kXq14DLgX16OlioH/8nZErY97bVTlQZXbSq7xa65vZd1jUK67jGYQ1DDoUe9LVgxKt0rwz8O7qWFpFEucLTg95UCfCOC8HenvbA+XR3rkiSAdeAmOBZ2MaurFvNBnBcZbOQ+YRFJfe3SMMCtJduEb5ET6TnymDl4TBfSSnOWkg6d6EpDnksEWLIQ2vcoa6wSoGfo6oKYbgLG3QMNQBNA==&rank=1&testVersionOverride=9662.1%2C10153.3&destinationUrl=[destinationUrl]&candidateHmGuid=56e3a0bb-1c53-45c1-ad74-f8da5a7a1bd5&beaconIssued=2016-11-10T10:35:55",
+		"clickTrackingUrl": "https://dev2.travelhook.com/TravelAdsService/v3/Hotels/TravelAdClick?trackingData=Cmp-8/ytT8PTNw/eADM8BeoluBDwp32t+AeJ9bCyeuHwLY79Q4GzBY5zFnGQstnBhSGdBfRFpEzUQT/ebswn6Y46tqQkH3/cGK5UajG6eZ3tRBxqGPIJdlXfWMl5MaC/s4dCbTP9xCgwZGwevrxi9iUcdu5IvgnP2h+ompG+t3SLxUm5pJsQS9JqPS7XAHsYOf/l/2I0u3vLY8s3hLRvH7/2jpr0oxEfXi7OHsdg8oh1UkvTSINc5hXnyTZ3O4LRX8rDADEvm1IwAH67Zp1PboJc8UsLhNvmLb92fpuWMWaOyXU8q0J0mMP4SbBaDj/ZI/XOI4SF9odSsvuydLpLaXvBP5WSLNU/C+WeTrRHSjMA/okL7sZVcazgn6sAQ80xn/hIoCgCubJRKlpErFqqrqkCXosr8hu1pcBBZ0vFFhLD4b+26p2I0jU8AQRGaCLI0FXkDV6MmCVWar1kT0MRcKMI6OmeBnitOK+QpiZdQO2McPH1v1amAJ6/8SE5p0+Sx0cyZHD1u7q49XR2h9MdPLwaAoEHIX3ieZmOL3L4y2kd32djOzO5Lg4Av+MSpU5VQbN8p1rGwNwA9j7hOFgoehy4Y6mRu7dXkk5z7UpWoD4aKLH4K3qYSu8wlaMXKrHCvZAEZtEz1tcrvTMUXbMBVu0dAtW5dBZ5wHmr6HwOslTfvoWQq+8Oswg9dwNsrLoETmO71TrcGUIf8Mu1InZlpXtfft/RhA/NP/YB/flqpPmVcUePdu+BgP/mcQkZTZMUQ1+k9e5tANC2g2DpqftBgnvwbEDPW1o5PXRVUvm5q/G9jh9g7xVbpZ8tfB5vVShHyIM6tvoDHb0wx+e17K7w40Fs6R4WYl0IRWhHn8kXq14DLgX16OlioH/8nZErY97bVTlQZXbSq7xa65vZd1jUK67jGYQ1DDoUe9LVgxKt0rwz8O7qWFpFEucLTg95UCfCOC8HenvbA+XR3rkiSAdeAmOBZ2MaurFvNBnBcZbOQ+YRFJfe3SMMCtJduEb5ET6TnymDl4TBfSSnOWkg6d6EpDnksEWLIQ2vcoa6wSoGfo6oKYbgLG3QMNQBNA==&rank=1&testVersionOverride=9662.1%2C10153.3&candidateHmGuid=56e3a0bb-1c53-45c1-ad74-f8da5a7a1bd5&beaconIssued=2016-11-10T10:35:55",
+		"discountMessage": "Private sale: save 25%",
+		"distanceUnit": "Miles",
+		"fallbackImage": "/hotels/1000000/30000/26800/26747/26747_59_t.jpg",
+		"hotelDescription": "Located in the heart of Daly City, this hotel is 0.5 mi (0.7 km) from Cow Palace and 3 mi (4.8 km) from City College of San Francisco. San Francisco State University and AT&T Park are also within 6 mi (10 km).  San Francisco International Airport (SFO)",
+		"hotelGuestRating": "2.6",
+		"hotelId": "26747",
+		"hotelName": "BridgePoint Inn Daly City",
+		"hotelStarRating": "2.0",
+		"hotelStarRatingCssClassName": "2-0",
+		"impressionTrackingUrl": "https://dev2.travelhook.com/TravelAdsService/v3/Hotels/TravelAdImpression?trackingData=Cmp-8/ytT8PTNw/eADM8BeoluBDwp32t+AeJ9bCyeuHwLY79Q4GzBY5zFnGQstnBhSGdBfRFpEzUQT/ebswn6Y46tqQkH3/cGK5UajG6eZ3tRBxqGPIJdlXfWMl5MaC/s4dCbTP9xCgwZGwevrxi9iUcdu5IvgnP2h+ompG+t3SLxUm5pJsQS9JqPS7XAHsYOf/l/2I0u3vLY8s3hLRvH7/2jpr0oxEfXi7OHsdg8oh1UkvTSINc5hXnyTZ3O4LRX8rDADEvm1IwAH67Zp1PboJc8UsLhNvmLb92fpuWMWaOyXU8q0J0mMP4SbBaDj/ZI/XOI4SF9odSsvuydLpLaXvBP5WSLNU/C+WeTrRHSjMA/okL7sZVcazgn6sAQ80xn/hIoCgCubJRKlpErFqqrqkCXosr8hu1pcBBZ0vFFhLD4b+26p2I0jU8AQRGaCLI0FXkDV6MmCVWar1kT0MRcKMI6OmeBnitOK+QpiZdQO2McPH1v1amAJ6/8SE5p0+Sx0cyZHD1u7q49XR2h9MdPLwaAoEHIX3ieZmOL3L4y2kd32djOzO5Lg4Av+MSpU5VQbN8p1rGwNwA9j7hOFgoehy4Y6mRu7dXkk5z7UpWoD4aKLH4K3qYSu8wlaMXKrHCvZAEZtEz1tcrvTMUXbMBVu0dAtW5dBZ5wHmr6HwOslTfvoWQq+8Oswg9dwNsrLoETmO71TrcGUIf8Mu1InZlpXtfft/RhA/NP/YB/flqpPmVcUePdu+BgP/mcQkZTZMUQ1+k9e5tANC2g2DpqftBgnvwbEDPW1o5PXRVUvm5q/G9jh9g7xVbpZ8tfB5vVShHyIM6tvoDHb0wx+e17K7w40Fs6R4WYl0IRWhHn8kXq14DLgX16OlioH/8nZErY97bVTlQZXbSq7xa65vZd1jUK67jGYQ1DDoUe9LVgxKt0rwz8O7qWFpFEucLTg95UCfCOC8HenvbA+XR3rkiSAdeAmOBZ2MaurFvNBnBcZbOQ+YRFJfe3SMMCtJduEb5ET6TnymDl4TBfSSnOWkg6d6EpDnksEWLIQ2vcoa6wSoGfo6oKYbgLG3QMNQBNA==&rank=1&testVersionOverride=9662.1%2C10153.3&candidateHmGuid=56e3a0bb-1c53-45c1-ad74-f8da5a7a1bd5&beaconIssued=2016-11-10T10:35:55",
+		"largeThumbnailUrl": "/hotels/1000000/30000/26800/26747/26747_59_d.jpg",
+		"latitude": "37.70494",
+		"localizedHotelName": "BridgePoint Inn Daly City",
+		"locationId": "800127",
+		"longitude": "-122.40792",
+		"lowRate": "110.29",
+		"nonLocalizedName": "BridgePoint Inn Daly City",
+		"notAvailableMessage": "",
+		"omnitureAdClickedUrl": "4008?AQB=1&v28=TravelAdClick|26747|0|Test&c16=TravelAdClick|26747|0|Test&pe=lnk_o&pev1=D=url&pev2=Sponsored%20Listing%20Click&AQE=1",
+		"omnitureAdDisplayedUrl": "4008?AQB=1&v28=TravelAdImp|26747|0|Test&c16=TravelAdImp|26747|0|Test&events=event44&pe=lnk_o&pev2=APE:Sponsored%20listing%20impression&AQE=1",
+		"percentRecommended": "76",
+		"proximityDistanceInKiloMeters": "15.07892751371298",
+		"proximityDistanceInMiles": "9.371614365265991",
+		"rateCurrencyCode": "USD",
+		"rateCurrencySymbol": "$",
+		"recommendationTotal": "288",
+		"reviewTotal": "377",
+		"roomsLeftAtThisRate": "16",
+		"shortDiscountMessage": "Save 25%",
+		"sortIndex": "0",
+		"stateProvinceCode": "CA",
+		"supplierType": "MERCHANT",
+		"thumbnailUrl": "/hotels/1000000/30000/26800/26747/26747_59_n.jpg"
+	},
+        {
+        "available": true,
+        "didGetBackHighestPriceFromSurvey": false,
+        "hasFreeCancellation": false,
+        "isDiscountRestrictedToCurrentSourceType": false,
+        "isDudley": false,
+        "isMemberDeal": false,
+        "isMobileExclusive": false,
+        "isPaymentChoiceAvailable": true,
+        "isSameDayDRR": false,
+        "isShowEtpChoice": true,
+        "isSponsoredListing": true,
+        "vip": false,
+        "lowRateInfo": {
+        "maxNightlyRate": "119.00",
+        "averageRate": "119.00",
+        "taxStatusType": "ESTIMATED",
+        "surchargeTotal": "14.28",
+        "surchargeTotalForEntireStay": "14.28",
+        "averageBaseRate": "119.00",
+        "nightlyRateTotal": "119.00",
+        "discountPercent": 0,
+        "total": "133.28",
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+        "surcharges": [
+                       {
+                       "amount": "12.28",
+                       "type": "TAX_ALL"
+                       },
+                       {
+                       "amount": "12.28",
+                       "type": "TAX_OTHER"
+                       },
+                       {
+                       "amount": "2.00",
+                       "type": "FEE_ALL"
+                       },
+                       {
+                       "amount": "2.00",
+                       "type": "FEE_MISC"
+                       }
+                       ],
+        "surchargesForEntireStay": [],
+        "nightlyRatesPerRoom": [],
+        "priceToShowUsers": "119",
+        "totalMandatoryFees": "0.00",
+        "totalPriceWithMandatoryFees": "133.28",
+        "formattedTotalPriceWithMandatoryFees": "$ 133.28",
+        "userPriceType": "PerNightRateNoTaxes",
+        "priceAdjustments": [],
+        "checkoutPriceType": "total",
+        "airAttached": false,
+        "roomTypeCode": "37039",
+        "ratePlanCode": "204913816",
+        "showResortFeeMessage": false,
+        "resortFeeInclusion": false,
+        "loyaltyInfo": {
+        "earn": {
+        "points": {
+        "base": 267,
+        "bonus": 534,
+        "total": 801
+        }
+        },
+        "isBurnApplied": false
+        }
+        },
+        "hotelAddress": {
+        "city": "San Bruno",
+        "countryAlpha3Code": "USA",
+        "firstAddressLine": "1050 Bayhill Dr",
+        "postalCode": "94066"
+        },
+        "jsonHotelBrand": {
+        "brandId": "28",
+        "brandName": "Courtyard"
+        },
+        "amenities": [
+                      {
+                      "id": "1024",
+                      "description": "Free High-Speed Internet"
+                      }
+                      ],
+        "airportCode": "SFO",
+        "clickTrackingRedirectUrl": "https://travelads.hlserve.com/TravelAdsService/v3/Hotels/TravelAdClickRedirect?trackingData=Cmp-qkAgxmJOYm22zfa1+LqCnWh9iJVHi1azoLE3rymZg7/5q5SikhfM5bhhlIx1eqaYp0jem18CjIBqSwOZbx7/6gyGbP6QT4Xzae14/WrPm3v9pwWm8MClXogx0w8VQDHlN6iTsRsFfdwriDa/XfNvWyBpuJr+XYt/6egXGIougc0S1ZEuodYmLuFT+z//Y57g9AHVtNXeZss6216ozDswLDzqMngwienmqwjFXLhscZ2EPqUXsLYx4JKTxSc/X/0AqoXbgXM9hYZ7EUZVOYFYYGh8eZmumLAydvkoy4TLV5v9+EY8vg4S7uf0mHyhhXyaPDcV31sg2o/QkGcuQ/spqjvRY8zz1kUZH79siflklx43JeVprSbe6qQNpdk674Hzaxgegyw2UKUHbak3nzCUvay/0BDuTyDtDuftqcKwrgBtvPkCbmis3mnfH9ROaqIEUJDtgqlDMP9mBV9a5kGi84FGd2O6N5e2e+KUsBLtyTwevuDm664JuLgW5He846zlVEmMUeCitrsia94xtNcp710zNqRJS6XCLmGUzRgRrBm9yxaHrX6ytZ8PzGuYwqbMIqfzhZGKk37AxXe1WEvAb2i9ePOPy8HJyWACPOJ8El/nML3r7gxJmgmJ980JmVrDJ+gKIB0+aTSbVtfx3Dai4+42k3MeZTTQr+2GGGHsW4TnquwEyV1CLXAG6uAoncttT0RHjB3e1NUSeVnr6TV1Wr0Gyr3DZREtWxlkGq2oBCogTSscKLedClOCmJRN+6NCIfXv8k1E1SNctUJBCFmQXlH80kGUM2ab2uxET1e+AH70BurtPei9a6qDxTQZT96LV+6nMmzDwDwbbYlVVxfIuTTqox22ZRPh+Uqp54HY5V8PRCV1mqQckT4/tAwYL5ZmklCklp6VgoM3lJFaTrxnAOkT1C13KnrliRV4GZ0gTRNuDB0u2iG1IYWoAo8++KGSpaS6K/OSa92vcByDpos7JLQPRmH3jds80pvDVMYgiUWDbSjpjRHwscEiPt2u7rBVFAGHpyu941tSj8l8sUysgv2OQazkIyxnigmZnX9kzN+RoD9WAWV4aYEZqmgW/U2n&rank=1&testVersionOverride=9662.0%2C10153.1&destinationUrl=[destinationUrl]&candidateHmGuid=16c61b5a-277d-4619-8b07-4d7a2848d0dd&beaconIssued=2016-11-21T06:52:01",
+        "clickTrackingUrl": "https://travelads.hlserve.com/TravelAdsService/v3/Hotels/TravelAdClick?trackingData=Cmp-qkAgxmJOYm22zfa1+LqCnWh9iJVHi1azoLE3rymZg7/5q5SikhfM5bhhlIx1eqaYp0jem18CjIBqSwOZbx7/6gyGbP6QT4Xzae14/WrPm3v9pwWm8MClXogx0w8VQDHlN6iTsRsFfdwriDa/XfNvWyBpuJr+XYt/6egXGIougc0S1ZEuodYmLuFT+z//Y57g9AHVtNXeZss6216ozDswLDzqMngwienmqwjFXLhscZ2EPqUXsLYx4JKTxSc/X/0AqoXbgXM9hYZ7EUZVOYFYYGh8eZmumLAydvkoy4TLV5v9+EY8vg4S7uf0mHyhhXyaPDcV31sg2o/QkGcuQ/spqjvRY8zz1kUZH79siflklx43JeVprSbe6qQNpdk674Hzaxgegyw2UKUHbak3nzCUvay/0BDuTyDtDuftqcKwrgBtvPkCbmis3mnfH9ROaqIEUJDtgqlDMP9mBV9a5kGi84FGd2O6N5e2e+KUsBLtyTwevuDm664JuLgW5He846zlVEmMUeCitrsia94xtNcp710zNqRJS6XCLmGUzRgRrBm9yxaHrX6ytZ8PzGuYwqbMIqfzhZGKk37AxXe1WEvAb2i9ePOPy8HJyWACPOJ8El/nML3r7gxJmgmJ980JmVrDJ+gKIB0+aTSbVtfx3Dai4+42k3MeZTTQr+2GGGHsW4TnquwEyV1CLXAG6uAoncttT0RHjB3e1NUSeVnr6TV1Wr0Gyr3DZREtWxlkGq2oBCogTSscKLedClOCmJRN+6NCIfXv8k1E1SNctUJBCFmQXlH80kGUM2ab2uxET1e+AH70BurtPei9a6qDxTQZT96LV+6nMmzDwDwbbYlVVxfIuTTqox22ZRPh+Uqp54HY5V8PRCV1mqQckT4/tAwYL5ZmklCklp6VgoM3lJFaTrxnAOkT1C13KnrliRV4GZ0gTRNuDB0u2iG1IYWoAo8++KGSpaS6K/OSa92vcByDpos7JLQPRmH3jds80pvDVMYgiUWDbSjpjRHwscEiPt2u7rBVFAGHpyu941tSj8l8sUysgv2OQazkIyxnigmZnX9kzN+RoD9WAWV4aYEZqmgW/U2n&rank=1&testVersionOverride=9662.0%2C10153.1&candidateHmGuid=16c61b5a-277d-4619-8b07-4d7a2848d0dd&beaconIssued=2016-11-21T06:52:01",
+        "discountMessage": "",
+        "distanceUnit": "Miles",
+        "fallbackImage": "/hotels/1000000/30000/25300/25271/d6d9b12c_t.jpg",
+        "hotelDescription": "Situated near the airport, this hotel is within 12 mi (20 km) of Cow Palace, San Francisco State University, and San Francisco Zoo. See's Candies is 1 mi (1.7 km) away.  San Francisco International Airport (SFO)",
+        "hotelGuestRating": "4.1",
+        "hotelId": "25271",
+        "hotelName": "Courtyard by Marriott San Francisco Airport",
+        "hotelStarRating": "3.0",
+        "hotelStarRatingCssClassName": "3-0",
+        "impressionTrackingUrl": "https://travelads.hlserve.com/TravelAdsService/v3/Hotels/TravelAdImpression?trackingData=Cmp-qkAgxmJOYm22zfa1+LqCnWh9iJVHi1azoLE3rymZg7/5q5SikhfM5bhhlIx1eqaYp0jem18CjIBqSwOZbx7/6gyGbP6QT4Xzae14/WrPm3v9pwWm8MClXogx0w8VQDHlN6iTsRsFfdwriDa/XfNvWyBpuJr+XYt/6egXGIougc0S1ZEuodYmLuFT+z//Y57g9AHVtNXeZss6216ozDswLDzqMngwienmqwjFXLhscZ2EPqUXsLYx4JKTxSc/X/0AqoXbgXM9hYZ7EUZVOYFYYGh8eZmumLAydvkoy4TLV5v9+EY8vg4S7uf0mHyhhXyaPDcV31sg2o/QkGcuQ/spqjvRY8zz1kUZH79siflklx43JeVprSbe6qQNpdk674Hzaxgegyw2UKUHbak3nzCUvay/0BDuTyDtDuftqcKwrgBtvPkCbmis3mnfH9ROaqIEUJDtgqlDMP9mBV9a5kGi84FGd2O6N5e2e+KUsBLtyTwevuDm664JuLgW5He846zlVEmMUeCitrsia94xtNcp710zNqRJS6XCLmGUzRgRrBm9yxaHrX6ytZ8PzGuYwqbMIqfzhZGKk37AxXe1WEvAb2i9ePOPy8HJyWACPOJ8El/nML3r7gxJmgmJ980JmVrDJ+gKIB0+aTSbVtfx3Dai4+42k3MeZTTQr+2GGGHsW4TnquwEyV1CLXAG6uAoncttT0RHjB3e1NUSeVnr6TV1Wr0Gyr3DZREtWxlkGq2oBCogTSscKLedClOCmJRN+6NCIfXv8k1E1SNctUJBCFmQXlH80kGUM2ab2uxET1e+AH70BurtPei9a6qDxTQZT96LV+6nMmzDwDwbbYlVVxfIuTTqox22ZRPh+Uqp54HY5V8PRCV1mqQckT4/tAwYL5ZmklCklp6VgoM3lJFaTrxnAOkT1C13KnrliRV4GZ0gTRNuDB0u2iG1IYWoAo8++KGSpaS6K/OSa92vcByDpos7JLQPRmH3jds80pvDVMYgiUWDbSjpjRHwscEiPt2u7rBVFAGHpyu941tSj8l8sUysgv2OQazkIyxnigmZnX9kzN+RoD9WAWV4aYEZqmgW/U2n&rank=1&testVersionOverride=9662.0%2C10153.1&candidateHmGuid=16c61b5a-277d-4619-8b07-4d7a2848d0dd&beaconIssued=2016-11-21T06:52:01",
+        "largeThumbnailUrl": "/hotels/1000000/30000/25300/25271/d6d9b12c_d.jpg",
+        "latitude": "37.63011",
+        "localizedHotelName": "Courtyard by Marriott San Francisco Airport",
+        "locationId": "800127",
+        "longitude": "-122.41925",
+        "lowRate": "119.00",
+        "nonLocalizedName": "Courtyard by Marriott San Francisco Airport",
+        "notAvailableMessage": "",
+        "omnitureAdClickedUrl": "9174?AQB=1&v28=TravelAdClick|25271|0|Test&c16=TravelAdClick|25271|0|Test&pe=lnk_o&pev1=D=url&pev2=Sponsored%20Listing%20Click&AQE=1",
+        "omnitureAdDisplayedUrl": "9174?AQB=1&v28=TravelAdImp|25271|0|Test&c16=TravelAdImp|25271|0|Test&events=event44&pe=lnk_o&pev2=APE:Sponsored%20listing%20impression&AQE=1",
+        "percentRecommended": "87",
+        "proximityDistanceInKiloMeters": "9.629098674336698",
+        "proximityDistanceInMiles": "5.984523725504474",
+        "rateCurrencyCode": "USD",
+        "rateCurrencySymbol": "$",
+        "recommendationTotal": "431",
+        "reviewTotal": "497",
+        "roomsLeftAtThisRate": "5",
+        "shortDiscountMessage": "",
+        "sortIndex": "0",
+        "stateProvinceCode": "CA",
+        "supplierType": "MERCHANT",
+        "thumbnailUrl": "/hotels/1000000/30000/25300/25271/d6d9b12c_n.jpg"
+        }],
+	"travelAdPositions": [
+		1,
+		25,
+		51,
+		52
+	],
+	"travelAdsSlotsConfiguration": {
+
+	},
+	"activityId": "63b8716b-82b3-465d-9802-272412c01989"
+}

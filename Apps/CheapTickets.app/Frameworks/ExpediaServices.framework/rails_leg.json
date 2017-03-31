@@ -1,0 +1,429 @@
+{
+    "legOptionList":[
+                     {
+                     "departureDateTime":{
+                     "raw":"2016-05-31T15:57:00",
+                     "localized":"May 31, 2016 03:57:00 PM",
+                     "epochSeconds":1464710220,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "aggregatedOperatingCarrier":"CrossCountry",
+                     "bestPrice":{
+                     "amount":"43.50",
+                     "formattedPrice":"£43.50",
+                     "currencyCode":"GBP",
+                     "formattedWholePrice":"£44"
+                     },
+                     "arrivalStation":{
+                     "stationDisplayName":"Manchester Piccadilly",
+                     "stationCode":"GBQQM"
+                     },
+                     "overtakenJourney":false,
+                     "aggregatedMarketingCarrier":"CrossCountry",
+                     "arrivalDateTime":{
+                     "raw":"2016-05-31T17:35:00",
+                     "localized":"May 31, 2016 05:35:00 PM",
+                     "epochSeconds":1464716100,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "departureStation":{
+                     "stationDisplayName":"Birmingham New Street",
+                     "stationCode":"GBQQN"
+                     },
+                     "duration":"PT1H38M",
+                     "showTrainIcon":false,
+                     "legOptionIndex":1,
+                     "toc":"ATOC",
+                     "travelSegmentList":[
+                                          {
+                                          "travelMedium":{
+                                          "supplierTravelMediumId":"XC3200",
+                                          "travelMediumName":"Inter-City",
+                                          "travelMediumCode":"ICY",
+                                          "supplierTravelMediumName":"CrossCountry-ICY"
+                                          },
+                                          "duration":"PT1H38M",
+                                          "departureStation":{
+                                          "stationDisplayName":"Birmingham New Street",
+                                          "stationCode":"GBQQN"
+                                          },
+                                          "operatingCarrier":"CrossCountry",
+                                          "arrivalStation":{
+                                          "stationDisplayName":"Manchester Piccadilly",
+                                          "stationCode":"GBQQM"
+                                          },
+                                          "arrivalDateTime":{
+                                          "raw":"2016-05-31T17:35:00",
+                                          "localized":"May 31, 2016 05:35:00 PM",
+                                          "epochSeconds":1464716100,
+                                          "localizedShortDate":"Tue 31, May"
+                                          },
+                                          "travelSegmentIndex":1,
+                                          "travelMode":"Train",
+                                          "marketingCarrier":"CrossCountry",
+                                          "departureDateTime":{
+                                          "raw":"2016-05-31T15:57:00",
+                                          "localized":"May 31, 2016 03:57:00 PM",
+                                          "epochSeconds":1464710220,
+                                          "localizedShortDate":"Tue 31, May"
+                                          }
+                                          }
+                                          ]
+                     },
+                     {
+                     "departureDateTime":{
+                     "raw":"2016-05-31T16:01:00",
+                     "localized":"May 31, 2016 04:01:00 PM",
+                     "epochSeconds":1464710460,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "aggregatedOperatingCarrier":"Multiple trains lines",
+                     "bestPrice":{
+                     "amount":"43.50",
+                     "formattedPrice":"£43.50",
+                     "currencyCode":"GBP",
+                     "formattedWholePrice":"£44"
+                     },
+                     "arrivalStation":{
+                     "stationDisplayName":"Manchester Piccadilly",
+                     "stationCode":"GBQQM"
+                     },
+                     "overtakenJourney":false,
+                     "aggregatedMarketingCarrier":"Multiple trains lines",
+                     "arrivalDateTime":{
+                     "raw":"2016-05-31T17:49:00",
+                     "localized":"May 31, 2016 05:49:00 PM",
+                     "epochSeconds":1464716940,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "departureStation":{
+                     "stationDisplayName":"Birmingham New Street",
+                     "stationCode":"GBQQN"
+                     },
+                     "duration":"PT1H48M",
+                     "showTrainIcon":false,
+                     "legOptionIndex":2,
+                     "toc":"ATOC",
+                     "travelSegmentList":[
+                                          {
+                                          "travelMedium":{
+                                          "supplierTravelMediumId":"LM0219",
+                                          "travelMediumName":"Inter-City",
+                                          "travelMediumCode":"ICY",
+                                          "supplierTravelMediumName":"LondonMidland-ICY"
+                                          },
+                                          "duration":"PT55M",
+                                          "departureStation":{
+                                          "stationDisplayName":"Birmingham New Street",
+                                          "stationCode":"GBQQN"
+                                          },
+                                          "operatingCarrier":"LondonMidland",
+                                          "arrivalStation":{
+                                          "stationDisplayName":"Crewe",
+                                          "stationCode":"GBCRE"
+                                          },
+                                          "arrivalDateTime":{
+                                          "raw":"2016-05-31T16:56:00",
+                                          "localized":"May 31, 2016 04:56:00 PM",
+                                          "epochSeconds":1464713760,
+                                          "localizedShortDate":"Tue 31, May"
+                                          },
+                                          "travelSegmentIndex":1,
+                                          "travelMode":"Train",
+                                          "marketingCarrier":"LondonMidland",
+                                          "departureDateTime":{
+                                          "raw":"2016-05-31T16:01:00",
+                                          "localized":"May 31, 2016 04:01:00 PM",
+                                          "epochSeconds":1464710460,
+                                          "localizedShortDate":"Tue 31, May"
+                                          }
+                                          },
+                                          {
+                                          "travelMedium":{
+                                          "supplierTravelMediumId":"VT7150",
+                                          "travelMediumName":"Inter-City",
+                                          "travelMediumCode":"ICY",
+                                          "supplierTravelMediumName":"Virgin-ICY"
+                                          },
+                                          "duration":"PT38M",
+                                          "departureStation":{
+                                          "stationDisplayName":"Crewe",
+                                          "stationCode":"GBCRE"
+                                          },
+                                          "operatingCarrier":"Virgin",
+                                          "arrivalStation":{
+                                          "stationDisplayName":"Manchester Piccadilly",
+                                          "stationCode":"GBQQM"
+                                          },
+                                          "arrivalDateTime":{
+                                          "raw":"2016-05-31T17:49:00",
+                                          "localized":"May 31, 2016 05:49:00 PM",
+                                          "epochSeconds":1464716940,
+                                          "localizedShortDate":"Tue 31, May"
+                                          },
+                                          "travelSegmentIndex":2,
+                                          "travelMode":"Train",
+                                          "marketingCarrier":"Virgin",
+                                          "departureDateTime":{
+                                          "raw":"2016-05-31T17:11:00",
+                                          "localized":"May 31, 2016 05:11:00 PM",
+                                          "epochSeconds":1464714660,
+                                          "localizedShortDate":"Tue 31, May"
+                                          }
+                                          }
+                                          ]
+                     },
+                     {
+                     "departureDateTime":{
+                     "raw":"2016-05-31T16:31:00",
+                     "localized":"May 31, 2016 04:31:00 PM",
+                     "epochSeconds":1464712260,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "aggregatedOperatingCarrier":"CrossCountry",
+                     "bestPrice":{
+                     "amount":"43.50",
+                     "formattedPrice":"£43.50",
+                     "currencyCode":"GBP",
+                     "formattedWholePrice":"£44"
+                     },
+                     "arrivalStation":{
+                     "stationDisplayName":"Manchester Piccadilly",
+                     "stationCode":"GBQQM"
+                     },
+                     "overtakenJourney":false,
+                     "aggregatedMarketingCarrier":"CrossCountry",
+                     "arrivalDateTime":{
+                     "raw":"2016-05-31T17:59:00",
+                     "localized":"May 31, 2016 05:59:00 PM",
+                     "epochSeconds":1464717540,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "departureStation":{
+                     "stationDisplayName":"Birmingham New Street",
+                     "stationCode":"GBQQN"
+                     },
+                     "duration":"PT1H28M",
+                     "showTrainIcon":false,
+                     "legOptionIndex":3,
+                     "toc":"ATOC",
+                     "travelSegmentList":[
+                                          {
+                                          "travelMedium":{
+                                          "supplierTravelMediumId":"XC4160",
+                                          "travelMediumName":"Inter-City",
+                                          "travelMediumCode":"ICY",
+                                          "supplierTravelMediumName":"CrossCountry-ICY"
+                                          },
+                                          "duration":"PT1H28M",
+                                          "departureStation":{
+                                          "stationDisplayName":"Birmingham New Street",
+                                          "stationCode":"GBQQN"
+                                          },
+                                          "operatingCarrier":"CrossCountry",
+                                          "arrivalStation":{
+                                          "stationDisplayName":"Manchester Piccadilly",
+                                          "stationCode":"GBQQM"
+                                          },
+                                          "arrivalDateTime":{
+                                          "raw":"2016-05-31T17:59:00",
+                                          "localized":"May 31, 2016 05:59:00 PM",
+                                          "epochSeconds":1464717540,
+                                          "localizedShortDate":"Tue 31, May"
+                                          },
+                                          "travelSegmentIndex":1,
+                                          "travelMode":"Train",
+                                          "marketingCarrier":"CrossCountry",
+                                          "departureDateTime":{
+                                          "raw":"2016-05-31T16:31:00",
+                                          "localized":"May 31, 2016 04:31:00 PM",
+                                          "epochSeconds":1464712260,
+                                          "localizedShortDate":"Tue 31, May"
+                                          }
+                                          }
+                                          ]
+                     },
+                     {
+                     "departureDateTime":{
+                     "raw":"2016-05-31T16:57:00",
+                     "localized":"May 31, 2016 04:57:00 PM",
+                     "epochSeconds":1464713820,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "aggregatedOperatingCarrier":"CrossCountry",
+                     "bestPrice":{
+                     "amount":"43.50",
+                     "formattedPrice":"£43.50",
+                     "currencyCode":"GBP",
+                     "formattedWholePrice":"£44"
+                     },
+                     "arrivalStation":{
+                     "stationDisplayName":"Manchester Piccadilly",
+                     "stationCode":"GBQQM"
+                     },
+                     "overtakenJourney":false,
+                     "aggregatedMarketingCarrier":"CrossCountry",
+                     "arrivalDateTime":{
+                     "raw":"2016-05-31T18:35:00",
+                     "localized":"May 31, 2016 06:35:00 PM",
+                     "epochSeconds":1464719700,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "departureStation":{
+                     "stationDisplayName":"Birmingham New Street",
+                     "stationCode":"GBQQN"
+                     },
+                     "duration":"PT1H38M",
+                     "showTrainIcon":false,
+                     "legOptionIndex":4,
+                     "toc":"ATOC",
+                     "travelSegmentList":[
+                                          {
+                                          "travelMedium":{
+                                          "supplierTravelMediumId":"XC3220",
+                                          "travelMediumName":"Inter-City",
+                                          "travelMediumCode":"ICY",
+                                          "supplierTravelMediumName":"CrossCountry-ICY"
+                                          },
+                                          "duration":"PT1H38M",
+                                          "departureStation":{
+                                          "stationDisplayName":"Birmingham New Street",
+                                          "stationCode":"GBQQN"
+                                          },
+                                          "operatingCarrier":"CrossCountry",
+                                          "arrivalStation":{
+                                          "stationDisplayName":"Manchester Piccadilly",
+                                          "stationCode":"GBQQM"
+                                          },
+                                          "arrivalDateTime":{
+                                          "raw":"2016-05-31T18:35:00",
+                                          "localized":"May 31, 2016 06:35:00 PM",
+                                          "epochSeconds":1464719700,
+                                          "localizedShortDate":"Tue 31, May"
+                                          },
+                                          "travelSegmentIndex":1,
+                                          "travelMode":"Train",
+                                          "marketingCarrier":"CrossCountry",
+                                          "departureDateTime":{
+                                          "raw":"2016-05-31T16:57:00",
+                                          "localized":"May 31, 2016 04:57:00 PM",
+                                          "epochSeconds":1464713820,
+                                          "localizedShortDate":"Tue 31, May"
+                                          }
+                                          }
+                                          ]
+                     },
+                     {
+                     "departureDateTime":{
+                     "raw":"2016-05-31T17:01:00",
+                     "localized":"May 31, 2016 05:01:00 PM",
+                     "epochSeconds":1464714060,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "aggregatedOperatingCarrier":"Multiple trains lines",
+                     "bestPrice":{
+                     "amount":"43.50",
+                     "formattedPrice":"£43.50",
+                     "currencyCode":"GBP",
+                     "formattedWholePrice":"£44"
+                     },
+                     "arrivalStation":{
+                     "stationDisplayName":"Manchester Piccadilly",
+                     "stationCode":"GBQQM"
+                     },
+                     "overtakenJourney":false,
+                     "aggregatedMarketingCarrier":"Multiple trains lines",
+                     "arrivalDateTime":{
+                     "raw":"2016-05-31T18:49:00",
+                     "localized":"May 31, 2016 06:49:00 PM",
+                     "epochSeconds":1464720540,
+                     "localizedShortDate":"Tue 31, May"
+                     },
+                     "departureStation":{
+                     "stationDisplayName":"Birmingham New Street",
+                     "stationCode":"GBQQN"
+                     },
+                     "duration":"PT1H48M",
+                     "showTrainIcon":false,
+                     "legOptionIndex":5,
+                     "toc":"ATOC",
+                     "travelSegmentList":[
+                                          {
+                                          "travelMedium":{
+                                          "supplierTravelMediumId":"LM0221",
+                                          "travelMediumName":"Inter-City",
+                                          "travelMediumCode":"ICY",
+                                          "supplierTravelMediumName":"LondonMidland-ICY"
+                                          },
+                                          "duration":"PT55M",
+                                          "departureStation":{
+                                          "stationDisplayName":"Birmingham New Street",
+                                          "stationCode":"GBQQN"
+                                          },
+                                          "operatingCarrier":"LondonMidland",
+                                          "arrivalStation":{
+                                          "stationDisplayName":"Crewe",
+                                          "stationCode":"GBCRE"
+                                          },
+                                          "arrivalDateTime":{
+                                          "raw":"2016-05-31T17:56:00",
+                                          "localized":"May 31, 2016 05:56:00 PM",
+                                          "epochSeconds":1464717360,
+                                          "localizedShortDate":"Tue 31, May"
+                                          },
+                                          "travelSegmentIndex":1,
+                                          "travelMode":"Train",
+                                          "marketingCarrier":"LondonMidland",
+                                          "departureDateTime":{
+                                          "raw":"2016-05-31T17:01:00",
+                                          "localized":"May 31, 2016 05:01:00 PM",
+                                          "epochSeconds":1464714060,
+                                          "localizedShortDate":"Tue 31, May"
+                                          }
+                                          },
+                                          {
+                                          "travelMedium":{
+                                          "supplierTravelMediumId":"VT7165",
+                                          "travelMediumName":"Inter-City",
+                                          "travelMediumCode":"ICY",
+                                          "supplierTravelMediumName":"Virgin-ICY"
+                                          },
+                                          "duration":"PT38M",
+                                          "departureStation":{
+                                          "stationDisplayName":"Crewe",
+                                          "stationCode":"GBCRE"
+                                          },
+                                          "operatingCarrier":"Virgin",
+                                          "arrivalStation":{
+                                          "stationDisplayName":"Manchester Piccadilly",
+                                          "stationCode":"GBQQM"
+                                          },
+                                          "arrivalDateTime":{
+                                          "raw":"2016-05-31T18:49:00",
+                                          "localized":"May 31, 2016 06:49:00 PM",
+                                          "epochSeconds":1464720540,
+                                          "localizedShortDate":"Tue 31, May"
+                                          },
+                                          "travelSegmentIndex":2,
+                                          "travelMode":"Train",
+                                          "marketingCarrier":"Virgin",
+                                          "departureDateTime":{
+                                          "raw":"2016-05-31T18:11:00",
+                                          "localized":"May 31, 2016 06:11:00 PM",
+                                          "epochSeconds":1464718260,
+                                          "localizedShortDate":"Tue 31, May"
+                                          }
+                                          }
+                                          ]
+                     }
+                     ],
+    "legIndex":0,
+    "arrivalStation":{
+        "stationDisplayName":"Manchester Piccadilly",
+        "stationCode":"GBQQM"
+    },
+    "departureStation":{
+        "stationDisplayName":"Birmingham New Street",
+        "stationCode":"GBQQN"
+    }
+}

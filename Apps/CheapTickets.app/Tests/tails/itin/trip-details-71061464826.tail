@@ -1,0 +1,361 @@
+GET
+.*?/api/trips/(71061464826|06c5051b-36df-4d76-b299-1d3ab5a778e3).*
+*
+200
+Content-Type: application/json
+
+{
+  "apiVersion": "1.0",
+  "responseType": "TRIP_DETAILS",
+  "responseData": {
+    "levelOfDetail": "FULL",
+    "tripId": "06c5051b-36df-4d76-b299-1d3ab5a778e3",
+    "webDetailsURL": "https://wwwexpediacom.trunk.sb.karmalab.net/trips/71061464826",
+    "tripNumber": 71061464826,
+    "orderNumber": 8055011284632,
+    "title": "Marriott Courtyard San Francisco Downtown, San Francisco",
+    "updateTripNameDescPathURL": "https://wwwexpediacom.trunk.sb.karmalab.net/api/trips/06c5051b-36df-4d76-b299-1d3ab5a778e3/updateTripNameDescription",
+    "startTime": {
+      "raw": "2017-01-01T15:00:00-08:00",
+      "localized": "Jan 1, 2017 3:00:00 PM",
+      "epochSeconds": 1483311600,
+      "timeZoneOffsetSeconds": -28800,
+      "localizedShortDate": "1/1/2017",
+      "localizedMediumDate": "Jan 1",
+      "localizedFullDate": "Sun, Jan 1",
+      "localizedLongDate": "Jan 1, 2017",
+      "localizedShortTime": "3:00PM"
+    },
+    "endTime": {
+      "raw": "2017-01-02T11:00:00-08:00",
+      "localized": "Jan 2, 2017 11:00:00 AM",
+      "epochSeconds": 1483383600,
+      "timeZoneOffsetSeconds": -28800,
+      "localizedShortDate": "1/2/2017",
+      "localizedMediumDate": "Jan 2",
+      "localizedFullDate": "Mon, Jan 2",
+      "localizedLongDate": "Jan 2, 2017",
+      "localizedShortTime": "11:00AM"
+    },
+    "tripCreatedTime": {
+      "raw": "2016-08-25T22:38:32Z",
+      "localized": "Aug 25, 2016 10:38:32 PM",
+      "epochSeconds": 1472164712,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Thu, 25 Aug",
+      "localizedMediumDate": "Aug 25, 2016",
+      "localizedFullDate": "Thursday, August 25, 2016",
+      "localizedLongDate": "August 25, 2016",
+      "localizedShortTime": "10:38 PM"
+    },
+    "tripUpdatedTime": {
+      "raw": "2016-08-25T22:52:11Z",
+      "localized": "Aug 25, 2016 10:52:11 PM",
+      "epochSeconds": 1472165531,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Thu, 25 Aug",
+      "localizedMediumDate": "Aug 25, 2016",
+      "localizedFullDate": "Thursday, August 25, 2016",
+      "localizedLongDate": "August 25, 2016",
+      "localizedShortTime": "10:52 PM"
+    },
+    "tripCacheUpdatedTime": {
+      "raw": "2016-08-25T23:00:12Z",
+      "localized": "Aug 25, 2016 11:00:12 PM",
+      "epochSeconds": 1472166012,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Thu, 25 Aug",
+      "localizedMediumDate": "Aug 25, 2016",
+      "localizedFullDate": "Thursday, August 25, 2016",
+      "localizedLongDate": "August 25, 2016",
+      "localizedShortTime": "11:00 PM"
+    },
+    "ownerId": 6219030,
+    "bookingStatus": "BOOKED",
+    "sharableDetailsURL": "https://wwwexpediacom.trunk.sb.karmalab.net/api/trips/shared/p0ULP2qgDN9h020ywvt4A8CAnnrNzpBJhdoSEcT9yIpsbm93mQjLAPEwH6q4erUZ2TZY0i1vWPD75twqH1EK1ZE7",
+    "customerSupport": {},
+    "isBookedUsingForeignCurrency": false,
+    "hotels": [
+      {
+        "uniqueID": "1A1B0DAF-198A-410F-B95F-7546648EB871_0",
+        "hotelId": "693658",
+        "checkInDateTime": {
+          "raw": "2017-01-01T15:00:00-08:00",
+          "localized": "Jan 1, 2017 3:00:00 PM",
+          "epochSeconds": 1483311600,
+          "timeZoneOffsetSeconds": -28800,
+          "localizedShortDate": "1/1/2017",
+          "localizedMediumDate": "Jan 1",
+          "localizedFullDate": "Sun, Jan 1",
+          "localizedLongDate": "Jan 1, 2017",
+          "localizedShortTime": "3:00PM"
+        },
+        "checkOutDateTime": {
+          "raw": "2017-01-02T11:00:00-08:00",
+          "localized": "Jan 2, 2017 11:00:00 AM",
+          "epochSeconds": 1483383600,
+          "timeZoneOffsetSeconds": -28800,
+          "localizedShortDate": "1/2/2017",
+          "localizedMediumDate": "Jan 2",
+          "localizedFullDate": "Mon, Jan 2",
+          "localizedLongDate": "Jan 2, 2017",
+          "localizedShortTime": "11:00AM"
+        },
+        "checkInDate": "2017-01-01T15:00:00-08:00",
+        "checkOutDate": "2017-01-02T11:00:00-08:00",
+        "checkInDateLocalized": "Jan 1, 2017",
+        "checkOutDateLocalized": "Jan 2, 2017",
+        "numberOfNights": 1,
+        "bookingStatus": "BOOKED",
+        "bookingStatusText": "Confirmed",
+        "bookingStatusMessage": "We have confirmed your hotel reservation with the property.",
+        "inventoryType": "DIRECT_AGENCY",
+        "inventorySource": "INTERNAL",
+        "paymentModel": "HOTEL_COLLECT",
+        "inventoryVisibility": "VISIBLE",
+        "orderNumber": "8055011284632",
+        "state": "PRE_START_4",
+        "infositeURL": "http://wwwexpediacom.trunk.sb.karmalab.net/itin.h693658.Hotel-Information?langid=1033",
+        "hotelPropertyInfo": {
+          "address": {
+            "addressLine1": "299 2nd St",
+            "city": "San Francisco",
+            "countrySubdivisionCode": "CA",
+            "postalCode": "94105",
+            "countryCode": "USA",
+            "countryName": " United States of America",
+            "fullAddress": "299 2nd St, San Francisco, CA, 94105 United States of America",
+            "airportCode": "SFO"
+          },
+          "name": "Marriott Courtyard San Francisco Downtown",
+          "starRating": "30",
+          "photoThumbnailURL": "/hotels/1000000/700000/693700/693658/693658_104_l.jpg",
+          "photoThumbnail500pixURL": "/hotels/1000000/700000/693700/693658/693658_104_y.jpg",
+          "photoThumbnail1000pixURL": "/hotels/1000000/700000/693700/693658/693658_104_z.jpg",
+          "localPhone": "1-415-947-0700",
+          "tollFreePhone": "1-800-321-2211",
+          "formattedPhoneNumbers": "Tel: 1 (415) 947-0700, Fax: 1 (415) 947-0800",
+          "checkInPolicies": [
+            "Check-in time starts at 3 PM"
+          ],
+          "checkInStartTimePolicy": {
+            "label": "Check-in time starts at",
+            "value": "3 PM"
+          },
+          "checkInEndTimePolicy": {},
+          "checkOutTimePolicy": {
+            "label": "Check-out time is",
+            "value": "noon"
+          },
+          "generalRules": [
+            "Check-out time is noon"
+          ],
+          "restrictionPolicies": [],
+          "fees": [
+            "The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul> <li>Fee for buffet breakfast: USD 21.95 per person (approximately)</li>        <li>Valet parking fee: USD 60.00 per night</li>          </ul>",
+            "The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change."
+          ],
+          "mandatoryFees": [],
+          "specialCheckInInstructions": [],
+          "latitude": 37.785816,
+          "longitude": -122.396965,
+          "isVipAccess": false,
+          "googleMapsLink": "//maps.google.com?q=94105+San+Francisco,+299+2nd+St+",
+          "regionId": "160166"
+        },
+        "totalPriceDetails": {
+          "primaryCurrencyCode": "USD",
+          "base": "249.00",
+          "baseFormatted": "$249.00",
+          "baseWithAdjustmentForDRRRateDiscount": "249.00",
+          "baseWithAdjustmentForDRRRateDiscountFormatted": "$249.00",
+          "taxesAndFees": "41.45",
+          "taxesAndFeesFormatted": "$41.45",
+          "drrRateDiscountDescription": "",
+          "subTotalBeforeCoupon": "290.45",
+          "subTotalBeforeCouponFormatted": "$290.45",
+          "taxStatus": "ESTIMATED",
+          "total": "290.45",
+          "totalFormatted": "$290.45",
+          "hasFees": false,
+          "expediaChangeFee": "0",
+          "expediaChangeFeeFormatted": "$0.00"
+        },
+        "rules": {
+          "cancelChangeRulesIntroduction": "If you cancel or change your plans, please cancel your reservation in accordance with the hotel''s cancellation policies to avoid a no-show charge.",
+          "cancelChangeRules": [
+            "Cancellations or changes made after 11:59PM (Pacific Daylight Time (US & Canada); Tijuana) on Dec 30, 2016 or no-shows are subject to a hotel fee equal to 100% of the total amount paid for the reservation."
+          ],
+          "cancellationWindowTime": {
+            "raw": "2016-12-30T23:59:00-08:00",
+            "localized": "Dec 30, 2016 11:59:00 PM",
+            "epochSeconds": 1483171140,
+            "timeZoneOffsetSeconds": -28800,
+            "localizedShortDate": "Fri, 30 Dec",
+            "localizedMediumDate": "Dec 30, 2016",
+            "localizedFullDate": "Friday, December 30, 2016",
+            "localizedLongDate": "December 30, 2016",
+            "localizedShortTime": "11:59 PM"
+          },
+          "opaqueRules": [],
+          "opaquePolicies": [],
+          "lateArrivalInstructions": "If a late check-in is planned, contact this hotel directly for their late check-in policy.",
+          "currencyDisclaimer": "Unless specified otherwise, <span class=\"rr-bold\">rates are quoted in </span><span class=\"rr-bold\" id=\"hotel_id-default-currency\">US dollars</span>.",
+          "extraGuestPolicies": [
+            "Availability of accommodation in the same property for extra guests is not guaranteed."
+          ],
+          "occupancyPolicies": [
+            "Base rate is for 1 guest.",
+            "If rates are listed below, they may be quoted in the currency of the country where the hotel is located.",
+            "This property considers guests of any age to be an adult."
+          ],
+          "paymentPolicies": [],
+          "roomRequestDisclaimer": "All special requests (such as in-room amenities, bed type, and smoking preference) are shared with the hotel, but requests are not guaranteed and may incur additional charges. We recommend you confirm them directly with the hotel before travel.",
+          "dualCurrencyText": "Rate quotes in USD are based on current exchange rates, which may vary at time of travel. Final payment will be settled in local currency directly with the hotel.",
+          "feesDisclaimer": "The list of fees presented may not be comprehensive. Fees and deposits may not include tax and are subject to change."
+        },
+        "rooms": [
+          {
+            "uniqueID": "1A1B0DAF-198A-410F-B95F-7546648EB871_0_13671083",
+            "roomRatePlanDescription": "Standard Room, 1 King Bed with Sofabed",
+            "roomTypeCode": "36399",
+            "ratePlanCode": "77690",
+            "bookingStatus": "BOOKED",
+            "hotelConfirmationNumber": "86592148",
+            "drrRateDiscountDescription": "",
+            "orderLineNumber": "8bff4e77-3042-4d99-a0cf-94cafe462ad7",
+            "refundabilityStatus": "REFUNDABLE",
+            "availableOnAllDates": true,
+            "roomCancelLink": "https://wwwexpediacom.trunk.sb.karmalab.net/hotel-cancel-details?tripid=06c5051b-36df-4d76-b299-1d3ab5a778e3&ordernumber=8055011284632&orderlineguid=8bff4e77-3042-4d99-a0cf-94cafe462ad7&roomNumber=0",
+            "roomChangeLink": "https://wwwexpediacom.trunk.sb.karmalab.net/trips/06c5051b-36df-4d76-b299-1d3ab5a778e3/ordernumber/8055011284632/orderlinenumber/8bff4e77-3042-4d99-a0cf-94cafe462ad7/change",
+            "totalPriceDetails": {
+              "primaryCurrencyCode": "USD",
+              "base": "249.00",
+              "baseFormatted": "$249.00",
+              "baseWithAdjustmentForDRRRateDiscount": "249.00",
+              "baseWithAdjustmentForDRRRateDiscountFormatted": "$249.00",
+              "taxesAndFees": "41.45",
+              "taxesAndFeesFormatted": "$41.45",
+              "subTotalBeforeCoupon": "290.45",
+              "subTotalBeforeCouponFormatted": "$290.45",
+              "total": "290.45",
+              "totalFormatted": "$290.45",
+              "averagePricePerDay": "249.00",
+              "averagePricePerDayFormatted": "$249.00",
+              "averageTaxPerDay": "41.45",
+              "averageTaxPerDayFormatted": "$41.45",
+              "priceDetailsPerDay": [
+                {
+                  "day": {
+                    "raw": "2017-01-01T15:00:00-08:00",
+                    "localized": "Jan 1, 2017 3:00:00 PM",
+                    "epochSeconds": 1483311600,
+                    "timeZoneOffsetSeconds": -28800,
+                    "localizedShortDate": "Sun, 1 Jan",
+                    "localizedMediumDate": "Jan 1, 2017",
+                    "localizedFullDate": "Sunday, January 1, 2017",
+                    "localizedLongDate": "January 1, 2017",
+                    "localizedShortTime": "3:00 PM"
+                  },
+                  "primaryCurrencyCode": "USD",
+                  "amount": "249.00",
+                  "amountFormatted": "$249.00"
+                }
+              ],
+              "isSameRateForAllNights": true,
+              "expediaChangeFee": "0",
+              "expediaChangeFeeFormatted": "$0.00"
+            },
+            "roomPreferences": {
+              "primaryOccupant": {
+                "firstName": "Jay",
+                "fullName": "Jay Eskandarian",
+                "email": "jeskandarian@expedia.com",
+                "phone": "1-949-4561218"
+              },
+              "otherOccupantInfo": {
+                "adultCount": 1,
+                "childCount": 0,
+                "infantCount": 0,
+                "childAndInfantCount": 0,
+                "childAndInfantAges": []
+              },
+              "occupantSelectedRoomOptions": {
+                "bedTypeName": "1 king bed",
+                "smokingPreference": "NONSMOKING_ROOM",
+                "accessibilityOptions": [],
+                "hasExtraBedAdult": false,
+                "hasExtraBedChild": false,
+                "hasExtraBedInfant": false,
+                "isSmokingPreferenceSelected": true,
+                "isRoomOptionsAvailable": true
+              },
+              "availableRoomOptions": {
+                "bedTypes": [
+                  {
+                    "id": "14",
+                    "description": "1 king bed",
+                    "selected": true
+                  }
+                ],
+                "isNewBedTypes": false,
+                "accessibilityOptions": [
+                  {
+                    "id": "2420",
+                    "description": "Accessible bathroom",
+                    "selected": false
+                  },
+                  {
+                    "id": "2423",
+                    "description": "In-room accessibility",
+                    "selected": false
+                  },
+                  {
+                    "id": "2421",
+                    "description": "Roll-in shower",
+                    "selected": false
+                  }
+                ],
+                "isSmokingRoomAvailable": false,
+                "isNonSmokingRoomAvailable": true
+              }
+            },
+            "amenities": [
+              "Free High-Speed Internet"
+            ],
+            "amenityIds": [
+              1024
+            ],
+            "nonPricePromotionData": {},
+            "hotelRatePlan": {
+              "m_type": 524288
+            }
+          }
+        ],
+        "isFreeCancellationAvailable": false,
+        "paymentsAndCreditFees": {
+          "paymentsHotelFeesAndDepositsDisclaimer": "The below fees and deposits only apply if they are not included in your selected room rate.",
+          "noFeesStaticText": "The price above DOES NOT include any applicable hotel service fees, charges for optional incidentals (such as minibar snacks or telephone calls), or regulatory surcharges. The hotel will assess these fees, charges, and surcharges upon check-out.",
+          "isDirectAgency": true,
+          "isGDS": false,
+          "isFullyCancelled": false,
+          "isAnyRoomCancelled": false,
+          "isDepositRequired": false,
+          "isPaymentsCreditsVisible": false
+        }
+      }
+    ],
+    "totalTripPrice": {
+      "currency": "USD",
+      "total": "290.45",
+      "totalFormatted": "$290.45"
+    },
+    "isCouponApplied": false,
+    "readTripError": false,
+    "tripSource": "expedia",
+    "clientId": "NOT_SET",
+    "zetaTrip": false,
+    "isFromCloud": false,
+    "isMRP": false
+  }
+}

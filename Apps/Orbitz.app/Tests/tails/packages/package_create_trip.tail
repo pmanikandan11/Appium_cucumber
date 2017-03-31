@@ -1,0 +1,344 @@
+POST
+.*?api/packages/createTrip.*
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+	"packageDetails": {
+		"tripId": "6c27e219-6e70-4eea-a5f3-93fd7ebe75b7",
+		"itineraryNumber": 1135256404187,
+		"flight": {
+			"details": {
+				"offer": {
+					"legIds": ["68b2451d6b4239ebbe3bd00f5db3748d", "daab917a4ad1114674dc6566fb86f9c4"],
+					"currency": "USD",
+					"baseFare": "0.00",
+					"baseFarePrice": {
+						"amount": "0.00",
+						"formattedPrice": "$0.00",
+						"formattedWholePrice": "$0",
+						"currencyCode": "USD"
+					},
+					"totalFare": "0.00",
+					"totalFarePrice": {
+						"amount": "0.00",
+						"formattedPrice": "$0.00",
+						"formattedWholePrice": "$0",
+						"currencyCode": "USD"
+					},
+					"pricePerPassengerCategory": [{
+						"passengerCategory": "ADULT",
+						"totalPrice": {
+							"amount": "0.00",
+							"formattedPrice": "$0.00",
+							"formattedWholePrice": "$0",
+							"currencyCode": "USD"
+						},
+						"basePrice": {
+							"amount": "0.00",
+							"formattedPrice": "$0.00",
+							"formattedWholePrice": "$0",
+							"currencyCode": "USD"
+						},
+						"taxesPrice": {
+							"amount": "0.00",
+							"formattedPrice": "$0.00",
+							"formattedWholePrice": "$0",
+							"currencyCode": "USD"
+						}
+					}],
+					"averageTotalPricePerTicket": {
+						"amount": "0.00",
+						"formattedPrice": "$0.00",
+						"formattedWholePrice": "$0",
+						"currencyCode": "USD"
+					},
+					"numberOfTickets": 1,
+					"taxes": "0.00",
+					"taxesPrice": {
+						"amount": "0.00",
+						"formattedPrice": "$0.00",
+						"formattedWholePrice": "$0",
+						"currencyCode": "USD"
+					},
+					"fees": "0.00",
+					"feesPrice": {
+						"amount": "0.00",
+						"formattedPrice": "$0.00",
+						"formattedWholePrice": "$0",
+						"currencyCode": "USD"
+					},
+					"showFees": true,
+					"seatsRemaining": 9,
+					"segmentAttributes": [
+						[{
+							"bookingCode": "G",
+							"cabinCode": "coach"
+						}],
+						[{
+							"bookingCode": "S",
+							"cabinCode": "coach"
+						}]
+					],
+					"baggageFeesUrl": "http://www.expedia.com/Flights-BagFees?originapt=SFO&destinationapt=LAS&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=GAA14AHN&bookingclass=G&travelDate=2016-06-07&flightNumber=455&langid=1033",
+					"fareType": "PUBLISHED",
+					"isInternational": false,
+					"isPassportNeeded": true,
+					"hasBagFee": false,
+					"hasNoBagFee": false,
+					"isSplitTicket": false
+				},
+				"flightRules": [{
+					"isChangeAllowed": true,
+					"isEnrouteChangeAllowed": false,
+					"isEnrouteRefundAllowed": false,
+					"isRefundable": false,
+					"changePenaltyAmount": "200.00",
+					"changePenaltyPrice": {
+						"amount": "200.00",
+						"formattedPrice": "$200.00",
+						"formattedWholePrice": "$200",
+						"currencyCode": "USD"
+					},
+					"summaryText": ""
+				}],
+				"obFeeTotalAmount": "0.00",
+				"obFeePrice": {
+					"amount": "0.00",
+					"formattedPrice": "$0.00",
+					"formattedWholePrice": "$0",
+					"currencyCode": "USD"
+				},
+				"destinationRegionId": 6139100,
+				"isSplitTicket": false
+			},
+			"rules": {
+				"RuleToTextMap": {
+					"ChangePenaltyText": "A change fee of $200.00 per ticket is charged by the airline for all itinerary changes.",
+					"AdditionalAirlineFees": "The airline may charge additional fees for checked baggage or other optional services.",
+					"RefundabilityText": "Tickets are nonrefundable and nontransferable.",
+					"CancelChangeIntroductionText": "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+					"AirlineLiabilityLimitations": "Please read important information regarding airline liability limitations.",
+					"CancellationFeeLegalText": "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call.",
+					"CompletePenaltyRules": "Rules and restrictions as imposed by the airline will be applicable to your fare should you need to change or cancel your flight."
+				},
+				"RuleToUrlMap": {
+					"CompletePenaltyRules": "https://www.expedia.com/Fare-Rules?tripid=6c27e219-6e70-4eea-a5f3-93fd7ebe75b7&tlid=1033",
+					"AdditionalAirlineFees": "https://www.expedia.com/Flights-BagFees?originapt=SFO&destinationapt=LAS&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=GAA14AHN&bookingclass=G&travelDate=2016-06-07&flightNumber=455",
+					"AirlineLiabilityLimitations": "https://www.expedia.com/p/info-main/warsaw?&tlid=1033"
+				}
+			}
+		},
+		"hotel": {
+			"checkInDate": "2016-06-07",
+			"checkOutDate": "2016-06-11",
+			"adultCount": "1",
+			"numberOfNights": "4",
+			"numberOfRooms": "1",
+			"hotelId": "140596",
+			"hotelName": "Bellagio",
+			"localizedHotelName": "Bellagio",
+			"nonLocalizedHotelName": "Bellagio",
+			"largeThumbnailUrl": "/hotels/1000000/150000/140600/140596/140596_275_d.jpg",
+			"thumbnailUrl": "/hotels/1000000/150000/140600/140596/140596_275_n.jpg",
+			"hotelAddress": "3600 Las Vegas Blvd S",
+			"hotelCity": "Las Vegas",
+			"hotelStateProvince": "NV",
+			"hotelCountry": "USA",
+			"hotelStarRating": "5.0",
+			"shortDescription": "About 1,000 fountains dance to music and light in front of this European-style hotel set along the Las Vegas Strip, next to CityCenter and a tram ride away from Crystals Retail & Entertainment. ",
+			"hotelRoomResponse": {
+				"cancellationPolicy": "<p>We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. Bellagio charges the following cancellation and change fees.</p><p>Cancellations or changes made after 11:59AM (hotel local time) on Jun 4, 2016 or no-shows are subject to a hotel fee equal to 100% of the total amount paid for the reservation.</p><p>Prices and hotel availability are not guaranteed until full payment is received.If you would like to book multiple rooms, you must use a different name for each room. Otherwise, the duplicate reservation will be canceled by the hotel.</p><p>Your room will be guaranteed for late arrival.</p><p>Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate hotels.</p>",
+				"rateDescription": "Resort Room",
+				"roomTypeDescription": "Resort Room",
+				"supplierType": "MERCHANT",
+				"nonRefundable": false,
+				"hasFreeCancellation": true,
+				"freeCancellationWindowDate": "2016-06-04 11:59",
+				"guaranteeRequired": false,
+				"depositRequired": false,
+				"immediateChargeRequired": true,
+				"currentAllotment": "0",
+				"promoDescription": "",
+				"isDiscountRestrictedToCurrentSourceType": false,
+				"isSameDayDRR": false,
+				"smokingPreferences": "NS",
+				"rateOccupancyPerRoom": "6",
+				"bedTypes": [{
+					"id": "93",
+					"description": "Double Occupancy"
+				}],
+				"rateInfo": {
+					"priceBreakdown": false,
+					"promo": true,
+					"chargeableRateInfo": {
+						"maxNightlyRate": "316.50",
+						"averageRate": "316.50",
+						"taxStatusType": "ESTIMATED",
+						"surchargeTotal": "37.98",
+						"surchargeTotalForEntireStay": "151.92",
+						"averageBaseRate": "316.50",
+						"nightlyRateTotal": "1266.00",
+						"discountPercent": 0,
+						"total": "1417.92",
+						"currencyCode": "USD",
+						"currencySymbol": "$",
+						"surcharges": [{
+							"amount": "37.98",
+							"type": "TAX_ALL"
+						}, {
+							"amount": "37.98",
+							"type": "TAX_OTHER"
+						}, {
+							"amount": "0.00",
+							"type": "FEE_ALL"
+						}, {
+							"amount": "0.00",
+							"type": "FEE_SERVICE"
+						}],
+						"surchargesForEntireStay": [{
+							"amount": "151.92",
+							"type": "TAX_ALL"
+						}, {
+							"amount": "151.92",
+							"type": "TAX_OTHER"
+						}, {
+							"amount": "0.00",
+							"type": "FEE_ALL"
+						}, {
+							"amount": "0.00",
+							"type": "FEE_SERVICE"
+						}],
+						"nightlyRatesPerRoom": [{
+							"promo": "false",
+							"baseRate": "316.50",
+							"rate": "316.50"
+						}, {
+							"promo": "false",
+							"baseRate": "316.50",
+							"rate": "316.50"
+						}, {
+							"promo": "false",
+							"baseRate": "316.50",
+							"rate": "316.50"
+						}, {
+							"promo": "false",
+							"baseRate": "316.50",
+							"rate": "316.50"
+						}],
+						"priceToShowUsers": "317",
+						"strikethroughPriceToShowUsers": "317",
+						"strikethroughPriceWithTaxesAndFeesToShowUsers": "1418",
+						"totalMandatoryFees": "0.00",
+						"totalPriceWithMandatoryFees": "1417.92",
+						"formattedTotalPriceWithMandatoryFees": "$ 1,417.92",
+						"userPriceType": "PerNightRateNoTaxes",
+						"priceAdjustments": [],
+						"checkoutPriceType": "total",
+						"airAttached": false,
+						"roomTypeCode": "201288289",
+						"ratePlanCode": "206241499",
+						"showResortFeeMessage": false,
+						"resortFeeInclusion": false
+					}
+				},
+				"quotedOccupancy": "4",
+				"minGuestAge": "0",
+				"roomTypeCode": "201288289",
+				"ratePlanCode": "206241499",
+				"isPayLater": false
+			},
+			"supplierType": "MERCHANT",
+			"accessibilityAmenities": [{
+				"id": "2420",
+				"description": "Accessible bathroom"
+			}, {
+				"id": "2421",
+				"description": "Roll-in shower"
+			}, {
+				"id": "2423",
+				"description": "In-room accessibility"
+			}],
+			"isVipAccess": false,
+			"tealeafTransactionId": "4a7df1a4c38141978b9dcbc6c4286b13",
+			"bigImageUrl": "/hotels/1000000/150000/140600/140596/140596_275_b.jpg",
+			"regionId": "800045"
+		},
+		"pricing": {
+			"packageTotal": {
+				"amount": "1146.08",
+				"formattedPrice": "$1,146.08",
+				"formattedWholePrice": "$1,146",
+				"currencyCode": "USD"
+			},
+			"basePrice": {
+				"amount": "1587.12",
+				"formattedPrice": "$1,587.12",
+				"formattedWholePrice": "$1,587",
+				"currencyCode": "USD"
+			},
+			"totalTaxesAndFees": {
+				"amount": "151.43",
+				"formattedPrice": "$151.43",
+				"formattedWholePrice": "$151",
+				"currencyCode": "USD"
+			},
+			"hotelPrice": {
+				"amount": "1417.92",
+				"formattedPrice": "$1,417.92",
+				"formattedWholePrice": "$1,418",
+				"currencyCode": "USD"
+			},
+			"flightPrice": {
+				"amount": "169.20",
+				"formattedPrice": "$169.20",
+				"formattedWholePrice": "$169",
+				"currencyCode": "USD"
+			},
+			"savings": {
+				"amount": "441.04",
+				"formattedPrice": "$441.04",
+				"formattedWholePrice": "$441",
+				"currencyCode": "USD"
+			},
+			"marketingPrice": {
+				"grossBookingValue": "1146.08",
+				"netBookingValue": "994.16",
+				"totalTaxes": "151.92",
+				"totalFees": "0.00",
+				"totalTaxesAndFees": "151.92"
+			},
+			"taxesAndFeesIncluded": true
+		},
+		"tealeafTransactionId": "546aa2804904430fb45c3b13fa32071c"
+	},
+	"expediaRewards": {
+		"totalPointsToEarn": 6876,
+		"isActiveRewardsMember": false,
+		"rewardsMembershipTierName": "Invalid Tier"
+	},
+	"rewards": {
+		"programName": "ExpediaRewards",
+		"totalPointsToEarn": 6876.00,
+		"isActiveRewardsMember": false,
+		"rewardsMembershipTierName": "Invalid Tier"
+	},
+	"activityId": "d06f5527-7549-4c96-99ae-377431483602",
+	"validFormsOfPayment": [{
+		"name": "AmericanExpress"
+	}, {
+		"name": "Diner's Club International"
+	}, {
+		"name": "Discover"
+	}, {
+		"name": "JCB"
+	}, {
+		"name": "MasterCard"
+	}, {
+		"name": "Visa"
+	}],
+	"guestUserPromoEmailOptInStatus": "ALWAYS",
+	"packageRulesAndRestrictions": "https://wwwexpediacom.integration.sb.karmalab.net/Checkout/PackageRulesAndRestrictions?tripid=00746392-fc17-4218-a40b-1a9b9d087b5d"
+
+}

@@ -1,0 +1,388 @@
+GET
+.*?api/trips/*
+*
+200
+Content-Type: application/json
+
+{
+  "responseType" : "TRIP_DETAILS",
+  "apiVersion" : "1.0",
+  "responseData" : {
+    "bookingStatus" : "BOOKED",
+    "airAttachQualificationInfo" : {
+      "airAttachQualified" : 1,
+      "offerExpires" : "2015-12-20T00:25:12.740-08:00",
+      "offerExpiresTime" : {
+        "raw" : "2015-12-20T00:25:12-08:00",
+        "timeZoneOffsetSeconds" : "-28800",
+        "localized" : "Dec 20, 2015 12:25:12 AM",
+        "localizedShortDate" : "Sat, 20 Dec",
+        "epochSeconds" : "1450620852"
+      }
+    },
+    "title" : "Mobile Itinerary",
+    "sharableDetailsURL" : "http:\/\/www.expedia.com\/api\/trips\/shared\/4Nso6x7PBXIZ6y6jpjZdfRyYjSQe5JYQafvUiamycpZhjpqceGR4uschJIQE75Va",
+    "customerSupport" : {
+      "customerSupportPhoneNumberDomestic" : "+1-877-787-3117",
+      "customerSupportPhoneInfoForEmail" : [
+        "Call Expedia+ blue Customer Care at 1-877-787-3117.",
+        "For faster service, mention itinerary # <strong> 186216072389 <\/strong>"
+      ],
+      "customerSupportURL" : "http:\/\/support.expedia.com\/app\/home",
+      "customerSupportPhoneNumberInternational" : "+1-877-787-3117",
+      "termsAndConditionsURL" : ""
+    },
+    "tripCacheUpdatedTime" : {
+      "raw" : "2015-09-26T07:23:33Z",
+      "localizedShortDate" : "Fri, 26 Sep",
+      "timeZoneOffsetSeconds" : "0",
+      "localized" : "Sep 26, 2015 7:23:33 AM",
+      "epochSeconds" : "1411716213"
+    },
+    "levelOfDetail" : "FULL",
+    "endTime" : {
+      "raw" : "2015-12-27T11:02:00-08:00",
+      "localizedShortDate" : "Sat, 27 Dec",
+      "timeZoneOffsetSeconds" : "-28800",
+      "localized" : "Dec 27, 2015 11:02:00 AM",
+      "epochSeconds" : "1451263860"
+    },
+    "rewards" : {
+      "logoUrl" : "\/static\/default\/default\/images\/myrewards\/RewardsLogo_193x76.png",
+      "totalPoints" : "1165",
+      "basePoints" : "165",
+      "viewStatementURL" : "\/user\/rewards",
+      "bonusPoints" : [
+        {
+          "m_status" : "PENDING",
+          "m_pointType" : "offerPoint",
+          "m_pointValue" : "1000",
+          "m_pointDescription" : "Expedia Escape Employee Flight Bonus"
+        }
+      ]
+    },
+    "tripNumber" : "186216072389",
+    "isBookedUsingForeignCurrency" : "0",
+    "tripCreatedTime" : {
+      "raw" : "2015-09-26T07:01:48Z",
+      "localizedShortDate" : "Fri, 26 Sep",
+      "timeZoneOffsetSeconds" : "0",
+      "localized" : "Sep 26, 2015 7:01:48 AM",
+      "epochSeconds" : "1411714908"
+    },
+    "webDetailsURL" : "https:\/\/www.expedia.com\/trips\/186216072389",
+    "tripUpdatedTime" : {
+      "raw" : "2015-09-26T07:23:33Z",
+      "localizedShortDate" : "Fri, 26 Sep",
+      "timeZoneOffsetSeconds" : "0",
+      "localized" : "Sep 26, 2015 7:23:33 AM",
+      "epochSeconds" : "1411716213"
+    },
+    "flights" : [
+      {
+        "bookingStatus" : "BOOKED",
+        "fareType" : "PUBLISHED",
+        "hasTrainTransfer" : "0",
+        "isSeatMapAvailable" : "1",
+        "passengers" : [
+          {
+            "dateOfBirth" : "1988-10-29",
+            "lastName" : "Welander",
+            "firstName" : "Eric",
+            "age" : "26",
+            "typeCode" : "ADULT",
+            "phoneNumbers" : [
+              {
+                "countryCode" : "1",
+                "phone" : "9257874879"
+              }
+            ],
+            "middleName" : "John",
+            "title" : "",
+            "typeLocalized" : "Adult",
+            "fullName" : "Eric John Welander",
+            "ticketNumbers" : [
+              "0167442008102"
+            ],
+            "seats" : [
+              {
+                "legIndex" : "0",
+                "assigned" : "38A",
+                "seatPreference" : "",
+                "seatPreferenceLocalized" : "Unknown",
+                "segmentIndex" : "0",
+                "smokingAllowed" : "0"
+              },
+              {
+                "legIndex" : "1",
+                "assigned" : "45D",
+                "seatPreference" : "",
+                "seatPreferenceLocalized" : "Unknown",
+                "segmentIndex" : "0",
+                "smokingAllowed" : "0"
+              }
+            ],
+            "frequentFlyerPlans" : [
+
+            ],
+            "gender" : "Male"
+          }
+        ],
+        "isInternational" : "0",
+        "bookingStatusMessage" : "Your reservation is booked and confirmed. There is no need to call us to reconfirm this reservation.",
+        "expediaBookingId" : "33QTON",
+        "ticketingStatus" : "COMPLETE",
+        "uniqueID" : "2A0FE104-5C6D-41AB-AFCA-3A064A1649B0_0",
+        "orderNumber" : "8026104922443",
+        "isLccOrCharter" : "0",
+        "fulfillmentMethod" : "ETICKET",
+        "confirmationNumbers" : [
+          {
+            "number" : "JQE1VK",
+            "airlineName" : "United"
+          }
+        ],
+        "paymentModel" : "AGENCY",
+        "airRecordLocator" : "192224696",
+        "orderLineNumber" : "19392189-1d9d-45a8-a0ec-7f9f779502c0",
+        "isSplitTicket" : "0",
+        "rules" : {
+          "cancelChangeIntroductionText" : "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+          "additionalAirlineFees" : {
+            "url" : "https:\/\/www.expedia.com\/Flights-BagFees?originapt=SFO&destinationapt=ORD&cabinclass=3&mktgcarrier=UA&opcarrier=UA&farebasis=GAG14AKS&bookingclass=G&travelDate=12\/17\/2014",
+            "text" : "The airline may charge additional fees for checked baggage or other optional services.",
+            "textAndURL" : "The airline may charge <a href=\"https:\/\/www.expedia.com\/Flights-BagFees?originapt=SFO&destinationapt=ORD&cabinclass=3&mktgcarrier=UA&opcarrier=UA&farebasis=GAG14AKS&bookingclass=G&travelDate=12\/17\/2014\" class=\"tooltip\" target=\"rulesAndRestrictions\">additional fees <span class=\"visually-hidden\" style=\"display:none,\" >[Opens a new window] <\/span> <\/a> for checked baggage or other optional services."
+          },
+          "refundabilityText" : "Tickets are nonrefundable, nontransferable and name changes are not allowed.",
+          "airlineLiabilityLimitations" : {
+            "url" : "https:\/\/www.expedia.com\/pub\/agent.dll?qscr=hgen&hfnm=warsaw.htx",
+            "text" : "Please read important information regarding airline liability limitations.",
+            "textAndURL" : "Please read important information regarding <a id=\"airline_liability_limitations_link\" href=\"https:\/\/www.expedia.com\/pub\/agent.dll?qscr=hgen&hfnm=warsaw.htx\" class=\"tooltip\" target=\"rulesAndRestrictions\">airline liability limitations <span class=\"visually-hidden\" style=\"display:none,\" >[Opens a new window] <\/span> <\/a>."
+          },
+          "feeChangeRefundIntroductionText" : "When the airline charges any cancellation or change fees in accordance with its own policies, the cost will be passed on to you.",
+          "airlineCheckInInstructionText" : "Remember to bring your itinerary and government-issued photo ID for airport check-in and security.",
+          "completePenaltyRules" : {
+            "textAndURL" : "Please read the <a id=\"complete_penalty_rules_for_changes_and_cancellations_link\" href=\"https:\/\/www.expedia.com\/Fare-Rules?tripid=e1f97f7b-7a2c-4a85-99d2-c79ae54828af\" class=\"tooltip\" target=\"rulesAndRestrictions\">complete penalty rules for changes and cancellations <span class=\"visually-hidden\" style=\"display:none,\">[Opens a new window] <\/span> <\/a> applicable to this fare.",
+            "apiURL" : "https:\/\/www.expedia.com\/api\/trips\/186216072389\/items\/2A0FE104-5C6D-41AB-AFCA-3A064A1649B0_0\/gdsFareRulesText?useCache=true",
+            "url" : "https:\/\/www.expedia.com\/Fare-Rules?tripid=e1f97f7b-7a2c-4a85-99d2-c79ae54828af",
+            "text" : "Rules and restrictions as imposed by the airline will be applicable to your fare should you need to change or cancel your flight."
+          },
+          "cancellationFeeLegalText" : "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call."
+        },
+        "ticketingAirCarrierNames" : [
+          "United"
+        ],
+        "ticketingTime" : {
+          "raw" : "2015-09-26T00:19:00-07:00",
+          "localizedShortDate" : "Fri, 26 Sep",
+          "timeZoneOffsetSeconds" : "-25200",
+          "localized" : "Sep 26, 2015 12:19:00 AM",
+          "epochSeconds" : "1411715940"
+        },
+        "updateFrequentFlyerPathURL" : "https:\/\/www.expedia.com\/api\/trips\/e5dfe970-5384-4790-b104-94d75940464a\/updateFrequentFlyerInformation",
+        "webChangePathURL" : "https:\/\/www.expedia.com\/flight-change-gds?itinnumber=186216072389&arl=192224696",
+        "farePerPassenger" : [
+          {
+            "base" : "358.14",
+            "fees" : [
+              {
+                "amount" : "26.86",
+                "amountFormatted" : "$26.86",
+                "localizedName" : "Transportation Tax"
+              },
+              {
+                "amount" : "11.2",
+                "amountFormatted" : "$11.20",
+                "localizedName" : "Passenger Civil Aviation Security Service Fee"
+              },
+              {
+                "amount" : "8.0",
+                "amountFormatted" : "$8.00",
+                "localizedName" : "Flight Segment Tax"
+              },
+              {
+                "amount" : "9.0",
+                "amountFormatted" : "$9.00",
+                "localizedName" : "Passenger Facility Charge"
+              }
+            ],
+            "passengerTypeCodeLocalized" : "Adult",
+            "currency" : "USD",
+            "passengerIndex" : "0",
+            "taxesFormatted" : "$55.06",
+            "totalFormatted" : "$413.20",
+            "total" : "413.2",
+            "passengerTypeCode" : "ADULT",
+            "baseFormatted" : "$358.14",
+            "taxes" : "55.06"
+          }
+        ],
+        "flightType" : "ROUND_TRIP",
+        "legs" : [
+          {
+            "segments" : [
+              {
+                "cabinCodeLocalized" : "Economy \/ Coach",
+                "flightNumber" : "1596",
+                "arrivalType" : "FLIGHT_ARRIVAL",
+                "airlineCode" : "UA",
+                "arrivalTime" : {
+                  "raw" : "2015-12-18T04:41:00-06:00",
+                  "localizedShortDate" : "Thu, 18 Dec",
+                  "timeZoneOffsetSeconds" : "-21600",
+                  "localized" : "Dec 18, 2015 4:41:00 AM",
+                  "epochSeconds" : "1450456200"
+                },
+                "equipmentDescription" : "Boeing 757 [757-300]",
+                "flightIdForSeatMap" : "2A0FE104-5C6D-41AB-AFCA-3A064A1649B0_0_L1_S1_1",
+                "duration" : "PT4H1M",
+                "isSeatMapAvailable" : "1",
+                "status" : "UNKNOWN",
+                "arrivalLocation" : {
+                  "city" : "Chicago",
+                  "longName" : "Chicago, IL [ORD-O'Hare Intl.]",
+                  "longitude" : "-87.904787",
+                  "airportMetroCode" : "CHI",
+                  "countryCode" : "USA",
+                  "latitude" : "41.976928",
+                  "name" : "O'Hare Intl.",
+                  "airportCode" : "ORD"
+                },
+                "equipmentCode" : "753",
+                "departureTerminal" : "3",
+                "formattedDuration" : "4h 1m",
+                "confirmationAirline" : "United",
+                "bookingCode" : "G",
+                "cabinCode" : "coach",
+                "externalAirlineCode" : "UA",
+                "departureType" : "FLIGHT_DEPARTURE",
+                "departureTime" : {
+                  "raw" : "2015-12-17T22:40:00-08:00",
+                  "localizedShortDate" : "Wed, 17 Dec",
+                  "timeZoneOffsetSeconds" : "-28800",
+                  "localized" : "Dec 17, 2015 10:40:00 PM",
+                  "epochSeconds" : "1450441740"
+                },
+                "departureLocation" : {
+                  "city" : "San Francisco",
+                  "longName" : "San Francisco, CA [SFO-San Francisco Intl.]",
+                  "longitude" : "-122.387996",
+                  "airportMetroCode" : "QSF",
+                  "countryCode" : "USA",
+                  "latitude" : "37.61594",
+                  "name" : "San Francisco Intl.",
+                  "airportCode" : "SFO"
+                },
+                "confirmationNUmber" : "JQE1VK",
+                "operatedByAirCarrierName" : "",
+                "airlineName" : "United",
+                "arrivalTerminal" : "1",
+                "transportationType" : "FLIGHT",
+                "providerCode" : "Amadeus"
+              }
+            ],
+            "numberOfStops" : "0",
+            "airlineLogoURL" : "http:\/\/images.trvl-media.com\/media\/content\/expus\/graphics\/static_content\/fusion\/v0.1b\/images\/airlines\/smUA.gif",
+            "sharableFlightLegURL" : "http:\/\/www.expedia.com\/api\/trips\/shared\/4Nso6x7PBXIZ6y6jpjZdfRyYjSQe5JYQafvUiamycpYl3cSQRxd4HpFvUDkewuRxPq_kHWDziRuTi6DQbuGdXLiZO_dRZgLPpCOkRzCC-_ErMzTdGjajj-D1htGRjvaY",
+            "type" : "NONSTOP",
+            "duration" : "PT4H1M"
+          },
+          {
+            "segments" : [
+              {
+                "cabinCodeLocalized" : "Economy \/ Coach",
+                "flightNumber" : "761",
+                "arrivalType" : "FLIGHT_ARRIVAL",
+                "airlineCode" : "UA",
+                "arrivalTime" : {
+                  "raw" : "2015-12-27T11:02:00-08:00",
+                  "localizedShortDate" : "Sat, 27 Dec",
+                  "timeZoneOffsetSeconds" : "-28800",
+                  "localized" : "Dec 27, 2015 11:02:00 AM",
+                  "epochSeconds" : "1451263860"
+                },
+                "equipmentDescription" : "Boeing 777",
+                "flightIdForSeatMap" : "2A0FE104-5C6D-41AB-AFCA-3A064A1649B0_0_L2_S1_1",
+                "duration" : "PT4H32M",
+                "isSeatMapAvailable" : "1",
+                "status" : "UNKNOWN",
+                "arrivalLocation" : {
+                  "city" : "San Francisco",
+                  "longName" : "San Francisco, CA [SFO-San Francisco Intl.]",
+                  "longitude" : "-122.387996",
+                  "airportMetroCode" : "QSF",
+                  "countryCode" : "USA",
+                  "latitude" : "37.61594",
+                  "name" : "San Francisco Intl.",
+                  "airportCode" : "SFO"
+                },
+                "equipmentCode" : "777",
+                "departureTerminal" : "1",
+                "formattedDuration" : "4h 32m",
+                "confirmationAirline" : "United",
+                "bookingCode" : "W",
+                "cabinCode" : "coach",
+                "externalAirlineCode" : "UA",
+                "departureType" : "FLIGHT_DEPARTURE",
+                "departureTime" : {
+                  "raw" : "2015-12-27T08:30:00-06:00",
+                  "localizedShortDate" : "Sat, 27 Dec",
+                  "timeZoneOffsetSeconds" : "-21600",
+                  "localized" : "Dec 27, 2015 8:30:00 AM",
+                  "epochSeconds" : "1451247540"
+                },
+                "departureLocation" : {
+                  "city" : "Chicago",
+                  "longName" : "Chicago, IL [ORD-O'Hare Intl.]",
+                  "longitude" : "-87.904787",
+                  "airportMetroCode" : "CHI",
+                  "countryCode" : "USA",
+                  "latitude" : "41.976928",
+                  "name" : "O'Hare Intl.",
+                  "airportCode" : "ORD"
+                },
+                "confirmationNUmber" : "JQE1VK",
+                "operatedByAirCarrierName" : "",
+                "airlineName" : "United",
+                "arrivalTerminal" : "3",
+                "transportationType" : "FLIGHT",
+                "providerCode" : "Amadeus"
+              }
+            ],
+            "numberOfStops" : "0",
+            "airlineLogoURL" : "http:\/\/images.trvl-media.com\/media\/content\/expus\/graphics\/static_content\/fusion\/v0.1b\/images\/airlines\/smUA.gif",
+            "sharableFlightLegURL" : "http:\/\/www.expedia.com\/api\/trips\/shared\/4Nso6x7PBXIZ6y6jpjZdfRyYjSQe5JYQafvUiamycpYl3cSQRxd4HpFvUDkewuRxPq_kHWDziRuTi6DQbuGdXLiZO_dRZgLPpCOkRzCC-_ELgfkwSg-jsDffGf4UK38n",
+            "type" : "NONSTOP",
+            "duration" : "PT4H32M"
+          }
+        ],
+        "bookingProvider" : "Amadeus",
+        "sharableItemDetailURL" : "http:\/\/www.expedia.com\/api\/trips\/shared\/4Nso6x7PBXIZ6y6jpjZdfRyYjSQe5JYQafvUiamycpYl3cSQRxd4HpFvUDkewuRxPq_kHWDziRuTi6DQbuGdXLiZO_dRZgLPpCOkRzCC-_GUVEYyoGm1Y-Dj9lCme9Qg",
+        "webCancelPathURL" : "https:\/\/www.expedia.com\/flight-cancel-exchange?itinnumber=186216072389&arl=192224696&bookingid=33QTON",
+        "bookingStatusText" : "Confirmed",
+        "fareTotal" : {
+          "base" : "358.14",
+          "subTotal" : "413.2",
+          "taxes" : "55.06",
+          "taxesFormatted" : "$55.06",
+          "totalFormatted" : "$413.20",
+          "subTotalFormatted" : "$413.20",
+          "total" : "413.2",
+          "baseFormatted" : "$358.14",
+          "currency" : "USD"
+        }
+      }
+    ],
+    "tripId" : "e1f97f7b-7a2c-4a85-99d2-c79ae54828af",
+    "updateTripNameDescPathURL" : "https:\/\/www.expedia.com\/api\/trips\/e5dfe970-5384-4790-b104-94d75940464a\/updateTripNameDescription",
+    "readTripError" : "0",
+    "startTime" : {
+      "raw" : "2015-12-17T22:40:00-08:00",
+      "localizedShortDate" : "Wed, 17 Dec",
+      "timeZoneOffsetSeconds" : "-28800",
+      "localized" : "Dec 17, 2015 10:40:00 PM",
+      "epochSeconds" : "1450441740"
+    },
+    "description" : ""
+  }
+}

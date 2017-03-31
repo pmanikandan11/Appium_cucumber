@@ -1,0 +1,155 @@
+POST
+.*?api/user/sign-in.*
+*
+200
+Content-Type: application/json;charset=UTF-8
+Set-Cookie: minfo=v.5,EX01C39A8CF2zrox$95V4$5F$35E$11m$3B$B9$2Ay$B1$0F$19$E8$2E$E4$16$18mt4$2CV$E1z$35u$3DH$E9$38$A45$B3$85$F3$39$2B$12p$5B$D0fu$E1$3F3$38$C9$ED$F1$11q$32$5E2X$A2$19ri$8Avu$E2C$3B!2$1B$0AJt$33$A9v$EF$CD$8D$B9e$E6m$40$33O$7E$40F$C3kb$A7$2BhadM$34$13$31$A6M$C0$91f$5E$CA$13o$D4 path:"/""
+Set-Cookie: user:v.8,0,EX01C0F5D98E$2B5101000$5B$A9$D17b$B8$300b$B8$300b$B8$30010001000q31!90$34z$35$A0$86$14$39$BC!i02000 path:/
+
+{
+  "tuid": 999999,
+  "expUserId": 26099,
+  "email": "itin@expedia.com",
+  "firstName": "Itin scenario",
+  "middleName": "",
+  "lastName": "User",
+  "success": true,
+  "detailedStatus": "Success",
+  "phoneNumbers": [
+    {
+      "number": "6544444",
+      "areaCode": "988",
+      "category": "PRIMARY",
+      "countryCode": "1",
+      "extensionNumber": ""
+    }
+  ],
+  "storedCreditCards": [
+    {
+      "description": "Activity Booking Visa"
+    },
+    {
+      "description": "AmericanExpress 4343",
+      "paymentsInstrumentsId": "FE6CB26A-B40D-4DB8-911C-A582A2BFB461",
+      "creditCardType": "AmericanExpress",
+      "nameOnCard": "JexperOther Io MobiataTestaverde",
+      "expired": "false",
+      "expirationDate": "2016-03"
+    },
+    {
+      "description": "Expires 08/12",
+      "paymentsInstrumentsId": "481A1B46-9C99-4F1C-A0ED-E931521E82B4",
+      "creditCardType": "Visa",
+      "nameOnCard": "Jexper Testaverde",
+      "expired": "true",
+      "expirationDate": "2012-08"
+    },
+    {
+      "description": "expires in october",
+      "paymentsInstrumentsId": "C557CD2F-3B6C-4F85-AE95-39377367EFB3",
+      "creditCardType": "Visa",
+      "nameOnCard": "JexperCC MobiataTestaverde",
+      "expired": "true",
+      "expirationDate": "2012-10"
+    },
+    {
+      "description": "TEST - AMEX CCV 1111",
+      "paymentsInstrumentsId": "88B98AD0-11A8-4239-95F8-0EE403C05FED",
+      "creditCardType": "AmericanExpress",
+      "nameOnCard": "JexperCC MobiataTestaverde",
+      "expired": "false",
+      "expirationDate": "2020-12"
+    },
+    {
+      "description": "TEST - Carte Blanche"
+    },
+    {
+      "description": "TEST - Diners Club",
+      "paymentsInstrumentsId": "DB57C95C-1030-4999-9DDC-7F996253453B",
+      "creditCardType": "DinersClub",
+      "nameOnCard": "JexperCC MobiataTestaverde",
+      "expired": "false",
+      "expirationDate": "2020-12"
+    },
+    {
+      "description": "TEST - Discover CCV 025",
+      "paymentsInstrumentsId": "20917F67-70FB-45DB-96CA-FD56B540046B",
+      "creditCardType": "Discover",
+      "nameOnCard": "JexperCC MobiataTestaverde",
+      "expired": "false",
+      "expirationDate": "2020-12"
+    },
+    {
+      "description": "TEST - MasterCard",
+      "paymentsInstrumentsId": "B679A6D7-40DE-4EBD-8069-DB4AF0BC454D",
+      "creditCardType": "MasterCard",
+      "nameOnCard": "JexperCC MobiataTestaverde",
+      "expired": "false",
+      "expirationDate": "2020-12"
+    },
+    {
+      "description": "US CC for integration",
+      "paymentsInstrumentsId": "4913B0E0-52AE-48D0-B295-31A1DA27BEA8",
+      "creditCardType": "Visa",
+      "nameOnCard": "JexperCC MobiataTestaverde",
+      "expired": "false",
+      "expirationDate": "2020-12"
+    },
+    {
+      "description": "Visa 0004",
+      "paymentsInstrumentsId": "122CD4CD-3784-451F-8A3D-D78C76FD6EFB",
+      "creditCardType": "Visa",
+      "nameOnCard": "JexperOther MobiataTestaverde",
+      "expired": "true",
+      "expirationDate": "2014-08"
+    },
+    {
+      "description": "Visa 1111",
+      "paymentsInstrumentsId": "9BEEBBDC-5223-41D0-8770-9FBD3B68EA1E",
+      "creditCardType": "Visa",
+      "nameOnCard": "Jexper Mobiatatestaverde",
+      "expired": "true",
+      "expirationDate": "2014-09"
+    }
+  ],
+  "loyaltyMembershipNumber": "274191",
+  "loyaltyMemebershipActive": true,
+  "loyaltyPointsAvailable": 865525,
+  "loyaltyPointsPending": 637954,
+  "loyaltyMemebershipName": "Elite Plus",
+  "membershipTierName": "Gold",
+  "loyaltyTierCredits": {
+    "m_pointsAmount": 0,
+    "m_grossBookingValue": {
+      "amount": 167000.79,
+      "currency": {
+        "currencyCode": "USD"
+      },
+      "uCurrency": {
+        "isoCode": "USD"
+      }
+    },
+    "m_roomNights": 564
+  },
+  "isSmokingPreferred": false,
+  "passports": [
+    {
+      "countryCode": "USA"
+    }
+  ],
+  "tsaDetails": {
+    "gender": "Male",
+    "dateOfBirth": "1990-05-25"
+  },
+  "seatPreference": "ANY",
+  "specialAssistance": "NONE",
+  "associatedTravelers": [
+    {
+      "tuid": 4749648,
+      "firstName": "Other traveller",
+      "middleName": "",
+      "lastName": "Itin Scenario"
+    }
+  ],
+  "activityId": "3040554b-ef9f-4a0b-9b5c-eb2ae95c1ee9"
+}

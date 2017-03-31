@@ -1,0 +1,55 @@
+GET
+.*?/api/v4/typeahead/[Ss][Mm][Ff].*
+*
+200
+Content-Type: application/json
+
+{
+  "q": "smf",
+  "rid": "9651eac1-3e91-4f53-ac39-03e861a0d874",
+  "rc": "OK",
+  "sr": [
+    {
+      "@type": "gaiaRegionResult",
+	  "index": "0",
+	  "gaiaId": "6000602",
+	  "type": "AIRPORT",
+	  "regionNames": {
+		"fullName": "Sacramento, CA, United States (SMF-Sacramento Intl.)",
+			"shortName": "Sacramento, CA (SMF-Sacramento Intl.)",
+			"displayName": "Sacramento, CA (<B>SMF</B>-Sacramento Intl.)",
+			"lastSearchName": "Sacramento, CA (SMF-Sacramento Intl.)"
+	  },
+	  "essId":{
+	  	"sourceName":"GAI",
+	  	"sourceId":"6000602"
+	  },
+	  "coordinates": {
+		"lat": "38.618576",
+		"long": "-121.470210"
+	  },
+	  "hierarchyInfo": {
+		"airport": {
+			"airportCode": "SMF",
+			"metrocode": "SAC",
+			"multicity": "180049"
+		},
+		"country": {
+			"name": "United States of America",
+			"isoCode2": "US",
+			"isoCode3": "USA"
+		}
+      },
+	  "regionMetadata": {
+		"hotelCount": "91"
+	  },
+	  "regionGrades": {
+		"globalGrade": "99"
+	  },
+	  "isMinorAirport":"false",
+	  "packageable": "false",
+	  "score":"1.0",
+	  "popularity":"437.0"
+	}
+  ]
+}

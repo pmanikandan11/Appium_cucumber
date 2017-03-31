@@ -1,0 +1,1006 @@
+GET
+.*?/api/trips\?filterBookingStatus=BOOKED&filterTimePeriod=UPCOMING&filterTimePeriod=INPROGRESS&filterTimePeriod=RECENTLY_COMPLETED.*
+*
+200
+Content-Type: application/json
+
+{
+  "apiVersion": "1.0",
+  "responseType": "TRIP_SUMMARY",
+  "responseData": [{
+    "levelOfDetail": "FULL",
+    "tripId": "5ca48839-e860-4cde-be71-7b977804238b",
+    "webDetailsURL": "https://www.expedia.com/trips/1130228389120",
+    "tripNumber": 1130228389120,
+    "title": "Flight to Seattle",
+    "description": "",
+    "updateTripNameDescPathURL": "https://www.expedia.com/api/trips/5ca48839-e860-4cde-be71-7b977804238b/updateTripNameDescription",
+    "startTime": {
+      "raw": "2016-03-22T17:56:00-07:00",
+      "localized": "Mar 22, 2016 5:56:00 PM",
+      "epochSeconds": {{ epoch_seconds_plus_20_hours_20_seconds }},
+      "timeZoneOffsetSeconds": -25200,
+      "localizedShortDate": "3/22/2016",
+      "localizedMediumDate": "Mar 22",
+      "localizedFullDate": "Tue, Mar 22",
+      "localizedLongDate": "Mar 22, 2016"
+    },
+    "endTime": {
+      "raw": "2016-03-22T20:04:00-07:00",
+      "localized": "Mar 22, 2016 8:04:00 PM",
+      "epochSeconds": {{ epoch_seconds_plus_2_days }},
+      "timeZoneOffsetSeconds": -25200,
+      "localizedShortDate": "3/22/2016",
+      "localizedMediumDate": "Mar 22",
+      "localizedFullDate": "Tue, Mar 22",
+      "localizedLongDate": "Mar 22, 2016"
+    },
+    "tripCreatedTime": {
+      "raw": "2016-03-14T19:51:56Z",
+      "localized": "Mar 14, 2016 7:51:56 PM",
+      "epochSeconds": 1457985116,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Mon, 14 Mar"
+    },
+    "tripUpdatedTime": {
+      "raw": "2016-03-22T16:42:27Z",
+      "localized": "Mar 22, 2016 4:42:27 PM",
+      "epochSeconds": 1458664947,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Tue, 22 Mar"
+    },
+    "tripCacheUpdatedTime": {
+      "raw": "2016-03-22T16:42:27Z",
+      "localized": "Mar 22, 2016 4:42:27 PM",
+      "epochSeconds": 1458664947,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Tue, 22 Mar"
+    },
+    "bookingStatus": "BOOKED",
+    "rewards": {
+      "totalPoints": 1139.00,
+      "basePoints": 42.00,
+      "bonusPoints": [{
+        "m_pointValue": 13.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "+gold Bonus",
+        "m_status": "PENDING"
+      }, {
+        "m_pointValue": 84.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "App Booking Triple Points",
+        "m_status": "PENDING"
+      }, {
+        "m_pointValue": 1000.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "Expedia Escape Employee Flight Offer",
+        "m_status": "PENDING"
+      }],
+      "logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+      "viewStatementURL": "/user/rewards"
+    },
+    "sharableDetailsURL": "https://www.expedia.com/api/trips/shared/JGQvt-obhCiyzRMIIhM7BsCAcO1WXtcKi4049eM5PfvPHoDmifKIocuCU-gSaJQ_yVEPsH69_tl6RrfaY_bmXAM5",
+    "airAttachQualificationInfo": {
+      "airAttachQualified": true,
+      "offerExpires": "2016-03-24T12:51:56.563-07:00",
+      "offerExpiresTime": {
+        "raw": "2016-03-24T12:51:56-07:00",
+        "localized": "Mar 24, 2016 12:51:56 PM",
+        "epochSeconds": {{ epoch_seconds_plus_1_month }},
+        "timeZoneOffsetSeconds": -25200,
+        "localizedShortDate": "3/24/16",
+        "localizedMediumDate": "Mar 24, 2016",
+        "localizedFullDate": "Thursday, March 24, 2016",
+        "localizedLongDate": "March 24, 2016"
+      }
+    },
+    "customerSupport": {
+      "customerSupportURL": "http://www.expedia.com/service/",
+      "customerSupportPhoneInfo": [
+        "Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+        "For faster service, mention <strong>itinerary #1130228389120 </strong>"],
+      "customerSupportPhoneNumberDomestic": "+1-866-539-4149",
+      "customerSupportPhoneNumberInternational": "+1 702-939-2635",
+      "customerSupportPhoneInfoForEmail": [
+        "Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+        "For faster service, mention <strong>itinerary #1130228389120 </strong>"],
+      "termsAndConditionsURL": ""
+    },
+    "isBookedUsingForeignCurrency": false,
+    "flights": [{
+      "uniqueID": "8B839553-44F0-4E3B-86C2-2CE80C3D5C0C_0",
+      "bookingStatus": "BOOKED",
+      "bookingStatusText": "Confirmed",
+      "bookingStatusMessage": "Your reservation is booked and confirmed. There is no need to call us to reconfirm this reservation.",
+      "ticketingStatus": "COMPLETE",
+      "orderNumber": "8007240956762",
+      "webCancelPathURL": "https://www.expedia.com/flight-cancel-exchange?itinnumber=1130228389120&arl=251948275&bookingid=26GROA",
+      "updateFrequentFlyerPathURL": "https://www.expedia.com/api/trips/5ca48839-e860-4cde-be71-7b977804238b/updateFrequentFlyerInformation",
+      "orderLineNumber": "61dfc513-26ff-4d43-af3b-058f2ed72ec0",
+      "confirmationNumbers": [{
+        "airlineName": "Etihad Airways",
+        "number": "IY60DQ"
+      }],
+      "expediaBookingId": "26GROA",
+      "paymentModel": "AGENCY",
+      "fareType": "PUBLISHED",
+      "flightType": "ONE_WAY",
+      "isInternational": false,
+      "fareTotal": {
+        "subTotal": "208.1",
+        "subTotalFormatted": "$208.10",
+        "currency": "USD",
+        "base": "180.47",
+        "baseFormatted": "$180.47",
+        "taxes": "27.63",
+        "taxesFormatted": "$27.63",
+        "total": "208.1",
+        "totalFormatted": "$208.10"
+      },
+      "farePerPassenger": [{
+        "passengerIndex": 0,
+        "passengerTypeCode": "ADULT",
+        "passengerTypeCodeLocalized": "Adult",
+        "currency": "USD",
+        "base": "180.47",
+        "baseFormatted": "$180.47",
+        "taxes": "27.63",
+        "taxesFormatted": "$27.63",
+        "fees": [{
+          "localizedName": "Transportation Tax",
+          "amount": "13.53",
+          "amountFormatted": "$13.53"
+        }, {
+          "localizedName": "Passenger Civil Aviation Security Service Fee",
+          "amount": "5.6",
+          "amountFormatted": "$5.60"
+        }, {
+          "localizedName": "Flight Segment Tax",
+          "amount": "4.0",
+          "amountFormatted": "$4.00"
+        }, {
+          "localizedName": "Passenger Facility Charge",
+          "amount": "4.5",
+          "amountFormatted": "$4.50"
+        }],
+        "total": "208.1",
+        "totalFormatted": "$208.10"
+      }],
+      "isSplitTicket": false,
+      "fulfillmentMethod": "ETICKET",
+      "passengers": [{
+        "typeCode": "ADULT",
+        "typeLocalized": "Adult",
+        "title": "",
+        "firstName": "Firsttest",
+        "lastName": "LastTest",
+        "fullName": "Firsttest LastTest",
+        "age": 31,
+        "gender": "Male",
+        "dateOfBirth": "1985-1-12",
+        "TSAKnownTravelerNumber": "",
+        "passportNumber": "",
+        "passportCountryCode": "US",
+        "phoneNumbers": [{
+          "countryCode": "1",
+          "phone": "5182759488"
+        }],
+        "ticketNumbers": [
+          "0167805233710"],
+        "frequentFlyerPlans": [],
+        "seats": [{
+          "assigned": "30B",
+          "seatPreference": "",
+          "seatPreferenceLocalized": "Unknown",
+          "smokingAllowed": false,
+          "seatType": "SEAT_UNPAID",
+          "statusCode": "Unknown",
+          "legIndex": 0,
+          "segmentIndex": 0
+        }, {
+          "assigned": "28A",
+          "seatPreference": "",
+          "seatPreferenceLocalized": "Unknown",
+          "smokingAllowed": false,
+          "seatType": "SEAT_UNPAID",
+          "statusCode": "Unknown",
+          "legIndex": 0,
+          "segmentIndex": 0
+        }]
+      }],
+      "brandedFareFamilyName": "",
+      "legs": [{
+        "type": "NONSTOP",
+        "state": "PRE_START_2",
+        "numberOfStops": 0,
+        "airlineLogoURL": "https://images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/smEY.gif",
+        "segments": [{
+          "transportationType": "FLIGHT",
+          "departureType": "FLIGHT_DEPARTURE",
+          "departureLocation": {
+            "latitude": 37.61594,
+            "longitude": -122.387996,
+            "name": "San Francisco Intl.",
+            "longName": "San Francisco, CA (SFO-San Francisco Intl.)",
+            "airportCode": "SFO",
+            "airportMetroCode": "QSF",
+            "city": "San Francisco",
+            "countryCode": "USA"
+          },
+          "departureTime": {
+            "raw": "2016-03-22T17:56:00-07:00",
+            "localized": "Mar 22, 2016 5:56:00 PM",
+            "epochSeconds": {{ epoch_seconds_plus_20_hours_20_seconds }},
+            "timeZoneOffsetSeconds": -25200,
+            "localizedShortDate": "Tue, 22 Mar",
+            "localizedMediumDate": "Mar 22, 2016",
+            "localizedFullDate": "Tuesday, March 22, 2016",
+            "localizedLongDate": "March 22, 2016",
+            "localizedShortTime": "5:56 PM"
+          },
+          "arrivalType": "FLIGHT_ARRIVAL",
+          "arrivalLocation": {
+            "latitude": 47.44363,
+            "longitude": -122.30175,
+            "name": "Seattle - Tacoma Intl.",
+            "longName": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+            "airportCode": "SEA",
+            "city": "Seattle",
+            "countryCode": "USA"
+          },
+          "arrivalTime": {
+            "raw": "2016-03-22T20:04:00-07:00",
+            "localized": "Mar 22, 2016 8:04:00 PM",
+            "epochSeconds": {{ epoch_seconds_plus_2_days }},
+            "timeZoneOffsetSeconds": -25200,
+            "localizedShortDate": "Tue, 22 Mar",
+            "localizedMediumDate": "Mar 22, 2016",
+            "localizedFullDate": "Tuesday, March 22, 2016",
+            "localizedLongDate": "March 22, 2016",
+            "localizedShortTime": "8:04 PM"
+          },
+          "departureTerminal": "3",
+          "airlineCode": "EY",
+          "externalAirlineCode": "EY",
+          "airlineName": "Etihad Airways",
+          "operatedByAirCarrierName": "",
+          "confirmationAirline": "Etihad Airways",
+          "confirmationNUmber": "IY60DQ",
+          "flightNumber": "291",
+          "equipmentCode": "739",
+          "equipmentDescription": "Boeing 737-900",
+          "formattedLayoverDuration": "",
+          "duration": "PT2H8M",
+          "formattedDuration": "2h 8m",
+          "providerCode": "Amadeus",
+          "bookingCode": "W",
+          "cabinCode": "coach",
+          "cabinCodeLocalized": "Economy / Coach",
+          "isSeatMapAvailable": true,
+          "flightIdForSeatMap": "8B839553-44F0-4E3B-86C2-2CE80C3D5C0C_0_L1_S1_1",
+          "status": "UNKNOWN",
+          "airSegmentStatusCode": "HK",
+          "isHidden": false
+        }],
+        "sharableFlightLegURL": "https://www.expedia.com/api/trips/shared/O7dMRevckn59C730g8b0VMCADb5KA6Sh015uYORBCHXm7ea801UtlqpFGSI3Zb8qqU6rSht6uMfYTbT9sjs3-CiO9D_yg94pRdzIc33OCz8DCA_Z_Xu5q4OyPw7Lb9lJIQAy4x2pHsrZuUtkBhaVirkFtqNhWTW9uebfp0yCOUZQhw",
+        "duration": "PT2H8M",
+        "formattedDuration": "2h 8m"
+      }],
+      "rules": {
+        "cancellationFeeLegalText": "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call.",
+        "cancelChangeIntroductionText": "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+        "feeChangeRefundIntroductionText": "When the airline charges any cancellation or change fees in accordance with its own policies, the cost will be passed on to you.",
+        "refundabilityText": "Tickets are nonrefundable, nontransferable and name changes are not allowed.",
+        "completePenaltyRules": {
+          "text": "Rules and restrictions as imposed by the airline will be applicable to your fare should you need to change or cancel your flight.",
+          "url": "https://www.expedia.com/Fare-Rules?tripid=5ca48839-e860-4cde-be71-7b977804238b",
+          "textAndURL": "Please read the <a id=\"complete_penalty_rules_for_changes_and_cancellations_link\" href=\"https://www.expedia.com/Fare-Rules?tripid=5ca48839-e860-4cde-be71-7b977804238b\" class=\"tooltip\" target=\"rulesAndRestrictions\">complete penalty rules for changes and cancellations <span class=\"visually-hidden\" style=\"display:none;\">(Opens a new window) </span> </a> applicable to this fare.",
+          "apiURL": "https://www.expedia.com/api/trips/1130228389120/items/8B839553-44F0-4E3B-86C2-2CE80C3D5C0C_0/gdsFareRulesText?useCache=true"
+        },
+        "additionalAirlineFees": {
+          "text": "The airline may charge additional fees for checked baggage or other optional services.",
+          "url": "https://www.expedia.com/Flights-BagFees?originapt=SFO&destinationapt=SEA&cabinclass=3&mktgcarrier=EY&opcarrier=EY&farebasis=WAA07AQN&bookingclass=W&travelDate=2016-03-22&flightNumber=291",
+          "textAndURL": "The airline may charge <a href=\"https://www.expedia.com/Flights-BagFees?originapt=SFO&destinationapt=SEA&cabinclass=3&mktgcarrier=EY&opcarrier=EY&farebasis=WAA07AQN&bookingclass=W&travelDate=2016-03-22&flightNumber=291\" class=\"tooltip\" target=\"rulesAndRestrictions\">additional fees <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a> for checked baggage or other optional services."
+        },
+        "airlineLiabilityLimitations": {
+          "text": "Please read important information regarding airline liability limitations.",
+          "url": "https://www.expedia.com/p/info-main/warsaw?",
+          "textAndURL": "Please read important information regarding <a id=\"airline_liability_limitations_link\" href=\"https://www.expedia.com/p/info-main/warsaw?\" class=\"tooltip\" target=\"rulesAndRestrictions\">airline liability limitations <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a>."
+        },
+        "airlineCheckInInstructionText": "Remember to bring your itinerary and government-issued photo ID for airport check-in and security.",
+        "railFeederMessages": [],
+        "expediaChangeFeeChargeable": false
+      },
+      "sharableItemDetailURL": "https://www.expedia.com/api/trips/shared/ov-_ZeHjaD-_FbyHyuvAwMCAAZhO4e3eMuSbfgxHP4wGn_2imqKrGNmUmhN5VPxgPF2YP-vJgk0EMJuoYFHMRFneQqaACDw0O_tyqGb6ckWpNmsxxIECLnn65_Tpe28W0k9fTp32MteVlwGFmOk257sf",
+      "airRecordLocator": "251948275",
+      "isSeatMapAvailable": true,
+      "ticketingTime": {
+        "raw": "2016-03-14T12:53:00-07:00",
+        "localized": "Mar 14, 2016 12:53:00 PM",
+        "epochSeconds": 1457985180,
+        "timeZoneOffsetSeconds": -25200,
+        "localizedShortDate": "Mon, 14 Mar",
+        "localizedMediumDate": "Mar 14, 2016",
+        "localizedFullDate": "Monday, March 14, 2016",
+        "localizedLongDate": "March 14, 2016",
+        "localizedShortTime": "12:53 PM"
+      },
+      "webChangePathURL": "https://www.expedia.com/flight-change-gds?itinnumber=1130228389120&arl=251948275&cname=Etihad Airways",
+      "bookingProvider": "Amadeus",
+      "hasTrainTransfer": false,
+      "ticketingAirCarrierNames": [
+        "Etihad Airways"],
+      "isLccOrCharter": false,
+      "airlineManageBookingURL": "http://ManagerAirLineBookingMockURL",
+      "airlineCheckInURL": "http://CheckInAirlineMockURL",
+      "destinationRegionId": 6000578
+    }],
+    "readTripError": false,
+    "tripSource": "expedia",
+    "isMRP": false
+  }, {
+    "levelOfDetail": "FULL",
+    "tripId": "833f6a9d-bcd4-42dc-a40b-b2d2ca148edd",
+    "webDetailsURL": "https://www.expedia.com/trips/1130409733285",
+    "tripNumber": 1130409733285,
+    "title": "Hotel in Kirkland",
+    "description": "",
+    "updateTripNameDescPathURL": "https://www.expedia.com/api/trips/833f6a9d-bcd4-42dc-a40b-b2d2ca148edd/updateTripNameDescription",
+    "startTime": {
+      "raw": "2018-03-23T15:00:00-08:00",
+      "localized": "Mar 23, 2016 3:00:00 PM",
+      "epochSeconds": {{ epoch_seconds_plus_2_days }},
+      "timeZoneOffsetSeconds": -28800,
+      "localizedShortDate": "3/23/2016",
+      "localizedMediumDate": "Mar 23",
+      "localizedFullDate": "Wed, Mar 23",
+      "localizedLongDate": "Mar 23, 2016"
+    },
+    "endTime": {
+      "raw": "2018-03-24T11:00:00-08:00",
+      "localized": "Mar 24, 2016 11:00:00 AM",
+      "epochSeconds": {{ epoch_seconds_plus_1_week }},
+      "timeZoneOffsetSeconds": -28800,
+      "localizedShortDate": "3/24/2016",
+      "localizedMediumDate": "Mar 24",
+      "localizedFullDate": "Thu, Mar 24",
+      "localizedLongDate": "Mar 24, 2016"
+    },
+    "tripCreatedTime": {
+      "raw": "2016-03-16T17:45:32Z",
+      "localized": "Mar 16, 2016 5:45:32 PM",
+      "epochSeconds": 1458150332,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Wed, 16 Mar"
+    },
+    "tripUpdatedTime": {
+      "raw": "2016-03-22T16:42:26Z",
+      "localized": "Mar 22, 2016 4:42:26 PM",
+      "epochSeconds": 1458664946,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Tue, 22 Mar"
+    },
+    "tripCacheUpdatedTime": {
+      "raw": "2016-03-22T16:42:26Z",
+      "localized": "Mar 22, 2016 4:42:26 PM",
+      "epochSeconds": 1458664946,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Tue, 22 Mar"
+    },
+    "bookingStatus": "BOOKED",
+    "rewards": {
+      "totalPoints": 1867.00,
+      "basePoints": 490.00,
+      "bonusPoints": [{
+        "m_pointValue": 980.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "App Booking Triple Points",
+        "m_status": "PENDING"
+      }, {
+        "m_pointValue": 147.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "+gold Bonus",
+        "m_status": "PENDING"
+      }, {
+        "m_pointValue": 250.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "+VIP Access Bonus Offer",
+        "m_status": "PENDING"
+      }],
+      "logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+      "viewStatementURL": "/user/rewards"
+    },
+    "sharableDetailsURL": "https://www.expedia.com/api/trips/shared/xrr16c2kFvoAw2sCKaZ7HsCArm6-oSTjMDr3JujnXz9okjA4ZYqzPy2EoDUvgPYjyVCDMV9BXGpjabLx5SNaWHfD",
+    "customerSupport": {
+      "customerSupportURL": "http://www.expedia.com/service/",
+      "customerSupportPhoneInfo": [
+        "Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+        "For faster service, mention <strong>itinerary #1130409733285 </strong>"],
+      "customerSupportPhoneNumberDomestic": "+1-866-539-4149",
+      "customerSupportPhoneNumberInternational": "+1 702-939-2635",
+      "customerSupportPhoneInfoForEmail": [
+        "Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+        "For faster service, mention <strong>itinerary #1130409733285 </strong>"],
+      "termsAndConditionsURL": ""
+    },
+    "isBookedUsingForeignCurrency": false,
+    "hotels": [{
+      "uniqueID": "E7FDD09B-C136-457F-AFF4-884D3BC9AB3B_0",
+      "hotelId": "104382",
+      "checkInDateTime": {
+        "raw": "2018-03-23T15:00:00-08:00",
+        "localized": "Mar 23, 2016 3:00:00 PM",
+        "epochSeconds": {{ epoch_seconds_plus_2_days }},
+        "timeZoneOffsetSeconds": -28800,
+        "localizedShortDate": "3/23/2016",
+        "localizedMediumDate": "Mar 23",
+        "localizedFullDate": "Wed, Mar 23",
+        "localizedLongDate": "Mar 23, 2016"
+      },
+      "checkOutDateTime": {
+        "raw": "2018-03-24T11:00:00-08:00",
+        "localized": "Mar 24, 2016 11:00:00 AM",
+        "epochSeconds": {{ epoch_seconds_plus_1_week }},
+        "timeZoneOffsetSeconds": -28800,
+        "localizedShortDate": "3/24/2016",
+        "localizedMediumDate": "Mar 24",
+        "localizedFullDate": "Thu, Mar 24",
+        "localizedLongDate": "Mar 24, 2016"
+      },
+      "checkInDate": "2018-03-23T15:00:00-08:00",
+      "checkOutDate": "2018-03-24T11:00:00-08:00",
+      "checkInDateLocalized": "Mar 23, 2016",
+      "checkOutDateLocalized": "Mar 24, 2016",
+      "numberOfNights": 1,
+      "bookingStatus": "BOOKED",
+      "bookingStatusText": "Confirmed",
+      "bookingStatusMessage": "We have confirmed your hotel reservation with the property.",
+      "inventoryType": "MERCHANT",
+      "inventorySource": "INTERNAL",
+      "paymentModel": "EXPEDIA_COLLECT",
+      "inventoryVisibility": "VISIBLE",
+      "orderNumber": "8015919631192",
+      "state": "PRE_START_3",
+      "infositeURL": "http://www.expedia.com/itin.h104382.Hotel-Information?langid=1033",
+      "hotelPropertyInfo": {
+        "address": {
+          "addressLine1": "1200 Carillon Pt",
+          "city": "Kirkland",
+          "countrySubdivisionCode": "WA",
+          "postalCode": "98033",
+          "countryCode": "USA",
+          "countryName": " Etihad Airways States of America",
+          "fullAddress": "1200 Carillon Pt, Kirkland, WA, 98033 Etihad Airways States of America",
+          "airportCode": "SEA"
+        },
+        "name": "Woodmark Hotel and Still Spa",
+        "starRating": "40",
+        "photoThumbnailURL": "/hotels/1000000/110000/104400/104382/104382_89_l.jpg",
+        "photoThumbnail500pixURL": "/hotels/1000000/110000/104400/104382/104382_89_y.jpg",
+        "photoThumbnail1000pixURL": "/hotels/1000000/110000/104400/104382/104382_89_z.jpg",
+        "localPhone": "1-425-822-3700",
+        "tollFreePhone": "1-800-822-3700",
+        "formattedPhoneNumbers": "Tel: 1 (425) 822-3700, Fax: 1 (425) 822-3699",
+        "checkInPolicies": [
+          "Minimum check-in age is 18",
+          "Check-in time starts at 4 PM"],
+        "checkInStartTimePolicy": {
+          "label": "Check-in time starts at",
+          "value": "4 PM"
+        },
+        "checkInEndTimePolicy": {},
+        "checkOutTimePolicy": {
+          "label": "Check-out time is",
+          "value": "Noon"
+        },
+        "generalRules": [
+          "Check-out time is Noon",
+          "No rollaway/extra beds available",
+          "No cribs (infant beds) available"],
+        "restrictionPolicies": [],
+        "fees": [
+          "The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul> <li>Breakfast fee: between USD 8 and USD 12 per person (approximately)</li>  <li>Fee for in-room wireless Internet: USD 0.00 (rates may vary)</li> <li>Fee for in-room high-speed Internet (wired): USD 0.00 (rates may vary)</li>    <li>Self parking fee: USD 17.00 per day (in/out privileges)</li> <li>Valet parking fee: USD 22.00 per day (in/out privileges)</li>          </ul>",
+          "The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change."],
+        "mandatoryFees": [
+          "<p>You'll be asked to pay the following charges at the hotel:</p>",
+          "<ul><li>Resort fee: USD 15 per accommodation, per night</li></ul>",
+          "The hotel resort fee includes:<ul><li>Spa access</li><li>Nearby fitness center access</li><li>Business center/computer access</li><li>Internet access</li><li>Newspaper</li><li>Phone calls</li><li>Faxes</li><li>In-room coffee</li><li>Additional inclusions</li></ul>",
+          "<p>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book. </p>"],
+        "specialCheckInInstructions": [],
+        "latitude": 47.65755,
+        "longitude": -122.20648,
+        "isVipAccess": true,
+        "googleMapsLink": "//maps.google.com?q=98033+Kirkland,+1200+Carillon+Pt+",
+        "regionId": "8469"
+      },
+      "totalPriceDetails": {
+        "primaryCurrencyCode": "USD",
+        "base": "271.01",
+        "baseFormatted": "$271.01",
+        "baseWithAdjustmentForDRRRateDiscount": "219.21",
+        "baseWithAdjustmentForDRRRateDiscountFormatted": "$219.21",
+        "taxesAndFees": "25.59",
+        "taxesAndFeesFormatted": "$25.59",
+        "adjustmentForDRRRateDiscount": "-51.80",
+        "adjustmentForDRRRateDiscountFormatted": "-$51.80",
+        "drrRateDiscountDescription": "Sale!",
+        "subTotalBeforeCoupon": "244.80",
+        "subTotalBeforeCouponFormatted": "$244.80",
+        "taxStatus": "ESTIMATED",
+        "total": "244.80",
+        "totalFormatted": "$244.80",
+        "hasFees": true,
+        "expediaChangeFee": "0",
+        "expediaChangeFeeFormatted": "$0.00"
+      },
+      "rules": {
+        "cancelChangeRulesIntroduction": "We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. Woodmark Hotel and Still Spa charges the following cancellation and change fees.",
+        "cancelChangeRules": [
+          "Cancellations or changes made after 11:00 PM (Pacific Daylight Time (US & Canada); Tijuana) on Mar 22, 2016 or no-shows are subject to a hotel fee equal to 100% of the total amount paid for the reservation.",
+          "Prices and hotel availability are not guaranteed until full payment is received.If you would like to book multiple rooms, you must use a different name for each room. Otherwise, the duplicate reservation will be canceled by the hotel."],
+        "cancellationWindowTime": {
+          "raw": "2016-03-22T23:00:00-07:00",
+          "localized": "Mar 22, 2016 11:00:00 PM",
+          "epochSeconds": 1458712800,
+          "timeZoneOffsetSeconds": -25200,
+          "localizedShortDate": "Tue, 22 Mar",
+          "localizedMediumDate": "Mar 22, 2016",
+          "localizedFullDate": "Tuesday, March 22, 2016",
+          "localizedLongDate": "March 22, 2016",
+          "localizedShortTime": "11:00 PM"
+        },
+        "opaqueRules": [],
+        "opaquePolicies": [],
+        "lateArrivalInstructions": "Your room will be guaranteed for late arrival.",
+        "loyaltyPointsDisclaimer": "Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate hotels.",
+        "currencyDisclaimer": "Unless specified otherwise, <span class=\"rr-bold\">rates are quoted in </span><span class=\"rr-bold\" id=\"hotel_id-default-currency\">US dollars</span>.",
+        "extraGuestPolicies": [
+          "Availability of accommodation in the same property for extra guests is not guaranteed."],
+        "occupancyPolicies": [
+          "Base rate is for 2 guests.",
+          "This property considers guests of any age to be an adult."],
+        "paymentPolicies": [
+          "Your credit card is charged the total cost at time of purchase. Prices and room availability are not guaranteed until full payment is received.",
+          "Some hotels request that we wait to submit guest names until 7 days prior to check in. In such a case, your hotel room is reserved, but your name is not yet on file with the hotel."],
+        "roomRequestDisclaimer": "All special requests (such as in-room amenities, bed type, and smoking preference) are shared with the hotel, but requests are not guaranteed and may incur additional charges. We recommend you confirm them directly with the hotel before travel.",
+        "dualCurrencyText": "Rate quotes in USD are based on current exchange rates, which may vary at time of travel. Final payment will be settled in local currency directly with the hotel.",
+        "feesDisclaimer": "The list of fees presented may not be comprehensive. Fees and deposits may not include tax and are subject to change."
+      },
+      "rooms": [{
+        "uniqueID": "E7FDD09B-C136-457F-AFF4-884D3BC9AB3B_0_644759656",
+        "roomRatePlanDescription": "Lakefront Guestroom",
+        "roomTypeCode": "9316",
+        "ratePlanCode": "9316",
+        "bookingStatus": "BOOKED",
+        "hotelConfirmationNumber": "30P55T",
+        "drrRateDiscountDescription": "Sale!",
+        "orderLineNumber": "ccc906f8-35cb-4c01-8bb5-b83acfcb966d",
+        "refundabilityStatus": "REFUNDABLE",
+        "availableOnAllDates": true,
+        "roomCancelLink": "https://www.expedia.com/hotel-cancel-details?tripid=833f6a9d-bcd4-42dc-a40b-b2d2ca148edd&ordernumber=8015919631192&orderlineguid=ccc906f8-35cb-4c01-8bb5-b83acfcb966d&roomNumber=0",
+        "roomChangeLink": "https://www.expedia.com/trips/833f6a9d-bcd4-42dc-a40b-b2d2ca148edd/ordernumber/8015919631192/orderlinenumber/ccc906f8-35cb-4c01-8bb5-b83acfcb966d/change",
+        "totalPriceDetails": {
+          "primaryCurrencyCode": "USD",
+          "base": "271.01",
+          "baseFormatted": "$271.01",
+          "baseWithAdjustmentForDRRRateDiscount": "219.21",
+          "baseWithAdjustmentForDRRRateDiscountFormatted": "$219.21",
+          "taxesAndFees": "25.59",
+          "taxesAndFeesFormatted": "$25.59",
+          "adjustmentForDRRRateDiscount": "-51.80",
+          "adjustmentForDRRRateDiscountFormatted": "-$51.80",
+          "subTotalBeforeCoupon": "244.80",
+          "subTotalBeforeCouponFormatted": "$244.80",
+          "total": "244.80",
+          "totalFormatted": "$244.80",
+          "averagePricePerDay": "219.21",
+          "averagePricePerDayFormatted": "$219.21",
+          "averageTaxPerDay": "25.59",
+          "averageTaxPerDayFormatted": "$25.59",
+          "priceDetailsPerDay": [{
+            "day": {
+              "raw": "2018-03-23T15:00:00-08:00",
+              "localized": "Mar 23, 2016 3:00:00 PM",
+              "epochSeconds": {{ epoch_seconds_plus_2_days }},
+              "timeZoneOffsetSeconds": -28800,
+              "localizedShortDate": "Wed, 23 Mar"
+            },
+            "primaryCurrencyCode": "USD",
+            "amount": "219.21",
+            "amountFormatted": "$219.21"
+          }],
+          "isSameRateForAllNights": true,
+          "expediaChangeFee": "0",
+          "expediaChangeFeeFormatted": "$0.00"
+        },
+        "roomPreferences": {
+          "primaryOccupant": {
+            "firstName": "Firsttest",
+            "fullName": "Firsttest LastTest",
+            "email": "test@email.com",
+            "phone": "1-518-2759488"
+          },
+          "otherOccupantInfo": {
+            "adultCount": 1,
+            "childCount": 0,
+            "infantCount": 0,
+            "childAndInfantCount": 0,
+            "childAndInfantAges": []
+          },
+          "occupantSelectedRoomOptions": {
+            "bedTypeName": "1 king bed",
+            "smokingPreference": "NONSMOKING_ROOM",
+            "accessibilityOptions": [],
+            "hasExtraBedAdult": false,
+            "hasExtraBedChild": false,
+            "hasExtraBedInfant": false,
+            "isSmokingPreferenceSelected": true,
+            "isRoomOptionsAvailable": true
+          },
+          "availableRoomOptions": {
+            "bedTypes": [{
+              "id": "14",
+              "description": "1 king bed",
+              "selected": true
+            }, {
+              "id": "15",
+              "description": "1 queen bed",
+              "selected": false
+            }],
+            "accessibilityOptions": [{
+              "id": "2420",
+              "description": "Accessible bathroom",
+              "selected": false
+            }, {
+              "id": "2423",
+              "description": "In-room accessibility",
+              "selected": false
+            }],
+            "isSmokingRoomAvailable": false,
+            "isNonSmokingRoomAvailable": true
+          }
+        },
+        "amenities": [
+          "Free Wireless Internet"],
+        "nonPricePromotionData": {}
+      }],
+      "isFreeCancellationAvailable": false,
+      "paymentsAndCreditFees": {
+        "paymentsHotelFeesAndDepositsDisclaimer": "The below fees and deposits only apply if they are not included in your selected room rate.",
+        "noFeesStaticText": "The price above DOES NOT include any applicable hotel service fees, charges for optional incidentals (such as minibar snacks or telephone calls), or regulatory surcharges. The hotel will assess these fees, charges, and surcharges upon check-out.",
+        "isDirectAgency": false,
+        "isGDS": false,
+        "isFullyCancelled": false,
+        "isAnyRoomCancelled": false,
+        "isDepositRequired": false,
+        "isPaymentsCreditsVisible": false
+      }
+    }],
+    "readTripError": false,
+    "tripSource": "expedia",
+    "isMRP": false,
+    "exclusiveAmenitiesLogoURL": "/static/default/default/images/myrewards/Rewards_Member_Gold.png"
+  }, {
+    "levelOfDetail": "FULL",
+    "tripId": "0544c419-eca3-46cd-8acc-76ad88f53732",
+    "webDetailsURL": "https://www.expedia.com/trips/1130228513578",
+    "tripNumber": 1130228513578,
+    "title": "Flight to San Francisco",
+    "description": "",
+    "updateTripNameDescPathURL": "https://www.expedia.com/api/trips/0544c419-eca3-46cd-8acc-76ad88f53732/updateTripNameDescription",
+    "startTime": {
+      "raw": "2016-03-25T15:10:00-07:00",
+      "localized": "Mar 25, 2016 3:10:00 PM",
+      "epochSeconds": {{ epoch_seconds_plus_1_week }},
+      "timeZoneOffsetSeconds": -25200,
+      "localizedShortDate": "3/25/2016",
+      "localizedMediumDate": "Mar 25",
+      "localizedFullDate": "Fri, Mar 25",
+      "localizedLongDate": "Mar 25, 2016"
+    },
+    "endTime": {
+      "raw": "2016-03-25T17:21:00-07:00",
+      "localized": "Mar 25, 2016 5:21:00 PM",
+      "epochSeconds": {{ epoch_seconds_plus_1_week_1_day }},
+      "timeZoneOffsetSeconds": -25200,
+      "localizedShortDate": "3/25/2016",
+      "localizedMediumDate": "Mar 25",
+      "localizedFullDate": "Fri, Mar 25",
+      "localizedLongDate": "Mar 25, 2016"
+    },
+    "tripCreatedTime": {
+      "raw": "2016-03-14T19:53:18Z",
+      "localized": "Mar 14, 2016 7:53:18 PM",
+      "epochSeconds": 1457985198,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Mon, 14 Mar"
+    },
+    "tripUpdatedTime": {
+      "raw": "2016-03-22T16:42:27Z",
+      "localized": "Mar 22, 2016 4:42:27 PM",
+      "epochSeconds": 1458664947,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Tue, 22 Mar"
+    },
+    "tripCacheUpdatedTime": {
+      "raw": "2016-03-22T16:42:27Z",
+      "localized": "Mar 22, 2016 4:42:27 PM",
+      "epochSeconds": 1458664947,
+      "timeZoneOffsetSeconds": 0,
+      "localizedShortDate": "Tue, 22 Mar"
+    },
+    "bookingStatus": "BOOKED",
+    "rewards": {
+      "totalPoints": 1139.00,
+      "basePoints": 42.00,
+      "bonusPoints": [{
+        "m_pointValue": 1000.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "Expedia Escape Employee Flight Offer",
+        "m_status": "PENDING"
+      }, {
+        "m_pointValue": 84.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "App Booking Triple Points",
+        "m_status": "PENDING"
+      }, {
+        "m_pointValue": 13.00,
+        "m_pointType": "offerPoint",
+        "m_pointDescription": "+gold Bonus",
+        "m_status": "PENDING"
+      }],
+      "logoUrl": "/static/default/default/images/myrewards/RewardsLogo_193x76.png",
+      "viewStatementURL": "/user/rewards"
+    },
+    "sharableDetailsURL": "https://www.expedia.com/api/trips/shared/J9DN5lcYfOmmsfsp3zcgyMCAqNQw6vVZr9TdX0tyi9G817-e5bUsgTexmtfBI0kOs4tjy-MgUqZrxIsbtkECEpRu",
+    "airAttachQualificationInfo": {
+      "airAttachQualified": true,
+      "offerExpires": "2016-03-24T12:53:18.097-07:00",
+      "offerExpiresTime": {
+        "raw": "2016-03-24T12:53:18-07:00",
+        "localized": "Mar 24, 2016 12:53:18 PM",
+        "epochSeconds": 1458849198,
+        "timeZoneOffsetSeconds": -25200,
+        "localizedShortDate": "3/24/16",
+        "localizedMediumDate": "Mar 24, 2016",
+        "localizedFullDate": "Thursday, March 24, 2016",
+        "localizedLongDate": "March 24, 2016"
+      }
+    },
+    "customerSupport": {
+      "customerSupportURL": "http://www.expedia.com/service/",
+      "customerSupportPhoneInfo": [
+        "Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+        "For faster service, mention <strong>itinerary #1130228513578 </strong>"],
+      "customerSupportPhoneNumberDomestic": "+1-866-539-4149",
+      "customerSupportPhoneNumberInternational": "+1 702-939-2635",
+      "customerSupportPhoneInfoForEmail": [
+        "Call Expedia+ gold Dedicated Customer Care at 1-866-539-4149 or 1-702-939-2635.",
+        "For faster service, mention <strong>itinerary #1130228513578 </strong>"],
+      "termsAndConditionsURL": ""
+    },
+    "isBookedUsingForeignCurrency": false,
+    "flights": [{
+      "uniqueID": "08E0EEFE-BB2F-4E5A-970D-D5932C63CB35_0",
+      "bookingStatus": "BOOKED",
+      "bookingStatusText": "Confirmed",
+      "bookingStatusMessage": "Your reservation is booked and confirmed. There is no need to call us to reconfirm this reservation.",
+      "ticketingStatus": "COMPLETE",
+      "orderNumber": "8020263703043",
+      "webCancelPathURL": "https://www.expedia.com/flight-cancel-exchange?itinnumber=1130228513578&arl=251948538&bookingid=26MJLF",
+      "updateFrequentFlyerPathURL": "https://www.expedia.com/api/trips/0544c419-eca3-46cd-8acc-76ad88f53732/updateFrequentFlyerInformation",
+      "orderLineNumber": "42c05bec-a132-4590-bcb0-2377a1165abd",
+      "confirmationNumbers": [{
+        "airlineName": "Etihad Airways",
+        "number": "IYBW43"
+      }],
+      "expediaBookingId": "26MJLF",
+      "paymentModel": "AGENCY",
+      "fareType": "PUBLISHED",
+      "flightType": "ONE_WAY",
+      "isInternational": false,
+      "fareTotal": {
+        "subTotal": "208.1",
+        "subTotalFormatted": "$208.10",
+        "currency": "USD",
+        "base": "180.47",
+        "baseFormatted": "$180.47",
+        "taxes": "27.63",
+        "taxesFormatted": "$27.63",
+        "total": "208.1",
+        "totalFormatted": "$208.10"
+      },
+      "farePerPassenger": [{
+        "passengerIndex": 0,
+        "passengerTypeCode": "ADULT",
+        "passengerTypeCodeLocalized": "Adult",
+        "currency": "USD",
+        "base": "180.47",
+        "baseFormatted": "$180.47",
+        "taxes": "27.63",
+        "taxesFormatted": "$27.63",
+        "fees": [{
+          "localizedName": "Transportation Tax",
+          "amount": "13.53",
+          "amountFormatted": "$13.53"
+        }, {
+          "localizedName": "Passenger Civil Aviation Security Service Fee",
+          "amount": "5.6",
+          "amountFormatted": "$5.60"
+        }, {
+          "localizedName": "Flight Segment Tax",
+          "amount": "4.0",
+          "amountFormatted": "$4.00"
+        }, {
+          "localizedName": "Passenger Facility Charge",
+          "amount": "4.5",
+          "amountFormatted": "$4.50"
+        }],
+        "total": "208.1",
+        "totalFormatted": "$208.10"
+      }],
+      "isSplitTicket": false,
+      "fulfillmentMethod": "ETICKET",
+      "passengers": [{
+        "typeCode": "ADULT",
+        "typeLocalized": "Adult",
+        "title": "",
+        "firstName": "Firsttest",
+        "lastName": "LastTest",
+        "fullName": "Firsttest LastTest",
+        "age": 31,
+        "gender": "Male",
+        "dateOfBirth": "1985-1-12",
+        "TSAKnownTravelerNumber": "",
+        "passportNumber": "",
+        "passportCountryCode": "US",
+        "phoneNumbers": [{
+          "countryCode": "1",
+          "phone": "5182759488"
+        }],
+        "ticketNumbers": [
+          "0167805248893"],
+        "frequentFlyerPlans": [],
+        "seats": [{
+          "assigned": "32B",
+          "seatPreference": "",
+          "seatPreferenceLocalized": "Unknown",
+          "smokingAllowed": false,
+          "seatType": "SEAT_UNPAID",
+          "statusCode": "Unknown",
+          "legIndex": 0,
+          "segmentIndex": 0
+        }]
+      }],
+      "brandedFareFamilyName": "",
+      "legs": [{
+        "type": "NONSTOP",
+        "state": "PRE_START_4",
+        "numberOfStops": 0,
+        "airlineLogoURL": "https://images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/smEY.gif",
+        "segments": [{
+          "transportationType": "FLIGHT",
+          "departureType": "FLIGHT_DEPARTURE",
+          "departureLocation": {
+            "latitude": 47.44363,
+            "longitude": -122.30175,
+            "name": "Seattle - Tacoma Intl.",
+            "longName": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+            "airportCode": "SEA",
+            "city": "Seattle",
+            "countryCode": "USA"
+          },
+          "departureTime": {
+            "raw": "2016-03-25T15:10:00-07:00",
+            "localized": "Mar 25, 2016 3:10:00 PM",
+            "epochSeconds": {{ epoch_seconds_plus_1_week }},
+            "timeZoneOffsetSeconds": -25200,
+            "localizedShortDate": "Fri, 25 Mar",
+            "localizedMediumDate": "Mar 25, 2016",
+            "localizedFullDate": "Friday, March 25, 2016",
+            "localizedLongDate": "March 25, 2016",
+            "localizedShortTime": "3:10 PM"
+          },
+          "arrivalType": "FLIGHT_ARRIVAL",
+          "arrivalLocation": {
+            "latitude": 37.61594,
+            "longitude": -122.387996,
+            "name": "San Francisco Intl.",
+            "longName": "San Francisco, CA (SFO-San Francisco Intl.)",
+            "airportCode": "SFO",
+            "airportMetroCode": "QSF",
+            "city": "San Francisco",
+            "countryCode": "USA"
+          },
+          "arrivalTime": {
+            "raw": "2016-03-25T17:21:00-07:00",
+            "localized": "Mar 25, 2016 5:21:00 PM",
+            "epochSeconds": {{ epoch_seconds_plus_1_week_1_day }},
+            "timeZoneOffsetSeconds": -25200,
+            "localizedShortDate": "Fri, 25 Mar",
+            "localizedMediumDate": "Mar 25, 2016",
+            "localizedFullDate": "Friday, March 25, 2016",
+            "localizedLongDate": "March 25, 2016",
+            "localizedShortTime": "5:21 PM"
+          },
+          "arrivalTerminal": "3",
+          "airlineCode": "EY",
+          "externalAirlineCode": "EY",
+          "airlineName": "Etihad Airways",
+          "operatedByAirCarrierName": "",
+          "confirmationAirline": "Etihad Airways",
+          "confirmationNUmber": "IYBW43",
+          "flightNumber": "543",
+          "equipmentCode": "739",
+          "equipmentDescription": "Boeing 737-900",
+          "formattedLayoverDuration": "",
+          "duration": "PT2H11M",
+          "formattedDuration": "2h 11m",
+          "providerCode": "Amadeus",
+          "bookingCode": "W",
+          "cabinCode": "coach",
+          "cabinCodeLocalized": "Economy / Coach",
+          "isSeatMapAvailable": true,
+          "flightIdForSeatMap": "08E0EEFE-BB2F-4E5A-970D-D5932C63CB35_0_L1_S1_1",
+          "status": "UNKNOWN",
+          "airSegmentStatusCode": "HK",
+          "isHidden": false
+        }],
+        "sharableFlightLegURL": "https://www.expedia.com/api/trips/shared/k9bcvILLJx61f7o7L_obAcCAY-mea04_2-IDDEmNl6INqjESLoNqwLxBU7MNYZVPWx1ZJS4EXW317ZZlguZ1jqxdq4SLfBlGPCIq6zmbBg5QvsZzfFIpte3wOgn1pO6ea0K_Q-NIpelrOEiCFmogagd6E2-MvP5oUg1gs6n9InJ3RQ",
+        "duration": "PT2H11M",
+        "formattedDuration": "2h 11m"
+      }],
+      "rules": {
+        "cancellationFeeLegalText": "A non-refundable administration fee will be applied for changes and cancellations of bookings. Customers will be informed of the administration fee by their Customer Support Centre Agent at the time of their call.",
+        "cancelChangeIntroductionText": "We understand that sometimes plans change. We do not charge a cancel or change fee. When the airline charges such fees in accordance with its own policies, the cost will be passed on to you.",
+        "feeChangeRefundIntroductionText": "When the airline charges any cancellation or change fees in accordance with its own policies, the cost will be passed on to you.",
+        "refundabilityText": "Tickets are nonrefundable, nontransferable and name changes are not allowed.",
+        "completePenaltyRules": {
+          "text": "Rules and restrictions as imposed by the airline will be applicable to your fare should you need to change or cancel your flight.",
+          "url": "https://www.expedia.com/Fare-Rules?tripid=0544c419-eca3-46cd-8acc-76ad88f53732",
+          "textAndURL": "Please read the <a id=\"complete_penalty_rules_for_changes_and_cancellations_link\" href=\"https://www.expedia.com/Fare-Rules?tripid=0544c419-eca3-46cd-8acc-76ad88f53732\" class=\"tooltip\" target=\"rulesAndRestrictions\">complete penalty rules for changes and cancellations <span class=\"visually-hidden\" style=\"display:none;\">(Opens a new window) </span> </a> applicable to this fare.",
+          "apiURL": "https://www.expedia.com/api/trips/1130228513578/items/08E0EEFE-BB2F-4E5A-970D-D5932C63CB35_0/gdsFareRulesText?useCache=true"
+        },
+        "additionalAirlineFees": {
+          "text": "The airline may charge additional fees for checked baggage or other optional services.",
+          "url": "https://www.expedia.com/Flights-BagFees?originapt=SEA&destinationapt=SFO&cabinclass=3&mktgcarrier=EY&opcarrier=EY&farebasis=WAA07AQN&bookingclass=W&travelDate=2016-03-25&flightNumber=543",
+          "textAndURL": "The airline may charge <a href=\"https://www.expedia.com/Flights-BagFees?originapt=SEA&destinationapt=SFO&cabinclass=3&mktgcarrier=EY&opcarrier=EY&farebasis=WAA07AQN&bookingclass=W&travelDate=2016-03-25&flightNumber=543\" class=\"tooltip\" target=\"rulesAndRestrictions\">additional fees <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a> for checked baggage or other optional services."
+        },
+        "airlineLiabilityLimitations": {
+          "text": "Please read important information regarding airline liability limitations.",
+          "url": "https://www.expedia.com/p/info-main/warsaw?",
+          "textAndURL": "Please read important information regarding <a id=\"airline_liability_limitations_link\" href=\"https://www.expedia.com/p/info-main/warsaw?\" class=\"tooltip\" target=\"rulesAndRestrictions\">airline liability limitations <span class=\"visually-hidden\" style=\"display:none;\" >(Opens a new window) </span> </a>."
+        },
+        "airlineCheckInInstructionText": "Remember to bring your itinerary and government-issued photo ID for airport check-in and security.",
+        "railFeederMessages": [],
+        "expediaChangeFeeChargeable": false
+      },
+      "sharableItemDetailURL": "https://www.expedia.com/api/trips/shared/-SU50PlZKiH4-2ooEhBUQsCAj068hNKDgQojlOdHD41cU8mDMjtCRvJgLskmyM0N3mCEN7pH-O6gUW3o3Q3SmNtIQpJ4NBSDXQjYvWtVwDGr5D7jMdDkByiuYCnCpmRiWkKxEC5QovfvYiZoLRJQv-NV",
+      "airRecordLocator": "251948538",
+      "isSeatMapAvailable": true,
+      "ticketingTime": {
+        "raw": "2016-03-14T12:54:00-07:00",
+        "localized": "Mar 14, 2016 12:54:00 PM",
+        "epochSeconds": 1457985240,
+        "timeZoneOffsetSeconds": -25200,
+        "localizedShortDate": "Mon, 14 Mar",
+        "localizedMediumDate": "Mar 14, 2016",
+        "localizedFullDate": "Monday, March 14, 2016",
+        "localizedLongDate": "March 14, 2016",
+        "localizedShortTime": "12:54 PM"
+      },
+      "webChangePathURL": "https://www.expedia.com/flight-change-gds?itinnumber=1130228513578&arl=251948538&cname=Etihad Airways",
+      "bookingProvider": "Amadeus",
+      "hasTrainTransfer": false,
+      "ticketingAirCarrierNames": [
+        "Etihad Airways"],
+      "isLccOrCharter": false,
+      "airlineManageBookingURL": "http://ManagerAirLineBookingMockURL",
+      "airlineCheckInURL": "http://CheckInAirlineMockURL",
+      "destinationRegionId": 6139039
+    }],
+    "readTripError": false,
+    "tripSource": "expedia",
+    "isMRP": false
+  }]
+}

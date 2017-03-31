@@ -1,0 +1,19 @@
+POST
+.*?api/packages/checkout.*
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+  "errors": [
+    {
+      "errorCode": "UNKNOWN_ERROR",
+      "errorInfo": {
+        "summary": "An unknown or unexpected error occurred."
+      },
+      "diagnosticId": 666439290,
+      "diagnosticFullText": "java.lang.NullPointerException"
+    }
+  ],
+  "activityId": "00569614-4ed8-4390-8725-8169ba76c4bc"
+}

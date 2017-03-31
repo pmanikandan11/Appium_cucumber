@@ -1,0 +1,885 @@
+GET
+.*?/m/api/hotel/offers?(?=.*?hotelId=2565776.*?)
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+  "hotelTagline": "Located on the Strip in Las Vegas",
+  "checkInDate": "2014-11-14",
+  "checkOutDate": "2014-11-15",
+  "numberOfRoomsRequested": "1",
+  "numberOfNights": "1",
+  "timeZoneUTCOffsetMinutes": "-480",
+  "checkInInstructions": "Guests must be at least 21 years of age to reserve a room. Guests under 18 years of age must be accompanied by an adult.",
+  "shortDescription": "At the heart of the Las Vegas Strip, ARIA Resort & Casino is the crowned jewel of CityCenter, a sleek and modern destination with upscale shopping, dining, entertainment and art venues. \r\n",
+  "hotelRoomResponse": [
+      {
+      "productKey": "happy_path_coupon_1",
+      "cancellationPolicy": "<p>We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. ARIA Resort & Casino at CityCenter charges the following cancellation and change fees.</p><p>The room type and rate selected are non-refundable. Should you change or cancel this reservation for any reason, your payment will not be refunded.</p><p>No refunds will be issued for late check-in or early check-out.</p><p>Stay extensions require a new reservation.</p><p>Your room will be guaranteed for late arrival.</p><p>Hotel supplier loyalty points and/or airline miles may not be awarded when booking an Expedia Special Rate hotel.</p>",
+      "rateDescription": "TEST_1",
+      "roomTypeDescription": "TEST_1",
+      "roomLongDescription": "This 520-square-foot room has 1 king bed with custom ARIA mattress and triple sheeting. Floor-to-ceiling windows provide varied views. A dressing area includes dual closets and a dresser. The 42-inch flat-panel HDTV can also be connected to your MP3 player, camera, or laptop. A 7-inch bedside touch-screen panel controls lighting, room temperature, television/video systems, music, wake-up calls, draperies, and requests for services. The bathroom has a glass-enclosed shower and adjacent soaking tub, dual granite sinks, and plush bathrobes. Wireless and wired high-speed Internet access is included in the resort fee. ",
+      "roomThumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_76_d.jpg",
+      "supplierType": "MERCHANT",
+      "rateChange": false,
+      "nonRefundable": true,
+      "hasFreeCancellation": false,
+      "guaranteeRequired": false,
+      "depositRequired": false,
+      "immediateChargeRequired": true,
+      "currentAllotment": "320",
+      "promoDescription": "",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "smokingPreferences": "E",
+      "rateOccupancyPerRoom": "7",
+      "bedTypes": [
+        {
+          "id": "14",
+          "description": "Coupon Happy Path"
+        }
+      ],
+      "rateInfo": {
+        "priceBreakdown": true,
+        "promo": true,
+        "rateChange": false,
+        "chargeableRateInfo": {
+          "maxNightlyRate": "259.00",
+          "averageRate": "259.00",
+          "taxStatusType": "ESTIMATED",
+          "surchargeTotal": "31.08",
+          "surchargeTotalForEntireStay": "31.08",
+          "averageBaseRate": "259.00",
+          "nightlyRateTotal": "259.00",
+          "discountPercent": 0,
+          "total": "290.08",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+          "surcharges": [
+            {
+              "amount": "26.42",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "26.42",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_MISC"
+            }
+          ],
+          "surchargesForEntireStay": [
+            {
+              "amount": "26.42",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "26.42",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_MISC"
+            }
+          ],
+          "nightlyRatesPerRoom": [
+            {
+              "promo": "false",
+              "baseRate": "259.00",
+              "rate": "259.00"
+            }
+          ],
+          "priceToShowUsers": "259",
+          "strikethroughPriceToShowUsers": "259",
+          "strikethroughPriceWithTaxesAndFeesToShowUsers": "290",
+          "totalMandatoryFees": "28.00",
+          "totalPriceWithMandatoryFees": "290.08",
+          "formattedTotalPriceWithMandatoryFees": "$ 290.08",
+          "userPriceType": "PerNightRateNoTaxes",
+          "priceAdjustments": [],
+          "checkoutPriceType": "total",
+          "airAttached": false,
+          "roomTypeCode": "357956",
+          "ratePlanCode": "200351149"
+        }
+      },
+      "valueAdds": [],
+      "quotedOccupancy": "4",
+      "minGuestAge": "0",
+      "roomTypeCode": "357956",
+      "ratePlanCode": "200351149",
+      "isPayLater": false
+    },
+    {
+      "productKey": "room_price_increase_1",
+      "cancellationPolicy": "<p>We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. ARIA Resort & Casino at CityCenter charges the following cancellation and change fees.</p><p>The room type and rate selected are non-refundable. Should you change or cancel this reservation for any reason, your payment will not be refunded.</p><p>No refunds will be issued for late check-in or early check-out.</p><p>Stay extensions require a new reservation.</p><p>Your room will be guaranteed for late arrival.</p><p>Hotel supplier loyalty points and/or airline miles may not be awarded when booking an Expedia Special Rate hotel.</p>",
+      "rateDescription": "TEST_2",
+      "roomTypeDescription": "TEST_2",
+      "roomLongDescription": "This 520-square-foot room has 1 king bed with custom ARIA mattress and triple sheeting. Floor-to-ceiling windows provide varied views. A dressing area includes dual closets and a dresser. The 42-inch flat-panel HDTV can also be connected to your MP3 player, camera, or laptop. A 7-inch bedside touch-screen panel controls lighting, room temperature, television/video systems, music, wake-up calls, draperies, and requests for services. The bathroom has a glass-enclosed shower and adjacent soaking tub, dual granite sinks, and plush bathrobes. Wireless and wired high-speed Internet access is included in the resort fee. ",
+      "roomThumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_76_d.jpg",
+      "supplierType": "MERCHANT",
+      "rateChange": false,
+      "nonRefundable": true,
+      "hasFreeCancellation": false,
+      "guaranteeRequired": false,
+      "depositRequired": false,
+      "immediateChargeRequired": true,
+      "currentAllotment": "320",
+      "promoDescription": "",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "smokingPreferences": "E",
+      "rateOccupancyPerRoom": "7",
+      "bedTypes": [
+        {
+          "id": "14",
+          "description": "Price Increase"
+        }
+      ],
+      "rateInfo": {
+        "priceBreakdown": true,
+        "promo": true,
+        "rateChange": false,
+        "chargeableRateInfo": {
+          "maxNightlyRate": "259.00",
+          "averageRate": "259.00",
+          "taxStatusType": "ESTIMATED",
+          "surchargeTotal": "31.08",
+          "surchargeTotalForEntireStay": "31.08",
+          "averageBaseRate": "259.00",
+          "nightlyRateTotal": "259.00",
+          "discountPercent": 0,
+          "total": "290.08",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+          "surcharges": [
+            {
+              "amount": "26.42",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "26.42",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_MISC"
+            }
+          ],
+          "surchargesForEntireStay": [
+            {
+              "amount": "26.42",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "26.42",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_MISC"
+            }
+          ],
+          "nightlyRatesPerRoom": [
+            {
+              "promo": "false",
+              "baseRate": "259.00",
+              "rate": "259.00"
+            }
+          ],
+          "priceToShowUsers": "259",
+          "strikethroughPriceToShowUsers": "259",
+          "strikethroughPriceWithTaxesAndFeesToShowUsers": "290",
+          "totalMandatoryFees": "28.00",
+          "totalPriceWithMandatoryFees": "290.08",
+          "formattedTotalPriceWithMandatoryFees": "$ 290.08",
+          "userPriceType": "PerNightRateNoTaxes",
+          "priceAdjustments": [],
+          "checkoutPriceType": "total",
+          "airAttached": false,
+          "roomTypeCode": "357955",
+          "ratePlanCode": "200351145"
+        }
+      },
+      "valueAdds": [],
+      "quotedOccupancy": "4",
+      "minGuestAge": "0",
+      "roomTypeCode": "357955",
+      "ratePlanCode": "200351145",
+      "isPayLater": false
+    },
+     {
+      "productKey": "room_price_decrease_1",
+      "cancellationPolicy": "<p>We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. ARIA Resort & Casino at CityCenter charges the following cancellation and change fees.</p><p>The room type and rate selected are non-refundable. Should you change or cancel this reservation for any reason, your payment will not be refunded.</p><p>No refunds will be issued for late check-in or early check-out.</p><p>Stay extensions require a new reservation.</p><p>Your room will be guaranteed for late arrival.</p><p>Hotel supplier loyalty points and/or airline miles may not be awarded when booking an Expedia Special Rate hotel.</p>",
+      "rateDescription": "TEST_3",
+      "roomTypeDescription": "TEST_3",
+      "roomLongDescription": "This 520-square-foot room has 1 king bed with custom ARIA mattress and triple sheeting. Floor-to-ceiling windows provide varied views. A dressing area includes dual closets and a dresser. The 42-inch flat-panel HDTV can also be connected to your MP3 player, camera, or laptop. A 7-inch bedside touch-screen panel controls lighting, room temperature, television/video systems, music, wake-up calls, draperies, and requests for services. The bathroom has a glass-enclosed shower and adjacent soaking tub, dual granite sinks, and plush bathrobes. Wireless and wired high-speed Internet access is included in the resort fee. ",
+      "roomThumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_76_d.jpg",
+      "supplierType": "MERCHANT",
+      "rateChange": false,
+      "nonRefundable": true,
+      "hasFreeCancellation": false,
+      "guaranteeRequired": false,
+      "depositRequired": false,
+      "immediateChargeRequired": true,
+      "currentAllotment": "320",
+      "promoDescription": "",
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "smokingPreferences": "E",
+      "rateOccupancyPerRoom": "7",
+      "bedTypes": [
+        {
+          "id": "14",
+          "description": "Price Decrease"
+        }
+      ],
+      "rateInfo": {
+        "priceBreakdown": true,
+        "promo": true,
+        "rateChange": false,
+        "chargeableRateInfo": {
+          "maxNightlyRate": "259.00",
+          "averageRate": "259.00",
+          "taxStatusType": "ESTIMATED",
+          "surchargeTotal": "31.08",
+          "surchargeTotalForEntireStay": "31.08",
+          "averageBaseRate": "259.00",
+          "nightlyRateTotal": "259.00",
+          "discountPercent": 0,
+          "total": "290.08",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+          "surcharges": [
+            {
+              "amount": "26.42",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "26.42",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_MISC"
+            }
+          ],
+          "surchargesForEntireStay": [
+            {
+              "amount": "26.42",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "26.42",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "4.66",
+              "type": "FEE_MISC"
+            }
+          ],
+          "nightlyRatesPerRoom": [
+            {
+              "promo": "false",
+              "baseRate": "259.00",
+              "rate": "259.00"
+            }
+          ],
+          "priceToShowUsers": "259",
+          "strikethroughPriceToShowUsers": "259",
+          "strikethroughPriceWithTaxesAndFeesToShowUsers": "290",
+          "totalMandatoryFees": "28.00",
+          "totalPriceWithMandatoryFees": "290.08",
+          "formattedTotalPriceWithMandatoryFees": "$ 290.08",
+          "userPriceType": "PerNightRateNoTaxes",
+          "priceAdjustments": [],
+          "checkoutPriceType": "total",
+          "airAttached": false,
+          "roomTypeCode": "357955",
+          "ratePlanCode": "200351145"
+        }
+      },
+      "valueAdds": [],
+      "quotedOccupancy": "4",
+      "minGuestAge": "0",
+      "roomTypeCode": "357955",
+      "ratePlanCode": "200351145",
+      "isPayLater": false
+    }
+  ],
+  "signedMapUrl": "https://maps.googleapis.com/maps/api/staticmap?client=gme-expedia&center=36.106678,-115.173173&maptype=mobile&zoom=16&size=480x400&sensor=false&hl=false&signature=bNYADLwYxQpixOMO14GgIR2y1Fc",
+  "airAttachExpirationTimeSeconds": "0",
+  "hotelId": "2565776",
+  "hotelName": "Test Hotel 1",
+  "localizedHotelName": "ARIA Resort & Casino at CityCenter",
+  "nonLocalizedHotelName": "ARIA Resort & Casino at CityCenter",
+  "hotelAddress": "3730 Las Vegas Blvd. South",
+  "hotelCity": "Las Vegas",
+  "hotelStateProvince": "NV",
+  "hotelCountry": "USA",
+  "latitude": "36.106678",
+  "longitude": "-115.173173",
+  "longDescription": "<p><strong><strong>The Centerpiece of CityCenter</strong>:</strong> At the heart of the Las Vegas Strip, ARIA Resort & Casino is the crowned jewel of CityCenter, a sleek and modern destination with upscale shopping, dining, entertainment and art venues. \r\n</p><p><strong><strong>Casino, Cabanas, and Zarkana™</strong>:</strong> ARIA Resort & Casino at CityCenter provides plenty of gaming, swimming pools with cabanas, and Cirque du Soleil's visually stunning modern acrobatic spectacular.  </p><p><strong><strong>High-Tech Rooms with Panoramic Views</strong>:</strong> Guestrooms feature floor-to-ceiling windows, custom bedding, and touchscreen panels that control lighting, temperature, music/TV channels, privacy notifications, alarm clock and light settings.</p><p><strong>Rooms</strong><br>Guestrooms at ARIA Resort & Casino at CityCenter offer cordless phones with speakerphone. Guestrooms feature high-definition televisions with premium TV channel(s). Bathrooms include double sinks, separate bathtubs and showers, and bathrobes. Business-friendly rooms are equipped with wireless and wired high-speed Internet access. Guestrooms provide minibars, clock radios, and remote lighting/drapery/curtain control. Other amenities include bathroom phones and complimentary newspapers. Services include a turndown service and housekeeping. Amenities available on request include hypo-allergenic bedding. Room service is available 24 hours a day.</p><p><strong>Awards</strong><br><strong>A Green / Sustainable Property - Third Party Certified</strong>This property participates in Green Key Eco-Rating Program, a third-party certification program that has been independently certified. Third-party certification measures the property's impact on one or more of the following: environment, community, cultural-heritage, the local economy. An objective assessment of a company's sustainable tourism practices has been performed at this property by an auditor who is independent of the third-party certification program. <ul><li>This property is affiliated with the International Gay & Lesbian Travel Association (IGLTA) and welcomes lesbian, gay, bisexual, and transgender (LGBT) guests. </li></ul></p><p><strong>Dining</strong><br><b>barMASA</b> - Chef Masayoshi Takayama's Japanese restaurant serves clean, simple and uncomplicated food focused on freshness and seasonality; the restaurant only uses fish that have been out of Japan’s coastal waters for less than 24 hours \r\n<b>Sage</b> - Chef Shawn McClain's restaurant offers farm-to-table produce, artisanal meats, and sustainable seafood in a sophisticated yet comfortable atmosphere.   \r\n  \r\n<b>AMERICAN FISH</b> - The bounty of American lakes, rivers, and coasts create the menu at Chef Michael Mina's fifth Las Vegas restaurant. Many products are purchased directly from fishermen, farmers, and ranchers, allowing diners to enjoy authentic regional dishes. Each dish is prepared in one of four signature cooking methods: salt baking, wood grilling, cast-iron griddling and ocean-water poaching.  \r\n  \r\n<b>Julian Serrano</b> - The chef's restaurant offers a casual atmosphere with menus at different price points. An expansive seafood bar highlights fresh shellfish and ceviches, while the dining room and lounge serve tapas and other dishes from Serrano's native Spain.  \r\n  \r\n<b>Jean-Georges Steakhouse</b> - Chef Jean-Georges Vongerichten melds steakhouse touches with a contemporary experience. The menu offers an innovative array of side dishes and sauces, while the restaurant's lounge and bar focus on classic cocktails.   \r\n  \r\n<b>Sirio Ristorante</b> - Chef Sirio Maccioni's dining experience offers a menu of Italian favorites such as Veal Milanese, Osso Buco, and authentic pasta dishes. Guests can enjoy traditional cocktails of Italy and one of Las Vegas' largest selections of Italian vintages.   \r\n  \r\n  <b>JP Patisserie</b> - Offering signature chocolates and desserts by Chef Jean-Philippe Maury, as well as breakfast pastries, sandwiches, crepes, salads, and paninis.\r\n  <b>FIVE50 Pizza Bar</b> - The restaurant’s name is inspired by the temperature at which the pizza is cooked, and is also the time when the bar celebrates a special daily happy hour. Award-winning chefs put their twist on East Coast and Sicilian-style pizzas, paired with an impressive selection of craft beers along with small plates, handmade pastas, an artisan charcuterie selection and decadent desserts.<b>Blossom</b> - Offers a meticulously researched menu of 100 Beijing and Hong Kong dishes that span every preference, from classic to cutting edge.\r\n\r\n<b>Javier’s</b> - Exquisitely presented regionally-influenced homestyle Mexican cooking accompanied by an unrivaled tequila selection and Javier’s famous hand-shaken, made-to-order margaritas.\r\n\r\n<b>Lemongrass</b> - Enjoy Thai cuisine in a modern atmosphere.\r\n\r\n<b>Cafe Vettro</b> - This spot serves breakfast, lunch, and dinner daily.\r\n\r\n<b>The Buffet</b> - This restaurant has a contemporary take on standard buffet cuisine. </p><p><strong>Fees</strong><br><ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>               <li>Deposit: USD 200 per stay</li>     <li>Crib (infant bed) fee: USD 35 per night</li><li>Rollaway bed fee: USD 35 per night</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul></p><p><strong>Spa</strong><br>The Spa and Salon at ARIA offers a unique blend of services, products, and experiences. Distinctive design features combining Aji stone, water gardens, and natural light create a sense of warmth, calmness, and tranquility. The Spa features 50 treatment suites, sauna, and spa tub. Services offered at this spa include scrubs, wraps, facials, hydrotherapy and aromatherapy treatments, and massages.<ul><li>Hydrotherapy treatments</li><li>Sauna in spa</li><li>Spa tub in spa</li><li>Massages</li><li>Number of treatment rooms 50</li><li>Manicures and pedicures</li><li>Body wraps</li><li>Body scrubs</li><li>Aromatherapy treatments</li><li>Body treatments</li><li>Facial treatments</li></ul></p><p><strong>Property Amenities</strong><br>In the heart of the Las Vegas Strip,  the award-winning ARIA Resort & Casino at CityCenter offers it all, from high-tech guestrooms and world-class dining from celebrated chefs, to enthralling entertainment and upscale shopping.\r\nThe full-service spa features massage and treatment rooms. In addition to an outdoor pool, ARIA Resort & Casino at CityCenter provides a health club, a spa tub, a sauna, and a steam room. Business-related amenities include wireless Internet access (included in daily resort fee), high-speed (wired) Internet access (surcharge), a conference center, 300,000 square feet of meeting facilities, and a technology helpdesk. Meeting facilities include conference rooms, a ballroom, and meeting rooms for small groups. ARIA Resort & Casino at CityCenter also offers a casino, a bar/lounge, and a nightclub. Onsite valet parking is complimentary. Wedding services are offered at this hotel. ARIA Resort & Casino at CityCenter has designated areas for smoking (fines may apply for smoking in non-smoking areas). Guests can reserve pool cabanas (surcharge) through the concierge (seasonal closures may apply).<ul><li>Total number of rooms - 4004</li><li>Number of floors - 61</li><li>ATM/banking</li><li>Bar/lounge</li><li>Business center</li><li>Casino</li><li>Multiple large conference rooms</li><li>Dry cleaning/laundry service</li><li>Elevator/lift</li><li>Express check-in</li><li>Express check-out</li><li>Full-service spa</li><li>Gift shops or newsstand</li><li>Hair salon</li><li>Health club</li><li>Wireless Internet access - surcharge</li><li>Wired (high-speed) Internet access - surcharge</li><li>Designated smoking areas</li><li>Tours/ticket assistance</li><li>Limo or Town Car service available</li><li>Massage - spa treatment room(s)</li><li>Multiple small meeting rooms</li><li>Multilingual staff</li><li>Nightclub</li><li>Free parking</li><li>Free valet parking</li><li>Porter/bellhop</li><li>Safe-deposit box at front desk</li><li>Year Built 2009</li><li>Meeting facilities size (feet) - 300,000</li><li>Meeting facilities size (meters) - 27871</li><li>Conference center</li><li>Sauna</li><li>Shopping on site</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Swimming pool - outdoor</li><li>Wedding services</li><li>Room service (24 hours)</li></ul></p><p><strong>Recreation</strong><br><ul><li>Golfing nearby</li><li>Surfing/boogie boarding nearby</li><li>Rafting nearby</li><li>Kayaking nearby</li><li>Sailing nearby</li><li>Water skiing nearby</li><li>Windsurfing nearby</li><li>Scooter/moped rentals nearby</li><li>Hiking/biking trails nearby</li><li>Bicycle rentals nearby</li><li>Mountain biking nearby</li><li>Skydiving nearby</li><li>Parasailing nearby</li><li>Personal motorized watercraft on site</li><li>Ecotours nearby</li><li>Golf lessons available nearby</li><li>Aerobics on site</li><li>Pilates classes on site</li><li>Yoga classes/instruction on site</li></ul></p><p><strong>Points of Interest</strong><br><ul><li>Crystals at City Center - 0.2 km / 0.1 mi</li><li>The Linq - 1.2 km / 0.7 mi</li><li>The Auto Collections - 1.3 km / 0.8 mi</li><li>Sands Expo Convention Center - 1.9 km / 1.2 mi</li><li>The Shoppes at the Palazzo - 2 km / 1.2 mi</li><li>Fashion Show Mall - 2.4 km / 1.5 mi</li><li>National Atomic Testing Museum - 2.4 km / 1.5 mi</li><li>Desert Research Institute - 2.5 km / 1.5 mi</li><li>Thomas and Mack Center - 2.5 km / 1.6 mi</li><li>Bali Hai Golf Club - 2.5 km / 1.6 mi</li><li>Orleans Arena - 2.6 km / 1.6 mi</li><li>Welcome to Fabulous Las Vegas Sign - 2.7 km / 1.7 mi</li><li>University of Nevada-Las Vegas - 2.8 km / 1.8 mi</li><li>Marjorie Barrick Museum - 2.9 km / 1.8 mi</li><li>Las Vegas Convention Center - 3.3 km / 2.1 mi</li></ul>The preferred airport for ARIA Resort & Casino at CityCenter is Las Vegas, NV (LAS-McCarran Intl.) - 3.1 km / 2 mi. Distances are calculated in a straight line from the property's location to the point of interest or airport and may not reflect actual travel distance.  Distances are displayed to the nearest 0.1 mile and kilometre. </p><p><strong>Policies</strong><br><ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card or cash deposit are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.</li><li>Check-out time is 11 AM</li><li>Check-in time starts at 3 PM</li><li>Pets not allowed</li><li>Minimum check-in age is 21</li></ul></p>",
+  "photos": [
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_64_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_64_t.jpg",
+      "featured": true,
+      "displayText": "Featured Image"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_66_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_66_t.jpg",
+      "displayText": "Lobby"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_1_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_1_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_2_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_2_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_3_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_3_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_4_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_4_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_61_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_61_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_65_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_65_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_100_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_100_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_75_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_75_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_76_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_76_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_80_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_80_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_84_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_84_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_85_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_85_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_101_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_101_t.jpg",
+      "displayText": "Living Room"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_68_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_68_t.jpg",
+      "displayText": "Bathroom"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_67_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_67_t.jpg",
+      "displayText": "Outdoor Pool"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_111_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_111_t.jpg",
+      "displayText": "Outdoor Pool"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_69_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_69_t.jpg",
+      "displayText": "Indoor Spa Tub"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_110_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_110_t.jpg",
+      "displayText": "Steam Room"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_87_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_87_t.jpg",
+      "displayText": "Casino"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_95_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_95_t.jpg",
+      "displayText": "Gift Shop"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_109_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_109_t.jpg",
+      "displayText": "Gift Shop"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_72_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_72_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_77_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_77_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_78_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_78_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_82_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_82_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_97_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_97_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_74_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_74_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_96_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_96_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_92_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_92_t.jpg",
+      "displayText": "Hotel Lounge"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_91_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_91_t.jpg",
+      "displayText": "Nightclub"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_73_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_73_t.jpg",
+      "displayText": "Banquet Hall"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_79_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_79_t.jpg",
+      "displayText": "Meeting Facility"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_103_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_103_t.jpg",
+      "displayText": "Meeting Facility"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_104_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_104_t.jpg",
+      "displayText": "Meeting Facility"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_106_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_106_t.jpg",
+      "displayText": "Meeting Facility"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_107_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_107_t.jpg",
+      "displayText": "Meeting Facility"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_71_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_71_t.jpg",
+      "displayText": "Hotel Front - Evening/Night"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_113_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_113_t.jpg",
+      "displayText": "Exterior detail"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_115_z.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_115_t.jpg",
+      "displayText": "Exterior"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_34_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_34_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_39_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_39_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_45_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_45_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_51_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_51_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_16_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_16_t.jpg",
+      "displayText": "Living Room"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_38_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_38_t.jpg",
+      "displayText": "Living Room"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_52_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_52_t.jpg",
+      "displayText": "Living Room"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_37_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_37_t.jpg",
+      "displayText": "Spa"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_32_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_32_t.jpg",
+      "displayText": "Spa Reception"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_20_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_20_t.jpg",
+      "displayText": "Casino"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_29_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_29_t.jpg",
+      "displayText": "Nightclub"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_53_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_53_t.jpg",
+      "displayText": "Nightclub"
+    },
+    {
+      "url": "/hotels/3000000/2570000/2565800/2565776/2565776_114_y.jpg",
+      "thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_114_t.jpg",
+      "displayText": "Exterior"
+    }
+  ],
+  "hotelAmenities": [
+    {
+      "id": "52",
+      "description": "Total number of rooms - 4004"
+    },
+    {
+      "id": "54",
+      "description": "Number of floors - 61"
+    },
+    {
+      "id": "41",
+      "description": "ATM/banking"
+    },
+    {
+      "id": "3",
+      "description": "Bar/lounge"
+    },
+    {
+      "id": "2065",
+      "description": "Business center"
+    },
+    {
+      "id": "2112",
+      "description": "Casino"
+    },
+    {
+      "id": "81",
+      "description": "Multiple large conference rooms"
+    },
+    {
+      "id": "2070",
+      "description": "Dry cleaning/laundry service"
+    },
+    {
+      "id": "8",
+      "description": "Elevator/lift"
+    },
+    {
+      "id": "2177",
+      "description": "Express check-in"
+    },
+    {
+      "id": "2067",
+      "description": "Express check-out"
+    },
+    {
+      "id": "2123",
+      "description": "Full-service spa"
+    },
+    {
+      "id": "44",
+      "description": "Gift shops or newsstand"
+    },
+    {
+      "id": "40",
+      "description": "Hair salon"
+    },
+    {
+      "id": "2008",
+      "description": "Health club"
+    },
+    {
+      "id": "2391",
+      "description": "Wireless Internet access - surcharge"
+    },
+    {
+      "id": "2393",
+      "description": "Wired (high-speed) Internet access - surcharge"
+    },
+    {
+      "id": "2349",
+      "description": "Designated smoking areas"
+    },
+    {
+      "id": "2387",
+      "description": "Tours/ticket assistance"
+    },
+    {
+      "id": "2072",
+      "description": "Limo or Town Car service available"
+    },
+    {
+      "id": "2129",
+      "description": "Massage - spa treatment room(s)"
+    },
+    {
+      "id": "2131",
+      "description": "Multiple small meeting rooms"
+    },
+    {
+      "id": "2043",
+      "description": "Multilingual staff"
+    },
+    {
+      "id": "2010",
+      "description": "Nightclub"
+    },
+    {
+      "id": "2011",
+      "description": "Free parking"
+    },
+    {
+      "id": "3863",
+      "description": "Free valet parking"
+    },
+    {
+      "id": "2066",
+      "description": "Porter/bellhop"
+    },
+    {
+      "id": "2016",
+      "description": "Safe-deposit box at front desk"
+    },
+    {
+      "id": "2515",
+      "description": "Year Built 2009"
+    },
+    {
+      "id": "2539",
+      "description": "Meeting facilities size (feet) - 300,000"
+    },
+    {
+      "id": "2592",
+      "description": "Meeting facilities size (meters) - 27871"
+    },
+    {
+      "id": "3372",
+      "description": "Conference center"
+    },
+    {
+      "id": "2135",
+      "description": "Sauna"
+    },
+    {
+      "id": "45",
+      "description": "Shopping on site"
+    },
+    {
+      "id": "2017",
+      "description": "Spa services on site"
+    },
+    {
+      "id": "371",
+      "description": "Spa tub"
+    },
+    {
+      "id": "2134",
+      "description": "Steam room"
+    },
+    {
+      "id": "24",
+      "description": "Swimming pool - outdoor"
+    },
+    {
+      "id": "2167",
+      "description": "Wedding services"
+    },
+    {
+      "id": "2015",
+      "description": "Room service (24 hours)"
+    }
+  ],
+  "hotelStarRating": "5.0",
+  "hotelStarRatingCssClassName": "5-0",
+  "hotelGuestRating": "4.5",
+  "totalRecommendations": "6593",
+  "totalReviews": "7258",
+  "percentRecommended": "91",
+  "telesalesNumber": "1-800-914-5738",
+  "deskTopOverrideNumber": false,
+  "hotelMandatoryFeesText": {
+    "name": "Mandatory Fees and Taxes",
+    "content": "<ul><li>Unless otherwise indicated, the charges below are not included in the overall room price. If not included in the overall room price, they will be charged by the property at check-in or check-out. Charges can vary, for example, based on length of stay or the room you book. This property told us they will charge you for the following:<ul><li>Resort fee: USD 28 per accommodation, per night</li></ul></li><li>Hotel resort fee inclusions (may be listed elsewhere in this description as complimentary or available for a surcharge):<ul><li>Spa access (may be limited)</li><li>Fitness center access</li><li>Internet access (may be limited)</li><li>Newspaper</li><li>Phone calls (may be limited)</li><li>Additional inclusions</li></ul></li><li>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book.</li></ul>"
+  },
+  "hotelOverviewText": [
+    {
+      "name": "<strong>The Centerpiece of CityCenter</strong>",
+      "content": "At the heart of the Las Vegas Strip, ARIA Resort & Casino is the crowned jewel of CityCenter, a sleek and modern destination with upscale shopping, dining, entertainment and art venues."
+    },
+    {
+      "name": "<strong>Casino, Cabanas, and Zarkana™</strong>",
+      "content": "ARIA Resort & Casino at CityCenter provides plenty of gaming, swimming pools with cabanas, and Cirque du Soleil's visually stunning modern acrobatic spectacular."
+    },
+    {
+      "name": "<strong>High-Tech Rooms with Panoramic Views</strong>",
+      "content": "Guestrooms feature floor-to-ceiling windows, custom bedding, and touchscreen panels that control lighting, temperature, music/TV channels, privacy notifications, alarm clock and light settings."
+    }
+  ],
+  "firstHotelOverview": "At the heart of the Las Vegas Strip, ARIA Resort & Casino is the crowned jewel of CityCenter, a sleek and modern destination with upscale shopping, dining, entertainment and art venues.",
+  "hotelAmenitiesText": {
+    "name": "Property Amenities",
+    "content": "<p>In the heart of the Las Vegas Strip,  the award-winning ARIA Resort & Casino at CityCenter offers it all, from high-tech guestrooms and world-class dining from celebrated chefs, to enthralling entertainment and upscale shopping.</p><p>The full-service spa features massage and treatment rooms. In addition to an outdoor pool, ARIA Resort & Casino at CityCenter provides a health club, a spa tub, a sauna, and a steam room. Business-related amenities include wireless Internet access (included in daily resort fee), high-speed (wired) Internet access (surcharge), a conference center, 300,000 square feet of meeting facilities, and a technology helpdesk. Meeting facilities include conference rooms, a ballroom, and meeting rooms for small groups. ARIA Resort & Casino at CityCenter also offers a casino, a bar/lounge, and a nightclub. Onsite valet parking is complimentary. Wedding services are offered at this hotel.</p><p></p><p>ARIA Resort & Casino at CityCenter has designated areas for smoking (fines may apply for smoking in non-smoking areas).</p><p>Guests can reserve pool cabanas (surcharge) through the concierge (seasonal closures may apply).</p><ul><li>Total number of rooms - 4004</li><li>Number of floors - 61</li><li>ATM/banking</li><li>Bar/lounge</li><li>Business center</li><li>Casino</li><li>Multiple large conference rooms</li><li>Dry cleaning/laundry service</li><li>Elevator/lift</li><li>Express check-in</li><li>Express check-out</li><li>Full-service spa</li><li>Gift shops or newsstand</li><li>Hair salon</li><li>Health club</li><li>Wireless Internet access - surcharge</li><li>Wired (high-speed) Internet access - surcharge</li><li>Designated smoking areas</li><li>Tours/ticket assistance</li><li>Limo or Town Car service available</li><li>Massage - spa treatment room(s)</li><li>Multiple small meeting rooms</li><li>Multilingual staff</li><li>Nightclub</li><li>Free parking</li><li>Free valet parking</li><li>Porter/bellhop</li><li>Safe-deposit box at front desk</li><li>Year Built 2009</li><li>Meeting facilities size (feet) - 300,000</li><li>Meeting facilities size (meters) - 27871</li><li>Conference center</li><li>Sauna</li><li>Shopping on site</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Swimming pool - outdoor</li><li>Wedding services</li><li>Room service (24 hours)</li></ul>"
+  },
+  "hotelPoliciesText": {
+    "name": "Policies",
+    "content": "<ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card or cash deposit are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.</li><li>Check-out time is 11 AM</li><li>Check-in time starts at 3 PM</li><li>Pets not allowed</li><li>Minimum check-in age is 21</li></ul>"
+  },
+  "hotelFeesText": {
+    "name": "Fees",
+    "content": "<ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>               <li>Deposit: USD 200 per stay</li>     <li>Crib (infant bed) fee: USD 35 per night</li><li>Rollaway bed fee: USD 35 per night</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul>"
+  },
+  "isVipAccess": false,
+  "locationDescription": "The Strip (Las Vegas)",
+  "locationId": "800045",
+  "regions": [
+    {
+      "id": 201,
+      "type": "COUNTRY",
+      "name": "United States of America",
+      "description": "",
+      "latitude": 45.69547838565718,
+      "longitude": -112.49355035565124
+    },
+    {
+      "id": 230,
+      "type": "PROVINCESTATE",
+      "name": "Nevada",
+      "description": "",
+      "latitude": 38.8911403896133,
+      "longitude": -116.451201729086
+    },
+    {
+      "id": 2008,
+      "type": "CITY",
+      "name": "Las Vegas",
+      "description": "",
+      "latitude": 36.114666,
+      "longitude": -115.172872
+    },
+    {
+      "id": 143393,
+      "type": "CITY",
+      "name": "Paradise",
+      "description": "",
+      "latitude": 36.0830097215948,
+      "longitude": -115.136317084765
+    },
+    {
+      "id": 178276,
+      "type": "MULTICITYVICINITY",
+      "name": "Las Vegas (and vicinity)",
+      "description": "",
+      "latitude": 36.0798134676754,
+      "longitude": -115.290023641182
+    },
+    {
+      "id": 800045,
+      "type": "NEIGHBORHOOD",
+      "name": "The Strip (Las Vegas)",
+      "description": "",
+      "latitude": 36.1092917148487,
+      "longitude": -115.16957177055
+    },
+    {
+      "id": 6054173,
+      "type": "MULTIREGIONWITHINACOUNTRY",
+      "name": "Clark County - Las Vegas",
+      "description": "",
+      "latitude": 36.1214731504619,
+      "longitude": -114.882852817552
+    }
+  ]
+}
+

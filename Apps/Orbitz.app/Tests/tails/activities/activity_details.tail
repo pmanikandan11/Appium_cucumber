@@ -1,0 +1,200 @@
+.*
+.*?/lx/api/activity\?.*
+*
+200
+Content-Type: application/json
+
+{
+    "id": "184415",
+    "title": "VIP Club Crawl",
+    "description": "<p>You’re on the list at one of Vegas’ most popular ultra lounges. Jump to the front of the line and meet your club-crawl host. Enjoy VIP treatment at 3 of the hottest spots in Sin City, plus a limo party bus with an open bar.</p><p>Get into the trendiest places in town, hand-picked by your local guide. You may go to Gold and Haze at Aria, LAX at Luxor, or Moon at The Palms. No matter where the night takes you, you have plenty of time to dance while the DJ spins the latest hits. </p><p>With convenient transportation and drinks aboard the party bus, you can celebrate a worry-free night. As your tour ends, head to your hotel or ask your guide to recommend another club and keep the good time going.</p>",
+    "images": [
+        {
+            "url": "//a.travel-assets.com/mediavault.le/media/0cc55867a2f23fd26b1076111fa4da24ee41bc16.jpeg",
+            "large": "//a.travel-assets.com/mediavault.le/media/ef487e5639fe8f2b6ff72a3dc55cdcd3834fecc0.jpeg",
+            "thumbnail": "//a.travel-assets.com/mediavault.le/media/8de8a8bdc50f0ad98b6a65ea25f1a718d0865542.jpeg",
+            "caption": "Group of young ladies holding up drinks and laughing inside a club in Las Vegas ",
+            "creditString": "",
+            "isImage": true
+        },
+        {
+            "url": "//a.travel-assets.com/mediavault.le/media/1a4968dee374e34564e1ad1345e0e847e83d00a5.jpeg",
+            "large": "//a.travel-assets.com/mediavault.le/media/b4fd4a551ced180cfbdfdc0bc3f6ab9dc53785de.jpeg",
+            "thumbnail": "//a.travel-assets.com/mediavault.le/media/7f55195998033d393a5ecc11854649e25a0aa3a2.jpeg",
+            "caption": "Group of girls dancing in the club on the Vegas Rockstar Club Crawl in Las Vegas ",
+            "creditString": "",
+            "isImage": true
+        },
+        {
+            "url": "//a.travel-assets.com/mediavault.le/media/d35ecefa443cf79568aedccd093ed5325004aca7.jpeg",
+            "large": "//a.travel-assets.com/mediavault.le/media/f651a224e4f9b14754798309a273fad4c4093e10.jpeg",
+            "thumbnail": "//a.travel-assets.com/mediavault.le/media/ac1c606bd44819471497b7f5be1c8cf1000920c6.jpeg",
+            "caption": "View of the interior of a club with neon lights in Las Vegas ",
+            "creditString": "",
+            "isImage": true
+        },
+        {
+            "url": "//a.travel-assets.com/mediavault.le/media/85a51cbb2be89da1267a9fda6df8faf2f7833a9e.jpeg",
+            "large": "//a.travel-assets.com/mediavault.le/media/3e08dec1b0605104f88358f8239ccfc655d21665.jpeg",
+            "thumbnail": "//a.travel-assets.com/mediavault.le/media/443a40c363773c2ace4d9b7e3d2f0f8d4c6a4b04.jpeg",
+            "caption": "Two girls dancing inside a club in Las Vegas",
+            "creditString": "",
+            "isImage": true
+        },
+        {
+            "url": "//a.travel-assets.com/mediavault.le/media/4786da8fcfce4f4be529cb2e1eaddab8bfc0c9ba.jpeg",
+            "large": "//a.travel-assets.com/mediavault.le/media/989fb717c77d8bf801bc76fe2747d798dac000a3.jpeg",
+            "thumbnail": "//a.travel-assets.com/mediavault.le/media/ce4a58c7b1b0a617b7e4bc29f895fd3a790b6a9d.jpeg",
+            "caption": "Close up image of a group having fun inside a club in Las Vegas ",
+            "creditString": "",
+            "isImage": true
+        }
+    ],
+    "highlights": [
+        "VIP entrance privileges at 3 popular night clubs in Sin City",
+        "Opportunity to visit trendy lounges in the heart of Vegas",
+        "Chauffeured limo party bus for a stress-free evening",
+        "The hottest spots in Vegas, chosen daily by your VIP host",
+        "Chance to enjoy drinks from the open bar on the party bus"
+    ],
+    "termsAndConditions": "<p></p>",
+    "fromPrice": "$69",
+    "fromPriceValue": "69.00",
+    "fromPriceLabel": "per adult",
+    "currencyCode": "USD",
+    "fromOriginalPrice": "$99",
+    "fromOriginalPriceValue": "99.00",
+    "fromPriceTicketType": "adult",
+    "fromPriceTicketCode": "Adult",
+    "startDate": "2017-04-07",
+    "endDate": "2017-04-07",
+    "duration": "5h",
+    "durationInMillis": 18000000,
+    "inclusions": [
+        "Guided night club tour",
+        "Cover charges",
+        "Alcoholic beverages on party bus"
+    ],
+    "exclusions": [
+        "Alcoholic beverages in night clubs"
+    ],
+    "cancellationPolicyText": "4 days",
+    "knowBeforeYouBook": [
+        "You must be 21 or older.",
+        "This activity is not wheelchair accessible.",
+        "Tour stops vary.",
+        "Check-in is 30 minutes prior to the booked tour start time.",
+        "Hours of operation vary; please check before you go."
+    ],
+    "freeCancellation": true,
+    "discountPercentage": 30,
+    "address": "Las Vegas, 89109, United States",
+    "location": "Las Vegas, United States",
+    "latLng": "36.18,-115.14",
+    "regionId": "178276",
+    "destination": "Las Vegas",
+    "fullName": "Las Vegas (and vicinity), Nevada, United States of America",
+    "offersDetail": {
+        "offers": [
+            {
+                "id": "278131",
+                "title": "9:30 PM Tour",
+                "description": "",
+                "freeCancellation": true,
+                "duration": "5h",
+                "durationInMillis": 18000000,
+                "discountPercentage": "30",
+                "direction": null,
+                "directionality": "",
+                "defaultTicketCountPrice": "$69",
+                "withinRange": true,
+                "discountType": null,
+                "availabilityInfo": [
+                    {
+                        "availabilities": {
+                            "displayDate": "Fri, Apr 7",
+                            "valueDate": "2017-04-07 21:30:00",
+                            "allDayActivity": false
+                        },
+                        "tickets": [
+                            {
+                                "code": "Adult",
+                                "ticketId": "4626",
+                                "name": "Adult",
+                                "lowerCaseName": "adult",
+                                "restrictionText": "21+ years",
+                                "restriction": {
+                                    "type": "AGE",
+                                    "max": 255,
+                                    "min": 21
+                                },
+                                "price": "$69",
+                                "originalPrice": "$99",
+                                "amount": "69.00",
+                                "originalAmount": "99.00",
+                                "displayName": null,
+                                "defaultTicketCount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "priceFootnote": "*Taxes included",
+        "sameDateSearch": true
+    },
+    "dateAdjusted": false,
+    "typeGT": false,
+    "metaDescription": "You’re on the list at one of Vegas’ most popular ultra lounges. Jump to the front of the line and meet your club-crawl host.",
+    "metaKeywords": "VIP Club Crawl, Las Vegas, United States, Las Vegas Nightlife, Las Vegas Activities, Las Vegas Things To Do , Book Las Vegas Activities , Book Las Vegas Things To Do , Activities, Things To Do",
+    "pageTitle": "VIP Club Crawl",
+    "category": "Nightlife",
+    "status": "passed",
+    "freeCancellationMinHours": 96,
+    "supplierName": "Vegas Rock Star",
+    "redemptionType": "Voucherless",
+    "redemptionLocation": [
+        {
+            "addressName": "Gold Lounge at Aria",
+            "street": "3730 S Las Vegas Blvd",
+            "city": "Las Vegas",
+            "province": "Nevada",
+            "postalCode": "89109",
+            "latLng": "36.1071424,-115.1736665"
+        },
+        {
+            "addressName": "MIX at Mandalay Bay",
+            "street": "3950 S Las Vegas Blvd",
+            "city": "Las Vegas",
+            "province": "Nevada",
+            "postalCode": "89109",
+            "latLng": "36.1212304,-115.1713614"
+        },
+        {
+            "addressName": "Revolution Lounge at the Mirage",
+            "street": "3400 Las Vegas Blvd S",
+            "city": "Las Vegas",
+            "province": "Nevada",
+            "postalCode": "89109",
+            "latLng": "36.1211955,-115.1740737"
+        },
+        {
+            "addressName": "Lily Lounge at the Bellagio",
+            "street": "3600 S Las Vegas Blvd",
+            "city": "Las Vegas",
+            "province": "Nevada",
+            "postalCode": "89109",
+            "latLng": "36.1130109,-115.1765221"
+        }
+    ],
+    "eventLocation": {
+        "addressName": "",
+        "street": "",
+        "city": "Las Vegas",
+        "province": "",
+        "postalCode": "89109",
+        "latLng": "36.18,-115.14"
+    },
+    "recommendationScore": 0,
+    "staticMapUrl": "//maps.googleapis.com/maps/api/staticmap?client=gme-expedia&channel=expedia-LXInformation&size=528x297&maptype=roadmap&sensor=false&format=png8&scale=2&center=36.18,-115.14&markers=color:red%7C36.18,-115.14&markers=color:blue%7C36.1071424,-115.1736665&markers=color:blue%7C36.1212304,-115.1713614&markers=color:blue%7C36.1211955,-115.1740737&markers=color:blue%7C36.1130109,-115.1765221&signature=aUgkY2As_En38PGLfVgIncF4Yr8="
+}

@@ -1,0 +1,96 @@
+POST
+.*?api/user/sign-in.*
+email=profileRefreshTest@expedia.com
+200
+Content-Type: application/json
+
+{
+  "isSmokingPreferred" : false,
+  "success" : true,
+  "storedCreditCards" : [
+    {
+      "nameOnCard" : "Eric Welander",
+      "creditCardType" : "MasterCard",
+      "expired" : "false",
+      "description" : "AA Exec Card",
+      "paymentsInstrumentsId" : "687861A6-ACBA-4SD5-A28A-FE51WSBD135F",
+      "expirationDate" : "2016-03"
+    },
+    {
+      "nameOnCard" : "Eric Welander",
+      "creditCardType" : "Visa",
+      "expired" : "false",
+      "description" : "Jerald Card",
+      "paymentsInstrumentsId" : "B21CF0F0-402A-409C-B707-E193C1801B60",
+      "expirationDate" : "2018-03"
+    },
+    {
+      "nameOnCard" : "Eric J Welander",
+      "creditCardType" : "Visa",
+      "expired" : "false",
+      "description" : "Visa 1212",
+      "paymentsInstrumentsId" : "F2DDA065-5015-43A3-930A-495C545E1D9E",
+      "expirationDate" : "2018-06"
+    }
+  ],
+  "expUserId" : 2730061,
+  "tsaDetails" : {
+    "redressNumber" : "",
+    "gender" : "Male",
+    "dateOfBirth" : "1988-10-29"
+  },
+  "loyaltyTierCredits" : {
+    "m_grossBookingValue" : {
+      "amount" : 2171.44,
+      "currency" : {
+        "currencyCode" : "USD"
+      },
+      "uCurrency" : {
+        "isoCode" : "USD"
+      }
+    },
+    "m_roomNights" : 3,
+    "m_pointsAmount" : 0
+  },
+  "specialAssistance" : "NONE",
+  "activityId" : "63b5496d-ad97-4735-8da7-293124151431",
+  "tuid" : 430112345,
+  "seatPreference" : "ANY",
+  "phoneNumbers" : [
+    {
+      "areaCode" : "925",
+      "number" : "7874879",
+      "countryCode" : "1",
+      "extensionNumber" : "",
+      "category" : "PRIMARY"
+    }
+  ],
+  "loyaltyMemebershipActive" : true,
+  "email" : "gold@expedia.com",
+  "frequentGuestMembership" : [
+    {
+      "hotelMembershipNumber" : "248902595",
+      "frequentGuestMembershipID" : "0",
+      "frequentGuestMembershipCode" : "10"
+    }
+  ],
+  "middleName" : "John",
+  "firstName" : "Eric",
+  "frequentFlyerMemberships" : [
+    {
+      "planCode" : "0",
+      "airlineCode" : "UA-MPL",
+      "membershipNumber" : "AC999885"
+    }
+  ],
+  "associatedTravelers" : [],
+  "detailedStatus" : "Success",
+  "lastName" : "Welander",
+  "loyaltyMembershipInfo" : {
+  	"loyaltyPointsPending" : 4448,
+	"loyaltyPointsAvailable" : 4356,
+	"membershipTierName" : "Gold",
+	"loyaltyMembershipNumber" : "308654649",
+	"loyaltyMemebershipName" : "REWARDS"
+   }
+}

@@ -1,0 +1,426 @@
+GET
+.*?/api/flight/search?.*
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+  "legs": [
+    {
+      "legId": "46099353e3d0e985b708e22a4c06685c",
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=LAS&destinationapt=SFO&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=UNR&bookingclass=W&travelDate=11/15/2014&langid=1033",
+      "segments": [
+        {
+          "departureTime": "November 15, 2014 7:35:00 PM",
+          "departureTimeEpochSeconds": 1416108900,
+          "departureTimeRaw": "2014-11-15T19:35:00.000-08:00",
+          "departureTimeZoneOffsetSeconds": -28800,
+          "arrivalTime": "November 15, 2014 9:16:00 PM",
+          "arrivalTimeEpochSeconds": 1416114960,
+          "arrivalTimeRaw": "2014-11-15T21:16:00.000-08:00",
+          "arrivalTimeZoneOffsetSeconds": -28800,
+          "arrivalAirportCode": "SFO",
+          "arrivalAirportLocation": "San Francisco, USA",
+          "departureAirportCode": "LAS",
+          "departureAirportLocation": "Las Vegas, USA",
+          "airlineName": "United",
+          "airlineCode": "UA",
+          "flightNumber": "112",
+          "onTimePercentage": "100",
+          "equipmentCode": "739",
+          "equipmentDescription": "Boeing 737-900",
+          "duration": "PT1H41M",
+          "distance": 424,
+          "distanceUnits": "miles",
+          "stops": 0,
+          "providerCode": "Sabre"
+        }
+      ]
+    },
+    {
+      "legId": "3dfdfecf063884ef634d2b09d60430d4",
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=LAS&destinationapt=SFO&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=UNR&bookingclass=W&travelDate=11/15/2014&langid=1033",
+      "segments": [
+        {
+          "departureTime": "November 15, 2014 6:05:00 AM",
+          "departureTimeEpochSeconds": 1416060300,
+          "departureTimeRaw": "2014-11-15T06:05:00.000-08:00",
+          "departureTimeZoneOffsetSeconds": -28800,
+          "arrivalTime": "November 15, 2014 7:44:00 AM",
+          "arrivalTimeEpochSeconds": 1416066240,
+          "arrivalTimeRaw": "2014-11-15T07:44:00.000-08:00",
+          "arrivalTimeZoneOffsetSeconds": -28800,
+          "arrivalAirportCode": "SFO",
+          "arrivalAirportLocation": "San Francisco, USA",
+          "departureAirportCode": "LAS",
+          "departureAirportLocation": "Las Vegas, USA",
+          "airlineName": "United",
+          "airlineCode": "UA",
+          "flightNumber": "1679",
+          "onTimePercentage": "90",
+          "equipmentCode": "739",
+          "equipmentDescription": "Boeing 737-900",
+          "duration": "PT1H39M",
+          "distance": 424,
+          "distanceUnits": "miles",
+          "stops": 0,
+          "providerCode": "Sabre"
+        }
+      ]
+    },
+    {
+      "legId": "0e92015a4a117fa01c213f7fd4814ce7",
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=LAS&destinationapt=SFO&cabinclass=3&mktgcarrier=US&opcarrier=&farebasis=UNR&bookingclass=E&travelDate=11/15/2014&langid=1033",
+      "segments": [
+        {
+          "departureTime": "November 15, 2014 6:35:00 AM",
+          "departureTimeEpochSeconds": 1416062100,
+          "departureTimeRaw": "2014-11-15T06:35:00.000-08:00",
+          "departureTimeZoneOffsetSeconds": -28800,
+          "arrivalTime": "November 15, 2014 8:46:00 AM",
+          "arrivalTimeEpochSeconds": 1416066360,
+          "arrivalTimeRaw": "2014-11-15T08:46:00.000-07:00",
+          "arrivalTimeZoneOffsetSeconds": -25200,
+          "arrivalAirportCode": "PHX",
+          "arrivalAirportLocation": "Phoenix, USA",
+          "departureAirportCode": "LAS",
+          "departureAirportLocation": "Las Vegas, USA",
+          "airlineName": "US Airways",
+          "airlineCode": "US",
+          "flightNumber": "474",
+          "onTimePercentage": "100",
+          "equipmentCode": "320",
+          "equipmentDescription": "Airbus A320",
+          "duration": "PT1H11M",
+          "distance": 247,
+          "distanceUnits": "miles",
+          "stops": 0,
+          "providerCode": "Sabre"
+        },
+        {
+          "departureTime": "November 15, 2014 11:20:00 AM",
+          "departureTimeEpochSeconds": 1416075600,
+          "departureTimeRaw": "2014-11-15T11:20:00.000-07:00",
+          "departureTimeZoneOffsetSeconds": -25200,
+          "arrivalTime": "November 15, 2014 12:31:00 PM",
+          "arrivalTimeEpochSeconds": 1416083460,
+          "arrivalTimeRaw": "2014-11-15T12:31:00.000-08:00",
+          "arrivalTimeZoneOffsetSeconds": -28800,
+          "arrivalAirportCode": "SFO",
+          "arrivalAirportLocation": "San Francisco, USA",
+          "departureAirportCode": "PHX",
+          "departureAirportLocation": "Phoenix, USA",
+          "airlineName": "US Airways",
+          "airlineCode": "US",
+          "flightNumber": "433",
+          "equipmentCode": "320",
+          "equipmentDescription": "Airbus A320",
+          "duration": "PT2H11M",
+          "distance": 652,
+          "distanceUnits": "miles",
+          "stops": 0,
+          "providerCode": "Sabre"
+        }
+      ]
+    },
+    {
+      "legId": "765e51c6584eb01aab611dbb53bdcf6a",
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SFO&destinationapt=LAS&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=YVX&bookingclass=Q&travelDate=11/14/2014&langid=1033",
+      "segments": [
+        {
+          "departureTime": "November 14, 2014 8:35:00 PM",
+          "departureTimeEpochSeconds": 1416026100,
+          "departureTimeRaw": "2014-11-14T20:35:00.000-08:00",
+          "departureTimeZoneOffsetSeconds": -28800,
+          "arrivalTime": "November 14, 2014 10:07:00 PM",
+          "arrivalTimeEpochSeconds": 1416031620,
+          "arrivalTimeRaw": "2014-11-14T22:07:00.000-08:00",
+          "arrivalTimeZoneOffsetSeconds": -28800,
+          "arrivalAirportCode": "LAS",
+          "arrivalAirportLocation": "Las Vegas, USA",
+          "departureAirportCode": "SFO",
+          "departureAirportLocation": "San Francisco, USA",
+          "airlineName": "United",
+          "airlineCode": "UA",
+          "flightNumber": "1129",
+          "onTimePercentage": "80",
+          "equipmentCode": "739",
+          "equipmentDescription": "Boeing 737-900",
+          "duration": "PT1H32M",
+          "distance": 424,
+          "distanceUnits": "miles",
+          "stops": 0,
+          "providerCode": "Sabre"
+        }
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "legIds": [
+        "765e51c6584eb01aab611dbb53bdcf6a",
+        "0e92015a4a117fa01c213f7fd4814ce7"
+      ],
+      "currency": "USD",
+      "baseFare": "295.82",
+      "baseFarePrice": {
+        "amount": "295.82",
+        "formattedPrice": "$295.82",
+        "formattedWholePrice": "$296"
+      },
+      "totalFare": "361.70",
+      "totalFarePrice": {
+        "amount": "361.70",
+        "formattedPrice": "$361.70",
+        "formattedWholePrice": "$362"
+      },
+      "pricePerPassengerCategory": [
+        {
+          "passengerCategory": "ADULT",
+          "totalPrice": {
+            "amount": "354.70",
+            "formattedPrice": "$354.70",
+            "formattedWholePrice": "$355"
+          },
+          "basePrice": {
+            "amount": "295.82",
+            "formattedPrice": "$295.82",
+            "formattedWholePrice": "$296"
+          },
+          "taxesPrice": {
+            "amount": "58.88",
+            "formattedPrice": "$58.88",
+            "formattedWholePrice": "$59"
+          }
+        }
+      ],
+      "averageTotalPricePerTicket": {
+        "amount": "361.70",
+        "formattedPrice": "$361.70",
+        "formattedWholePrice": "$362"
+      },
+      "numberOfTickets": 1,
+      "taxes": "58.88",
+      "taxesPrice": {
+        "amount": "58.88",
+        "formattedPrice": "$58.88",
+        "formattedWholePrice": "$59"
+      },
+      "fees": "7.00",
+      "feesPrice": {
+        "amount": "7.00",
+        "formattedPrice": "$7.00",
+        "formattedWholePrice": "$7"
+      },
+      "showFees": true,
+      "productKey": "v5-ae3cf20b49618ca5485326be15b93847-2-20-1",
+      "mobileShoppingKey": "MXwwfHxmYWxzZQ-v5-ae3cf20b49618ca5485326be15b93847-2-20-1",
+      "seatsRemaining": 2,
+      "segmentAttributes": [
+        [
+          {
+            "bookingCode": "Q",
+            "cabinCode": "coach"
+          }
+        ],
+        [
+          {
+            "bookingCode": "E",
+            "cabinCode": "coach"
+          },
+          {
+            "bookingCode": "E",
+            "cabinCode": "coach"
+          }
+        ]
+      ],
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SFO&destinationapt=LAS&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=QAA00AKN&bookingclass=Q&travelDate=11/14/2014&langid=1033",
+      "fareType": "PUBLISHED",
+      "isInternational": false,
+      "mayChargeOBFees": false,
+      "hasBagFee": false,
+      "hasNoBagFee": false
+    },
+    {
+      "legIds": [
+        "765e51c6584eb01aab611dbb53bdcf6a",
+        "3dfdfecf063884ef634d2b09d60430d4"
+      ],
+      "currency": "USD",
+      "baseFare": "346.05",
+      "baseFarePrice": {
+        "amount": "346.05",
+        "formattedPrice": "$346.05",
+        "formattedWholePrice": "$346"
+      },
+      "totalFare": "400.20",
+      "totalFarePrice": {
+        "amount": "400.20",
+        "formattedPrice": "$400.20",
+        "formattedWholePrice": "$400"
+      },
+      "pricePerPassengerCategory": [
+        {
+          "passengerCategory": "ADULT",
+          "totalPrice": {
+            "amount": "400.20",
+            "formattedPrice": "$400.20",
+            "formattedWholePrice": "$400"
+          },
+          "basePrice": {
+            "amount": "346.05",
+            "formattedPrice": "$346.05",
+            "formattedWholePrice": "$346"
+          },
+          "taxesPrice": {
+            "amount": "54.15",
+            "formattedPrice": "$54.15",
+            "formattedWholePrice": "$54"
+          }
+        }
+      ],
+      "averageTotalPricePerTicket": {
+        "amount": "400.20",
+        "formattedPrice": "$400.20",
+        "formattedWholePrice": "$400"
+      },
+      "numberOfTickets": 1,
+      "taxes": "54.15",
+      "taxesPrice": {
+        "amount": "54.15",
+        "formattedPrice": "$54.15",
+        "formattedWholePrice": "$54"
+      },
+      "fees": "0.00",
+      "feesPrice": {
+        "amount": "0.00",
+        "formattedPrice": "$0.00",
+        "formattedWholePrice": "$0"
+      },
+      "showFees": true,
+      "productKey": "v5-ae3cf20b49618ca5485326be15b93847-2-2-1",
+      "mobileShoppingKey": "MXwwfHxmYWxzZQ-v5-ae3cf20b49618ca5485326be15b93847-2-2-1",
+      "seatsRemaining": 2,
+      "segmentAttributes": [
+        [
+          {
+            "bookingCode": "Q",
+            "cabinCode": "coach"
+          }
+        ],
+        [
+          {
+            "bookingCode": "W",
+            "cabinCode": "coach"
+          }
+        ]
+      ],
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SFO&destinationapt=LAS&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=QAA00AKN&bookingclass=Q&travelDate=11/14/2014&langid=1033",
+      "fareType": "PUBLISHED",
+      "isInternational": false,
+      "mayChargeOBFees": false,
+      "hasBagFee": false,
+      "hasNoBagFee": false
+    },
+    {
+      "legIds": [
+        "765e51c6584eb01aab611dbb53bdcf6a",
+        "46099353e3d0e985b708e22a4c06685c"
+      ],
+      "currency": "USD",
+      "baseFare": "346.05",
+      "baseFarePrice": {
+        "amount": "346.05",
+        "formattedPrice": "$346.05",
+        "formattedWholePrice": "$346"
+      },
+      "totalFare": "400.20",
+      "totalFarePrice": {
+        "amount": "400.20",
+        "formattedPrice": "$400.20",
+        "formattedWholePrice": "$400"
+      },
+      "pricePerPassengerCategory": [
+        {
+          "passengerCategory": "ADULT",
+          "totalPrice": {
+            "amount": "400.20",
+            "formattedPrice": "$400.20",
+            "formattedWholePrice": "$400"
+          },
+          "basePrice": {
+            "amount": "346.05",
+            "formattedPrice": "$346.05",
+            "formattedWholePrice": "$346"
+          },
+          "taxesPrice": {
+            "amount": "54.15",
+            "formattedPrice": "$54.15",
+            "formattedWholePrice": "$54"
+          }
+        }
+      ],
+      "averageTotalPricePerTicket": {
+        "amount": "400.20",
+        "formattedPrice": "$400.20",
+        "formattedWholePrice": "$400"
+      },
+      "numberOfTickets": 1,
+      "taxes": "54.15",
+      "taxesPrice": {
+        "amount": "54.15",
+        "formattedPrice": "$54.15",
+        "formattedWholePrice": "$54"
+      },
+      "fees": "0.00",
+      "feesPrice": {
+        "amount": "0.00",
+        "formattedPrice": "$0.00",
+        "formattedWholePrice": "$0"
+      },
+      "showFees": true,
+      "productKey": "v5-ae3cf20b49618ca5485326be15b93847-2-4-1",
+      "mobileShoppingKey": "MXwwfHxmYWxzZQ-v5-ae3cf20b49618ca5485326be15b93847-2-4-1",
+      "seatsRemaining": 1,
+      "segmentAttributes": [
+        [
+          {
+            "bookingCode": "Q",
+            "cabinCode": "coach"
+          }
+        ],
+        [
+          {
+            "bookingCode": "W",
+            "cabinCode": "coach"
+          }
+        ]
+      ],
+      "baggageFeesUrl": "http://wwwexpediacom.integration.sb.karmalab.net/Flights-BagFees?originapt=SFO&destinationapt=LAS&cabinclass=3&mktgcarrier=UA&opcarrier=&farebasis=QAA00AKN&bookingclass=Q&travelDate=11/14/2014&langid=1033",
+      "fareType": "PUBLISHED",
+      "isInternational": false,
+      "mayChargeOBFees": false,
+      "hasBagFee": false,
+      "hasNoBagFee": false
+    }
+  ],
+  "searchCities": [
+    {
+      "code": "SFO",
+      "city": "San Francisco",
+      "province": "CA",
+      "country": "United States",
+      "searchType": "AIRPORT"
+    },
+    {
+      "code": "LAS",
+      "city": "Las Vegas",
+      "province": "NV",
+      "country": "United States",
+      "searchType": "METROCODE"
+    }
+  ],
+  "obFeesDetails": "http://wwwexpediacom.integration.sb.karmalab.net/api/flight/obFeeCostSummary?langid=1033",
+  "activityId": "f68b7818-17ed-4b4f-a0ef-538b02d68c42"
+}
+

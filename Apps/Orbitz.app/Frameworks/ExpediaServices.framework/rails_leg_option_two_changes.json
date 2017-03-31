@@ -1,0 +1,136 @@
+{
+    "departureDateTime":{
+        "raw":"2016-05-31T16:01:00",
+        "localized":"May 31, 2016 04:01:00 PM",
+        "epochSeconds":1464710460,
+        "localizedShortDate":"Tue 31, May"
+    },
+    "aggregatedOperatingCarrier":"Multiple trains lines",
+    "bestPrice":{
+        "amount":"43.50",
+        "formattedPrice":"£43.50",
+        "currencyCode":"GBP",
+        "formattedWholePrice":"£44"
+    },
+    "arrivalStation":{
+        "stationDisplayName":"Manchester Piccadilly",
+        "stationCode":"GBQQM"
+    },
+    "overtakenJourney":false,
+    "aggregatedMarketingCarrier":"Multiple trains lines",
+    "arrivalDateTime":{
+        "raw":"2016-05-31T17:49:00",
+        "localized":"May 31, 2016 05:49:00 PM",
+        "epochSeconds":1464716940,
+        "localizedShortDate":"Tue 31, May"
+    },
+    "departureStation":{
+        "stationDisplayName":"Birmingham New Street",
+        "stationCode":"GBQQN"
+    },
+    "duration":"PT1H48M",
+    "showTrainIcon":false,
+    "legOptionIndex":2,
+    "toc":"ATOC",
+    "travelSegmentList":[
+                         {
+                         "travelMedium":{
+                         "supplierTravelMediumId":"LM0219",
+                         "travelMediumName":"Inter-City",
+                         "travelMediumCode":"ICY",
+                         "supplierTravelMediumName":"LondonMidland-ICY"
+                         },
+                         "duration":"PT55M",
+                         "departureStation":{
+                         "stationDisplayName":"Birmingham New Street",
+                         "stationCode":"GBQQN"
+                         },
+                         "operatingCarrier":"LondonMidland",
+                         "arrivalStation":{
+                         "stationDisplayName":"Crewe",
+                         "stationCode":"GBCRE"
+                         },
+                         "arrivalDateTime":{
+                         "raw":"2016-05-31T16:56:00",
+                         "localized":"May 31, 2016 04:56:00 PM",
+                         "epochSeconds":1464713760,
+                         "localizedShortDate":"Tue 31, May"
+                         },
+                         "travelSegmentIndex":1,
+                         "travelMode":"Train",
+                         "marketingCarrier":"LondonMidland",
+                         "departureDateTime":{
+                         "raw":"2016-05-31T16:01:00",
+                         "localized":"May 31, 2016 04:01:00 PM",
+                         "epochSeconds":1464710460,
+                         "localizedShortDate":"Tue 31, May"
+                         }
+                         },
+                         {
+                         "travelMedium":{
+                         "supplierTravelMediumId":"LM0219",
+                         "travelMediumName":"Inter-City",
+                         "travelMediumCode":"ICY",
+                         "supplierTravelMediumName":"LondonMidland-ICY"
+                         },
+                         "duration":"PT55M",
+                         "departureStation":{
+                         "stationDisplayName":"Birmingham New Street",
+                         "stationCode":"GBQQN"
+                         },
+                         "operatingCarrier":"LondonMidland",
+                         "arrivalStation":{
+                         "stationDisplayName":"Crewe",
+                         "stationCode":"GBCRE"
+                         },
+                         "arrivalDateTime":{
+                         "raw":"2016-05-31T16:56:00",
+                         "localized":"May 31, 2016 04:56:00 PM",
+                         "epochSeconds":1464713760,
+                         "localizedShortDate":"Tue 31, May"
+                         },
+                         "travelSegmentIndex":2,
+                         "travelMode":"Train",
+                         "marketingCarrier":"LondonMidland",
+                         "departureDateTime":{
+                         "raw":"2016-05-31T16:01:00",
+                         "localized":"May 31, 2016 04:01:00 PM",
+                         "epochSeconds":1464710460,
+                         "localizedShortDate":"Tue 31, May"
+                         }
+                         },
+                         {
+                         "travelMedium":{
+                         "supplierTravelMediumId":"LM0219",
+                         "travelMediumName":"Inter-City",
+                         "travelMediumCode":"ICY",
+                         "supplierTravelMediumName":"LondonMidland-ICY"
+                         },
+                         "duration":"PT55M",
+                         "departureStation":{
+                         "stationDisplayName":"Birmingham New Street",
+                         "stationCode":"GBQQN"
+                         },
+                         "operatingCarrier":"LondonMidland",
+                         "arrivalStation":{
+                         "stationDisplayName":"Crewe",
+                         "stationCode":"GBCRE"
+                         },
+                         "arrivalDateTime":{
+                         "raw":"2016-05-31T16:56:00",
+                         "localized":"May 31, 2016 04:56:00 PM",
+                         "epochSeconds":1464713760,
+                         "localizedShortDate":"Tue 31, May"
+                         },
+                         "travelSegmentIndex":3,
+                         "travelMode":"Train",
+                         "marketingCarrier":"LondonMidland",
+                         "departureDateTime":{
+                         "raw":"2016-05-31T16:01:00",
+                         "localized":"May 31, 2016 04:01:00 PM",
+                         "epochSeconds":1464710460,
+                         "localizedShortDate":"Tue 31, May"
+                         }
+                         }
+                         ]
+}

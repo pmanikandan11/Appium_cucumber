@@ -1,0 +1,39 @@
+{
+    "@type": "gaiaRegionResult",
+    "index": "0",
+    "gaiaId": "200000000000002112",
+    "type": "TRAINSTATION",
+    "regionNames": {
+        "fullName": "Manchester Piccadilly, Piccadilly Station, UK",
+        "shortName": "Manchester Piccadilly",
+        "displayName": "<B>Man</B>chester Piccadilly, Piccadilly Station, UK",
+        "lastSearchName": "Manchester Piccadilly, Piccadilly Station, UK"
+    },
+    "essId": {
+        "sourceName": "GAI",
+        "sourceId": "200000000000002112"
+    },
+    "coordinates": {
+        "lat": "53.47672",
+        "long": "-2.228978"
+    },
+    "hierarchyInfo": {
+        "airport": {
+            "airportCode": "MAN",
+            "metrocode": "MAN",
+            "multicity": "180010"
+        },
+        "rails": {
+            "stationCode": "GBQQM",
+            "parentTrainStation": "200000000000000121"
+        },
+        "country": {
+            "name": "United Kingdom",
+            "isoCode2": "GB",
+            "isoCode3": "GBR"
+        }
+    },
+    "packageable": "false",
+    "score": "1.0",
+    "popularity": "138.0"
+}

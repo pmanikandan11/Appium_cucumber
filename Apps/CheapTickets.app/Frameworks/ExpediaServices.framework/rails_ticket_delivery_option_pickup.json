@@ -1,0 +1,10 @@
+{
+    "ticketDeliveryOptionToken": "KIOSK_NONE",
+    "ticketDeliveryOptionCategoryCode": "KIOSK",
+    "ticketDeliveryDescription": "Collect at Ticket Vending Machine",
+    "ticketDeliveryFee": {
+        "amount": "0.00",
+        "currencyCode": "GBP"
+    },
+    "departureStation": true
+}

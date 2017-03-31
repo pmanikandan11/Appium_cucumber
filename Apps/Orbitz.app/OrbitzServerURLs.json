@@ -1,0 +1,14 @@
+{
+    "production": "%@://www.%@/",
+    "stable": "%@://www%@.int-milan.sb.karmalab.net/",
+    "integration": "%@://www%@.integration.sb.karmalab.net/",
+    "development": "%@://www%@.chelwebestr37.bgb.karmalab.net/",
+    "loginDevelopment": "%@://www%@.chelwebestr35.bgb.karmalab.net/",
+    "pulpoDevelopment": "%@://www%@.chelwebestr18.bgb.karmalab.net/",
+    "wbtestr68": "%@://www%@.chelwbtestr68.webrouter.sb.karmalab.net/",
+    "local": "%@://%@/%@/",
+    "custom": "%@://%@/",
+    "trunk": "%@://www%@.trunk.sb.karmalab.net/",
+    "publicIntegration": "%@://70.42.224.37/",
+    "stubbed": "%@://www%@.trunk-stubbed.sb.karmalab.net/"
+}

@@ -1,0 +1,1661 @@
+{
+    "AR": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "es_AR",
+                "descriptions": {
+                    "hotelsLOB": "Encuentra tu hotel en Expedia",
+                    "flightsLOB": "Encuentra tu vuelo en Expedia",
+                    "carsLOB": "Alquila un coche en Expedia",
+                    "lxLOB": "Reserva tus actividades en Expedia"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "vuelos",
+                        "vuelos económicos",
+                        "boletos de avión",
+                        "vuelos baratos"
+                    ],
+                    "hotelsLOB": [
+                        "hoteles",
+                        "hoteles baratos",
+                        "mejores hoteles",
+                        "promo de hoteles"
+                    ],
+                    "carsLOB": [
+                    	"renta de autos",
+                    	"renta de carros",
+                    	"renta de auto baratos"
+                    ],
+                    "lxLOB": [
+                    	"actividades",
+                    	"actividades económicas",
+                    	"qué hacer"
+                    ]
+                }
+            }
+        ]
+    },
+    "AT": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "de_DE",
+                "descriptions": {
+                    "hotelsLOB": "Finden Sie ausgewählte Hotels zum Bestpreis mit Expedia & sichern Sie sich günstige Deals mit der kostenlosen Expedia App.",
+                    "flightsLOB": "Wählen Sie aus über 400 Fluglinien & sichern Sie sich günstige Deals mit der kostenlosen Expedia App.",
+                    "carsLOB": "Buchen Sie Ihren Mietwagen bequem von unterwegs mit der kostenlosen Expedia App.",
+                    "lxLOB": "Buchen Sie Aktivitäten, Hotel, Flug & Mietwagen mit der kostenlosen Expedia App."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "günstige Flüge",
+                        "Flüge",
+                        "günstige Flugtickets",
+                        "Airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "Hotels",
+                        "günstige Hotels",
+                        "Hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"Mietwagen",
+                    	"Auto mieten",
+                    	"günstige Autovermietung",
+                    	"günstig Auto mieten"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"Aktivitäten",
+                    	"what to do",
+                    	"Attraktionen",
+                    	"Ausflüge"
+                    ]
+                }
+            }
+        ]
+    },
+    "AU": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_AU",
+                "descriptions": {
+                    "hotelsLOB": "Search from over 510,000 Hotels. Get the best deals on cheap accommodation with Expedia.",
+                    "flightsLOB": "Compare & book cheap flights from 400 airlines worldwide on the Expedia app.",
+                    "carsLOB": "Find car hire with Expedia. Get deals on cheap car hire prices today.",
+                    "lxLOB": "Find things to do when you travel. Compare and find the best deals on activities with Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "BE": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "fr_BE",
+                "descriptions": {
+                    "hotelsLOB": "Trouvez des hôtels aux meilleurs prix et bénéficiez d'offres avantageuses sur votre hébèrgement avec Expedia.",
+                    "flightsLOB": "Trouvez des vols aux meilleurs prix et bénéficiez d'offres avantageuses sur vos billets d'avion avec Expedia.",
+                    "carsLOB": "Trouvez des voitures de location aux meilleurs prix et bénéficiez d'offres avantageuses sur votre véhicule avec Expedia.",
+                    "lxLOB": "Recherchez des visites et activités à faire lors de vos voyages.  Bénéficiez des meilleurs tarifs sur Expedia et profitez pleinement de votre séjour !"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "billet d'avion",
+                        "vol",
+                        "vol pas cher",
+                        "billet d'avion pas cher"
+                    ],
+                    "hotelsLOB": [
+                        "hôtels",
+                        "hôtel",
+                        "hôtel pas cher",
+                        "hébergement",
+                        "offre d'hôtel"
+                    ],
+                    "carsLOB": [
+                    	"location de voiture", 
+                    	"louer une voiture",
+                    	"location de voiture pas cher",
+                    	"location voiture",
+                    	"location voiture de luxe"
+                    ],
+                    "lxLOB": [
+                    	"quoi faire",
+                    	"attraction",
+                    	"tourisme",
+                    	"activités",
+                    	"à faire",
+                    	"à voir",
+                    	"à visiter" 
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "nl_BE",
+                "descriptions": {
+                    "hotelsLOB": "Zoek en boek de beste hotels met Expedia. Vind goedkope hotels, ontdek de beste deals en vergelijk prijzen.",
+                    "flightsLOB": "Zoek en boek goedkope vliegtickets met Expedia. Gebuik de app om de beste deals te vinden en prijzen te vergelijken.",
+                    "carsLOB": "Huur een auto met Expedia. Ontdek de beste aanbiedingen en profiteer van voordelige tarieven voor huurauto's.",
+                    "lxLOB": "Vind de leukste activiteiten tijdens je reis. Vergelijk de beste aanbiedingen met Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "goedkope vluchten",
+                        "vluchten",
+                        "goedkope tickets",
+                        "vliegtickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodatie",
+                        "goedkope hotels",
+                        "hotel",
+                        "aanbiedingen"
+                    ],
+                    "carsLOB": [
+                    	"Autoverhuur",
+                    	"huurauto's",
+                    	"huur een auto",
+                    	"goedkope autoverhuur",
+                    	"autoverhuur"
+                    ],
+                    "lxLOB": [
+                    	"dingen om te doen",
+                    	"leuke dingen om te doen",
+                    	"activiteiten",
+                    	"wat te doen",
+                    	"attracties",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "BR": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "pt_BR",
+                "descriptions": {
+                    "hotelsLOB": "Busque mais de 510.000 hotéis. Melhor Preço Garantido. Reserve o seu hotel, voo, carro e todas as atividades com um app.",
+                    "flightsLOB": "Pesquise voos de 400 companhias aéreas de todo o mundo. Reserve o seu voo, hotel, carro e todas as atividades com um app. Melhor Preço Garantido.",
+                    "carsLOB": "Encontre aluguel de carros - reserve agora, pague depois. Reserve o seu carro, hotel e voo com um app. Nenhuma taxa de cancelamento de Expedia.",
+                    "lxLOB": "Encontre coisas para fazer quando você viaja. Reserve as suas atividades, hotel, voo e carro com um app."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                    	"Pesquisa de passagem aérea",
+                    	"Pesquisa de passagem voos",
+                    	"voos barato",
+                    	"desconto de passagem aérea",
+                    	"passagens aéreas"
+                    ],
+                    "hotelsLOB": [
+                    	"Pesquisa de hotel",
+                    	"Pesquisa de hotéis",
+                    	"hotéis barato",
+                    	"melhores hotéis",
+                    	"promoção de hotéis"
+                    ],
+                    "carsLOB": [
+                    	"Pesquisa de aluguel de carro",
+                    	"Pesquisa de aluguel de carros",
+                    	"aluguel de carro barato",
+                    	"aluguel de automóveis"
+                    ],
+                    "lxLOB": [
+                    	"Pesquisa de atividades"
+                    ]
+                }
+            }
+        ]
+    },
+    "CA": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_CA",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car rental",
+                    	"rental cars",
+                    	"rent a car",
+                    	"cheap car rentals",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do",
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "fr_CA",
+                "descriptions": {
+                    "hotelsLOB": "Découvrez les meilleurs hôtels avec Expedia. Profitez des aubaines sur les hôtels les moins cher et comparez les prix.",
+                    "flightsLOB": "Trouvez des vols pas cher avec Expedia. Profitez des aubaines et comparez facilement les prix dans l'App.",
+                    "carsLOB": "Trouvez des voitures de location avec Expedia. Profitez aujourd'hui des aubaines sur les tarifs les moins cher des voitures de Location.",
+                    "lxLOB": "Trouvez quoi faire quand vous voyagez. Comparez et trouvez les meilleurs aubaines sur les activités avec Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "billet d'avion",
+                        "vol",
+                        "vol pas cher",
+                        "vol a rabais",
+                        "billet d'avion pas cher"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "hôtel",
+                        "hotel pas cher",
+                        "hébergement",
+                        "reservation d'hotel"
+                    ],
+                    "carsLOB": [
+                    	"location de voiture",
+                    	"louer une voiture",
+                    	"location de voiture pas cher",
+                    	"location voiture",
+                    	"location voiture de luxe"
+                    ],
+                    "lxLOB": [
+                    	"quoi faire",
+                    	"attraction",
+                    	"tourisme",
+                    	"activités",
+                    	"à faire"
+                    ]
+                }
+            }
+        ]
+    },
+    "CH": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "de_CH",
+                "descriptions": {
+                    "hotelsLOB": "Finden Sie ausgewählte Hotels zum Bestpreis mit Expedia & sichern Sie sich günstige Deals mit der kostenlosen Expedia App.",
+                    "flightsLOB": "Wählen Sie aus über 400 Fluglinien & sichern Sie sich günstige Deals mit der kostenlosen Expedia App.",
+                    "carsLOB": "Buchen Sie Ihren Mietwagen bequem von unterwegs mit der kostenlosen Expedia App.",
+                    "lxLOB": "Buchen Sie Aktivitäten, Hotel, Flug & Mietwagen mit der kostenlosen Expedia App."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "günstige Flüge",
+                        "Flüge",
+                        "günstige Flugtickets",
+                        "Airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "Hotels",
+                        "günstige Hotels",
+                        "Hotel deals"
+                    ],
+                    "carsLOB": [
+                        "Mietwagen",
+                        "Auto mieten",
+                        "günstige Autovermietung",
+                        "günstig Auto mieten"
+                    ],
+                    "lxLOB": [
+                        "things to do",
+                        "fun things to do",
+                        "Aktivitäten",
+                        "what to do",
+                        "Attraktionen",
+                        "Ausflüge"
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "fr_CH",
+                "descriptions": {
+                    "hotelsLOB": "Trouvez des hôtels aux meilleurs prix et bénéficiez d'offres avantageuses sur votre hébèrgement avec Expedia.",
+                    "flightsLOB": "Trouvez des vols aux meilleurs prix et bénéficiez d'offres avantageuses sur vos billets d'avion avec Expedia.",
+                    "carsLOB": "Trouvez des voitures de location aux meilleurs prix et bénéficiez d'offres avantageuses sur votre véhicule avec Expedia.",
+                    "lxLOB": "Recherchez des visites et activités à faire lors de vos voyages. Bénéficiez des meilleurs tarifs sur Expedia et profitez pleinement de votre séjour !"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "billet d'avion",
+                        "vol",
+                        "vol pas cher",
+                        "billet d'avion pas cher"
+                    ],
+                    "hotelsLOB": [
+                        "hôtels",
+                        "hôtel",
+                        "hôtel pas cher",
+                        "hébergement",
+                        "offre d'hôtel"
+                    ],
+                    "carsLOB": [
+                        "location de voiture", 
+                        "louer une voiture",
+                        "location de voiture pas cher",
+                        "location voiture",
+                        "location voiture de luxe"
+                    ],
+                    "lxLOB": [
+                        "quoi faire",
+                        "attraction",
+                        "tourisme",
+                        "activités",
+                        "à faire",
+                        "à voir",
+                        "à visiter" 
+                    ]
+                }
+            }
+        ]
+    },
+    "DE": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "de_DE",
+                "descriptions": {
+                    "hotelsLOB": "Finden Sie ausgewählte Hotels zum Bestpreis mit Expedia & sichern Sie sich günstige Deals mit der kostenlosen Expedia App.",
+                    "flightsLOB": "Wählen Sie aus über 400 Fluglinien & sichern Sie sich günstige Deals mit der kostenlosen Expedia App.",
+                    "carsLOB": "Buchen Sie Ihren Mietwagen bequem von unterwegs mit der kostenlosen Expedia App.",
+                    "lxLOB": "Buchen Sie Aktivitäten, Hotel, Flug & Mietwagen mit der kostenlosen Expedia App."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "günstige Flüge",
+                        "Flüge",
+                        "günstige Flugtickets",
+                        "Airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "Hotels",
+                        "günstige Hotels",
+                        "Hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"Mietwagen",
+                    	"Auto mieten",
+                    	"günstige Autovermietung",
+                    	"günstig Auto mieten"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"Aktivitäten",
+                    	"what to do",
+                    	"Attraktionen",
+                    	"Ausflüge"
+                    ]
+                }
+            }
+        ]
+    },
+    "DK": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "da_DK",
+                "descriptions": {
+                    "hotelsLOB": "Find gode tilbud på hoteller og sammenlign priser hos Expedia",
+                    "flightsLOB": "Sammenlign priser og book billige flybilletter med Expedia",
+                    "carsLOB": "Søg nemt efter en billig udlejningsbil hos Expedia",
+                    "lxLOB": "Søg efter aktiviteter og ting at lave når du er ude rejse. Book dine oplevelser hos Expedia"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "billige flyrejser",
+                        "fly",
+                        "billige billetter",
+                        "flybilletter"
+                    ],
+                    "hotelsLOB": [
+                        "hoteller",
+                        "billige hoteller",
+                        "hotel",
+                        "hoteltilbud"
+                    ],
+                    "carsLOB": [
+                    	"biludlejning",
+                    	"billeje",
+                    	"billig biludlejning",
+                    	"billig billeje",
+                    	"leje af bil"
+                    ],
+                    "lxLOB": [
+                    	"oplevelser",
+                    	"seværdigheder",
+                    	"aktiviteter",
+                    	"attraktioner",
+                    	"ting at lave"
+                    ]
+                }
+            }
+        ]
+    },
+    "ES": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "es_ES",
+                "descriptions": {
+                    "hotelsLOB": "Encuentra tu hotel en Expedia",
+                    "flightsLOB": "Encuentra tu vuelo en Expedia",
+                    "carsLOB": "Alquila un coche en Expedia",
+                    "lxLOB": "Reserva tus actividades en Expedia"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "vuelos baratos",
+                        "vuelos",
+                        "billetes de avión",
+                        "ofertas de vuelos"
+                    ],
+                    "hotelsLOB": [
+                        "hoteles",
+                        "hoteles baratos",
+                        "hotel",
+                        "ofertas de hoteles"
+                    ],
+                    "carsLOB": [
+                    	"alquiler de coches",
+                    	"coches de alquiler",
+                    	"coches baratos",
+                    	"alquiler de coche barato"
+                    ],
+                    "lxLOB": [
+                    	"actividades",
+                    	"actividades divertidas",
+                    	"atracciones",
+                    	"qué hacer"
+                    ]
+                }
+            }
+        ]
+    },
+    "FR": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "fr_FR",
+                "descriptions": {
+                    "hotelsLOB": "Trouvez des hôtels aux meilleurs prix et bénéficiez d'offres avantageuses sur votre hébèrgement avec Expedia.",
+                    "flightsLOB": "Trouvez des vols aux meilleurs prix et bénéficiez d'offres avantageuses sur vos billets d'avion avec Expedia.",
+                    "carsLOB": "Trouvez des voitures de location aux meilleurs prix et bénéficiez d'offres avantageuses sur votre véhicule avec Expedia.",
+                    "lxLOB": "Recherchez des visites et activités à faire lors de vos voyages. Bénéficiez des meilleurs tarifs sur Expedia et profitez pleinement de votre séjour !"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "billet d'avion",
+                        "vol",
+                        "vol pas cher",
+                        "billet d'avion pas cher"
+                    ],
+                    "hotelsLOB": [
+                        "hôtels",
+                        "hôtel",
+                        "hôtel pas cher",
+                        "hébergement",
+                        "offre d'hôtel"
+                    ],
+                    "carsLOB": [
+                    	"location de voiture", 
+                    	"louer une voiture",
+                    	"location de voiture pas cher",
+                    	"location voiture",
+                    	"location voiture de luxe"
+                    ],
+                    "lxLOB": [
+                    	"quoi faire",
+                    	"attraction",
+                    	"tourisme",
+                    	"activités",
+                    	"à faire",
+                    	"à voir",
+                    	"à visiter" 
+                    ]
+                }
+            }
+        ]
+    },
+    "FI": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "fi_FI",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today."
+                },
+                "keywords": {
+                "flightsLOB": [
+                    "halvat liput",
+                    "lennot",
+                    "halvat liput",
+                    "lentoliput"
+                	],
+                "hotelsLOB": [
+                    "hotellit",
+                    "halvat hotellit",
+                    "hotelli",
+                    "hotellitarjoukset"
+                    ],
+                "carsLOB": [
+                    "vuokra-autot",
+                    "vuokraa auto",
+                    "halvat vuokra-autot",
+                    "halvat vuokra-autot"
+                    ]
+                }
+            }
+        ]
+    },
+    "GB": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_GB",
+                "descriptions": {
+                    "hotelsLOB": "Search and book from over 500,000 hotels all within one app from Expedia.",
+                    "flightsLOB": "Find great flight offers and compare the best deals easily within the Expedia app.",
+                    "carsLOB": "Find car hire with Expedia. Get deals on cheap car hire prices today.",
+                    "lxLOB": "Find things to do when you travel. Compare and find the best deals on activities with Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"hire cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car hire"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do",
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "HK": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "zh_HK",
+                "descriptions": {
+					"hotelsLOB": "通過智遊網預訂酒店優惠",
+                    "flightsLOB": "通過智遊網預訂平價機票",
+                    "carsLOB": "搜尋平價自駕遊及租車優惠",
+                    "lxLOB": "搜尋當地玩樂及優惠門票"
+                },
+                "keywords": {
+                	"flightsLOB": [
+                        "機票",
+                        "機票優惠",
+                        "機票預訂"
+                    ],
+                    "hotelsLOB": [
+                        "酒店",
+                        "酒店優惠",
+                        "酒店預訂"
+                    ],
+                    "carsLOB": [
+                    	"租車",
+                    	"平價自駕遊",
+                    	"租車預訂"
+                    ],
+                    "lxLOB": [
+                    	"旅遊活動",
+                    	"優惠門票",
+                    	"當地玩樂預訂"
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "zh_CN",
+                "descriptions": {
+                    "hotelsLOB": "通过智游网预订酒店优惠",
+                    "flightsLOB": "通过智游网预订廉价机票",
+                    "carsLOB": "寻找超值自驾游及租车优惠",
+                    "lxLOB": "寻找当地玩乐及优惠门票"
+                },
+                "keywords": {
+                	"flightsLOB": [
+                        "机票",
+                        "机票优惠",
+                        "机票预订"
+                    ],
+                    "hotelsLOB": [
+                        "酒店",
+                        "酒店优惠",
+                        "酒店预订"
+                    ],
+                    "carsLOB": [
+                    	"租车",
+                    	"平价自驾游",
+                    	"租车预订"
+                    ],
+                    "lxLOB": [
+                    	"旅游活动",
+                    	"优惠门票",
+                    	"当地玩乐预订"
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "en_HK",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "ID": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "id_ID",
+                "descriptions": {
+                    "hotelsLOB": "Cari, bandingkan, dan pesan hotel Anda dengan aplikasi Expedia Hotels.",
+                    "flightsLOB": "Cari, bandingkan, dan pesan hotel Anda dengan aplikasi Expedia Hotels.",
+                    "carsLOB": "Cari, bandingkan, dan pesan hotel Anda dengan aplikasi Expedia Hotels.",
+                    "lxLOB": "Cari, bandingkan, dan pesan hotel Anda dengan aplikasi Expedia Hotels."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "penerbangan",
+                        "penerbangan murah",
+                        "pemesanan penerbangan"
+                    ],
+                    "hotelsLOB": [
+                        "hotel",
+                        "hotel murah",
+                        "pemesanan hotel"
+                    ],
+                    "carsLOB": [
+                    	"rental mobil",
+                    	"sewa mobil",
+                    	"sewa mobil murah"
+                    ],
+                    "lxLOB": [
+                    	"kegiatan",
+                    	"tamasya",
+                    	"jalan-jalan"
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "en_ID",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "IE": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_IE",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"hire cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car hire"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do",
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "IN": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_IN",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "IT": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "it_IT",
+                "descriptions": {
+                    "hotelsLOB": "Cerca il tuo hotel su Expedia",
+                    "flightsLOB": "Cerca il tuo volo su Expedia",
+                    "carsLOB": "Prenota il tuo noleggio auto su Expedia",
+                    "lxLOB": "Prenota le tue attivita' su Expedia"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "voli",
+                        "voli economici",
+                        "offerte voli"
+                    ],
+                    "hotelsLOB": [
+                        "hotel",
+                        "hotel economici",
+                        "offerte hotel"
+                    ],
+                    "carsLOB": [
+                    	"noleggio auto",
+                    	"auto a noleggio",
+                    	"offerte noleggio auto"
+                    ],
+                    "lxLOB": [
+                    	"attività",
+                    	"cosa fare",
+                    	"cose da fare"
+                    ]
+                }
+            }
+        ]
+    },
+    "JP": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "ja_JP",
+                "descriptions": {
+                    "hotelsLOB": "エクスペディアの旅行アプリで世界中のホテルを簡単一発検索。無料のエクスペディア旅行アプリなら、いつでもどこでもリアルタイムで空室を簡単予約できます。",
+                    "flightsLOB": "エクスペディアの旅行アプリで航空券を簡単一発検索。無料のエクスペディア旅行アプリなら、いつでもどこでもリアルタイムで空席を簡単予約できます。",
+                    "carsLOB": "無料のエクスペディア旅行アプリなら、いつでもどこでも、リアルタイムで旅程のチェックや予約ができるほか、航空券 & ホテルの予約ができます。",
+                    "lxLOB": "無料のエクスペディア旅行アプリなら、いつでもどこでも、リアルタイムで旅程のチェックや予約ができるほか、航空券 & ホテルの予約ができます。"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "航空券",
+                        "航空券予約",
+                        "格安航空券"
+                    ],
+                    "hotelsLOB": [
+                        "ホテル",
+                        "格安ホテル",
+                        "ホテル予約"
+                    ],
+                    "carsLOB": [
+                    	"レンタカー",
+                    	"レンタカー予約",
+                    	"格安レンタカー"
+                    ],
+                    "lxLOB": [
+                    	"オプショナルツアー",
+                    	"現地オプショナルツアー",
+                    	"現地ツアー"
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "en_JP",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "KR": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "ko_KR",
+                "descriptions": {
+                    "hotelsLOB": "익스피디아 해외여행앱은 최고의 호텔과 항공권 예약을 위한 필수앱입니다. 다른 사용자 후기와 함께 실시간으로 51만개 이상의 전세계 호텔을 예약할 수 있습니다.",
+                    "flightsLOB": "익스피디아 해외여행앱은 최고의 호텔과 항공권 예약을 위한 필수앱입니다. 다른 사용자 후기와 함께 실시간으로 51만개 이상의 전세계 호텔을 예약할 수 있습니다.",
+                    "carsLOB": "익스피디아 해외여행앱은 최고의 호텔과 항공권 예약을 위한 필수앱입니다. 다른 사용자 후기와 함께 실시간으로 51만개 이상의 전세계 호텔을 예약할 수 있습니다.",
+                    "lxLOB": "익스피디아 해외여행앱은 최고의 호텔과 항공권 예약을 위한 필수앱입니다. 다른 사용자 후기와 함께 실시간으로 51만개 이상의 전세계 호텔을 예약할 수 있습니다."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "항공권",
+                        "항공권 예약",
+                        "저렴한 항공권"
+                    ],
+                    "hotelsLOB": [
+                        "호텔예약",
+                        "최저가 호텔",
+                        "호텔가격비교"
+                    ],
+                    "carsLOB": [
+                    	"렌터카",
+                    	"렌터카 예약",
+                    	"저렴한 렌터카"
+                    ],
+                    "lxLOB": [
+                    	"현지 가이드 여행",
+                    	"패키지 여행"
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "en_KR",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "MX": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "es_MX",
+                "descriptions": {
+                    "hotelsLOB": "Elige entre más de 510.000 hoteles. Reserva tu hotel, vuelo, carro y todas las actividades con una sola aplicación. Mejor Precio Garantizado.",
+                    "flightsLOB": "Busca vuelos desde 400 aerolíneas en todo el mundo. Reserva tu vuelo y hotel con una sola aplicación. Mejor Precio Garantizado.",
+                    "carsLOB": "Encuentra renta de autos - reserva ahora, paga después. Reserva tu auto, hotel y vuelo con una sola aplicación. Sin tarifa de cancelación de Expedia.",
+                    "lxLOB": "Encuentra cosas que hacer en tu viaje. Reserva tus actividades, hotel, vuelo y carro con una sola aplicación."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "vuelos",
+                        "vuelos económicos",
+                        "boletos de avión",
+                        "vuelos baratos"
+                    ],
+                    "hotelsLOB": [
+                        "hoteles",
+                        "hoteles baratos",
+                        "mejores hoteles",
+                        "promo de hoteles"
+                    ],
+                    "carsLOB": [
+                    	"renta de autos",
+                    	"renta de carros",
+                    	"renta de auto baratos"
+                    ],
+                    "lxLOB": [
+                    	"actividades",
+                    	"actividades económicas",
+                    	"qué hacer"
+                    ]
+                }
+            }
+        ]
+    },
+    "MY": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_MY",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "NL": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "nl_NL",
+                "descriptions": {
+                    "hotelsLOB": "Zoek en boek de beste hotels met Expedia. Vind goedkope hotels, ontdek de beste deals en vergelijk prijzen.",
+                    "flightsLOB": "Zoek en boek goedkope vliegtickets met Expedia. Gebuik de app om de beste deals te vinden en prijzen te vergelijken.",
+                    "carsLOB": "Huur een auto met Expedia. Ontdek de beste aanbiedingen en profiteer van voordelige tarieven voor huurauto's.",
+                    "lxLOB": "Vind de leukste activiteiten tijdens je reis. Vergelijk de beste aanbiedingen met Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "goedkope vluchten",
+                        "vluchten",
+                        "goedkope tickets",
+                        "vliegtickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodatie",
+                        "goedkope hotels",
+                        "hotel",
+                        "aanbiedingen"
+                    ],
+                    "carsLOB": [
+                    	"Autoverhuur",
+                    	"huurauto's",
+                    	"huur een auto",
+                    	"goedkope autoverhuur",
+                    	"autoverhuur"
+                    ],
+                    "lxLOB": [
+                    	"dingen om te doen",
+                    	"leuke dingen om te doen",
+                    	"activiteiten",
+                    	"wat te doen",
+                    	"attracties",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "NO": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "nb_NO",
+                "descriptions": {
+                    "hotelsLOB": "Finn gode tilbud og bestill hotell med Expedia.no",
+                    "flightsLOB": "Finn og bestill billige flybilletter med Expedia.no",
+                    "carsLOB": "Bestill en leiebil med Expeda.no",
+                    "lxLOB": "Bestill aktiviteter og opplevelser med Expedia.no"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "fly",
+                        "flybilletter",
+                        "flyreiser",
+                        "billig flybilletter",
+                        "billige flyreiser",
+                        "billig fly"
+                    ],
+                    "hotelsLOB": [
+                        "Hotell",
+                        "billig hotell",
+                        "hotelltilbud",
+                        "hoteller"
+                    ],
+                    "carsLOB": [
+                    	"bilutleie",
+                    	"leiebil",
+                    	"billig leiebil", 
+                    	"billig bilutleie",
+                    	"leie bil"
+                    ],
+                    "lxLOB": [
+                    	"aktiviteter",
+                    	"ferieopplevelser",
+                    	"opplevelser",
+                    	"ting å gjøre" 
+                    ]
+                }
+            }
+        ]
+    },
+    "NZ": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_AU",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "PH": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_PH",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "SE": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "sv_SE",
+                "descriptions": {
+                    "hotelsLOB": "Hitta och boka hotell med Expedia",
+                    "flightsLOB": "Hitta och boka flygresa med Expedia",
+                    "carsLOB": "Boka hyrbil med Expedia",
+                    "lxLOB": "Boka upplevelser och aktiviteter med Expedia"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "billiga flyg",
+                        "flyg",
+                        "flygresor",
+                        "billiga flygresor",
+                        "flygbiljetter"
+                    ],
+                    "hotelsLOB": [
+                        "hotell",
+                        "billiga hotell",
+                        "hotellerbjudande",
+                        "hotellbokning",
+                        "boka hotell"
+                    ],
+                    "carsLOB": [
+                    	"hyra bil",
+                    	"hyrbil",
+                    	"biluthyrning",
+                    	"hyra bil billigt",
+                    	"hyrbilar"
+                    ],
+                    "lxLOB": [
+                    	"saker att göra",
+                    	"aktiviteter",
+                    	"upplevelser",
+                    	"upplevelser",
+                    	"att göra"
+                    ]
+                }
+            }
+        ]
+    },
+    "SG": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_SG",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "TH": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "th_TH",
+                "descriptions": {
+                    "hotelsLOB": "จองโรงแรม ที่พักราคาถูกกับเอ็กซ์พีเดีย",
+                    "flightsLOB": "จองตั๋วเครื่องบินราคาถูกผ่านเอ็กซ์พีเดีย",
+                    "carsLOB": "เช่ารถราคาถูกผ่านเอ็กซ์พีเดียได้แล้ววันน",
+                    "lxLOB": "จองบัตรผ่านประตูกิจกรรมท่องเที่ยวต่างๆ กับเอ็กซ์พีเดีย"
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "ตั๋วเครื่องบิน",
+                        "ตั๋วเครื่องบินราคาถูก",
+                        "จองตั๋วเครื่องบิน",
+                        "ราคาตั๋วเครื่องบิน",
+                        "จองตั๋วเครื่องบินราคาถูก"
+                    ],
+                    "hotelsLOB": [
+                        "โรงแรม",
+                        "ที่พัก",
+                        "จองโรงแรม",
+                        "จองที่พัก",
+                        "ที่พักราคาถูก",
+                        "โรงแรมราคาถูก"
+                    ],
+                    "carsLOB": [
+                    	"รถเช่า",
+                    	"เช่ารถ",
+                    	"รถเช่าราคาถูก",
+                    	"รถเช่าขับเอง",
+                    	"เช่ารถราคาถูก",
+                    	"รถเช่ารายวัน",
+                    	"เช่ารถขับเอง"
+                    ],
+                    "lxLOB": [
+                    	"กิจกรรม",
+                    	"แหล่งท่องเที่ยว",
+                    	"ไปเที่ยวไหนดี",
+                    	"สถานที่ท่องเที่ยว"
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "en_TH",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "TW": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "zh_TW",
+                "descriptions": {
+                    "flightsLOB": "通過智遊網預訂便宜機票",
+                    "hotelsLOB": "通過智遊網預訂飯店優惠",
+                    "carsLOB": "搜尋便宜自駕遊及租車優惠",
+                    "lxLOB": ""
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "機票",
+                        "機票優惠",
+                        "機票預訂"
+                    ],
+                    "hotelsLOB": [
+                        "酒店",
+                        "酒店優惠",
+                        "酒店預訂"
+                    ],
+                    "carsLOB": [
+                    	"租車",
+                    	"平價自駕遊",
+                    	"租車預訂"
+                    ],
+                    "lxLOB": [
+                    	"旅遊活動",
+                    	"優惠門票",
+                    	"當地玩樂預訂"   
+                    ]
+                }
+            },
+            {
+                "localeIdentifier": "en_TW",
+                "descriptions": {
+                    "hotelsLOB": "Find The Best Hotels with Expedia. Get Cheap Hotel Deals And Compare Prices.",
+                    "flightsLOB": "Find Cheap Flight Tickets With Expedia. Find Deals And Compare Prices Easily On The App.",
+                    "carsLOB": "Find Car Rentals With Expedia. Get Deals On Cheap Car Rental Rates Today.",
+                    "lxLOB": "Find Things To Do When You Travel. Compare And Find The Best Deals On Activities With Expedia."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "accommodation",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                    	"car hire",
+                    	"rental cars",
+                    	"hire a car",
+                    	"cheap car hire",
+                    	"car rentals"
+                    ],
+                    "lxLOB": [
+                    	"things to do",
+                    	"fun things to do",
+                    	"activities",
+                    	"what to do", 
+                    	"attractions",
+                    	"tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "US": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "en_US",
+                "descriptions": {
+                    "flightsLOB": "Search flights from 400 airlines worldwide. Book your flight & hotel all with one app. Best Price Guarantee.",
+                    "hotelsLOB": "Search over 510,000 hotels. Book your hotel, flight, car & activities all with one app. Best Price Guarantee.",
+                    "carsLOB": "Find car rentals - reserve now, pay later. Book your car, hotel & flight all with one app. No Expedia cancellation fee.",
+                    "lxLOB": "Find things to do when you travel. Book your activites, hotel, flight & car all with one app."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "cheap flights",
+                        "flights",
+                        "cheap tickets",
+                        "airline tickets"
+                    ],
+                    "hotelsLOB": [
+                        "hotels",
+                        "cheap hotels",
+                        "hotel",
+                        "hotel deals"
+                    ],
+                    "carsLOB": [
+                        "car rental",
+                        "rental cars",
+                        "rent a car",
+                        "cheap car rentals",
+                        "car rentals"
+                    ],
+                    "lxLOB": [
+                        "things to do",
+                        "fun things to do",
+                        "activities",
+                        "what to do",
+                        "attractions",
+                        "tours"
+                    ]
+                }
+            }
+        ]
+    },
+    "VN": {
+        "supportedLocales": [
+            {
+                "localeIdentifier": "vi_VN",
+                "descriptions": {
+                    "hotelsLOB": "App Expedia là app của những chuyến đi. Truy xuất lịch trình ngay lập tức.",
+                    "flightsLOB": "App Expedia là app của những chuyến đi. Truy xuất lịch trình ngay lập tức.",
+                    "carsLOB": "App Expedia là app của những chuyến đi. Truy xuất lịch trình ngay lập tức.",
+                    "lxLOB": "App Expedia là app của những chuyến đi. Truy xuất lịch trình ngay lập tức."
+                },
+                "keywords": {
+                    "flightsLOB": [
+                        "chuyến bay",
+                        "chuyến bay giá rẻ",
+                        "chuyến bay đặt phòng"
+                    ],
+                    "hotelsLOB": [
+                        "khách sạn",
+                        "khách sạn giá rẻ",
+                        "khách sạn đặt phòng"
+                    ],
+                    "carsLOB": [
+                    	"cho thuê xe",
+                    	"cho thuê xe sạn giá rẻ",
+                    	"đặt cho thuê xe"
+                    ],
+                    "lxLOB": [
+                    	"tham quan",
+                    	"hoạt động",
+                    	"hoạt động giá rẻ",
+                    	"hoạt động đặt phòng"
+                    ]
+                }
+            }
+        ]
+    }
+}

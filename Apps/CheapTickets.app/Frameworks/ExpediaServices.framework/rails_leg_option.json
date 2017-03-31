@@ -1,0 +1,70 @@
+{
+    "departureDateTime":{
+        "raw":"2016-05-31T15:57:00",
+        "localized":"May 31, 2016 03:57:00 PM",
+        "epochSeconds":1464710220,
+        "localizedShortDate":"Tue 31, May"
+    },
+    "aggregatedOperatingCarrier":"CrossCountry",
+    "bestPrice":{
+        "amount":"43.50",
+        "formattedPrice":"£43.50",
+        "currencyCode":"GBP",
+        "formattedWholePrice":"£44"
+    },
+    "arrivalStation":{
+        "stationDisplayName":"Manchester Piccadilly",
+        "stationCode":"GBQQM"
+    },
+    "overtakenJourney":false,
+    "aggregatedMarketingCarrier":"CrossCountry",
+    "arrivalDateTime":{
+        "raw":"2016-05-31T17:35:00",
+        "localized":"May 31, 2016 05:35:00 PM",
+        "epochSeconds":1464716100,
+        "localizedShortDate":"Tue 31, May"
+    },
+    "departureStation":{
+        "stationDisplayName":"Birmingham New Street",
+        "stationCode":"GBQQN"
+    },
+    "duration":"PT1H38M",
+    "showTrainIcon":false,
+    "legOptionIndex":1,
+    "toc":"ATOC",
+    "travelSegmentList":[
+                         {
+                         "travelMedium":{
+                         "supplierTravelMediumId":"XC3200",
+                         "travelMediumName":"Inter-City",
+                         "travelMediumCode":"ICY",
+                         "supplierTravelMediumName":"CrossCountry-ICY"
+                         },
+                         "duration":"PT1H38M",
+                         "departureStation":{
+                         "stationDisplayName":"Birmingham New Street",
+                         "stationCode":"GBQQN"
+                         },
+                         "operatingCarrier":"CrossCountry",
+                         "arrivalStation":{
+                         "stationDisplayName":"Manchester Piccadilly",
+                         "stationCode":"GBQQM"
+                         },
+                         "arrivalDateTime":{
+                         "raw":"2016-05-31T17:35:00",
+                         "localized":"May 31, 2016 05:35:00 PM",
+                         "epochSeconds":1464716100,
+                         "localizedShortDate":"Tue 31, May"
+                         },
+                         "travelSegmentIndex":1,
+                         "travelMode":"Train",
+                         "marketingCarrier":"CrossCountry",
+                         "departureDateTime":{
+                         "raw":"2016-05-31T15:57:00",
+                         "localized":"May 31, 2016 03:57:00 PM",
+                         "epochSeconds":1464710220,
+                         "localizedShortDate":"Tue 31, May"
+                         }
+                         }
+                         ]
+}

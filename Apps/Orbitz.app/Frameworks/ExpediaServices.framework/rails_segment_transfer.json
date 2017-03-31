@@ -1,0 +1,29 @@
+{
+    "travelSegmentIndex": 2,
+    "travelMode": "Transfer",
+    "departureStation": {
+        "stationCode": "GBQQU",
+        "stationDisplayName": "London Euston"
+    },
+    "arrivalStation": {
+        "stationCode": "GBQQW",
+        "stationDisplayName": "London Waterloo"
+    },
+    "departureDateTime": {
+        "raw": "2016-12-20T23:46:00",
+        "epochSeconds": 1482277560,
+        "localized": "20 Dec, 2016 23:46",
+        "localizedShortDate": "Tue, 20 Dec"
+    },
+    "arrivalDateTime": {
+        "raw": "2016-12-21T00:46:00",
+        "epochSeconds": 1482281160,
+        "localized": "21 Dec, 2016 00:46",
+        "localizedShortDate": "Wed, 21 Dec"
+    },
+    "travelMedium": {
+        "travelMediumName": "Transfer",
+        "travelMediumCode": "TRS"
+    },
+    "duration": "PT1H"
+}

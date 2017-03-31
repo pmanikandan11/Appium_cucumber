@@ -1,0 +1,305 @@
+GET
+.*?api/cars/search/location.*
+*
+200
+Content-Type: application/json
+
+{
+	"pickupTime": {
+		"raw": "2016-05-11T09:00:00-08:00",
+		"localized": "May 11, 2016 9:00:00 AM",
+		"epochSeconds": 1462986000,
+		"timeZoneOffsetSeconds": -28800,
+		"localizedShortDate": "Wed, 11 May"
+	},
+	"dropOffTime": {
+		"raw": "2016-05-16T18:00:00-08:00",
+		"localized": "May 16, 2016 6:00:00 PM",
+		"epochSeconds": 1463450400,
+		"timeZoneOffsetSeconds": -28800,
+		"localizedShortDate": "Mon, 16 May"
+	},
+	"offers": [{
+		"productKey": "AQAQAQKBg2IAAoADDc5Gs4mKFsQAFQsCaQAdYumAH7ogSgAec9qAHnPbABAw",
+		"vendor": {
+			"id": 40,
+			"name": "Hertz",
+			"code": "ZE"
+		},
+		"creditCardRequiredToGuaranteeReservation": false,
+		"pickUpLocation": {
+			"locationType": "NON_AIRPORT_ADDRESS",
+			"locationDescription": "65 California Drive, Burlingame, California",
+			"latitude": 37.577605,
+			"longitude": -122.340644,
+			"addressLine1": "65 California Drive",
+			"cityName": "Burlingame",
+			"provinceStateName": "California",
+			"countryCode": "USA",
+			"locationCode": "SFO",
+			"regionId": 7146
+		},
+		"dropOffLocation": {
+			"locationType": "NON_AIRPORT_ADDRESS",
+			"locationDescription": "65 California Drive, Burlingame, California",
+			"latitude": 37.577605,
+			"longitude": -122.340644,
+			"addressLine1": "65 California Drive",
+			"cityName": "Burlingame",
+			"provinceStateName": "California",
+			"countryCode": "USA",
+			"locationCode": "SFO",
+			"regionId": 7146
+		},
+		"fare": {
+			"rateTerm": "DAILY",
+			"rate": {
+				"amount": "24.32",
+				"formattedPrice": "$24.32",
+				"formattedWholePrice": "$24",
+				"currencyCode": "USD"
+			},
+			"total": {
+				"amount": "165.50",
+				"formattedPrice": "$165.50",
+				"formattedWholePrice": "$166",
+				"currencyCode": "USD"
+			}
+		},
+		"hasFreeCancellation": true,
+		"hasUnlimitedMileage": true,
+		"isMerchant": false,
+		"isInsuranceIncluded": false,
+		"vehicleInfo": {
+			"category": "ECONOMY",
+			"type": "TWO_DOOR_CAR",
+			"fuel": "UNKNOWN",
+			"transmission": "AUTOMATIC_TRANSMISSION",
+			"drive": "TWO_WHEEL_DRIVE",
+			"hasAirConditioning": true,
+			"makes": [
+				"Kia Rio"
+			],
+			"minDoors": 4,
+			"maxDoors": 5,
+			"adultCapacity": 4,
+			"childCapacity": 0,
+			"largeLuggageCapacity": 0,
+			"smallLuggageCapacity": 2,
+			"carCategoryDisplayLabel": "Economy",
+			"carCategoryDisplayFullLabel": "Economy 2/4Door Car"
+		}
+	}, {
+		"productKey": "AQAQAQBhghIAAoADDc5Gs4mKFsQAFQrx2QAdYumAG_kwSgAYoCqAGKArABAw",
+		"vendor": {
+			"id": 6,
+			"name": "Alamo",
+			"code": "AL"
+		},
+		"creditCardRequiredToGuaranteeReservation": false,
+		"pickUpLocation": {
+			"locationType": "COUNTER_IN_AIRPORT_TERMINAL_AND_SHUTTLE_TO_CAR",
+			"locationDescription": "San Francisco (SFO)",
+			"airportInstructions": "Counter in terminal, shuttle to car",
+			"latitude": 37.618934,
+			"longitude": -122.375882,
+			"addressLine1": "San Francisco Intl Arpt",
+			"cityName": "San Francisco",
+			"provinceStateName": "CA",
+			"countryCode": "USA",
+			"locationCode": "SFO",
+			"regionId": 6203208
+		},
+		"dropOffLocation": {
+			"locationType": "COUNTER_IN_AIRPORT_TERMINAL_AND_SHUTTLE_TO_CAR",
+			"locationDescription": "San Francisco (SFO)",
+			"latitude": 37.618934,
+			"longitude": -122.375882,
+			"addressLine1": "San Francisco Intl Arpt",
+			"cityName": "San Francisco",
+			"provinceStateName": "CA",
+			"countryCode": "USA",
+			"locationCode": "SFO",
+			"regionId": 6203208
+		},
+		"fare": {
+			"rateTerm": "DAILY",
+			"rate": {
+				"amount": "37.33",
+				"formattedPrice": "$37.33",
+				"formattedWholePrice": "$37",
+				"currencyCode": "USD"
+			},
+			"total": {
+				"amount": "309.94",
+				"formattedPrice": "$309.94",
+				"formattedWholePrice": "$310",
+				"currencyCode": "USD"
+			}
+		},
+		"hasFreeCancellation": true,
+		"hasUnlimitedMileage": true,
+		"isMerchant": false,
+		"isInsuranceIncluded": false,
+		"vehicleInfo": {
+			"category": "COMPACT",
+			"type": "TWO_DOOR_CAR",
+			"fuel": "UNKNOWN",
+			"transmission": "AUTOMATIC_TRANSMISSION",
+			"drive": "TWO_WHEEL_DRIVE",
+			"hasAirConditioning": true,
+			"makes": [
+				"Nissan Versa Note"
+			],
+			"minDoors": 4,
+			"maxDoors": 4,
+			"adultCapacity": 5,
+			"childCapacity": 0,
+			"largeLuggageCapacity": 0,
+			"smallLuggageCapacity": 0,
+			"carCategoryDisplayLabel": "Compact",
+			"carCategoryDisplayFullLabel": "Compact 2/4Door Car"
+		}
+	}, {
+		"productKey": "AQAQAQBhhCIAAoADDc5Gs4mKFsQAFQrx2QAdYumAG_kwSgAYoCqAGKArABAw",
+		"vendor": {
+			"id": 6,
+			"name": "Alamo",
+			"code": "AL"
+		},
+		"creditCardRequiredToGuaranteeReservation": false,
+		"pickUpLocation": {
+			"locationType": "COUNTER_IN_AIRPORT_TERMINAL_AND_SHUTTLE_TO_CAR",
+			"locationDescription": "San Francisco (SFO)",
+			"airportInstructions": "Counter in terminal, shuttle to car",
+			"latitude": 37.618934,
+			"longitude": -122.375882,
+			"addressLine1": "San Francisco Intl Arpt",
+			"cityName": "San Francisco",
+			"provinceStateName": "CA",
+			"countryCode": "USA",
+			"locationCode": "SFO",
+			"regionId": 6203208
+		},
+		"dropOffLocation": {
+			"locationType": "COUNTER_IN_AIRPORT_TERMINAL_AND_SHUTTLE_TO_CAR",
+			"locationDescription": "San Francisco (SFO)",
+			"latitude": 37.618934,
+			"longitude": -122.375882,
+			"addressLine1": "San Francisco Intl Arpt",
+			"cityName": "San Francisco",
+			"provinceStateName": "CA",
+			"countryCode": "USA",
+			"locationCode": "SFO",
+			"regionId": 6203208
+		},
+		"fare": {
+			"rateTerm": "DAILY",
+			"rate": {
+				"amount": "100.26",
+				"formattedPrice": "$100.26",
+				"formattedWholePrice": "$100",
+				"currencyCode": "USD"
+			},
+			"total": {
+				"amount": "794.63",
+				"formattedPrice": "$794.63",
+				"formattedWholePrice": "$795",
+				"currencyCode": "USD"
+			}
+		},
+		"hasFreeCancellation": true,
+		"hasUnlimitedMileage": true,
+		"isMerchant": false,
+		"isInsuranceIncluded": false,
+		"vehicleInfo": {
+			"category": "FULLSIZE",
+			"type": "VAN",
+			"fuel": "UNKNOWN",
+			"transmission": "AUTOMATIC_TRANSMISSION",
+			"drive": "TWO_WHEEL_DRIVE",
+			"hasAirConditioning": true,
+			"makes": [
+				"Ford Transit Wagon"
+			],
+			"minDoors": 4,
+			"maxDoors": 4,
+			"adultCapacity": 12,
+			"childCapacity": 0,
+			"largeLuggageCapacity": 0,
+			"smallLuggageCapacity": 0,
+			"carCategoryDisplayLabel": "Fullsize Van",
+			"carCategoryDisplayFullLabel": "Fullsize Van"
+		}
+	}, {
+		"productKey": "AQAQAQBhhMIAAoADDc5Gs4mKFsQAFQnwuQAdYumAG_kwSgAYoCqAGKArABAw",
+		"vendor": {
+			"id": 6,
+			"name": "Alamo",
+			"code": "AL"
+		},
+		"creditCardRequiredToGuaranteeReservation": false,
+		"pickUpLocation": {
+			"locationType": "COUNTER_IN_AIRPORT_TERMINAL_AND_SHUTTLE_TO_CAR",
+			"locationDescription": "San Francisco (SFO)",
+			"airportInstructions": "Counter in terminal, shuttle to car",
+			"latitude": 37.618934,
+			"longitude": -122.375882,
+			"addressLine1": "San Francisco Intl Arpt",
+			"cityName": "San Francisco",
+			"provinceStateName": "CA",
+			"countryCode": "USA",
+			"locationCode": "SFO",
+			"regionId": 6203208
+		},
+		"dropOffLocation": {
+			"locationType": "COUNTER_IN_AIRPORT_TERMINAL_AND_SHUTTLE_TO_CAR",
+			"locationDescription": "San Francisco (SFO)",
+			"latitude": 37.618934,
+			"longitude": -122.375882,
+			"addressLine1": "San Francisco Intl Arpt",
+			"cityName": "San Francisco",
+			"provinceStateName": "CA",
+			"countryCode": "USA",
+			"locationCode": "SFO",
+			"regionId": 6203208
+		},
+		"fare": {
+			"rateTerm": "DAILY",
+			"rate": {
+				"amount": "220.00",
+				"formattedPrice": "$220.00",
+				"formattedWholePrice": "$220",
+				"currencyCode": "USD"
+			},
+			"total": {
+				"amount": "1710.28",
+				"formattedPrice": "$1,710.28",
+				"formattedWholePrice": "$1,710",
+				"currencyCode": "USD"
+			}
+		},
+		"hasFreeCancellation": true,
+		"hasUnlimitedMileage": true,
+		"isMerchant": false,
+		"isInsuranceIncluded": false,
+		"vehicleInfo": {
+			"category": "PREMIUM",
+			"type": "RECREATIONAL_VEHICLE",
+			"fuel": "UNKNOWN",
+			"transmission": "AUTOMATIC_TRANSMISSION",
+			"drive": "TWO_WHEEL_DRIVE",
+			"hasAirConditioning": true,
+			"minDoors": 0,
+			"maxDoors": 0,
+			"adultCapacity": 0,
+			"childCapacity": 0,
+			"largeLuggageCapacity": 0,
+			"smallLuggageCapacity": 0,
+			"carCategoryDisplayLabel": "Premium Recreational Vehicle",
+			"carCategoryDisplayFullLabel": "Premium Recreational Vehicle"
+		}
+	}],
+	"activityId": "386178cc-235f-4176-aaf1-02d10be3e606",
+	"deepLinkUrl": "https://www.expedia.com/Car-Rentals-In-Burlingame.d7146.Car-Rental-Guide"
+}

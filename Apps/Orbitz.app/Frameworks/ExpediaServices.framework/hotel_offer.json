@@ -1,0 +1,940 @@
+{
+  "hotelTagline": "1033",
+  "checkInDate": "2016-12-01",
+  "checkOutDate": "2016-12-03",
+  "numberOfRoomsRequested": "1",
+  "numberOfNights": "2",
+  "timeZoneUTCOffsetMinutes": "-480",
+  "checkInInstructions": "24-hour airport shuttle service is available. Contact the property in advance to get details. ",
+  "shortDescription": "This all-suite resort and casino on the Las Vegas Strip is a short drive from Fashion Show Mall, the convention center,  Downtown, and McCarran Airport.",
+  "deepLinkUrl": "https://www.expedia.com/Las-Vegas-Hotels-The-Venetian-Resort-Hotel-Casino.h1443.Hotel-Information",
+  "hotelRoomResponse": [
+    {
+      "productKey": "ff81faaf-7d35-49ad-8b76-6660e5223c49_V3",
+      "cancellationPolicy": "<p>We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. The Venetian Resort Hotel & Casino charges the following cancellation and change fees.</p><p><span class=\"rr-bold\">The room type and rate selected are non-refundable.</span> Should you change or cancel this reservation for any reason, your payment will not be refunded.</p><p>No refunds will be issued for late check-in or early check-out.</p><p>Stay extensions require a new reservation.</p><p>Your room will be guaranteed for late arrival.</p><p>Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate hotels.</p>",
+      "rateDescription": "Luxury 1 King Suite",
+      "roomTypeDescription": "Luxury 1 King Suite",
+      "roomLongDescription": " 1 king bed  650 sq feet (60 sq meters)   Layout  - Separate sitting area  Relax  - In-room massage available  Entertainment  - Free WiFi and wired Internet access, flat-screen TV   Food & Drink  - 24-hour room service and minibar  Sleep  - Pillowtop bed, premium bedding, and blackout drapes/curtains   Bathroom  - Private bathroom, separate bathtub and shower, bathrobes, and slippers  Practical  - Laptop-compatible safe, free newspaper, and iron/ironing board; rollaway/extra beds and cribs/infant beds available on request  Comfort  - Air conditioning and daily housekeeping  Need to Know  - No rollaway/extra beds available ",
+      "roomThumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_370_t.jpg",
+      "supplierType": "MERCHANT",
+      "rateChange": true,
+      "nonRefundable": true,
+      "hasFreeCancellation": false,
+      "guaranteeRequired": false,
+      "depositRequired": false,
+      "immediateChargeRequired": true,
+      "currentAllotment": "50",
+      "promoDescription": "Private sale: save 5% (on select nights)",
+      "promotionDetails": {
+        "promoId": "221612199",
+        "minStay": 2,
+        "promoExpirationDate": "2016-12-27T15:59:00-08:00",
+        "promoAdjustmentAmount": "-0.01",
+        "promoAdjustmentType": "PercentAdjustment",
+        "isPromoPartiallyApplied": true
+      },
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "smokingPreferences": "E",
+      "rateOccupancyPerRoom": "5",
+      "bedTypes": [
+        {
+          "id": "14",
+          "description": "1 king bed"
+        }
+      ],
+      "rateInfo": {
+        "priceBreakdown": true,
+        "promo": true,
+        "rateChange": true,
+        "chargeableRateInfo": {
+          "maxNightlyRate": "699.00",
+          "averageRate": "491.52",
+          "taxStatusType": "ESTIMATED",
+          "surchargeTotal": "58.99",
+          "surchargeTotalForEntireStay": "117.98",
+          "averageBaseRate": "499.00",
+          "nightlyRateTotal": "983.05",
+          "discountPercent": -1,
+          "total": "1101.02",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+          "surcharges": [
+            {
+              "amount": "48.37",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "48.37",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "10.62",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "10.62",
+              "type": "FEE_MISC"
+            }
+          ],
+          "surchargesForEntireStay": [
+            {
+              "amount": "96.74",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "96.74",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "21.24",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "21.24",
+              "type": "FEE_MISC"
+            }
+          ],
+          "nightlyRatesPerRoom": [
+            {
+              "promo": "false",
+              "baseRate": "699.00",
+              "rate": "699.00"
+            },
+            {
+              "promo": "true",
+              "baseRate": "299.00",
+              "rate": "284.05"
+            }
+          ],
+          "priceToShowUsers": "1101",
+          "strikethroughPriceToShowUsers": "1116",
+          "strikethroughPriceWithTaxesAndFeesToShowUsers": "1116",
+          "totalMandatoryFees": "78.40",
+          "mandatoryFees": [
+            {
+              "feeName": "Resort fee",
+              "amount": "78.40"
+            }
+          ],
+          "totalPriceWithMandatoryFees": "1101.02",
+          "formattedTotalPriceWithMandatoryFees": "$ 1,101.02",
+          "userPriceType": "RateForWholeStayWithTaxes",
+          "priceAdjustments": [],
+          "checkoutPriceType": "total",
+          "airAttached": false,
+          "roomTypeCode": "158",
+          "ratePlanCode": "208078430",
+          "showResortFeeMessage": true,
+          "resortFeeInclusion": false,
+          "dailyMandatoryFee": "39.20",
+          "loyaltyInfo": {
+            "earn": {
+              "points": {
+                "base": 125,
+                "bonus": 250,
+                "total": 375
+              }
+            },
+            "isBurnApplied": false
+          }
+        }
+      },
+      "quotedOccupancy": "3",
+      "minGuestAge": "0",
+      "roomTypeCode": "158",
+      "ratePlanCode": "208078430",
+      "isPayLater": false,
+      "isMemberDeal": true
+    },
+    {
+      "productKey": "e4b0a2c5-6af1-4005-802a-d7dde0e6f97d_V3",
+      "cancellationPolicy": "<p>We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. The Venetian Resort Hotel & Casino charges the following cancellation and change fees.</p><p>Cancellations or changes made after 11:59AM (hotel local time) on Nov 28, 2016 or no-shows are subject to a hotel fee equal to the first night's rate plus taxes and fees.</p><p>Your room will be guaranteed for late arrival.</p><p>Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate hotels.</p>",
+      "rateDescription": "Luxury 1 King Suite - $150 Resort Credit Included",
+      "roomTypeDescription": "Luxury 1 King Suite - $150 Resort Credit Included",
+      "roomLongDescription": " 1 king bed  650 sq feet (60 sq meters)   Layout  - Separate sitting area  Relax  - In-room massage available  Entertainment  - Free WiFi and wired Internet access, flat-screen TV   Food & Drink  - 24-hour room service and minibar  Sleep  - Pillowtop bed, premium bedding, and blackout drapes/curtains   Bathroom  - Private bathroom, separate bathtub and shower, bathrobes, and slippers  Practical  - Laptop-compatible safe, free newspaper, and iron/ironing board; rollaway/extra beds and cribs/infant beds available on request  Comfort  - Air conditioning and daily housekeeping  Need to Know  - No rollaway/extra beds available ",
+      "roomThumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_370_t.jpg",
+      "supplierType": "MERCHANT",
+      "rateChange": true,
+      "nonRefundable": false,
+      "hasFreeCancellation": true,
+      "freeCancellationWindowDate": "2016-11-28 11:59",
+      "guaranteeRequired": false,
+      "depositRequired": false,
+      "immediateChargeRequired": true,
+      "currentAllotment": "50",
+      "promoDescription": "$150 Food and Beverage Credit",
+      "promotionDetails": {
+        "promoId": "220404820",
+        "minStay": 2,
+        "promoExpirationDate": "2016-12-22T15:59:00-08:00",
+        "promoAdjustmentAmount": "0.00",
+        "promoAdjustmentType": "PercentAdjustment",
+        "isPromoPartiallyApplied": false
+      },
+      "isDiscountRestrictedToCurrentSourceType": false,
+      "isSameDayDRR": false,
+      "smokingPreferences": "E",
+      "rateOccupancyPerRoom": "5",
+      "bedTypes": [
+        {
+          "id": "14",
+          "description": "1 king bed"
+        }
+      ],
+      "rateInfo": {
+        "priceBreakdown": true,
+        "promo": true,
+        "rateChange": true,
+        "chargeableRateInfo": {
+          "maxNightlyRate": "698.93",
+          "averageRate": "498.96",
+          "taxStatusType": "ESTIMATED",
+          "surchargeTotal": "59.88",
+          "surchargeTotalForEntireStay": "119.76",
+          "averageBaseRate": "499.00",
+          "nightlyRateTotal": "997.93",
+          "discountPercent": 0,
+          "total": "1117.68",
+          "currencyCode": "USD",
+          "currencySymbol": "$",
+          "surcharges": [
+            {
+              "amount": "49.10",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "49.10",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "10.78",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "10.78",
+              "type": "FEE_MISC"
+            }
+          ],
+          "surchargesForEntireStay": [
+            {
+              "amount": "98.20",
+              "type": "TAX_ALL"
+            },
+            {
+              "amount": "98.20",
+              "type": "TAX_OTHER"
+            },
+            {
+              "amount": "21.56",
+              "type": "FEE_ALL"
+            },
+            {
+              "amount": "21.56",
+              "type": "FEE_MISC"
+            }
+          ],
+          "nightlyRatesPerRoom": [
+            {
+              "promo": "true",
+              "baseRate": "699.00",
+              "rate": "698.93"
+            },
+            {
+              "promo": "false",
+              "baseRate": "299.00",
+              "rate": "299.00"
+            }
+          ],
+          "priceToShowUsers": "1118",
+          "strikethroughPriceToShowUsers": "1118",
+          "strikethroughPriceWithTaxesAndFeesToShowUsers": "1118",
+          "totalMandatoryFees": "78.40",
+          "mandatoryFees": [
+            {
+              "feeName": "Resort fee",
+              "amount": "78.40"
+            }
+          ],
+          "totalPriceWithMandatoryFees": "1117.68",
+          "formattedTotalPriceWithMandatoryFees": "$ 1,117.68",
+          "userPriceType": "RateForWholeStayWithTaxes",
+          "priceAdjustments": [],
+          "checkoutPriceType": "total",
+          "airAttached": false,
+          "roomTypeCode": "158",
+          "ratePlanCode": "207838373",
+          "showResortFeeMessage": true,
+          "resortFeeInclusion": false,
+          "dailyMandatoryFee": "39.20"
+        }
+      },
+      "valueAdds": [
+        {
+          "id": "131072",
+          "description": "Resort Credit Included"
+        }
+      ],
+      "quotedOccupancy": "3",
+      "minGuestAge": "0",
+      "roomTypeCode": "158",
+      "ratePlanCode": "207838373",
+      "isPayLater": false,
+      "isMemberDeal": false
+    }
+  ],
+  "signedMapUrl": "https://maps.googleapis.com/maps/api/staticmap?client=gme-expedia&center=36.12209,-115.17139&maptype=mobile&zoom=16&size=480x400&sensor=false&hl=false&signature=_n1O1mpXLbeg58RU5ulr_p8ykwc",
+  "airAttachExpirationTimeSeconds": "0",
+  "hotelId": "1443",
+  "hotelName": "The Venetian Resort Hotel & Casino",
+  "localizedHotelName": "The Venetian Resort Hotel & Casino",
+  "nonLocalizedHotelName": "The Venetian Resort Hotel & Casino",
+  "hotelAddress": "3355 Las Vegas Blvd S",
+  "hotelCity": "Las Vegas",
+  "hotelStateProvince": "NV",
+  "hotelCountry": "USA",
+  "latitude": "36.12209",
+  "longitude": "-115.17139",
+  "longDescription": "<p><strong>On the Strip:</strong> This all-suite resort and casino on the Las Vegas Strip is a short drive from Fashion Show Mall, the convention center,  Downtown, and McCarran Airport.</p><p><strong>Gondolas, shops, spa:</strong> The Venetian Resort Hotel & Casino provides an opulent casino, full-service spa, and rooftop pool complex. Guests can attend popular Vegas shows and ride a gondola along Grand Canal Shoppes.</p><p><strong>Spacious suites:</strong> Guest suites at The Venetian offer sunken living rooms, Italian-marble baths, and 24-hour room service. Beds are dressed in Egyptian-cotton linens and white, goose-down duvets. High-speed wired and wireless Internet access is included in the resort fee. Accessible rooms are available on request.</p><p><strong>Rooms</strong><br>The Venetian Resort Hotel & Casino offers 4027 air-conditioned accommodations with minibars and laptop-compatible safes. Accommodations offer separate sitting areas. Pillowtop beds feature premium bedding. Flat-screen televisions come with pay movies. Bathrooms include separate bathtubs and showers, bathrobes, slippers, and designer toiletries. In-room wired and wireless high-speed Internet access is available for a surcharge. Business-friendly amenities include desks, complimentary newspapers, and phones. Additionally, rooms include hair dryers and irons/ironing boards. In-room massages and hypo-allergenic bedding can be requested. Housekeeping is provided daily.  </p><p><strong>Dining</strong><br>The Venetian offers 20 dining venues, and an all-star culinary roster, with restaurants conceived by 6 James Beard Award-winning chefs. For quick bites, more than 20 additional options are situated throughout the casino level and among The Grand Canal Shoppes. 24-hour room service is available. Among the offerings:\r\n\r\n<b>AquaKnox</b> - Created by celebrated chef Tom Moloney, this restaurant flies in fresh seafood daily from around the world. It features a water-encased walk-in wine cellar and cool underwater ambience. Open nightly for dinner.\r\n\r\n<b>Bouchon</b> - Created by world-renowned chef Thomas Keller, the sole recipient of consecutive <b>Best Chef</b>; awards from the prestigious James Beard Foundation, this restaurant is modeled on the original bouchons of Lyon. The restaurant boasts an extensive selection of raw seafood, and an elegant main dining room and poolside garden. Open daily for breakfast and dinner, Saturday and Sunday for brunch.\r\n\r\n<b>B&B Ristorante</b> - Created by celebrated chef Mario Batali, this restaurant serves classic Old World Italian fare with Las Vegas panache. Dishes may include Beef Cheek Ravioli with Black Truffles, and Whole Grilled Branzino with Summer Squash and Salsa Verde. Open daily for dinner.\r\n\r\n<b>Postrio Bar&Grill</b> - Created by Wolfgang Puck, this restaurant provides a sophisticated take on classic <b>bar and grill</b> fare, as well as a view onto the festivities of St. Mark's Square.\r\n\r\n<b>Delmonico Steakhouse</b> - Created by Emeril Lagasse, this restaurant serves up big New Orleans-style flavors and an award-winning wine list.</p><p><strong>Fees</strong><br><ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>  <li>Fee for in-room wireless Internet: USD 0.00 (rates may vary)</li> <li>Fee for in-room high-speed Internet (wired): USD 0.00 (rates may vary)</li>              <li>Refrigerator fee: USD 25.00 per day</li><li>Rollaway bed fee: USD 50.00 per night</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul></p><p><strong>Location Highlights</strong><br><ul><li>Metro station nearby</li><li>In entertainment district</li></ul></p><p><strong>Spa</strong><br><ul><li>Hot stone massage</li><li>Deep tissue massage</li><li>Prenatal massage</li><li>Thai massage</li><li>Reflexology</li><li>Detoxification wrap</li><li>Manicures and pedicures</li><li>Body wraps</li><li>Body scrubs</li><li>Aromatherapy treatments</li><li>Body treatments</li><li>Facial treatments</li></ul></p><p><strong>Property Amenities</strong><br>Situated on the Las Vegas Strip, The Venetian Resort Hotel & Casino provides an opulent casino with frescoed ceilings, plush furnishings, and lavishly detailed marble floors. The resort's artistic rendering of Venice is on display at Grand Canal Shoppes, where guests can ride in authentic Italian gondolas or stroll down cobblestone walkways lined with restaurants and boutique shops.\r\n\r\nCanyon Ranch, the resort's full-service spa, offers massages and rejuvenating body treatments, a hair and nail salon, and a health club. Above, on the rooftop, a 5-acre deck complex features swimming pools, spa tubs, and private cabanas. Access to the Canyon Ranch fitness center for up to 2 guests per suite is included in the property's resort fee. \r\n\r\nThe Venetian regularly hosts popular Vegas shows and famous entertainers. The resort is also home to TAO Nightclub, one of the most dazzling clubs in the city. The resort's concierge assists guests with show, spa, and dining reservations. Free valet parking is provided.\r\n\r\nAccessible rooms and services are available on request.<ul><li>Casino</li><li>Limo or Town Car service available</li><li>Airport transportation (surcharge)</li><li>Business center</li><li>Conference space</li><li>Gift shops or newsstand</li><li>Total number of rooms - 4027</li><li>24-hour front desk</li><li>Concierge services</li><li>Porter/bellhop</li><li>Express check-out</li><li>Dry cleaning/laundry service</li><li>Multilingual staff</li><li>Hair salon</li><li>ATM/banking</li><li>Shopping on site</li><li>Number of floors - 36</li><li>Number of bars/lounges - 5</li><li>Number of poolside bars - 3</li><li>Breakfast available (surcharge)</li><li>Nightclub</li><li>Number of coffee shops/cafes - 6</li><li>Newspapers in lobby (surcharge)</li><li>Elevator/lift</li><li>Express check-in</li><li>Fitness facilities</li><li>Full-service spa</li><li>Number of outdoor pools - 2</li><li>Free WiFi</li><li>Free wired high-speed Internet</li><li>Laundry facilities</li><li>Meeting rooms 100</li><li>Free valet parking</li><li>Terrace</li><li>Luggage storage</li><li>Number of meeting rooms - 100</li><li>Number of restaurants - 20</li><li>Free self parking</li><li>Sauna</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Use of nearby fitness center (discount)</li><li>Wedding services</li></ul></p><p><strong>Room Amenities</strong><br><ul><li>Premium TV channels</li><li>Pay movies</li><li>Premium bedding</li><li>Hypo-allergenic bedding available</li><li>Room service (24 hours)</li><li>Air conditioning</li><li>Free newspaper</li><li>In-room climate control (air conditioning)</li><li>Minibar</li><li>Phone</li><li>Daily housekeeping</li><li>Designer toiletries</li><li>Private bathroom</li><li>Bathrobes</li><li>Free toiletries</li><li>Hair dryer</li><li>Separate bathtub and shower</li><li>In-room massage available</li><li>Slippers</li><li>Separate sitting area</li><li>Cribs/infant beds available</li><li>Iron/ironing board</li><li>Desk</li><li>Pillowtop mattress</li><li>In-room safe (laptop compatible)</li><li>Flat-panel TV</li><li>HDTV</li><li>WiFi (surcharge)</li><li>Wired high-speed Internet access (surcharge)</li><li>Blackout drapes/curtains</li><li>Rollaway/extra beds (surcharge)</li></ul></p><p><strong>Points of Interest</strong><br><ul><li>The Auto Collections - 0.5 km / 0.3 mi</li><li>High Roller - 0.5 km / 0.3 mi</li><li>The Linq - 0.5 km / 0.3 mi</li><li>Sands Expo Convention Center - 0.6 km / 0.4 mi</li><li>Fashion Show Mall - 0.7 km / 0.4 mi</li><li>Miracle Mile Shops - 1.3 km / 0.8 mi</li><li>Crystals at City Center - 1.5 km / 0.9 mi</li><li>Las Vegas Convention Center - 2 km / 1.2 mi</li><li>National Atomic Testing Museum - 2.2 km / 1.4 mi</li><li>Desert Research Institute - 2.3 km / 1.4 mi</li><li>T-Mobile Arena - 2.4 km / 1.5 mi</li><li>Las Vegas Country Club - 2.5 km / 1.5 mi</li><li>Thomas and Mack Center - 3.1 km / 1.9 mi</li><li>Boulevard Mall - 3.1 km / 1.9 mi</li><li>University of Nevada-Las Vegas - 3.1 km / 1.9 mi</li></ul>The preferred airport for The Venetian Resort Hotel & Casino is Las Vegas, NV (LAS-McCarran Intl.) - 4.5 km / 2.8 mi. Distances are calculated in a straight line from the property's location to the point of interest or airport and may not reflect actual travel distance. Distances are displayed to the nearest 0.1 km and mile. </p><p><strong>Policies</strong><br><ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card or cash deposit are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.</li><li>Pets not allowed</li><li>Check-in time starts at 3 PM</li><li>Check-in time ends at midnight</li><li>Minimum check-in age is 21</li><li>American Express</li><li>Diners Club</li><li>Discover</li><li>JCB International</li><li>MasterCard</li><li>Visa</li><li>Check-out time is 11 AM</li></ul></p>",
+  "photos": [
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_364_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_364_t.jpg",
+      "featured": true,
+      "displayText": "Featured Image"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_372_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_372_t.jpg",
+      "displayText": "Interior Entrance"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/7fc0b677_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/7fc0b677_t.jpg",
+      "displayText": "Interior Entrance"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/2b06ca7e_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/2b06ca7e_t.jpg",
+      "displayText": "Interior Entrance"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_331_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_331_t.jpg",
+      "displayText": "Lobby"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_346_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_346_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_348_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_348_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_350_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_350_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_356_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_356_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_368_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_368_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/e6540158_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/e6540158_t.jpg",
+      "displayText": "Guestroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_347_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_347_t.jpg",
+      "displayText": "In-Room Dining"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_345_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_345_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_351_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_351_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_353_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_353_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_359_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_359_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_370_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_370_t.jpg",
+      "displayText": "Living Area"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_343_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_343_t.jpg",
+      "displayText": "In-Room Amenity"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_336_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_336_t.jpg",
+      "displayText": "Guestroom View"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_355_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_355_t.jpg",
+      "displayText": "Guestroom View"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_332_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_332_t.jpg",
+      "displayText": "Bathroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_349_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_349_t.jpg",
+      "displayText": "Bathroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/5bdb5684_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/5bdb5684_t.jpg",
+      "displayText": "Bathroom"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_354_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_354_t.jpg",
+      "displayText": "Jetted Tub"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/c5f11549_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/c5f11549_t.jpg",
+      "displayText": "Pool"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/6aa5e9e7_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/6aa5e9e7_t.jpg",
+      "displayText": "Pool"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_363_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_363_t.jpg",
+      "displayText": "Outdoor Pool"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_367_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_367_t.jpg",
+      "displayText": "Outdoor Pool"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/a10cb8f4_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/a10cb8f4_t.jpg",
+      "displayText": "Outdoor Pool"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/a3f0bd2e_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/a3f0bd2e_t.jpg",
+      "displayText": "Outdoor Pool"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_365_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_365_t.jpg",
+      "displayText": "Yoga"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_369_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_369_t.jpg",
+      "displayText": "Spa"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/2ecf4045_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/2ecf4045_t.jpg",
+      "displayText": "Sauna"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_373_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_373_t.jpg",
+      "displayText": "Spa Reception"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_243_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_243_t.jpg",
+      "displayText": "Casino"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/62eaa3c6_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/62eaa3c6_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/885514ab_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/885514ab_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_352_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_352_t.jpg",
+      "displayText": "Hotel Lounge"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_274_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_274_t.jpg",
+      "displayText": "Nightclub"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_326_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_326_t.jpg",
+      "displayText": "Nightclub"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_330_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_330_t.jpg",
+      "displayText": "Hotel Interior"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_360_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_360_t.jpg",
+      "displayText": "Hallway"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/de5f3ff1_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/de5f3ff1_t.jpg",
+      "displayText": "Hotel Front - Evening/Night"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/e10e612c_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/e10e612c_t.jpg",
+      "displayText": "Hotel Front - Evening/Night"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/4c48f4dd_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/4c48f4dd_t.jpg",
+      "displayText": "Hotel Front - Evening/Night"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_366_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_366_t.jpg",
+      "displayText": "Exterior"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_371_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_371_t.jpg",
+      "displayText": "Exterior"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/ee563be4_z.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/ee563be4_t.jpg",
+      "displayText": "Exterior"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_228_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_228_t.jpg",
+      "displayText": "Interior Entrance"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_247_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_247_t.jpg",
+      "displayText": "Dining"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_250_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_250_t.jpg",
+      "displayText": "Dining"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_294_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_294_t.jpg",
+      "displayText": "Dining"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_252_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_252_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_254_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_254_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_263_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_263_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_303_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_303_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/3ca428ce_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/3ca428ce_t.jpg",
+      "displayText": "Restaurant"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_234_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_234_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_241_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_241_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_255_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_255_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_264_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_264_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_284_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_284_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_292_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_292_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_293_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_293_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_298_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_298_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_304_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_304_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_319_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_319_t.jpg",
+      "displayText": "Hotel Bar"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_240_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_240_t.jpg",
+      "displayText": "Hotel Lounge"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_297_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_297_t.jpg",
+      "displayText": "Hotel Lounge"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_328_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_328_t.jpg",
+      "displayText": "Nightclub"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_277_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_277_t.jpg",
+      "displayText": "Hotel Interior"
+    },
+    {
+      "url": "/hotels/1000000/10000/1500/1443/1443_295_y.jpg",
+      "thumbnailUrl": "/hotels/1000000/10000/1500/1443/1443_295_t.jpg",
+      "displayText": "Hotel Interior"
+    }
+  ],
+  "hotelAmenities": [
+    {
+      "id": "2112",
+      "description": "Casino"
+    },
+    {
+      "id": "2072",
+      "description": "Limo or Town Car service available"
+    },
+    {
+      "id": "56",
+      "description": "Airport transportation (surcharge)"
+    },
+    {
+      "id": "2065",
+      "description": "Business center"
+    },
+    {
+      "id": "81",
+      "description": "Conference space"
+    },
+    {
+      "id": "44",
+      "description": "Gift shops or newsstand"
+    },
+    {
+      "id": "52",
+      "description": "Total number of rooms - 4027"
+    },
+    {
+      "id": "2063",
+      "description": "24-hour front desk"
+    },
+    {
+      "id": "43",
+      "description": "Concierge services"
+    },
+    {
+      "id": "2066",
+      "description": "Porter/bellhop"
+    },
+    {
+      "id": "2067",
+      "description": "Express check-out"
+    },
+    {
+      "id": "2070",
+      "description": "Dry cleaning/laundry service"
+    },
+    {
+      "id": "2043",
+      "description": "Multilingual staff"
+    },
+    {
+      "id": "40",
+      "description": "Hair salon"
+    },
+    {
+      "id": "41",
+      "description": "ATM/banking"
+    },
+    {
+      "id": "45",
+      "description": "Shopping on site"
+    },
+    {
+      "id": "54",
+      "description": "Number of floors - 36"
+    },
+    {
+      "id": "3913",
+      "description": "Number of bars/lounges - 5"
+    },
+    {
+      "id": "3914",
+      "description": "Number of poolside bars - 3"
+    },
+    {
+      "id": "361",
+      "description": "Breakfast available (surcharge)"
+    },
+    {
+      "id": "2010",
+      "description": "Nightclub"
+    },
+    {
+      "id": "3929",
+      "description": "Number of coffee shops/cafes - 6"
+    },
+    {
+      "id": "1073742791",
+      "description": "Newspapers in lobby (surcharge)"
+    },
+    {
+      "id": "8",
+      "description": "Elevator/lift"
+    },
+    {
+      "id": "2177",
+      "description": "Express check-in"
+    },
+    {
+      "id": "9",
+      "description": "Fitness facilities"
+    },
+    {
+      "id": "2123",
+      "description": "Full-service spa"
+    },
+    {
+      "id": "2821",
+      "description": "Number of outdoor pools - 2"
+    },
+    {
+      "id": "2390",
+      "description": "Free WiFi"
+    },
+    {
+      "id": "2392",
+      "description": "Free wired high-speed Internet"
+    },
+    {
+      "id": "369",
+      "description": "Laundry facilities"
+    },
+    {
+      "id": "2131",
+      "description": "Meeting rooms 100"
+    },
+    {
+      "id": "3863",
+      "description": "Free valet parking"
+    },
+    {
+      "id": "4514",
+      "description": "Terrace"
+    },
+    {
+      "id": "4003",
+      "description": "Luggage storage"
+    },
+    {
+      "id": "2593",
+      "description": "Number of meeting rooms - 100"
+    },
+    {
+      "id": "2537",
+      "description": "Number of restaurants - 20"
+    },
+    {
+      "id": "3861",
+      "description": "Free self parking"
+    },
+    {
+      "id": "2135",
+      "description": "Sauna"
+    },
+    {
+      "id": "2017",
+      "description": "Spa services on site"
+    },
+    {
+      "id": "371",
+      "description": "Spa tub"
+    },
+    {
+      "id": "2134",
+      "description": "Steam room"
+    },
+    {
+      "id": "2178",
+      "description": "Use of nearby fitness center (discount)"
+    },
+    {
+      "id": "2167",
+      "description": "Wedding services"
+    }
+  ],
+  "hotelStarRating": "5.0",
+  "hotelStarRatingCssClassName": "5-0",
+  "hotelGuestRating": "4.5",
+  "totalRecommendations": "18515",
+  "totalReviews": "20196",
+  "percentRecommended": "92",
+  "telesalesNumber": "1-800-766-6658",
+  "deskTopOverrideNumber": false,
+  "hotelMandatoryFeesText": {
+    "name": "Mandatory Fees and Taxes",
+    "content": "<ul><li>You'll be asked to pay the following charges at the hotel:<ul><li>Deposit: USD 150.00 per night</li><li>Resort fee: USD 39.20 per accommodation, per night</li></ul></li><li>The hotel resort fee includes:<ul><li>Fitness center access</li><li>Internet access</li><li>Newspaper</li><li>Phone calls</li><li>Additional inclusions</li></ul></li><li>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book.</li></ul>"
+  },
+  "hotelOverviewText": [
+    {
+      "name": "On the Strip",
+      "content": "This all-suite resort and casino on the Las Vegas Strip is a short drive from Fashion Show Mall, the convention center,  Downtown, and McCarran Airport."
+    },
+    {
+      "name": "Gondolas, shops, spa",
+      "content": "The Venetian Resort Hotel & Casino provides an opulent casino, full-service spa, and rooftop pool complex. Guests can attend popular Vegas shows and ride a gondola along Grand Canal Shoppes."
+    },
+    {
+      "name": "Spacious suites",
+      "content": "Guest suites at The Venetian offer sunken living rooms, Italian-marble baths, and 24-hour room service. Beds are dressed in Egyptian-cotton linens and white, goose-down duvets. High-speed wired and wireless Internet access is included in the resort fee. Accessible rooms are available on request."
+    }
+  ],
+  "firstHotelOverview": "This all-suite resort and casino on the Las Vegas Strip is a short drive from Fashion Show Mall, the convention center,  Downtown, and McCarran Airport.",
+  "hotelAmenitiesText": {
+    "name": "Property Amenities",
+    "content": "<p></p><p>Situated on the Las Vegas Strip, The Venetian Resort Hotel & Casino provides an opulent casino with frescoed ceilings, plush furnishings, and lavishly detailed marble floors. The resort's artistic rendering of Venice is on display at Grand Canal Shoppes, where guests can ride in authentic Italian gondolas or stroll down cobblestone walkways lined with restaurants and boutique shops.</p><p></p><p>Canyon Ranch, the resort's full-service spa, offers massages and rejuvenating body treatments, a hair and nail salon, and a health club. Above, on the rooftop, a 5-acre deck complex features swimming pools, spa tubs, and private cabanas. Access to the Canyon Ranch fitness center for up to 2 guests per suite is included in the property's resort fee.</p><p></p><p>The Venetian regularly hosts popular Vegas shows and famous entertainers. The resort is also home to TAO Nightclub, one of the most dazzling clubs in the city. The resort's concierge assists guests with show, spa, and dining reservations. Free valet parking is provided.</p><p></p><p>Accessible rooms and services are available on request.</p><ul><li>Casino</li><li>Limo or Town Car service available</li><li>Airport transportation (surcharge)</li><li>Business center</li><li>Conference space</li><li>Gift shops or newsstand</li><li>Total number of rooms - 4027</li><li>24-hour front desk</li><li>Concierge services</li><li>Porter/bellhop</li><li>Express check-out</li><li>Dry cleaning/laundry service</li><li>Multilingual staff</li><li>Hair salon</li><li>ATM/banking</li><li>Shopping on site</li><li>Number of floors - 36</li><li>Number of bars/lounges - 5</li><li>Number of poolside bars - 3</li><li>Breakfast available (surcharge)</li><li>Nightclub</li><li>Number of coffee shops/cafes - 6</li><li>Newspapers in lobby (surcharge)</li><li>Elevator/lift</li><li>Express check-in</li><li>Fitness facilities</li><li>Full-service spa</li><li>Number of outdoor pools - 2</li><li>Free WiFi</li><li>Free wired high-speed Internet</li><li>Laundry facilities</li><li>Meeting rooms 100</li><li>Free valet parking</li><li>Terrace</li><li>Luggage storage</li><li>Number of meeting rooms - 100</li><li>Number of restaurants - 20</li><li>Free self parking</li><li>Sauna</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Use of nearby fitness center (discount)</li><li>Wedding services</li></ul>"
+  },
+  "hotelPoliciesText": {
+    "name": "Policies",
+    "content": "<ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card or cash deposit are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.</li><li>Pets not allowed</li><li>Check-in time starts at 3 PM</li><li>Check-in time ends at midnight</li><li>Minimum check-in age is 21</li><li>American Express</li><li>Diners Club</li><li>Discover</li><li>JCB International</li><li>MasterCard</li><li>Visa</li><li>Check-out time is 11 AM</li></ul>"
+  },
+  "hotelFeesText": {
+    "name": "Fees",
+    "content": "<ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>  <li>Fee for in-room wireless Internet: USD 0.00 (rates may vary)</li> <li>Fee for in-room high-speed Internet (wired): USD 0.00 (rates may vary)</li>              <li>Refrigerator fee: USD 25.00 per day</li><li>Rollaway bed fee: USD 50.00 per night</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul>"
+  },
+  "isVipAccess": true,
+  "locationDescription": "The Strip (Las Vegas)",
+  "locationId": "800045",
+  "regions": [
+    {
+      "id": 201,
+      "type": "COUNTRY",
+      "name": "United States of America",
+      "description": "",
+      "latitude": 45.9206602231808,
+      "longitude": -116.635917246671
+    },
+    {
+      "id": 230,
+      "type": "PROVINCESTATE",
+      "name": "Nevada",
+      "description": "",
+      "latitude": 39.3556376356182,
+      "longitude": -116.655691282206
+    },
+    {
+      "id": 2008,
+      "type": "CITY",
+      "name": "Las Vegas",
+      "description": "",
+      "latitude": 36.14562709422,
+      "longitude": -115.463887970436
+    },
+    {
+      "id": 143393,
+      "type": "CITY",
+      "name": "Paradise",
+      "description": "",
+      "latitude": 36.0830097215948,
+      "longitude": -115.136317084765
+    },
+    {
+      "id": 178276,
+      "type": "MULTICITYVICINITY",
+      "name": "Las Vegas (and vicinity)",
+      "description": "",
+      "latitude": 36.114666,
+      "longitude": -115.172872
+    },
+    {
+      "id": 800045,
+      "type": "NEIGHBORHOOD",
+      "name": "The Strip (Las Vegas)",
+      "description": "",
+      "latitude": 36.1095982359662,
+      "longitude": -115.169329134102
+    },
+    {
+      "id": 6054173,
+      "type": "MULTIREGIONWITHINACOUNTRY",
+      "name": "Clark County - Las Vegas",
+      "description": "",
+      "latitude": 36.1017960708337,
+      "longitude": -114.87418365644
+    }
+  ]
+}

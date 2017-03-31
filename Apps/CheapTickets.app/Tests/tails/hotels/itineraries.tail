@@ -1,0 +1,354 @@
+GET
+.*?api/trips\?.*
+*
+200
+Content-Type: application/json
+
+{
+  "responseType" : "TRIP_SUMMARY",
+  "apiVersion" : "1.0",
+  "responseData" : [
+      {
+      "levelOfDetail": "FULL",
+      "tripId": "trip_1",
+      "webDetailsURL": "https://wwwexpediacom.integration.sb.karmalab.net/trips/11486875056",
+      "tripNumber": 11486875056,
+      "title": "Mobile Itinerary",
+      "updateTripNameDescPathURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/e90ac07b-f1da-4660-a99c-ae2baa9e4c62/updateTripNameDescription",
+      "startTime": {
+        "raw": "2015-02-26T15:00:00-05:00",
+        "localized": "Feb 26, 2015 3:00:00 PM",
+        "epochSeconds": 1424980800,
+        "timeZoneOffsetSeconds": -18000,
+        "localizedShortDate": "Thu, 26 Feb"
+      },
+      "endTime": {
+        "raw": "2015-03-02T11:00:00-05:00",
+        "localized": "Mar 2, 2015 11:00:00 AM",
+        "epochSeconds": 1425312000,
+        "timeZoneOffsetSeconds": -18000,
+        "localizedShortDate": "Mon, 2 Mar"
+      },
+      "tripCreatedTime": {
+        "raw": "2014-10-21T18:30:40Z",
+        "localized": "Oct 21, 2014 6:30:40 PM",
+        "epochSeconds": 1413916240,
+        "timeZoneOffsetSeconds": 0,
+        "localizedShortDate": "Tue, 21 Oct"
+      },
+      "tripUpdatedTime": {
+        "raw": "2014-11-24T21:01:52Z",
+        "localized": "Nov 24, 2014 9:01:52 PM",
+        "epochSeconds": 1416862912,
+        "timeZoneOffsetSeconds": 0,
+        "localizedShortDate": "Mon, 24 Nov"
+      },
+      "tripCacheUpdatedTime": {
+        "raw": "2014-11-24T21:01:52Z",
+        "localized": "Nov 24, 2014 9:01:52 PM",
+        "epochSeconds": 1416862912,
+        "timeZoneOffsetSeconds": 0,
+        "localizedShortDate": "Mon, 24 Nov"
+      },
+      "bookingStatus": "BOOKED",
+      "sharableDetailsURL": "https://wwwexpediacom.integration.sb.karmalab.net/api/trips/shared/4Sz8KL_MMmoxEXpklWOBv60AZ0Bt5SOFWsRG2fMcI-p_E9Jrk_uqnTVG2MfyfiMW",
+      "customerSupport": {
+        "customerSupportURL": "http://support.expedia.com/app/home",
+        "customerSupportPhoneNumberDomestic": "+1 800-397-3342",
+        "customerSupportPhoneNumberInternational": "+1 404-728-8787",
+        "customerSupportPhoneInfoForEmail": [
+          "Call us at 1-877-261-3523",
+          "For faster service, mention itinerary # <strong> 11486875056 </strong>"
+        ],
+        "termsAndConditionsURL": ""
+      },
+      "isBookedUsingForeignCurrency": false,
+      "hotels": [
+        {
+          "uniqueID": "5CCCEC7E-3B4F-44AA-BE27-D2DB8E97F4BE_0",
+          "hotelId": "118505",
+          "checkInDateTime": {
+            "raw": "2015-02-26T15:00:00-05:00",
+            "localized": "Feb 26, 2015 3:00:00 PM",
+            "epochSeconds": 1424980800,
+            "timeZoneOffsetSeconds": -18000,
+            "localizedShortDate": "Thu, 26 Feb"
+          },
+          "checkOutDateTime": {
+            "raw": "2015-03-02T11:00:00-05:00",
+            "localized": "Mar 2, 2015 11:00:00 AM",
+            "epochSeconds": 1425312000,
+            "timeZoneOffsetSeconds": -18000,
+            "localizedShortDate": "Mon, 2 Mar"
+          },
+          "checkInDate": "2015-02-26T15:00:00-05:00",
+          "checkOutDate": "2015-03-02T11:00:00-05:00",
+          "checkInDateLocalized": "Thu Feb/26/2015",
+          "checkOutDateLocalized": "Mon Mar/2/2015",
+          "numberOfNights": 4,
+          "bookingStatus": "BOOKED",
+          "bookingStatusText": "Completed",
+          "bookingStatusMessage": "This reservation is complete. We hope you had a great trip.",
+          "inventoryType": "MERCHANT",
+          "inventorySource": "INTERNAL",
+          "paymentModel": "EXPEDIA_COLLECT",
+          "inventoryVisibility": "VISIBLE",
+          "orderNumber": "8003096323452",
+          "state": "POST_END_3",
+          "infositeURL": "http://wwwexpediacom.integration.sb.karmalab.net/itin.h118505.Hotel-Information?langid=1033",
+          "hotelPropertyInfo": {
+            "address": {
+              "addressLine1": "2528 Broadway",
+              "city": "New York",
+              "countrySubdivisionCode": "NY",
+              "postalCode": "10025",
+              "countryCode": "USA",
+              "countryName": " United States of America",
+              "fullAddress": "2528 Broadway, New York, NY, 10025 United States of America"
+            },
+            "name": "Hotel Newton",
+            "starRating": "30",
+            "photoThumbnailURL": "/hotels/1000000/120000/118600/118505/118505_14_l.jpg",
+            "photoThumbnail500pixURL": "/hotels/1000000/120000/118600/118505/118505_14_y.jpg",
+            "photoThumbnail1000pixURL": "/hotels/1000000/120000/118600/118505/118505_14_z.jpg",
+            "localPhone": "1-212-678-6500",
+            "tollFreePhone": "1-800-643-5553",
+            "formattedPhoneNumbers": "Tel: 1 (212) 678-6500, Fax: 1 (212) 678-6758",
+            "checkInPolicies": [
+              "Check-in time starts at 3 PM"
+            ],
+            "checkInStartTimePolicy": {
+              "label": "Check-in time starts at",
+              "value": "3 PM"
+            },
+            "checkInEndTimePolicy": {},
+            "checkOutTimePolicy": {
+              "label": "Check-out time is",
+              "value": "noon"
+            },
+            "generalRules": [
+              "Check-out time is noon"
+            ],
+            "restrictionPolicies": [],
+            "fees": [
+              "The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>  <li>Fee for in-room wireless Internet: USD 4.95 per night (rates may vary)</li>  <li>Fee for wireless Internet in public areas: USD 4.95 per night (rates may vary)</li>    <li>Self parking fee: USD 27 per night</li>               </ul>",
+              "The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change."
+            ],
+            "mandatoryFees": [],
+            "specialCheckInInstructions": [],
+            "latitude": 40.79369,
+            "longitude": -73.97239,
+            "isVipAccess": false,
+            "googleMapsLink": "http://maps.google.com?q=10025+New+York,+2528+Broadway+"
+          },
+          "totalPriceDetails": {
+            "primaryCurrencyCode": "USD",
+            "base": "360.00",
+            "baseFormatted": "$360.00",
+            "baseWithAdjustmentForDRRRateDiscount": "360.00",
+            "baseWithAdjustmentForDRRRateDiscountFormatted": "$360.00",
+            "taxesAndFees": "80.74",
+            "taxesAndFeesFormatted": "$80.74",
+            "drrRateDiscountDescription": "",
+            "subTotalBeforeCoupon": "440.74",
+            "subTotalBeforeCouponFormatted": "$440.74",
+            "taxStatus": "ESTIMATED",
+            "total": "440.74",
+            "totalFormatted": "$440.74",
+            "hasFees": true,
+            "expediaChangeFee": "0",
+            "expediaChangeFeeFormatted": "$0.00"
+          },
+          "rules": {
+            "cancelChangeRulesIntroduction": "We understand that sometimes plans fall through. We do not charge a cancel or change fee. When the hotel charges such fees in accordance with its own policies, the cost will be passed on to you. Hotel Newton charges the following cancellation and change fees.",
+            "cancelChangeRules": [
+              "Cancellations or changes made after 3:00 PM (Eastern Daylight Time (US & Canada)) on February 25, 2015 or no-shows are subject to a hotel fee equal to the first night's rate plus taxes and fees."
+            ],
+            "cancellationWindowTime": {
+              "raw": "2015-02-25T15:00:00-08:00",
+              "localized": "Feb 25, 2015 3:00:00 PM",
+              "epochSeconds": 1424905200,
+              "timeZoneOffsetSeconds": -28800,
+              "localizedShortDate": "Wed, 25 Feb"
+            },
+            "opaqueRules": [],
+            "opaquePolicies": [],
+            "lateArrivalInstructions": "Your room will be guaranteed for late arrival.",
+            "loyaltyPointsDisclaimer": "Hotel supplier loyalty points and/or airline miles may not be awarded when booking Expedia Special Rate hotels.",
+            "currencyDisclaimer": "Unless specified otherwise, rates are quoted in US dollars.",
+            "extraGuestPolicies": [
+              "Availability of accommodation in the same property for extra guests is not guaranteed."
+            ],
+            "occupancyPolicies": [
+              "Base rate is for 2 guests.",
+              "Total maximum number of guests per room/unit is 2.",
+              "Maximum number of adults per room/unit is 2.",
+              "Maximum number of children per room/unit is 1.",
+              "Maximum number of infants per room/unit is 1.",
+              "This property considers guests aged 17 and under, at time of travel, to be children."
+            ],
+            "paymentPolicies": [
+              "Your credit card is charged the total cost at time of purchase. Prices and room availability are not guaranteed until full payment is received.",
+              "Some hotels request that we wait to submit guest names until 7 days prior to check in. In such a case, your hotel room is reserved, but your name is not yet on file with the hotel."
+            ],
+            "roomRequestDisclaimer": "All special requests (such as in-room amenities, bed type, and smoking preference) are shared with the hotel, but requests are not guaranteed and may incur additional charges. We recommend you confirm them directly with the hotel before travel.",
+            "feesDisclaimer": "The list of fees presented may not be comprehensive. Fees and deposits may not include tax and are subject to change."
+          },
+          "rooms": [
+            {
+              "uniqueID": "5CCCEC7E-3B4F-44AA-BE27-D2DB8E97F4BE_0_11105392",
+              "roomRatePlanDescription": "Standard Room, 1 Double Bed, Shared Bathroom",
+              "roomTypeCode": "19588",
+              "ratePlanCode": "19588",
+              "bookingStatus": "BOOKED",
+              "drrRateDiscountDescription": "",
+              "orderLineNumber": "7aad6ce6-84ef-493f-bd44-2bf66c1e14f7",
+              "refundabilityStatus": "REFUNDABLE",
+              "availableOnAllDates": true,
+              "totalPriceDetails": {
+                "primaryCurrencyCode": "USD",
+                "base": "360.00",
+                "baseFormatted": "$360.00",
+                "baseWithAdjustmentForDRRRateDiscount": "360.00",
+                "baseWithAdjustmentForDRRRateDiscountFormatted": "$360.00",
+                "taxesAndFees": "80.74",
+                "taxesAndFeesFormatted": "$80.74",
+                "subTotalBeforeCoupon": "440.74",
+                "subTotalBeforeCouponFormatted": "$440.74",
+                "total": "440.74",
+                "totalFormatted": "$440.74",
+                "averagePricePerDay": "90.00",
+                "averagePricePerDayFormatted": "$90.00",
+                "averageTaxPerDay": "20.19",
+                "averageTaxPerDayFormatted": "$20.19",
+                "priceDetailsPerDay": [
+                  {
+                    "day": {
+                      "raw": "2015-02-26T15:00:00-05:00",
+                      "localized": "Feb 26, 2015 3:00:00 PM",
+                      "epochSeconds": 1424980800,
+                      "timeZoneOffsetSeconds": -18000,
+                      "localizedShortDate": "Thu, 26 Feb"
+                    },
+                    "primaryCurrencyCode": "USD",
+                    "amount": "75.00",
+                    "amountFormatted": "$75.00"
+                  },
+                  {
+                    "day": {
+                      "raw": "2015-02-27T15:00:00-05:00",
+                      "localized": "Feb 27, 2015 3:00:00 PM",
+                      "epochSeconds": 1425067200,
+                      "timeZoneOffsetSeconds": -18000,
+                      "localizedShortDate": "Fri, 27 Feb"
+                    },
+                    "primaryCurrencyCode": "USD",
+                    "amount": "90.00",
+                    "amountFormatted": "$90.00"
+                  },
+                  {
+                    "day": {
+                      "raw": "2015-02-28T15:00:00-05:00",
+                      "localized": "Feb 28, 2015 3:00:00 PM",
+                      "epochSeconds": 1425153600,
+                      "timeZoneOffsetSeconds": -18000,
+                      "localizedShortDate": "Sat, 28 Feb"
+                    },
+                    "primaryCurrencyCode": "USD",
+                    "amount": "90.00",
+                    "amountFormatted": "$90.00"
+                  },
+                  {
+                    "day": {
+                      "raw": "2015-03-01T15:00:00-05:00",
+                      "localized": "Mar 1, 2015 3:00:00 PM",
+                      "epochSeconds": 1425240000,
+                      "timeZoneOffsetSeconds": -18000,
+                      "localizedShortDate": "Sun, 1 Mar"
+                    },
+                    "primaryCurrencyCode": "USD",
+                    "amount": "105.00",
+                    "amountFormatted": "$105.00"
+                  }
+                ],
+                "isSameRateForAllNights": false,
+                "expediaChangeFee": "0",
+                "expediaChangeFeeFormatted": "$0.00"
+              },
+              "roomPreferences": {
+                "primaryOccupant": {
+                  "firstName": "Wanda Jane",
+                  "fullName": "Wanda Jane Itinerary",
+                  "email": "qa-ehnocc@mobiata.com",
+                  "phone": "1-734-2122392"
+                },
+                "otherOccupantInfo": {
+                  "adultCount": 1,
+                  "childCount": 0,
+                  "infantCount": 0,
+                  "childAndInfantCount": 0,
+                  "childAndInfantAges": []
+                },
+                "occupantSelectedRoomOptions": {
+                  "bedTypeName": "1 double bed",
+                  "smokingPreference": "NONSMOKING_ROOM",
+                  "accessibilityOptions": [],
+                  "hasExtraBedAdult": false,
+                  "hasExtraBedChild": false,
+                  "hasExtraBedInfant": false,
+                  "isSmokingPreferenceSelected": true,
+                  "isRoomOptionsAvailable": true
+                },
+                "availableRoomOptions": {
+                  "bedTypes": [
+                    {
+                      "id": "13",
+                      "description": "1 double bed",
+                      "selected": true
+                    }
+                  ],
+                  "accessibilityOptions": [
+                    {
+                      "id": "2423",
+                      "description": "In-room accessibility",
+                      "selected": false
+                    },
+                    {
+                      "id": "2420",
+                      "description": "Accessible bathroom",
+                      "selected": false
+                    },
+                    {
+                      "id": "2419",
+                      "description": "Accessible path of travel",
+                      "selected": false
+                    },
+                    {
+                      "id": "2421",
+                      "description": "Roll-in shower",
+                      "selected": false
+                    }
+                  ],
+                  "isSmokingRoomAvailable": false,
+                  "isNonSmokingRoomAvailable": true
+                }
+              }
+            }
+          ],
+          "isFreeCancellationAvailable": false,
+          "paymentsAndCreditFees": {
+            "paymentsHotelFeesAndDepositsDisclaimer": "The below fees and deposits only apply if they are not included in your selected room rate.",
+            "noFeesStaticText": "The price above DOES NOT include any applicable hotel service fees, charges for optional incidentals (such as minibar snacks or telephone calls), or regulatory surcharges. The hotel will assess these fees, charges, and surcharges upon check-out.",
+            "isDirectAgency": false,
+            "isGDS": false,
+            "isFullyCancelled": false,
+            "isAnyRoomCancelled": false,
+            "isDepositRequired": false,
+            "isPaymentsCreditsVisible": false
+          }
+        }
+      ],
+      "readTripError": false
+    }
+  ]
+}

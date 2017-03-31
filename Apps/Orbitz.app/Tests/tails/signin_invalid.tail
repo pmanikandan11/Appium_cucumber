@@ -1,0 +1,12 @@
+POST
+.*?api/user/sign-in*
+email=invalidUser@expedia.com
+200
+Content-Type: application/json
+
+{
+	"activityId": "2f113d5f-fff5-4aa3-b11e-c777ac00cbfc",
+	"detailedStatus": "AuthenticationFailed",
+	"detailedStatusMsg": "AuthenticationFailed",
+	"success": 0
+}

@@ -1,0 +1,47 @@
+GET
+.*?/api/v4/typeahead/Seattle.*
+*
+200
+Content-Type: application/json
+
+{
+  "q": "Seattle",
+  "rid": "3cdaeb0c-d162-4dfa-a245-5c78f3979470",
+  "rc": "OK",
+  "sr": [
+    {
+      "@type": "gaiaRegionResult",
+      "index": "0",
+      "gaiaId": "178307",
+      "type": "MULTICITY",
+      "regionNames": {
+        "fullName": "Seattle (and vicinity), Washington, United States of America",
+        "shortName": "Seattle (and vicinity)",
+        "displayName": "<B>Seattle</B>, WA (SEA-<B>Seattle</B> - Tacoma Intl.)<I><B> near </B></I><B>Seattle</B>, WA",
+        "lastSearchName": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
+      },
+      "coordinates": {
+        "lat": "47.611310",
+        "long": "-122.334090"
+      },
+      "hierarchyInfo": {
+        "airport": {
+          "airportCode": "SEA",
+          "multicity": "178307"
+        },
+        "country": {
+          "name": "United States of America",
+          "isoCode2": "US",
+          "isoCode3": "USA"
+        }
+      },
+      "regionMetadata": {
+        "hotelCount": "293"
+      },
+      "regionGrades": {
+        "globalGrade": "99"
+      },
+      "packageable": "false"
+    }
+  ]
+}

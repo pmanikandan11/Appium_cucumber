@@ -1,0 +1,425 @@
+GET
+.*?api/hotel/info.*
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+	"hotelId": "2565776",
+	"hotelName": "Bellagio - Gummy Bear Island",
+	"localizedHotelName": "Bellagio - Gummy Bear Island",
+	"nonLocalizedHotelName": "Bellagio - Gummy Bear Island",
+	"hotelAddress": "0 Null Boulevard",
+	"hotelCity": "Gummy Bear Island",
+	"hotelStateProvince": "??",
+	"hotelCountry": "???",
+	"latitude": "36.106678",
+	"longitude": "-115.173173",
+	"longDescription": "<p><strong><strong>Modern luxury!</strong>:</strong> About 1,000 fountains dance to music and light in front of this European-style hotel set right outside an inexplicable floating island, next to a black hole and a tram ride away from oblivion.</p>",
+	"photos": [{
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_66_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_66_t.jpg",
+		"featured": true,
+		"displayText": "Featured Image"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_142_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_142_t.jpg",
+		"displayText": "Lobby"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_1_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_1_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_2_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_2_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_3_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_3_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_4_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_4_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_65_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_65_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_100_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_100_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_121_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_121_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_138_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_138_t.jpg",
+		"displayText": "Guestroom"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_75_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_75_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_76_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_76_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_119_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_119_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_122_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_122_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_123_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_123_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_126_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_126_t.jpg",
+		"displayText": "Living Area"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_136_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_136_t.jpg",
+		"displayText": "Living Room"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_67_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_67_t.jpg",
+		"displayText": "Outdoor Pool"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_140_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_140_t.jpg",
+		"displayText": "Outdoor Pool"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_69_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_69_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_120_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_120_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_127_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_127_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_134_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_134_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_141_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_141_t.jpg",
+		"displayText": "Spa"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_95_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_95_t.jpg",
+		"displayText": "Gift Shop"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_109_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_109_t.jpg",
+		"displayText": "Gift Shop"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_137_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_137_t.jpg",
+		"displayText": "Dining"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_77_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_77_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_78_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_78_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_97_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_97_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_130_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_130_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_144_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_144_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_145_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_145_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_148_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_148_t.jpg",
+		"displayText": "Restaurant"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_146_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_146_t.jpg",
+		"displayText": "Buffet"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_147_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_147_t.jpg",
+		"displayText": "Hotel Bar"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_92_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_92_t.jpg",
+		"displayText": "Hotel Lounge"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_129_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_129_t.jpg",
+		"displayText": "Hotel Lounge"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_131_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_131_t.jpg",
+		"displayText": "Banquet Hall"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_79_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_79_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_103_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_103_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_104_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_104_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_106_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_106_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_107_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_107_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_139_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_139_t.jpg",
+		"displayText": "Meeting Facility"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_133_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_133_t.jpg",
+		"displayText": "Hotel Front - Evening/Night"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_132_z.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_132_t.jpg",
+		"displayText": "Exterior detail"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_20_y.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_20_t.jpg",
+		"displayText": "Casino"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_114_y.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_114_t.jpg",
+		"displayText": "Exterior"
+	}, {
+		"url": "/hotels/3000000/2570000/2565800/2565776/2565776_143_l.jpg",
+		"thumbnailUrl": "/hotels/3000000/2570000/2565800/2565776/2565776_143_t.jpg",
+		"displayText": "Hotel Interior"
+	}],
+	"hotelAmenities": [{
+		"id": "52",
+		"description": "Total number of rooms - 4004"
+	}, {
+		"id": "54",
+		"description": "Number of floors - 61"
+	}, {
+		"id": "41",
+		"description": "ATM/banking"
+	}, {
+		"id": "3913",
+		"description": "Number of bars/lounges - 13"
+	}, {
+		"id": "2065",
+		"description": "Business center"
+	}, {
+		"id": "2112",
+		"description": "Casino"
+	}, {
+		"id": "3929",
+		"description": "Number of coffee shops/cafes - 3"
+	}, {
+		"id": "43",
+		"description": "Concierge services"
+	}, {
+		"id": "81",
+		"description": "Conference space"
+	}, {
+		"id": "2070",
+		"description": "Dry cleaning/laundry service"
+	}, {
+		"id": "8",
+		"description": "Elevator/lift"
+	}, {
+		"id": "2177",
+		"description": "Express check-in"
+	}, {
+		"id": "2067",
+		"description": "Express check-out"
+	}, {
+		"id": "9",
+		"description": "Fitness facilities"
+	}, {
+		"id": "2123",
+		"description": "Full-service spa"
+	}, {
+		"id": "44",
+		"description": "Gift shops or newsstand"
+	}, {
+		"id": "40",
+		"description": "Hair salon"
+	}, {
+		"id": "2349",
+		"description": "Designated smoking areas"
+	}, {
+		"id": "2387",
+		"description": "Tours/ticket assistance"
+	}, {
+		"id": "2391",
+		"description": "WiFi (surcharge)"
+	}, {
+		"id": "2072",
+		"description": "Limo or Town Car service available"
+	}, {
+		"id": "2129",
+		"description": "Spa treatment room(s)"
+	}, {
+		"id": "2131",
+		"description": "Meeting rooms 66"
+	}, {
+		"id": "2043",
+		"description": "Multilingual staff"
+	}, {
+		"id": "2010",
+		"description": "Nightclub"
+	}, {
+		"id": "400",
+		"description": "Poolside bar"
+	}, {
+		"id": "2066",
+		"description": "Porter/bellhop"
+	}, {
+		"id": "4003",
+		"description": "Luggage storage"
+	}, {
+		"id": "2592",
+		"description": "Conference space size (meters) - 28"
+	}, {
+		"id": "2515",
+		"description": "Year Built 2009"
+	}, {
+		"id": "2537",
+		"description": "Number of restaurants - 16"
+	}, {
+		"id": "2539",
+		"description": "Conference space size (feet) - 300,000"
+	}, {
+		"id": "3372",
+		"description": "Conference center"
+	}, {
+		"id": "2135",
+		"description": "Sauna"
+	}, {
+		"id": "45",
+		"description": "Shopping on site"
+	}, {
+		"id": "2017",
+		"description": "Spa services on site"
+	}, {
+		"id": "371",
+		"description": "Spa tub"
+	}, {
+		"id": "2134",
+		"description": "Steam room"
+	}, {
+		"id": "24",
+		"description": "Outdoor pool"
+	}, {
+		"id": "2167",
+		"description": "Wedding services"
+	}],
+	"hotelStarRating": "5.0",
+	"hotelStarRatingCssClassName": "5-0",
+	"hotelGuestRating": "4.5",
+	"totalRecommendations": "14457",
+	"totalReviews": "15521",
+	"percentRecommended": "93",
+	"telesalesNumber": "1-800-914-5738",
+	"deskTopOverrideNumber": false,
+	"hotelMandatoryFeesText": {
+		"name": "Mandatory Fees and Taxes",
+		"content": "<ul><li>You'll be asked to pay the following charges at the hotel:<ul><li>Deposit: USD 130 per night</li><li>Resort fee: USD 35.84 per accommodation, per night</li></ul></li><li>The hotel resort fee includes:<ul><li>Fitness center access</li><li>Internet access</li><li>Newspaper</li><li>Phone calls</li><li>Additional inclusions</li></ul></li><li>We have included all charges provided to us by the property. However, charges can vary, for example, based on length of stay or the room you book.</li></ul>"
+	},
+	"hotelOverviewText": [{
+		"name": "<strong>Modern luxury!</strong>",
+		"content": "About 1,000 fountains dance to music and light in front of this European-style hotel set right outside an inexplicable floating island, next to a black hole and a tram ride away from oblivion."
+	}],
+	"firstHotelOverview": "About 1,000 fountains dance to music and light in front of this European-style hotel set right outside an inexplicable floating island, next to a black hole and a tram ride away from oblivion.",
+	"hotelAmenitiesText": {
+		"name": "Property Amenities",
+		"content": "<p>In the heart of the expanding unknown,  the award-winning Bellagio at Gummy Bear Island offers it all, from high-tech guestrooms and world-class dining from celebrated chefs, to enthralling entertainment and upscale shopping.</p><p>The full-service spa features massage and treatment rooms. In addition to an outdoor pool, Bellagio at Gummy Bear Island provides fitness facilities, a spa tub, a sauna, and a steam room. Business-related amenities include wireless Internet access (included in daily resort fee), Wi-Fi (surcharge), a conference center, 300,000 square feet of meeting facilities, and a technology helpdesk. Meeting facilities include conference rooms, a ballroom, and meeting rooms for small groups. Bellagio at Gummy Bear Island also offers a casino, a bar/lounge, and a nightclub. Wedding services are offered at this hotel.</p><p></p><p>Bellagio at Gummy Bear Island has designated areas for smoking (fines may apply for smoking in non-smoking areas).</p><p>Guests can reserve pool cabanas (surcharge) through the concierge (seasonal closures may apply).</p><ul><li>Total number of rooms - 4004</li><li>Number of floors - 61</li><li>ATM/banking</li><li>Number of bars/lounges - 13</li><li>Business center</li><li>Casino</li><li>Number of coffee shops/cafes - 3</li><li>Concierge services</li><li>Conference space</li><li>Dry cleaning/laundry service</li><li>Elevator/lift</li><li>Express check-in</li><li>Express check-out</li><li>Fitness facilities</li><li>Full-service spa</li><li>Gift shops or newsstand</li><li>Hair salon</li><li>Designated smoking areas</li><li>Tours/ticket assistance</li><li>WiFi (surcharge)</li><li>Limo or Town Car service available</li><li>Spa treatment room(s)</li><li>Meeting rooms 66</li><li>Multilingual staff</li><li>Nightclub</li><li>Poolside bar</li><li>Porter/bellhop</li><li>Luggage storage</li><li>Conference space size (meters) - 28</li><li>Year Built 2009</li><li>Number of restaurants - 16</li><li>Conference space size (feet) - 300,000</li><li>Conference center</li><li>Sauna</li><li>Shopping on site</li><li>Spa services on site</li><li>Spa tub</li><li>Steam room</li><li>Outdoor pool</li><li>Wedding services</li></ul>"
+	},
+	"hotelPoliciesText": {
+		"name": "Policies",
+		"content": "<ul><li>Extra-person charges may apply and vary depending on hotel policy.</li><li>Government-issued photo identification and a credit card are required at check-in for incidental charges.</li><li>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.</li><li>Check-in time ends at Midnight</li><li>Check-out time is 11 AM</li><li>Check-in time starts at 3 PM</li><li>Pets not allowed</li><li>American Express</li><li>Discover</li><li>MasterCard</li><li>Visa</li><li>Minimum check-in age is 21</li></ul>"
+	},
+	"hotelFeesText": {
+		"name": "Fees",
+		"content": "<ul><li>The following fees and deposits are charged by the property at time of service, check-in, or check-out.<ul>                <li>Crib (infant bed) fee: USD 35.00 per day</li><li>Rollaway bed fee: USD 50.00 per day</li>  </ul></li><li>The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change.</li></ul>"
+	},
+	"isVipAccess": false,
+	"locationDescription": "Gummy Bear Island",
+	"locationId": "800045",
+	"regions": [{
+		"id": 201,
+		"type": "COUNTRY",
+		"name": "United States of America",
+		"description": "",
+		"latitude": 46.181268535876484,
+		"longitude": -113.76776055324544
+	}, {
+		"id": 230,
+		"type": "PROVINCESTATE",
+		"name": "Nevada",
+		"description": "",
+		"latitude": 39.3564384389419,
+		"longitude": -116.655371495514
+	}, {
+		"id": 2008,
+		"type": "CITY",
+		"name": "Gummy Bear Island",
+		"description": "",
+		"latitude": 36.114666,
+		"longitude": -115.172872
+	}, {
+		"id": 143393,
+		"type": "CITY",
+		"name": "Paradise",
+		"description": "",
+		"latitude": 36.0830097215948,
+		"longitude": -115.136317084765
+	}, {
+		"id": 178276,
+		"type": "MULTICITYVICINITY",
+		"name": "Gummy Bear Island (and vicinity)",
+		"description": "",
+		"latitude": 36.114666,
+		"longitude": -115.172872
+	}, {
+		"id": 800045,
+		"type": "NEIGHBORHOOD",
+		"name": "Gummy Bear Island",
+		"description": "",
+		"latitude": 36.1095982359662,
+		"longitude": -115.169329134102
+	}, {
+		"id": 6054173,
+		"type": "MULTIREGIONWITHINACOUNTRY",
+		"name": "Clark County - Gummy Bear Island",
+		"description": "",
+		"latitude": 36.1017960708337,
+		"longitude": -114.87418365644
+	}],
+	"deepLinkUrl": "https://www.expedia.com/Las-Vegas-Hotels-ARIA-Resort-Casino.h2565776.Hotel-Information"
+}

@@ -1,0 +1,112 @@
+{
+    "totalPrice":{
+        "amount":"41.50",
+        "currencyCode":"GBP",
+        "formattedPrice":"£41.50",
+        "formattedWholePrice":"£42"
+    },
+    "priceBreakdown":[
+                      {
+                      "amount":"1",
+                      "currencyCode":"GBP",
+                      "mainCurrency":1,
+                      "fractionalCurrency":0,
+                      "currencySymbol":"£",
+                      "formattedPrice":"£1.00",
+                      "formattedWholePrice":"£1",
+                      "priceCategory":"Expedia Booking Fee",
+                      "priceCategoryCode":"EXPEDIA_SERVICE_FEE"
+                      },
+                      {
+                      "amount":"40.50",
+                      "currencyCode":"GBP",
+                      "mainCurrency":40,
+                      "fractionalCurrency":50,
+                      "currencySymbol":"£",
+                      "formattedPrice":"£40.50",
+                      "formattedWholePrice":"£41",
+                      "priceCategory":"Ticket Price",
+                      "priceCategoryCode":"TICKET"
+                      }
+                      ],
+    "railProductList":[
+                       {
+                       "aggregatedCarrierServiceClassDisplayName":"Standard",
+                       "aggregatedCarrierFareClassDisplayName":"anytime single",
+                       "aggregatedFareDescription":"Travel anytime of day",
+                       "aggregatedCarrierFareClassCategoryName":"Anytime",
+                       "fareNotes":[
+                                    "Additional information about this fare can be found at http://www.nationalrail.co.uk/times_fares/ticket_types.aspx",
+                                    "Travel is allowed via any permitted route."
+                                    ],
+                       "refundable":"REFUNDABLE",
+                       "refundableRules":[
+                                          "Your ticket is refundable before 19 Nov, 2016 01:30",
+                                          "If you cancel before your ticket is printed, an admin fee of 10.00 GBP will be deducted from your refund.",
+                                          "If you cancel after your ticket is printed, an admin fee of up to 10.00 GBP per ticket per passenger will be deducted from your refund. If the ticket is less than 10.00 GBP, the maximum admin fee is the ticket price."
+                                          ],
+                       "legOptionIndexList":[
+                                             4
+                                             ],
+                       "fareBreakdownList":[
+                                            {
+                                            "farePrice":{
+                                            "amount":"40.50",
+                                            "currencyCode":"GBP",
+                                            "formattedPrice":"£40.50",
+                                            "formattedWholePrice":"£41"
+                                            },
+                                            "passengerFareList":[
+                                                                 {
+                                                                 "passengerIndex":1,
+                                                                 "passengerSegmentFareList":[
+                                                                                             {
+                                                                                             "travelSegmentIndex":5,
+                                                                                             "carrierServiceClassDisplayName":"Standard",
+                                                                                             "carrierFareClassDisplayName":"anytime single",
+                                                                                             "carrierFareClassCategoryName":"Anytime",
+                                                                                             "fareDescription":"Travel anytime of day",
+                                                                                             "amenityList":[
+                                                                                                            {
+                                                                                                            "displayName":"Snack Trolley Service"
+                                                                                                            }
+                                                                                                            ]
+                                                                                             }
+                                                                                             ]
+                                                                 }
+                                                                 ]
+                                            }
+                                            ],
+                       "segmentFareDetailList":[  
+                                                {  
+                                                "travelSegmentIndex":5,
+                                                "carrierServiceClassDisplayName":"Standard",
+                                                "carrierFareClassDisplayName":"anytime single",
+                                                "carrierFareClassCategoryName":"Anytime",
+                                                "fareDescription":"Travel anytime of day",
+                                                "amenityList":[  
+                                                               {  
+                                                               "displayName":"Snack Trolley Service"
+                                                               }
+                                                               ]
+                                                }
+                                                ],
+                       "openReturn":false
+                       }
+                       ],
+    "railOfferToken":"eNrjYBbS41LjOPRcUoBBokphFZOWJMezCT3vmASA5DMmiBBbhLOJoZmBEAsHowCzhCEAeaINWg==",
+    "passengerList":[  
+                     {  
+                     "passengerIndex":1,
+                     "age":25,
+                     "primaryTraveler":true,
+                     "passengerAgeGroup":"YOUTH",
+                     "price":{  
+                     "amount":"40.50",
+                     "currencyCode":"GBP",
+                     "formattedPrice":"£40.50",
+                     "formattedWholePrice":"£41"
+                     }
+                     }
+                     ]
+}

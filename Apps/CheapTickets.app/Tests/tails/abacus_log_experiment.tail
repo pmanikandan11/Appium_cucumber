@@ -1,0 +1,7 @@
+GET
+.*?/api/bucketing/v1/logExperiments.*
+*
+200
+Content-Type: application/json
+
+{}

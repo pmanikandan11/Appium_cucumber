@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "transactionGUID": "09d4e490-7758-40c5-aa1b-42b4e25cd177",
+        "userContext": {
+            "guid": "09d4e490-7758-40c5-aa1b-42b4e25cd177",
+            "expUserId": "563737",
+            "siteId": "1"
+        }
+    },
+    "message": "OK",
+    "results": [
+                {
+                "product": "HOTEL",
+                "action": "SEARCH",
+                "items": [
+                          {
+                          "searchInfo": {
+                          "numberOfRooms": 1,
+                          "numberOfTravelers": 1,
+                          "searchRegion": {
+                          "id": "800001",
+                          "name": "Disneyland - Anaheim, California, United States of America",
+                          "shortName": "Disneyland - Anaheim"
+                          },
+                          "roomList": [
+                                       {
+                                       "roomOccupants": {
+                                       "numberOfAdults": 1,
+                                       "numberOfSeniors": 0,
+                                       "agesOfChildren": []
+                                       },
+                                       "roomType": "deluxe"
+                                       }
+                                       ]
+                          },
+                          "startDateUTCTimestamp": 1488096000000,
+                          "lastViewedDateUTCTimestamp": 1486760776427,
+                          "endDateUTCTimestamp": 1488441600000,
+                          "price": {
+                          "amount": 123.56,
+                          "currency": "USD"
+                          },
+                          "id": "1-563737-Disneyland - Anaheim, California, United States of America-800001-2017-02-26-2017-03-02"
+                          }
+                          ]
+                }
+                ]
+}

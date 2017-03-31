@@ -1,0 +1,670 @@
+GET
+.*?/api/v4/typeahead/[Ll][Aa][Ss].*
+*
+200
+Content-Type: application/json;charset=UTF-8
+
+{
+	"q": "las vegas",
+	"rid": "0081e7fe-076a-4bb7-9101-6e792073c4e6",
+	"rc": "OK",
+	"sr": [{
+		"@type": "gaiaRegionResult",
+		"index": "0",
+		"gaiaId": "178276",
+		"type": "MULTICITY",
+		"regionNames": {
+			"fullName": "Las Vegas (and vicinity), Nevada, United States of America",
+			"shortName": "Las Vegas (and vicinity)",
+			"displayName": "<B>Las</B> <B>Vegas</B>, NV",
+			"lastSearchName": "Las Vegas"
+		},
+		"coordinates": {
+			"lat": "36.114666",
+			"long": "-115.172872"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			}
+		},
+		"regionMetadata": {
+			"hotelCount": "274"
+		},
+		"regionGrades": {
+			"globalGrade": "98"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "1",
+		"gaiaId": "800045",
+		"type": "NEIGHBORHOOD",
+		"regionNames": {
+			"fullName": "The Strip (Las Vegas), Nevada, United States of America",
+			"shortName": "The Strip",
+			"displayName": "The Strip",
+			"lastSearchName": "The Strip (Las Vegas), Nevada"
+		},
+		"coordinates": {
+			"lat": "36.109598",
+			"long": "-115.169329"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			},
+			"relation": ["child"],
+			"isChild": "true"
+		},
+		"regionMetadata": {
+			"hotelCount": "45"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "2",
+		"gaiaId": "800046",
+		"type": "NEIGHBORHOOD",
+		"regionNames": {
+			"fullName": "East of The Strip, Nevada, United States of America",
+			"shortName": "East of The Strip",
+			"displayName": "East of The Strip",
+			"lastSearchName": "East of The Strip, Nevada"
+		},
+		"coordinates": {
+			"lat": "36.107778",
+			"long": "-115.144730"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			},
+			"relation": ["child"],
+			"isChild": "true"
+		},
+		"regionMetadata": {
+			"hotelCount": "60"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "3",
+		"gaiaId": "6085271",
+		"type": "NEIGHBORHOOD",
+		"regionNames": {
+			"fullName": "West of The Strip, Nevada, United States of America",
+			"shortName": "West of The Strip",
+			"displayName": "West of The Strip",
+			"lastSearchName": "West of The Strip, Nevada"
+		},
+		"coordinates": {
+			"lat": "36.115628",
+			"long": "-115.200659"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			},
+			"relation": ["child"],
+			"isChild": "true"
+		},
+		"regionMetadata": {
+			"hotelCount": "45"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "4",
+		"gaiaId": "800047",
+		"type": "NEIGHBORHOOD",
+		"regionNames": {
+			"fullName": "Downtown Las Vegas, Nevada, United States of America",
+			"shortName": "Downtown Las Vegas",
+			"displayName": "Downtown <B>Las</B> <B>Vegas</B>",
+			"lastSearchName": "Downtown Las Vegas, Nevada"
+		},
+		"coordinates": {
+			"lat": "36.167964",
+			"long": "-115.138580"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			},
+			"relation": ["child"],
+			"isChild": "true"
+		},
+		"regionMetadata": {
+			"hotelCount": "25"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "5",
+		"gaiaId": "6130518",
+		"type": "NEIGHBORHOOD",
+		"regionNames": {
+			"fullName": "South of The Strip, Nevada, United States of America",
+			"shortName": "South of The Strip",
+			"displayName": "South of The Strip",
+			"lastSearchName": "South of The Strip, Nevada"
+		},
+		"coordinates": {
+			"lat": "36.031282",
+			"long": "-115.158549"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			},
+			"relation": ["child"],
+			"isChild": "true"
+		},
+		"regionMetadata": {
+			"hotelCount": "20"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "6",
+		"gaiaId": "6054168",
+		"type": "NEIGHBORHOOD",
+		"regionNames": {
+			"fullName": "Henderson, Nevada, United States of America",
+			"shortName": "Henderson",
+			"displayName": "Henderson",
+			"lastSearchName": "Henderson, Nevada"
+		},
+		"coordinates": {
+			"lat": "36.027164",
+			"long": "-115.015107"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			},
+			"relation": ["child"],
+			"isChild": "true"
+		},
+		"regionMetadata": {
+			"hotelCount": "21"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "7",
+		"gaiaId": "6000345",
+		"type": "AIRPORT",
+		"regionNames": {
+			"fullName": "Las Vegas, NV, United States (LAS-McCarran Intl.)",
+			"shortName": "Las Vegas, NV (LAS-McCarran Intl.)",
+			"displayName": "<B>Las</B> <B>Vegas</B>, NV (<B>LAS</B>-McCarran Intl.)",
+			"lastSearchName": "Las Vegas, NV (LAS-McCarran Intl.)"
+		},
+		"coordinates": {
+			"lat": "36.085393",
+			"long": "-115.150098"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			}
+		},
+		"regionMetadata": {
+			"hotelCount": "275"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"isMinorAirport": "false",
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "8",
+		"gaiaId": "6139100",
+		"type": "METROCODE",
+		"regionNames": {
+			"fullName": "Las Vegas, NV, United States (LAS-All Airports)",
+			"shortName": "Las Vegas (LAS-All Airports)",
+			"displayName": "<B>Las</B> <B>Vegas</B>, NV (<B>LAS</B>-All Airports)",
+			"lastSearchName": "Las Vegas, NV (LAS-All Airports)"
+		},
+		"coordinates": {
+			"lat": "35.94539742",
+			"long": "-115.0105262"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			}
+		},
+		"regionMetadata": {
+			"hotelCount": "277"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaRegionResult",
+		"index": "9",
+		"gaiaId": "8605",
+		"type": "CITY",
+		"regionNames": {
+			"fullName": "Las Vegas, New Mexico, United States of America",
+			"shortName": "Las Vegas",
+			"displayName": "<B>Las</B> <B>Vegas</B>, NM",
+			"lastSearchName": "Las Vegas, New Mexico"
+		},
+		"coordinates": {
+			"lat": "35.493394",
+			"long": "-105.083343"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "SAF",
+				"multicity": "180028"
+			},
+			"country": {
+				"name": "United States of America",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			}
+		},
+		"regionMetadata": {
+			"hotelCount": "8"
+		},
+		"regionGrades": {
+			"globalGrade": "99"
+		},
+		"packageable": "false"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "10",
+		"hotelId": "682",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas",
+			"displayName": "<B>Las</B> <B>Vegas</B>, Malaga, ES"
+		},
+		"hotelAddress": {
+			"street": "Paseo Sancha 22",
+			"city": "Malaga",
+			"province": "Malaga"
+		},
+		"coordinates": {
+			"lat": "36.721540",
+			"long": "-4.402490"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "AGP",
+				"metrocode": "AGP",
+				"multicity": "603258"
+			},
+			"country": {
+				"name": "ESP",
+				"isoCode2": "ES",
+				"isoCode3": "ESP"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "11",
+		"hotelId": "2691157",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas",
+			"displayName": "<B>Las</B> <B>Vegas</B>, Amsterdam, NL"
+		},
+		"hotelAddress": {
+			"street": "Woestduinstraat 155",
+			"city": "Amsterdam"
+		},
+		"coordinates": {
+			"lat": "52.349574",
+			"long": "4.847600"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "RTM",
+				"metrocode": "RTM",
+				"multicity": "6035270"
+			},
+			"country": {
+				"name": "NLD",
+				"isoCode2": "NL",
+				"isoCode3": "NLD"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "12",
+		"hotelId": "2841879",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas",
+			"displayName": "<B>Las</B> <B>Vegas</B>, Salou, Tarragona, ES"
+		},
+		"hotelAddress": {
+			"street": "Alfonso V, nº 7",
+			"city": "Salou",
+			"province": "Tarragona"
+		},
+		"coordinates": {
+			"lat": "41.070879",
+			"long": "1.146369"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "BCN",
+				"metrocode": "BCN",
+				"multicity": "179992"
+			},
+			"country": {
+				"name": "ESP",
+				"isoCode2": "ES",
+				"isoCode3": "ESP"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "13",
+		"hotelId": "6132826",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas",
+			"displayName": "<B>Las</B> <B>Vegas</B>, Burgos, ES"
+		},
+		"hotelAddress": {
+			"street": "Carretera Madrid-Irun, km 245",
+			"city": "Burgos",
+			"province": "Burgos"
+		},
+		"coordinates": {
+			"lat": "42.363370",
+			"long": "-3.627503"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "VIT",
+				"metrocode": "VIT",
+				"multicity": "6055029"
+			},
+			"country": {
+				"name": "ESP",
+				"isoCode2": "ES",
+				"isoCode3": "ESP"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "14",
+		"hotelId": "5126826",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas Hostel",
+			"displayName": "<B>Las</B> <B>Vegas</B> Hostel, <B>Las</B> <B>Vegas</B>, NV"
+		},
+		"hotelAddress": {
+			"street": "1322 Fremont Street",
+			"city": "Las Vegas",
+			"province": "NV"
+		},
+		"coordinates": {
+			"lat": "36.164910",
+			"long": "-115.131000"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "USA",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "15",
+		"hotelId": "79593",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas Marriott",
+			"displayName": "<B>Las</B> <B>Vegas</B> Marriott, <B>Las</B> <B>Vegas</B>, NV"
+		},
+		"hotelAddress": {
+			"street": "325 Convention Center Drive",
+			"city": "Las Vegas",
+			"province": "NV"
+		},
+		"coordinates": {
+			"lat": "36.132290",
+			"long": "-115.157661"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "USA",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "16",
+		"hotelId": "2537732",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas Guest House",
+			"displayName": "<B>Las</B> <B>Vegas</B> Guest House, Kowloon, HK"
+		},
+		"hotelAddress": {
+			"street": "Flat C4,Flr 15,Blk C,Chung King Mansion",
+			"city": "Kowloon"
+		},
+		"coordinates": {
+			"lat": "22.296497",
+			"long": "114.172258"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "HKG",
+				"multicity": "178263"
+			},
+			"country": {
+				"name": "HKG",
+				"isoCode2": "HK",
+				"isoCode3": "HKG"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "17",
+		"hotelId": "9126552",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas RV Resort",
+			"displayName": "<B>Las</B> <B>Vegas</B> RV Resort, <B>Las</B> <B>Vegas</B>, NV"
+		},
+		"hotelAddress": {
+			"street": "4295 Boulder Highway",
+			"city": "Las Vegas",
+			"province": "NV"
+		},
+		"coordinates": {
+			"lat": "36.129577",
+			"long": "-115.079479"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "USA",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "18",
+		"hotelId": "11838217",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas Suites at The Signature",
+			"displayName": "<B>Las</B> <B>Vegas</B> Suites at The Signature, <B>Las</B> <B>Vegas</B>, NV"
+		},
+		"hotelAddress": {
+			"street": "145 E. Harmon Ave",
+			"city": "Las Vegas",
+			"province": "NV"
+		},
+		"coordinates": {
+			"lat": "36.105706",
+			"long": "-115.166396"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "LAS",
+				"metrocode": "LAS",
+				"multicity": "178276"
+			},
+			"country": {
+				"name": "USA",
+				"isoCode2": "US",
+				"isoCode3": "USA"
+			}
+		},
+		"packageable": "true"
+	}, {
+		"@type": "gaiaHotelResult",
+		"index": "19",
+		"hotelId": "7849115",
+		"type": "HOTEL",
+		"regionNames": {
+			"fullName": "Las Vegas Hotel & Casino",
+			"displayName": "<B>Las</B> <B>Vegas</B> Hotel & Casino, Corozal, BZ"
+		},
+		"hotelAddress": {
+			"street": "91 1/2 Mile Northern Highway",
+			"city": "Corozal"
+		},
+		"coordinates": {
+			"lat": "18.483359",
+			"long": "-88.396766"
+		},
+		"hierarchyInfo": {
+			"airport": {
+				"airportCode": "BZE",
+				"metrocode": "BZE",
+				"multicity": "602908"
+			},
+			"country": {
+				"name": "BLZ",
+				"isoCode2": "BZ",
+				"isoCode3": "BLZ"
+			}
+		},
+		"packageable": "true"
+	}]
+}
